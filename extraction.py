@@ -1,7 +1,9 @@
 import os, json, re
-game_dir = './games/'
-POWERS = ['AUSTRIA', 'ENGLAND', 'FRANCE', 'GERMANY', 'ITALY', 'RUSSIA', 'TURKEY']
-order_log_regex = r'([A-Z]+)\W(.*)'
+
+game_dir = "./games/"
+POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
+order_log_regex = r"([A-Z]+)\W(.*)"
+
 
 def human_players(data):
     """
@@ -9,7 +11,7 @@ def human_players(data):
 
     :param data: dictionary of game data after json.load
     :return: a list of powers that does not have cicero prefix usernames
-    """ 
+    """
     bots = bot_players(data)
     humans = []
 
@@ -19,24 +21,26 @@ def human_players(data):
 
     return humans
 
+
 def bot_players(data):
     """
     get all cicero players in the game
 
     :param data: dictionary of game data after json.load
     :return: a list of powers that has cicero prefix usernames
-    """ 
+    """
     bots = []
-    all_powers = data['powers']
+    all_powers = data["powers"]
 
     for power in all_powers:
-        power_controllers = all_powers[power]['controller']
+        power_controllers = all_powers[power]["controller"]
 
         for controller in power_controllers.values():
-            if controller not in bots and controller.startswith('cicero'):
+            if controller not in bots and controller.startswith("cicero"):
                 bots.append(power)
 
     return bots
+
 
 def num_phases(data):
     """
@@ -44,8 +48,9 @@ def num_phases(data):
 
     :param data: dictionary of game data after json.load
     :return: integer of number of phases played
-    """ 
-    return len(data['state_history'])
+    """
+    return len(data["state_history"])
+
 
 def num_phases_with_msg(data):
     """
@@ -53,16 +58,17 @@ def num_phases_with_msg(data):
 
     :param data: dictionary of game data after json.load
     :return: integer of number of phases with messages, which should be the same or less than num_phases
-    """ 
+    """
 
     cnt = 0
-    message_history = data['message_history']
+    message_history = data["message_history"]
 
     for _, msgs in message_history.items():
         if len(msgs) > 0:
             cnt += 1
 
     return cnt
+
 
 def all_logs(data):
     """
@@ -71,8 +77,9 @@ def all_logs(data):
     :param data: dictionary of game data after json.load
 
     :return: a dictionary of logs, with phase as key and list of logs as value
-    """ 
-    return data['log_history']
+    """
+    return data["log_history"]
+
 
 def all_orders(data):
     """
@@ -81,8 +88,9 @@ def all_orders(data):
     :param data: dictionary of game data after json.load
 
     :return: a dictionary of logs, with phase as key and {power: [orders]} as value
-    """ 
-    return data['order_history']
+    """
+    return data["order_history"]
+
 
 def all_stances(data):
     """
@@ -91,9 +99,10 @@ def all_stances(data):
     :param data: dictionary of game data after json.load
 
     :return: a dictionary of stances, with phase as key and {power: {stance_power: stance}} as value
-    """ 
+    """
 
-    return data['stance_history']
+    return data["stance_history"]
+
 
 def perceived_bots(data):
     """
@@ -101,9 +110,10 @@ def perceived_bots(data):
     :param data: dictionary of game data after json.load
 
     :return: a dictionary with phase as key and {power: {stance_power: bool}} as value
-    """ 
+    """
 
-    return data['is_bot_history']
+    return data["is_bot_history"]
+
 
 def all_order_logs(data):
     """
@@ -111,9 +121,10 @@ def all_order_logs(data):
     :param data: dictionary of game data after json.load
 
     :return: a dictionary with phase as key and {str(time_sent): log} as value
-    """ 
+    """
 
-    return data['order_log_history']
+    return data["order_log_history"]
+
 
 def all_msgs(data):
     """
@@ -121,9 +132,10 @@ def all_msgs(data):
 
     :param data: dictionary of game data after json.load
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
 
-    return data['message_history']
+    return data["message_history"]
+
 
 def all_annotations(data):
     """
@@ -131,9 +143,10 @@ def all_annotations(data):
 
     :param data: dictionary of game data after json.load
     :return: a dictionary of annotations, with phase as key and list of annotations as value
-    """ 
+    """
 
-    return data['annotated_messages']
+    return data["annotated_messages"]
+
 
 def filter_msgs(data, filter_func):
     msgs = {}
@@ -147,7 +160,7 @@ def filter_msgs(data, filter_func):
             msgs[phase] = curr_phase_msgs
 
     return msgs
-            
+
 
 def msgs_from_humans(data, humans):
     """
@@ -156,7 +169,7 @@ def msgs_from_humans(data, humans):
     :param data: dictionary in which key is phase and value is list of messages
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
     msgs = {}
     # msgs_by_phase = all_msgs(data)
     # humans = human_players(data)
@@ -165,7 +178,7 @@ def msgs_from_humans(data, humans):
         curr_phase_msgs = []
 
         for msg in data[phase]:
-            if msg['sender'] in humans:
+            if msg["sender"] in humans:
                 curr_phase_msgs.append(msg)
 
         if len(curr_phase_msgs) > 0:
@@ -181,23 +194,24 @@ def msgs_to_humans(data, humans):
     :param data: dictionary in which key is phase and value is list of messages
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
 
     msgs = {}
-    #msgs_by_phase = all_msgs(data)
-    #humans = human_players(data)
+    # msgs_by_phase = all_msgs(data)
+    # humans = human_players(data)
 
     for phase in data:
         curr_phase_msgs = []
 
         for msg in data[phase]:
-            if msg['recipient'] in humans:
+            if msg["recipient"] in humans:
                 curr_phase_msgs.append(msg)
 
         if len(curr_phase_msgs) > 0:
             msgs[phase] = curr_phase_msgs
 
     return msgs
+
 
 def msgs_from_to_humans(data, humans):
     """
@@ -206,23 +220,24 @@ def msgs_from_to_humans(data, humans):
     :param data: dictionary in which key is phase and value is list of messages
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
 
     msgs = {}
     msgs_from_humans_by_phase = msgs_from_humans(data, humans)
-    #humans = human_players(data)
+    # humans = human_players(data)
 
     for phase in msgs_from_humans_by_phase:
         curr_phase_msgs = []
-        
+
         for msg in msgs_from_humans_by_phase[phase]:
-            if msg['recipient'] in humans:
+            if msg["recipient"] in humans:
                 curr_phase_msgs.append(msg)
 
         if len(curr_phase_msgs) > 0:
             msgs[phase] = curr_phase_msgs
 
     return msgs
+
 
 def human_lies(data, humans):
     """
@@ -231,7 +246,7 @@ def human_lies(data, humans):
     :param data: dictionary in which key is phase and value is list of messages
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
     lies = {}
     msgs_from_humans_by_phase = msgs_from_humans(data, humans)
 
@@ -239,13 +254,14 @@ def human_lies(data, humans):
         curr_phase_lies = []
 
         for msg in msgs_from_humans_by_phase[phase]:
-            if msg['truth'] is not None and msg['truth'] == 'Lie':
+            if msg["truth"] is not None and msg["truth"] == "Lie":
                 curr_phase_lies.append(msg)
 
         if len(curr_phase_lies) > 0:
             lies[phase] = curr_phase_lies
 
     return lies
+
 
 def annotated_msgs(data, annotations, humans):
     """
@@ -255,7 +271,7 @@ def annotated_msgs(data, annotations, humans):
     :param annotations: dictionary in which key is str(time_sent) and value is annotation
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
     msgs = {}
     msgs_to_humans_by_phase = msgs_to_humans(data, humans)
     time_sents = list(map(lambda x: int(x), annotations.keys()))
@@ -264,8 +280,8 @@ def annotated_msgs(data, annotations, humans):
         curr_phase_msgs = []
 
         for msg in msgs_to_humans_by_phase[phase]:
-            if msg['time_sent'] in time_sents:
-                msg['annotation'] = annotations[str(msg['time_sent'])]
+            if msg["time_sent"] in time_sents:
+                msg["annotation"] = annotations[str(msg["time_sent"])]
                 curr_phase_msgs.append(msg)
 
         if len(curr_phase_msgs) > 0:
@@ -282,7 +298,7 @@ def perceived_lies(data, annotations, humans):
     :param annotations: dictionary in which key is str(time_sent) and value is annotation
     :param humans: list of human powers in the game
     :return: a dictionary of messages, with phase as key and list of messages as value
-    """ 
+    """
     lies = {}
     annotated_msgs_by_phase = annotated_msgs(data, annotations, humans)
 
@@ -290,7 +306,7 @@ def perceived_lies(data, annotations, humans):
         curr_phase_lies = []
 
         for msg in annotated_msgs_by_phase[phase]:
-            if msg['annotation'] == 'yes':
+            if msg["annotation"] == "yes":
                 curr_phase_lies.append(msg)
 
         if len(curr_phase_lies) > 0:
@@ -298,13 +314,14 @@ def perceived_lies(data, annotations, humans):
 
     return lies
 
+
 def order_logs_by_country(data):
     """
     reorder time_sent logs by country
 
     :param data: dictionary of game data after json.load
     :return: a dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
-    """ 
+    """
 
     logs = {}
     logs_by_phase = all_order_logs(data)
@@ -328,79 +345,124 @@ def order_logs_by_country(data):
 
     return logs
 
+
 def msgs_by_time_sent(data):
+    """
+    sort messages by time_sent
+
+    :param data: dictionary in which key is phase and value is list of messages
+    :return: a list of messages sorted by time_sent
+    """
+
     msgs = {}
-    
+
     for phase in data:
         curr_phase_msgs = data[phase]
         sorted_msgs = {}
 
         for msg in curr_phase_msgs:
-            time_sent = msg['time_sent']
-            sender = msg['sender']
-            recipient = msg['recipient']
-            message = msg['message']
-            truth = msg['truth']
-            annotation = msg['annotation'] if 'annotation' in msg else None
+            time_sent = msg["time_sent"]
+            sender = msg["sender"]
+            recipient = msg["recipient"]
+            message = msg["message"]
+            truth = msg["truth"]
+            msg_phase = msg["phase"]
+            annotation = msg["annotation"] if "annotation" in msg else None
 
             sorted_msgs[time_sent] = {
-                'sender': sender,
-                'recipient': recipient,
-                'message': message,
-                'truth': truth,
-                'annotation': annotation
+                "sender": sender,
+                "recipient": recipient,
+                "message": message,
+                "truth": truth,
+                "annotation": annotation,
+                "phase": msg_phase,
             }
 
-        sorted_msgs = {k: v for k, v in sorted(sorted_msgs.items(), key=lambda item: item[0])}
         msgs[phase] = sorted_msgs
 
     return msgs
-    
 
-def combine_msgs_orders(data):
+
+def message_channels(data):
+    """
+    get conversations between players
+
+    :param data: a dictionary of messages, with phase as key and list of messages as value
+    :return: a dictionary of messages, with {POWER1}-{POWER2} as key and {phase: {time_sent: msg_obj}} as value
+    """
+    convos = {}
+
+    for power1 in POWERS:
+        for power2 in POWERS:
+            if power1 != power2:
+                sorted_powers = sorted([power1, power2])
+                convo_key = sorted_powers[0] + "-" + sorted_powers[1]
+
+                if convo_key not in convos:
+                    convos[convo_key] = {}
+
+    for phase in data:
+        for time_sent, msg in data[phase].items():
+            sender = msg["sender"]
+            recipient = msg["recipient"]
+
+            if sender not in POWERS or recipient not in POWERS:
+                continue
+
+            sorted_powers = sorted([sender, recipient])
+            convo_key = sorted_powers[0] + "-" + sorted_powers[1]
+
+            if phase not in convos[convo_key]:
+                convos[convo_key][phase] = {}
+
+            convos[convo_key][phase][time_sent] = msg
+
+    return convos
+
+
+def combine_msgs_orders(convos, orders):
     """
     combine messages and orders by time_sent
 
-    :param data: dictionary of game data after json.load
+    :param convos: dictionary of messages, with {POWER1}-{POWER2} as key and list of messages as value
+    :param orders: dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
     :return: a dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
-    """ 
+    """
 
     pass
 
 
 ############## main ##############
 
+
 def main():
     # list of games to extract
-    games = list(map(lambda x: game_dir + x, filter(lambda x: x.endswith('.json'), os.listdir(game_dir))))
+    games = list(
+        map(
+            lambda x: game_dir + x,
+            filter(lambda x: x.endswith(".json"), os.listdir(game_dir)),
+        )
+    )
 
     for game in games:
-        with open(game, 'r') as f:
+        with open(game, "r") as f:
             data = json.load(f)
 
-        print(data['game_id'])
-        humans = human_players(data)
-        annotations = all_annotations(data)
-        print('human players: ', humans)
-        print('bot players: ', bot_players(data))
-        print('number of phases: ', num_phases(data))
-        print('number of phases with messages: ', num_phases_with_msg(data))
-        all_messages = all_msgs(data)
-        print('all messages: ', len(all_messages))
-        print('messages from humans: ', len(msgs_from_humans(all_messages, humans)))
-        print('messages to humans: ', len(msgs_to_humans(all_messages, humans)))
-        print('messages from humans to humans: ', len(msgs_from_to_humans(all_messages, humans)))
-        print('human lies: ', len(human_lies(all_messages, humans)))
-        print('annotated messages: ', len(annotated_msgs(all_messages, annotations, humans)))
-        print('perceived lies: ', len(perceived_lies(all_messages, annotations, humans)))
-        logs = all_logs(data)
-        orders = all_orders(data)
-        stances = all_stances(data)
-        is_bot = perceived_bots(data)
-        order_logs = all_order_logs(data)
-        print('\n')
-        print(order_logs_by_country(data))
+        print(data["game_id"])
+        msgs = all_msgs(data)
+        sorted_msgs = msgs_by_time_sent(msgs)
+        convos = message_channels(sorted_msgs)
+
+        for convo in convos:
+            print(convo)
+            for phase in convos[convo]:
+                print(phase)
+                for time_sent, msg in convos[convo][phase].items():
+                    print(msg)
+
+        print("\n")
         break
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
