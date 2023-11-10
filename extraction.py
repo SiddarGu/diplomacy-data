@@ -424,13 +424,37 @@ def combine_msgs_orders(convos, orders):
     """
     combine messages and orders by time_sent
 
-    :param convos: dictionary of messages, with {POWER1}-{POWER2} as key and list of messages as value
-    :param orders: dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
+    :param convos: message_channels() output
+    :param orders: all_order_logs() output
     :return: a dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
     """
+    convos_with_orders = convos
 
+    for phase in orders:
+        for time_sent, log in orders[phase].items():
+            time_sent = int(time_sent)
+            m = re.match(order_log_regex, log)
+            power = m.group(1)
+            order = m.group(2)
+
+            for convo in convos_with_orders:
+                if power in convo and phase in convos_with_orders[convo].keys():
+                    convos_with_orders[convo][phase][time_sent] = log
+
+    # sort by key
+    for convo in convos_with_orders:
+        for phase in convos_with_orders[convo]:
+            convos_with_orders[convo][phase] = dict(
+                sorted(convos_with_orders[convo][phase].items())
+            )
+
+    return convos_with_orders
+
+def reduce_duplicate_orders(orders):
     pass
 
+def prettify_convos(data):
+    pass
 
 ############## main ##############
 
@@ -453,12 +477,8 @@ def main():
         sorted_msgs = msgs_by_time_sent(msgs)
         convos = message_channels(sorted_msgs)
 
-        for convo in convos:
-            print(convo)
-            for phase in convos[convo]:
-                print(phase)
-                for time_sent, msg in convos[convo][phase].items():
-                    print(msg)
+        combine_msgs_orders(convos, all_order_logs(data))
+
 
         print("\n")
         break
