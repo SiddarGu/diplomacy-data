@@ -1,6 +1,6 @@
 import os, json, re
 
-game_dir = "./games/"
+game_dir = "./human_games/"
 POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
 order_log_regex = r"([A-Z]+)\W(.*)"
 
@@ -429,6 +429,7 @@ def combine_msgs_orders(convos, orders):
     :return: a dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
     """
     convos_with_orders = convos
+    country_regex = r'([A-Z]+)\W.*'
 
     for phase in orders:
         for time_sent, log in orders[phase].items():
@@ -444,17 +445,88 @@ def combine_msgs_orders(convos, orders):
     # sort by key
     for convo in convos_with_orders:
         for phase in convos_with_orders[convo]:
-            convos_with_orders[convo][phase] = dict(
+            history = dict(
                 sorted(convos_with_orders[convo][phase].items())
             )
 
+            initial_orders = {}
+            updated = {}
+            initial_order_time_sents = []
+
+            for time_sent, log in sorted(history.items()):
+                if isinstance(log, str):
+                    initial_orders[time_sent] = log
+                    initial_order_time_sents.append(time_sent)
+                else:
+                    break
+
+            reduced_orders = reduce_duplicate_orders(initial_orders)
+            
+            updated[0] = reduced_orders
+
+            for time_sent, log in sorted(history.items()):
+                if time_sent not in initial_order_time_sents:
+                    updated[time_sent] = log
+
+            convos_with_orders[convo][phase] = updated
     return convos_with_orders
 
 def reduce_duplicate_orders(orders):
-    pass
+    """
+    simplify orders in a list
 
-def prettify_convos(data):
-    pass
+    :param orders: a dict of orders
+    :return: a dictionary of {power: [orders]}
+    """
+    remove_all_regex = r'([A-Z]+) removed its orders\:'
+    add_order_regex = r'([A-Z]+) added\:\W([A-Z]\W[A-Z]{3})(.*)'
+    remove_order_regex = r'([A-Z]+) removed\:\W([A-Z]\W[A-Z]{3})(.*)'
+    cleaned_orders = {}
+
+    for time_sent, order_log in orders.items():
+        if 'updated' in order_log:
+            continue
+        
+        m = re.match(remove_all_regex, order_log)
+        if m:
+            power = m.group(1)
+            cleaned_orders[power] = {}
+            continue
+
+        m = re.match(add_order_regex, order_log)
+        if m:
+            power = m.group(1)
+            unit = m.group(2)
+            move = m.group(3)
+
+            if power not in cleaned_orders:
+                cleaned_orders[power] = {}
+
+            cleaned_orders[power][unit] = move
+            continue
+
+        m = re.match(remove_order_regex, order_log)
+        if m:
+            power = m.group(1)
+            unit = m.group(2)
+            move = m.group(3)
+
+            if power in cleaned_orders and unit in cleaned_orders[power]:
+                del cleaned_orders[power][unit]
+
+            continue
+
+    results = {}
+    for power in cleaned_orders:
+        results[power] = []
+        moves = cleaned_orders[power]
+
+        for unit, move in moves.items():
+            results[power].append(unit + move)
+            
+        results[power].sort()
+    return results
+    
 
 ############## main ##############
 
@@ -477,8 +549,10 @@ def main():
         sorted_msgs = msgs_by_time_sent(msgs)
         convos = message_channels(sorted_msgs)
 
-        combine_msgs_orders(convos, all_order_logs(data))
+        msg_orders = combine_msgs_orders(convos, all_order_logs(data))
 
+        with open('test.json', 'w') as f:
+            json.dump(msg_orders, f, indent=4)
 
         print("\n")
         break
