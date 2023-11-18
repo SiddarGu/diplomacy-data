@@ -52,6 +52,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A BUD - TRI",
+                    "A VIE - TYR",
+                    "F TRI - ADR"
+                ],
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ]
             }
         },
         "F1901M": {
@@ -98,6 +110,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ]
             }
         },
         "S1902M": {
@@ -130,6 +154,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ]
             }
         },
         "F1902M": {
@@ -162,6 +200,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "A TUS - VEN",
+                    "F ADR S A TUS - VEN"
+                ],
+                "ENGLAND": [
+                    "A LON - YOR",
+                    "F NTH C A BEL - DEN",
+                    "F NWG - NAO",
+                    "A BEL - DEN VIA",
+                    "F SKA S A BEL - DEN"
+                ]
             }
         },
         "F1902R": {
@@ -181,6 +233,10 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902R"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "ENGLAND": []
             }
         }
     },
@@ -261,6 +317,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "FRANCE": [
+                    "A GAS - SPA",
+                    "F MAO - POR",
+                    "A MAR - BUR"
+                ]
             }
         },
         "S1902M": {
@@ -308,7 +376,21 @@
             "1699104734999925": "FRANCE added: A SPA H",
             "1699104737800866": "FRANCE added: A SPA - GAS",
             "1699104738954542": "FRANCE added: F MAR - SPA/SC",
-            "1699104864862344": "FRANCE added: A BUR - BEL"
+            "1699104864862344": "FRANCE added: A BUR - BEL",
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A PAR - PIC",
+                    "A SPA - GAS",
+                    "F MAR - SPA/SC",
+                    "F POR - MAO"
+                ]
+            }
         }
     },
     "AUSTRIA-GERMANY": {
@@ -420,6 +502,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F DEN H"
+                ]
             }
         },
         "W1901A": {
@@ -436,6 +530,13 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "W1901A"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "GERMANY": [
+                    "A MUN B",
+                    "A KIE B"
+                ]
             }
         },
         "S1902M": {
@@ -460,7 +561,21 @@
             "1699104480320038": "GERMANY added: A TYR - PIE",
             "1699104513118288": "GERMANY added: A MUN - SIL",
             "1699104748467517": "GERMANY added: A TYR - VIE",
-            "1699104834661753": "GERMANY added: F DEN - NTH"
+            "1699104834661753": "GERMANY added: F DEN - NTH",
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ]
+            }
         },
         "F1902M": {
             "0": {
@@ -526,6 +641,20 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "A TUS - VEN",
+                    "F ADR S A TUS - VEN"
+                ],
+                "GERMANY": [
+                    "A HOL S A PIC - BEL",
+                    "A RUH S A HOL",
+                    "A SIL - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F SWE - SKA"
+                ]
             }
         },
         "F1902R": {
@@ -634,6 +763,12 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902R"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "GERMANY": [
+                    "F DEN R HEL"
+                ]
             }
         },
         "W1902A": {
@@ -650,7 +785,15 @@
                 "annotation": null,
                 "phase": "W1902A"
             },
-            "1699106148146459": "AUSTRIA added: A TUS D"
+            "1699106148146459": "AUSTRIA added: A TUS D",
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TUS D"
+                ],
+                "GERMANY": [
+                    "A TYR D"
+                ]
+            }
         },
         "W1903A": {
             "0": {
@@ -665,6 +808,12 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "W1903A"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "GERMANY": [
+                    "A MUN B"
+                ]
             }
         },
         "F1907M": {
@@ -685,6 +834,17 @@
                 "truth": "Neutral",
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "GERMANY": [
+                    "A BOH S A VIE",
+                    "A KIE - HOL",
+                    "A LVP S A EDI",
+                    "A MUN - TYR",
+                    "A VIE S A MUN - TYR",
+                    "F DEN S F LON - NTH"
+                ]
             }
         }
     },
@@ -781,6 +941,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A BUD - TRI",
+                    "A VIE - TYR",
+                    "F TRI - ADR"
+                ],
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ]
             }
         },
         "F1901M": {
@@ -819,6 +991,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ]
             }
         },
         "S1902M": {
@@ -849,6 +1033,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ]
             }
         },
         "F1902M": {
@@ -879,6 +1075,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "A TUS - VEN",
+                    "F ADR S A TUS - VEN"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A VEN",
+                    "A VEN H"
+                ]
             }
         },
         "S1903M": {
@@ -977,6 +1185,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI H",
+                    "F ADR S A TRI"
+                ],
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A ROM - APU",
+                    "A VEN S A TRI"
+                ]
             }
         }
     },
@@ -1034,6 +1254,19 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A BUD - TRI",
+                    "A VIE - TYR",
+                    "F TRI - ADR"
+                ],
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ]
             }
         },
         "F1901M": {
@@ -1081,6 +1314,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "RUSSIA": [
+                    "F BOT - SWE",
+                    "F SEV - BLA",
+                    "A UKR - RUM",
+                    "A GAL - BUD"
+                ]
             }
         },
         "S1902M": {
@@ -1123,6 +1369,22 @@
                 "truth": "Lie",
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "RUSSIA": [
+                    "F SWE S F STP/NC - NWY",
+                    "F STP/NC - NWY",
+                    "A MOS - STP",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1902M": {
@@ -1197,6 +1459,22 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "A TUS - VEN",
+                    "F ADR S A TUS - VEN"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1903M": {
@@ -1223,6 +1501,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR S A TRI",
+                    "A TRI H"
+                ],
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F SKA - SWE",
+                    "F BAL S A WAR - PRU",
+                    "A WAR - PRU",
+                    "F SEV - BLA",
+                    "A GAL - SIL",
+                    "A VIE S A ALB - TRI",
+                    "A BUD S A ALB - TRI"
+                ]
             }
         }
     },
@@ -1311,6 +1605,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A BUD - TRI",
+                    "A VIE - TYR",
+                    "F TRI - ADR"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -1405,6 +1711,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR - APU",
+                    "A TYR - VEN",
+                    "A TRI S A TYR - VEN"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -1445,6 +1763,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "F ADR - ION",
+                    "A VEN - ROM"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
             }
         },
         "F1902M": {
@@ -1533,6 +1865,20 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI - SER",
+                    "A TUS - VEN",
+                    "F ADR S A TUS - VEN"
+                ],
+                "TURKEY": [
+                    "F AEG - GRE",
+                    "A ALB S A BUL - SER",
+                    "F ANK - BLA",
+                    "A BUL - SER",
+                    "F CON - AEG"
+                ]
             }
         },
         "S1903M": {
@@ -1565,6 +1911,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "A TRI H",
+                    "F ADR S A TRI"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "A ALB - TRI",
+                    "F GRE S F AEG - ION",
+                    "A SER S A ALB - TRI",
+                    "F ANK - BLA",
+                    "F SMY - EAS"
+                ]
             }
         },
         "F1903M": {
@@ -1587,7 +1947,21 @@
                 "phase": "F1903M"
             },
             "1699107545243534": "AUSTRIA added: F ADR S A TRI",
-            "1699107548404434": "AUSTRIA added: A TRI H"
+            "1699107548404434": "AUSTRIA added: A TRI H",
+            "end_phase_orders": {
+                "AUSTRIA": [
+                    "F ADR S A TRI",
+                    "A TRI H"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
+            }
         },
         "S1904M": {
             "0": {
@@ -1608,6 +1982,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "AUSTRIA": [],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         }
     },
@@ -1688,6 +2074,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ],
+                "FRANCE": [
+                    "A MAR - BUR",
+                    "A PAR - GAS",
+                    "F BRE - MAO"
+                ]
             }
         },
         "F1901M": {
@@ -1748,6 +2146,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ],
+                "FRANCE": [
+                    "A GAS - SPA",
+                    "F MAO - POR",
+                    "A MAR - BUR"
+                ]
             }
         },
         "S1902M": {
@@ -1813,7 +2223,23 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104864862344": "FRANCE added: A BUR - BEL"
+            "1699104864862344": "FRANCE added: A BUR - BEL",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ],
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A PAR - PIC",
+                    "A SPA - GAS",
+                    "F MAR - SPA/SC",
+                    "F POR - MAO"
+                ]
+            }
         },
         "F1903M": {
             "0": {
@@ -1880,6 +2306,21 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - LVP",
+                    "F NTH - NWY",
+                    "F ENG - WAL",
+                    "F NAO - NWG"
+                ],
+                "FRANCE": [
+                    "A BEL - HOL",
+                    "A BUR - MAR",
+                    "A GAS - BRE",
+                    "F IRI - WAL",
+                    "F MAO - BRE"
+                ]
             }
         },
         "S1904M": {
@@ -1917,7 +2358,22 @@
             "1699108601606220": "FRANCE added: A BEL H",
             "1699108664406714": "FRANCE added: F MAO H",
             "1699108667116853": "FRANCE added: F MAO - WES",
-            "1699108678227481": "FRANCE added: F IRI S F BRE - ENG"
+            "1699108678227481": "FRANCE added: F IRI S F BRE - ENG",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP - WAL",
+                    "F NTH S F NWG - NWY",
+                    "F NWG - NWY"
+                ],
+                "FRANCE": [
+                    "A BEL H",
+                    "A GAS - BRE",
+                    "A MAR - PIE",
+                    "F BRE - ENG",
+                    "F IRI S F BRE - ENG",
+                    "F MAO - WES"
+                ]
+            }
         },
         "F1905M": {
             "0": {
@@ -1953,7 +2409,21 @@
             },
             "1699110639584365": "FRANCE added: A PIE - MAR",
             "1699110720880915": "FRANCE added: F IRI - LVP",
-            "1699110795316755": "FRANCE added: F IRI S A YOR - LVP"
+            "1699110795316755": "FRANCE added: F IRI S A YOR - LVP",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP S F CLY - EDI",
+                    "F CLY - EDI"
+                ],
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A LON H",
+                    "A PIE - MAR",
+                    "F ENG S A LON",
+                    "F IRI S A YOR - LVP",
+                    "F WES H"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -1989,7 +2459,21 @@
             },
             "1699113049852277": "FRANCE added: A PIE - TUS",
             "1699113058552996": "FRANCE added: F NTH - SKA",
-            "1699113070527562": "FRANCE added: F BEL - NTH"
+            "1699113070527562": "FRANCE added: F BEL - NTH",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "FRANCE": [
+                    "A BUR H",
+                    "A PIE - TUS",
+                    "A YOR - EDI",
+                    "F BEL - NTH",
+                    "F NAF - TUN",
+                    "F NTH - SKA",
+                    "F WES S F NAF - TUN"
+                ]
+            }
         }
     },
     "ENGLAND-GERMANY": {
@@ -2085,6 +2569,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ],
+                "GERMANY": [
+                    "F KIE - DEN",
+                    "A BER - KIE",
+                    "A MUN - BUR"
+                ]
             }
         },
         "F1901M": {
@@ -2179,6 +2675,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ],
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F DEN H"
+                ]
             }
         },
         "S1902M": {
@@ -2239,7 +2747,23 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104834661753": "GERMANY added: F DEN - NTH"
+            "1699104834661753": "GERMANY added: F DEN - NTH",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ],
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ]
+            }
         },
         "F1905M": {
             "0": {
@@ -2262,7 +2786,20 @@
             },
             "1699110490053471": "GERMANY added: A YOR - LVP",
             "1699110504713382": "GERMANY added: A MUN - TYR",
-            "1699110515248746": "GERMANY added: A DEN S A SWE"
+            "1699110515248746": "GERMANY added: A DEN S A SWE",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP S F CLY - EDI",
+                    "F CLY - EDI"
+                ],
+                "GERMANY": [
+                    "A KIE S A DEN",
+                    "F HEL S A DEN",
+                    "A YOR - LVP",
+                    "A MUN - TYR",
+                    "A DEN S A SWE"
+                ]
+            }
         },
         "S1906M": {
             "0": {
@@ -2298,7 +2835,20 @@
             "1699111545443579": "GERMANY added: F HEL S F ENG - NTH",
             "1699111554436283": "GERMANY added: A KIE - HOL",
             "1699111564938441": "GERMANY added: A MUN - SIL",
-            "1699111567686831": "GERMANY added: A TYR - BOH"
+            "1699111567686831": "GERMANY added: A TYR - BOH",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI H"
+                ],
+                "GERMANY": [
+                    "A DEN S A SWE",
+                    "A KIE - HOL",
+                    "A LVP - EDI",
+                    "A MUN - SIL",
+                    "A TYR - BOH",
+                    "F HEL S F ENG - NTH"
+                ]
+            }
         },
         "F1906M": {
             "0": {
@@ -2335,7 +2885,20 @@
             "1699112621394699": "GERMANY added: F HEL - DEN",
             "1699112626963540": "GERMANY added: A KIE S F HEL - DEN",
             "1699112662466606": "GERMANY added: A HOL - RUH",
-            "1699112702202459": "GERMANY added: A BOH - VIE"
+            "1699112702202459": "GERMANY added: A BOH - VIE",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "GERMANY": [
+                    "A BOH - VIE",
+                    "A HOL - RUH",
+                    "A KIE S F HEL - DEN",
+                    "A LVP - EDI",
+                    "A MUN - TYR",
+                    "F HEL - DEN"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -2362,7 +2925,20 @@
             },
             "1699113181813003": "GERMANY added: A LVP S F NTH - EDI",
             "1699113227108735": "GERMANY added: A LVP - YOR",
-            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI"
+            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "GERMANY": [
+                    "A BOH S A TYR - VIE",
+                    "A KIE S F DEN",
+                    "A LVP S A YOR - EDI",
+                    "A RUH - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F NTH - SKA"
+                ]
+            }
         },
         "F1907M": {
             "0": {
@@ -2396,7 +2972,20 @@
                 "phase": "F1907M"
             },
             "1699113605115393": "GERMANY added: A KIE - HOL",
-            "1699113620906306": "GERMANY added: F DEN S F LON - NTH"
+            "1699113620906306": "GERMANY added: F DEN S F LON - NTH",
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F NWG - NWY"
+                ],
+                "GERMANY": [
+                    "A BOH S A VIE",
+                    "A KIE - HOL",
+                    "A LVP S A EDI",
+                    "A MUN - TYR",
+                    "A VIE S A MUN - TYR",
+                    "F DEN S F LON - NTH"
+                ]
+            }
         }
     },
     "ENGLAND-ITALY": {
@@ -2484,6 +3073,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ],
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ]
             }
         },
         "F1901M": {
@@ -2530,6 +3131,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ],
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ]
             }
         },
         "S1902M": {
@@ -2578,6 +3191,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ]
             }
         },
         "F1903M": {
@@ -2650,6 +3277,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - LVP",
+                    "F NTH - NWY",
+                    "F ENG - WAL",
+                    "F NAO - NWG"
+                ],
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A VEN S A TRI",
+                    "A APU S A VEN"
+                ]
             }
         },
         "S1905M": {
@@ -2755,6 +3396,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F LON H",
+                    "A LVP H",
+                    "F CLY S A LVP"
+                ],
+                "ITALY": [
+                    "F TUN - WES",
+                    "F NAP - TYS",
+                    "A ROM - VEN",
+                    "A VEN - TYR",
+                    "A VIE S A VEN - TYR",
+                    "A TRI S A VEN - TYR"
+                ]
             }
         },
         "F1905M": {
@@ -2835,6 +3491,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP S F CLY - EDI",
+                    "F CLY - EDI"
+                ],
+                "ITALY": [
+                    "F TUN S F ALB - ION",
+                    "F TYS - NAP",
+                    "A TYR - TRI",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A TRI - BUD",
+                    "A TRI - BUD"
+                ]
             }
         },
         "S1906M": {
@@ -2908,6 +3578,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI H"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "F NAP S F TUN - ION",
+                    "F ROM - TYS",
+                    "A VEN - TRI",
+                    "A VIE S A BUD",
+                    "A TRI - SER",
+                    "A BUD S A TRI - SER"
+                ]
             }
         },
         "F1906M": {
@@ -2981,6 +3665,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "ITALY": [
+                    "F TYS - TUN",
+                    "A TYR - TRI",
+                    "F ION - ADR",
+                    "F NAP - APU",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A BUD",
+                    "A BUD S A TYR - TRI"
+                ]
             }
         },
         "S1907M": {
@@ -3085,6 +3783,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "A VIE - TYR",
+                    "A TRI - VEN",
+                    "F APU S A TRI - VEN"
+                ]
             }
         },
         "F1907M": {
@@ -3156,6 +3867,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F NWG - NWY"
+                ],
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "A TYR - VEN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "F APU S A TYR - VEN"
+                ]
             }
         }
     },
@@ -3285,6 +4008,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ],
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ]
             }
         },
         "F1901M": {
@@ -3396,6 +4132,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ],
+                "RUSSIA": [
+                    "F BOT - SWE",
+                    "F SEV - BLA",
+                    "A UKR - RUM",
+                    "A GAL - BUD"
+                ]
             }
         },
         "S1902M": {
@@ -3464,6 +4213,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ],
+                "RUSSIA": [
+                    "F SWE S F STP/NC - NWY",
+                    "F STP/NC - NWY",
+                    "A MOS - STP",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1902M": {
@@ -3580,6 +4347,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LON - YOR",
+                    "F NTH C A BEL - DEN",
+                    "F NWG - NAO",
+                    "A BEL - DEN VIA",
+                    "F SKA S A BEL - DEN"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ]
             }
         },
         "S1903M": {
@@ -3712,6 +4497,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - WAL",
+                    "F NTH - ENG",
+                    "F NAO - IRI",
+                    "F SKA - NTH"
+                ],
+                "RUSSIA": [
+                    "F NWY - SKA",
+                    "F SWE - BAL",
+                    "A STP - NWY",
+                    "A MOS - WAR",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1903M": {
@@ -3812,6 +4615,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - LVP",
+                    "F NTH - NWY",
+                    "F ENG - WAL",
+                    "F NAO - NWG"
+                ],
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F SKA - SWE",
+                    "F BAL S A WAR - PRU",
+                    "A WAR - PRU",
+                    "F SEV - BLA",
+                    "A GAL - SIL",
+                    "A VIE S A ALB - TRI",
+                    "A BUD S A ALB - TRI"
+                ]
             }
         },
         "S1904M": {
@@ -3919,6 +4740,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP - WAL",
+                    "F NTH S F NWG - NWY",
+                    "F NWG - NWY"
+                ],
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA S A NWY",
+                    "F BAL - SWE",
+                    "A PRU - WAR",
+                    "A SIL - GAL",
+                    "F SEV - BLA",
+                    "A VIE - TRI",
+                    "A BUD S A VIE - TRI"
+                ]
             }
         },
         "F1904M": {
@@ -4074,6 +4912,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F NTH - LON",
+                    "A WAL - LVP",
+                    "F NWG - CLY"
+                ],
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA - NTH",
+                    "F SWE S A NWY",
+                    "A WAR - UKR",
+                    "F SEV S A GAL - RUM",
+                    "A GAL - RUM",
+                    "A TRI - SER",
+                    "A BUD S A GAL - RUM"
+                ]
             }
         },
         "S1905M": {
@@ -4116,6 +4971,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F LON H",
+                    "A LVP H",
+                    "F CLY S A LVP"
+                ],
+                "RUSSIA": [
+                    "F NTH C A HOL - YOR",
+                    "A NWY - SWE",
+                    "F SWE - SKA",
+                    "F SEV - RUM",
+                    "A UKR S F SEV - RUM",
+                    "A GAL S F SEV - RUM",
+                    "A BUD S F SEV - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -4157,6 +5028,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP S F CLY - EDI",
+                    "F CLY - EDI"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR S F RUM",
+                    "A GAL S F RUM",
+                    "F RUM H",
+                    "A BUD S F RUM"
+                ]
             }
         },
         "S1906M": {
@@ -4188,6 +5074,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI H"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR - GAL",
+                    "A GAL - SIL"
+                ]
             }
         },
         "F1906M": {
@@ -4283,6 +5181,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "RUSSIA": [
+                    "A DEN H",
+                    "F NWY - NTH",
+                    "F SKA S A DEN",
+                    "A UKR - GAL",
+                    "A GAL - BOH"
+                ]
             }
         },
         "S1907M": {
@@ -4314,6 +5224,17 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SKA - NTH",
+                    "F SKA - NTH",
+                    "A SWE - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         },
         "F1907M": {
@@ -4361,6 +5282,17 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F NWG - NWY"
+                ],
+                "RUSSIA": [
+                    "F NTH - DEN",
+                    "F NWY H",
+                    "A SWE S F NTH - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         }
     },
@@ -4457,6 +5389,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "F LON - NTH",
+                    "A LVP - YOR"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -4567,6 +5511,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - BEL VIA",
+                    "F NTH C A YOR - BEL",
+                    "F NWG - NWY"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -4625,6 +5581,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI - NWG",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "A BEL S A LON - HOL",
+                    "F NWY - SKA"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
             }
         },
         "F1902M": {
@@ -4731,6 +5703,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LON - YOR",
+                    "F NTH C A BEL - DEN",
+                    "F NWG - NAO",
+                    "A BEL - DEN VIA",
+                    "F SKA S A BEL - DEN"
+                ],
+                "TURKEY": [
+                    "F AEG - GRE",
+                    "A ALB S A BUL - SER",
+                    "F ANK - BLA",
+                    "A BUL - SER",
+                    "F CON - AEG"
+                ]
             }
         },
         "S1903M": {
@@ -4853,6 +5841,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - WAL",
+                    "F NTH - ENG",
+                    "F NAO - IRI",
+                    "F SKA - NTH"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "A ALB - TRI",
+                    "F GRE S F AEG - ION",
+                    "A SER S A ALB - TRI",
+                    "F ANK - BLA",
+                    "F SMY - EAS"
+                ]
             }
         },
         "F1903M": {
@@ -4895,6 +5899,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A YOR - LVP",
+                    "F NTH - NWY",
+                    "F ENG - WAL",
+                    "F NAO - NWG"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
             }
         },
         "S1904M": {
@@ -4961,6 +5981,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP - WAL",
+                    "F NTH S F NWG - NWY",
+                    "F NWG - NWY"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1904M": {
@@ -5051,6 +6087,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F NTH - LON",
+                    "A WAL - LVP",
+                    "F NWG - CLY"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A SER - BUD",
+                    "F ALB S A VEN - TRI",
+                    "A SER - BUD",
+                    "F ANK - ARM",
+                    "A BUL S A RUM",
+                    "F CON - BLA"
+                ]
             }
         },
         "S1905M": {
@@ -5173,6 +6225,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F LON H",
+                    "A LVP H",
+                    "F CLY S A LVP"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "F ARM - SEV",
+                    "F BLA S F ARM - SEV",
+                    "A RUM - UKR",
+                    "F ALB S A TRI",
+                    "A SER - BUD",
+                    "A BUL - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -5245,6 +6313,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "A LVP S F CLY - EDI",
+                    "F CLY - EDI"
+                ],
+                "TURKEY": [
+                    "F SEV S A BUL - RUM",
+                    "F ION H",
+                    "F BLA S A BUL - RUM",
+                    "F ALB - TRI",
+                    "A SER S A BUL - RUM",
+                    "A BUL - RUM"
+                ]
             }
         },
         "S1906M": {
@@ -5359,6 +6441,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI H"
+                ],
+                "TURKEY": [
+                    "F SEV S A RUM",
+                    "F ION - ADR",
+                    "F BLA S A RUM",
+                    "A RUM S A SER",
+                    "F ALB - TRI",
+                    "A SER S F ALB - TRI",
+                    "F SMY - AEG",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1906M": {
@@ -5433,6 +6530,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "TURKEY": [
+                    "F SEV - BLA",
+                    "F TRI - VEN",
+                    "F BLA - CON",
+                    "A RUM - BUD",
+                    "F ADR S F TRI - VEN",
+                    "F AEG - ION",
+                    "A SER S A RUM - BUD",
+                    "A BUL - GRE"
+                ]
             }
         },
         "S1907M": {
@@ -5484,6 +6596,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "ENGLAND": [
+                    "F EDI S F NWY - NTH"
+                ],
+                "TURKEY": [
+                    "F BLA C A ANK - SEV",
+                    "F ADR - VEN",
+                    "F AEG - GRE",
+                    "F ALB S A SER - TRI",
+                    "A GRE - SER",
+                    "A BUD S A SER - TRI",
+                    "A SER - TRI",
+                    "A ANK - SEV VIA",
+                    "F CON - AEG"
+                ]
             }
         }
     },
@@ -5540,6 +6668,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A MAR - BUR",
+                    "A PAR - GAS",
+                    "F BRE - MAO"
+                ],
+                "GERMANY": [
+                    "F KIE - DEN",
+                    "A BER - KIE",
+                    "A MUN - BUR"
+                ]
             }
         },
         "S1902M": {
@@ -5615,7 +6755,23 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104864862344": "FRANCE added: A BUR - BEL"
+            "1699104864862344": "FRANCE added: A BUR - BEL",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A PAR - PIC",
+                    "A SPA - GAS",
+                    "F MAR - SPA/SC",
+                    "F POR - MAO"
+                ],
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ]
+            }
         },
         "F1902M": {
             "0": {
@@ -5675,7 +6831,23 @@
                 "annotation": null,
                 "phase": "F1902M"
             },
-            "1699105368733129": "GERMANY added: A SIL - MUN"
+            "1699105368733129": "GERMANY added: A SIL - MUN",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "F MAO - IRI",
+                    "F SPA/SC - MAO",
+                    "A PIC - BEL",
+                    "A BUR S A PIC - BEL",
+                    "A GAS H"
+                ],
+                "GERMANY": [
+                    "A HOL S A PIC - BEL",
+                    "A RUH S A HOL",
+                    "A SIL - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F SWE - SKA"
+                ]
+            }
         },
         "W1902A": {
             "0": {
@@ -5701,6 +6873,12 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "W1902A"
+            },
+            "end_phase_orders": {
+                "FRANCE": [],
+                "GERMANY": [
+                    "A TYR D"
+                ]
             }
         },
         "S1903M": {
@@ -5821,6 +6999,21 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BUR S A BEL",
+                    "A GAS - WAL VIA",
+                    "F IRI C A GAS - WAL",
+                    "F MAO C A GAS - WAL"
+                ],
+                "GERMANY": [
+                    "A HOL - DEN VIA",
+                    "A MUN - SIL",
+                    "A RUH - KIE",
+                    "F HEL C A HOL - DEN"
+                ]
             }
         },
         "F1903M": {
@@ -5880,6 +7073,21 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - HOL",
+                    "A BUR - MAR",
+                    "A GAS - BRE",
+                    "F IRI - WAL",
+                    "F MAO - BRE"
+                ],
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A SIL - BER",
+                    "F HEL S A DEN",
+                    "A DEN H"
+                ]
             }
         },
         "S1904M": {
@@ -5915,6 +7123,23 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A GAS - BRE",
+                    "A MAR - PIE",
+                    "F BRE - ENG",
+                    "F IRI S F BRE - ENG",
+                    "F MAO - WES"
+                ],
+                "GERMANY": [
+                    "A MUN S A BER",
+                    "A KIE S A BER",
+                    "F HEL S A DEN",
+                    "A DEN S F BAL - SWE",
+                    "A BER S A MUN"
+                ]
             }
         },
         "F1904M": {
@@ -5970,6 +7195,23 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BRE - WAL VIA",
+                    "A PIE S A MUN - TYR",
+                    "F ENG C A BRE - WAL",
+                    "F IRI S A BRE - WAL",
+                    "F WES - TUN"
+                ],
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F HEL S A DEN",
+                    "A BER - MUN",
+                    "A DEN H"
+                ]
             }
         },
         "S1905M": {
@@ -6039,6 +7281,23 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A PIE S A TYR - VEN",
+                    "A WAL - LON",
+                    "F ENG S A WAL - LON",
+                    "F IRI - LVP",
+                    "F WES S F TUN - TYS"
+                ],
+                "GERMANY": [
+                    "A DEN S F SWE",
+                    "A HOL - YOR VIA",
+                    "A MUN - KIE",
+                    "A TYR - VEN",
+                    "F HEL S A DEN"
+                ]
             }
         },
         "F1905M": {
@@ -6093,6 +7352,23 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A LON H",
+                    "A PIE - MAR",
+                    "F ENG S A LON",
+                    "F IRI S A YOR - LVP",
+                    "F WES H"
+                ],
+                "GERMANY": [
+                    "A KIE S A DEN",
+                    "F HEL S A DEN",
+                    "A YOR - LVP",
+                    "A MUN - TYR",
+                    "A DEN S A SWE"
+                ]
             }
         },
         "S1906M": {
@@ -6191,6 +7467,25 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A LON H",
+                    "A MAR - BUR",
+                    "F BRE - MAO",
+                    "F ENG - NTH",
+                    "F IRI - ENG",
+                    "F WES H"
+                ],
+                "GERMANY": [
+                    "A DEN S A SWE",
+                    "A KIE - HOL",
+                    "A LVP - EDI",
+                    "A MUN - SIL",
+                    "A TYR - BOH",
+                    "F HEL S F ENG - NTH"
+                ]
             }
         },
         "S1906R": {
@@ -6206,6 +7501,12 @@
                 "truth": "Neutral",
                 "annotation": null,
                 "phase": "S1906R"
+            },
+            "end_phase_orders": {
+                "FRANCE": [],
+                "GERMANY": [
+                    "A DEN R KIE"
+                ]
             }
         },
         "F1906M": {
@@ -6294,7 +7595,26 @@
                 "annotation": null,
                 "phase": "F1906M"
             },
-            "1699112702202459": "GERMANY added: A BOH - VIE"
+            "1699112702202459": "GERMANY added: A BOH - VIE",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A LON - YOR",
+                    "A MAR - PIE",
+                    "F ENG - BEL",
+                    "F MAO - NAF",
+                    "F NTH - SKA",
+                    "F WES - TUN"
+                ],
+                "GERMANY": [
+                    "A BOH - VIE",
+                    "A HOL - RUH",
+                    "A KIE S F HEL - DEN",
+                    "A LVP - EDI",
+                    "A MUN - TYR",
+                    "F HEL - DEN"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -6393,6 +7713,25 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR H",
+                    "A PIE - TUS",
+                    "A YOR - EDI",
+                    "F BEL - NTH",
+                    "F NAF - TUN",
+                    "F NTH - SKA",
+                    "F WES S F NAF - TUN"
+                ],
+                "GERMANY": [
+                    "A BOH S A TYR - VIE",
+                    "A KIE S F DEN",
+                    "A LVP S A YOR - EDI",
+                    "A RUH - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F NTH - SKA"
+                ]
             }
         },
         "F1907M": {
@@ -6472,6 +7811,25 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A EDI H",
+                    "A PIE - TUS",
+                    "F BEL - HOL",
+                    "F LON - NTH",
+                    "F NAF S F WES - TUN",
+                    "F WES - TUN"
+                ],
+                "GERMANY": [
+                    "A BOH S A VIE",
+                    "A KIE - HOL",
+                    "A LVP S A EDI",
+                    "A MUN - TYR",
+                    "A VIE S A MUN - TYR",
+                    "F DEN S F LON - NTH"
+                ]
             }
         }
     },
@@ -6536,6 +7894,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A MAR - BUR",
+                    "A PAR - GAS",
+                    "F BRE - MAO"
+                ],
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ]
             }
         },
         "F1901M": {
@@ -6564,6 +7934,18 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A GAS - SPA",
+                    "F MAO - POR",
+                    "A MAR - BUR"
+                ],
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ]
             }
         },
         "S1902M": {
@@ -6616,6 +7998,20 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A PAR - PIC",
+                    "A SPA - GAS",
+                    "F MAR - SPA/SC",
+                    "F POR - MAO"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ]
             }
         },
         "F1902M": {
@@ -6648,6 +8044,20 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "F MAO - IRI",
+                    "F SPA/SC - MAO",
+                    "A PIC - BEL",
+                    "A BUR S A PIC - BEL",
+                    "A GAS H"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A VEN",
+                    "A VEN H"
+                ]
             }
         },
         "S1905M": {
@@ -6685,6 +8095,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A PIE S A TYR - VEN",
+                    "A WAL - LON",
+                    "F ENG S A WAL - LON",
+                    "F IRI - LVP",
+                    "F WES S F TUN - TYS"
+                ],
+                "ITALY": [
+                    "F TUN - WES",
+                    "F NAP - TYS",
+                    "A ROM - VEN",
+                    "A VEN - TYR",
+                    "A VIE S A VEN - TYR",
+                    "A TRI S A VEN - TYR"
+                ]
             }
         },
         "F1905M": {
@@ -6795,6 +8223,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A LON H",
+                    "A PIE - MAR",
+                    "F ENG S A LON",
+                    "F IRI S A YOR - LVP",
+                    "F WES H"
+                ],
+                "ITALY": [
+                    "F TUN S F ALB - ION",
+                    "F TYS - NAP",
+                    "A TYR - TRI",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A TRI - BUD",
+                    "A TRI - BUD"
+                ]
             }
         },
         "S1906M": {
@@ -6842,6 +8288,26 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A LON H",
+                    "A MAR - BUR",
+                    "F BRE - MAO",
+                    "F ENG - NTH",
+                    "F IRI - ENG",
+                    "F WES H"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "F NAP S F TUN - ION",
+                    "F ROM - TYS",
+                    "A VEN - TRI",
+                    "A VIE S A BUD",
+                    "A TRI - SER",
+                    "A BUD S A TRI - SER"
+                ]
             }
         },
         "F1906M": {
@@ -6884,7 +8350,27 @@
             "1699112435387111": "FRANCE added: A MAR - BUR",
             "1699112476274466": "FRANCE added: A MAR H",
             "1699112478424683": "FRANCE added: A MAR - PIE",
-            "1699112480360942": "FRANCE added: F ENG - BEL"
+            "1699112480360942": "FRANCE added: F ENG - BEL",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A LON - YOR",
+                    "A MAR - PIE",
+                    "F ENG - BEL",
+                    "F MAO - NAF",
+                    "F NTH - SKA",
+                    "F WES - TUN"
+                ],
+                "ITALY": [
+                    "F TYS - TUN",
+                    "A TYR - TRI",
+                    "F ION - ADR",
+                    "F NAP - APU",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A BUD",
+                    "A BUD S A TYR - TRI"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -6933,7 +8419,26 @@
             },
             "1699113049852277": "FRANCE added: A PIE - TUS",
             "1699113058552996": "FRANCE added: F NTH - SKA",
-            "1699113070527562": "FRANCE added: F BEL - NTH"
+            "1699113070527562": "FRANCE added: F BEL - NTH",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR H",
+                    "A PIE - TUS",
+                    "A YOR - EDI",
+                    "F BEL - NTH",
+                    "F NAF - TUN",
+                    "F NTH - SKA",
+                    "F WES S F NAF - TUN"
+                ],
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "A VIE - TYR",
+                    "A TRI - VEN",
+                    "F APU S A TRI - VEN"
+                ]
+            }
         },
         "F1907M": {
             "0": {
@@ -6993,6 +8498,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A EDI H",
+                    "A PIE - TUS",
+                    "F BEL - HOL",
+                    "F LON - NTH",
+                    "F NAF S F WES - TUN",
+                    "F WES - TUN"
+                ],
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "A TYR - VEN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "F APU S A TYR - VEN"
+                ]
             }
         }
     },
@@ -7050,6 +8573,19 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A MAR - BUR",
+                    "A PAR - GAS",
+                    "F BRE - MAO"
+                ],
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ]
             }
         },
         "F1902M": {
@@ -7094,6 +8630,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "F MAO - IRI",
+                    "F SPA/SC - MAO",
+                    "A PIC - BEL",
+                    "A BUR S A PIC - BEL",
+                    "A GAS H"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ]
             }
         },
         "S1903M": {
@@ -7135,7 +8689,26 @@
             "1699106868462252": "FRANCE added: F IRI H",
             "1699106872065995": "FRANCE added: F IRI C A GAS - WAL",
             "1699106881325143": "FRANCE added: F MAO C A GAS - WAL",
-            "1699106883989854": "FRANCE added: A GAS - WAL VIA"
+            "1699106883989854": "FRANCE added: A GAS - WAL VIA",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BUR S A BEL",
+                    "A GAS - WAL VIA",
+                    "F IRI C A GAS - WAL",
+                    "F MAO C A GAS - WAL"
+                ],
+                "RUSSIA": [
+                    "F NWY - SKA",
+                    "F SWE - BAL",
+                    "A STP - NWY",
+                    "A MOS - WAR",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
+            }
         },
         "S1905M": {
             "0": {
@@ -7197,6 +8770,25 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A PIE S A TYR - VEN",
+                    "A WAL - LON",
+                    "F ENG S A WAL - LON",
+                    "F IRI - LVP",
+                    "F WES S F TUN - TYS"
+                ],
+                "RUSSIA": [
+                    "F NTH C A HOL - YOR",
+                    "A NWY - SWE",
+                    "F SWE - SKA",
+                    "F SEV - RUM",
+                    "A UKR S F SEV - RUM",
+                    "A GAL S F SEV - RUM",
+                    "A BUD S F SEV - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -7246,7 +8838,26 @@
             },
             "1699110639584365": "FRANCE added: A PIE - MAR",
             "1699110720880915": "FRANCE added: F IRI - LVP",
-            "1699110795316755": "FRANCE added: F IRI S A YOR - LVP"
+            "1699110795316755": "FRANCE added: F IRI S A YOR - LVP",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A LON H",
+                    "A PIE - MAR",
+                    "F ENG S A LON",
+                    "F IRI S A YOR - LVP",
+                    "F WES H"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR S F RUM",
+                    "A GAL S F RUM",
+                    "F RUM H",
+                    "A BUD S F RUM"
+                ]
+            }
         },
         "F1906M": {
             "0": {
@@ -7317,6 +8928,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A LON - YOR",
+                    "A MAR - PIE",
+                    "F ENG - BEL",
+                    "F MAO - NAF",
+                    "F NTH - SKA",
+                    "F WES - TUN"
+                ],
+                "RUSSIA": [
+                    "A DEN H",
+                    "F NWY - NTH",
+                    "F SKA S A DEN",
+                    "A UKR - GAL",
+                    "A GAL - BOH"
+                ]
             }
         },
         "S1907M": {
@@ -7388,6 +9017,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR H",
+                    "A PIE - TUS",
+                    "A YOR - EDI",
+                    "F BEL - NTH",
+                    "F NAF - TUN",
+                    "F NTH - SKA",
+                    "F WES S F NAF - TUN"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SKA - NTH",
+                    "F SKA - NTH",
+                    "A SWE - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         },
         "F1907M": {
@@ -7424,6 +9070,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A EDI H",
+                    "A PIE - TUS",
+                    "F BEL - HOL",
+                    "F LON - NTH",
+                    "F NAF S F WES - TUN",
+                    "F WES - TUN"
+                ],
+                "RUSSIA": [
+                    "F NTH - DEN",
+                    "F NWY H",
+                    "A SWE S F NTH - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         }
     },
@@ -7488,6 +9151,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A MAR - BUR",
+                    "A PAR - GAS",
+                    "F BRE - MAO"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -7518,6 +9193,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A GAS - SPA",
+                    "F MAO - POR",
+                    "A MAR - BUR"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -7545,7 +9232,23 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104864862344": "FRANCE added: A BUR - BEL"
+            "1699104864862344": "FRANCE added: A BUR - BEL",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A PAR - PIC",
+                    "A SPA - GAS",
+                    "F MAR - SPA/SC",
+                    "F POR - MAO"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
+            }
         },
         "F1902M": {
             "0": {
@@ -7595,6 +9298,22 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "F MAO - IRI",
+                    "F SPA/SC - MAO",
+                    "A PIC - BEL",
+                    "A BUR S A PIC - BEL",
+                    "A GAS H"
+                ],
+                "TURKEY": [
+                    "F AEG - GRE",
+                    "A ALB S A BUL - SER",
+                    "F ANK - BLA",
+                    "A BUL - SER",
+                    "F CON - AEG"
+                ]
             }
         },
         "S1903M": {
@@ -7622,6 +9341,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BUR S A BEL",
+                    "A GAS - WAL VIA",
+                    "F IRI C A GAS - WAL",
+                    "F MAO C A GAS - WAL"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "A ALB - TRI",
+                    "F GRE S F AEG - ION",
+                    "A SER S A ALB - TRI",
+                    "F ANK - BLA",
+                    "F SMY - EAS"
+                ]
             }
         },
         "F1903M": {
@@ -7715,6 +9451,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - HOL",
+                    "A BUR - MAR",
+                    "A GAS - BRE",
+                    "F IRI - WAL",
+                    "F MAO - BRE"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
             }
         },
         "S1904M": {
@@ -7776,6 +9529,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A GAS - BRE",
+                    "A MAR - PIE",
+                    "F BRE - ENG",
+                    "F IRI S F BRE - ENG",
+                    "F MAO - WES"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1904M": {
@@ -7841,7 +9613,26 @@
                 "phase": "F1904M"
             },
             "1699109596479263": "FRANCE added: F WES - TYS",
-            "1699109602153995": "FRANCE added: F WES - TUN"
+            "1699109602153995": "FRANCE added: F WES - TUN",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BRE - WAL VIA",
+                    "A PIE S A MUN - TYR",
+                    "F ENG C A BRE - WAL",
+                    "F IRI S A BRE - WAL",
+                    "F WES - TUN"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A SER - BUD",
+                    "F ALB S A VEN - TRI",
+                    "A SER - BUD",
+                    "F ANK - ARM",
+                    "A BUL S A RUM",
+                    "F CON - BLA"
+                ]
+            }
         },
         "S1905M": {
             "0": {
@@ -7871,7 +9662,26 @@
                 "annotation": null,
                 "phase": "S1905M"
             },
-            "1699109948311613": "FRANCE added: A BEL - BUR"
+            "1699109948311613": "FRANCE added: A BEL - BUR",
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BEL - BUR",
+                    "A PIE S A TYR - VEN",
+                    "A WAL - LON",
+                    "F ENG S A WAL - LON",
+                    "F IRI - LVP",
+                    "F WES S F TUN - TYS"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "F ARM - SEV",
+                    "F BLA S F ARM - SEV",
+                    "A RUM - UKR",
+                    "F ALB S A TRI",
+                    "A SER - BUD",
+                    "A BUL - RUM"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -7911,6 +9721,28 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "FRANCE": [
+                    "A BUR H",
+                    "A PIE - TUS",
+                    "A YOR - EDI",
+                    "F BEL - NTH",
+                    "F NAF - TUN",
+                    "F NTH - SKA",
+                    "F WES S F NAF - TUN"
+                ],
+                "TURKEY": [
+                    "F BLA C A ANK - SEV",
+                    "F ADR - VEN",
+                    "F AEG - GRE",
+                    "F ALB S A SER - TRI",
+                    "A GRE - SER",
+                    "A BUD S A SER - TRI",
+                    "A SER - TRI",
+                    "A ANK - SEV VIA",
+                    "F CON - AEG"
+                ]
             }
         }
     },
@@ -7959,6 +9791,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "F KIE - DEN",
+                    "A BER - KIE",
+                    "A MUN - BUR"
+                ],
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ]
             }
         },
         "F1901M": {
@@ -8013,6 +9857,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F DEN H"
+                ],
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ]
             }
         },
         "S1902M": {
@@ -8055,7 +9911,21 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104834661753": "GERMANY added: F DEN - NTH"
+            "1699104834661753": "GERMANY added: F DEN - NTH",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ]
+            }
         },
         "F1902M": {
             "0": {
@@ -8081,7 +9951,21 @@
                 "phase": "F1902M"
             },
             "1699105319467286": "GERMANY added: A HOL S A PIC - BEL",
-            "1699105368733129": "GERMANY added: A SIL - MUN"
+            "1699105368733129": "GERMANY added: A SIL - MUN",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL S A PIC - BEL",
+                    "A RUH S A HOL",
+                    "A SIL - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F SWE - SKA"
+                ],
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A VEN",
+                    "A VEN H"
+                ]
+            }
         },
         "S1904M": {
             "0": {
@@ -8146,6 +10030,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A MUN S A BER",
+                    "A KIE S A BER",
+                    "F HEL S A DEN",
+                    "A DEN S F BAL - SWE",
+                    "A BER S A MUN"
+                ],
+                "ITALY": [
+                    "F TUN - TYS",
+                    "F NAP - TYS",
+                    "A VEN - TYR",
+                    "A APU - VEN"
+                ]
             }
         },
         "F1906M": {
@@ -8176,7 +10075,26 @@
                 "annotation": null,
                 "phase": "F1906M"
             },
-            "1699112702202459": "GERMANY added: A BOH - VIE"
+            "1699112702202459": "GERMANY added: A BOH - VIE",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH - VIE",
+                    "A HOL - RUH",
+                    "A KIE S F HEL - DEN",
+                    "A LVP - EDI",
+                    "A MUN - TYR",
+                    "F HEL - DEN"
+                ],
+                "ITALY": [
+                    "F TYS - TUN",
+                    "A TYR - TRI",
+                    "F ION - ADR",
+                    "F NAP - APU",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A BUD",
+                    "A BUD S A TYR - TRI"
+                ]
+            }
         }
     },
     "GERMANY-RUSSIA": {
@@ -8257,6 +10175,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "F KIE - DEN",
+                    "A BER - KIE",
+                    "A MUN - BUR"
+                ],
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ]
             }
         },
         "F1901M": {
@@ -8304,6 +10235,19 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F DEN H"
+                ],
+                "RUSSIA": [
+                    "F BOT - SWE",
+                    "F SEV - BLA",
+                    "A UKR - RUM",
+                    "A GAL - BUD"
+                ]
             }
         },
         "S1902M": {
@@ -8364,6 +10308,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ],
+                "RUSSIA": [
+                    "F SWE S F STP/NC - NWY",
+                    "F STP/NC - NWY",
+                    "A MOS - STP",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1902M": {
@@ -8426,6 +10388,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL S A PIC - BEL",
+                    "A RUH S A HOL",
+                    "A SIL - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F SWE - SKA"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ]
             }
         },
         "S1903M": {
@@ -8489,6 +10469,24 @@
                 "truth": "Neutral",
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL - DEN VIA",
+                    "A MUN - SIL",
+                    "A RUH - KIE",
+                    "F HEL C A HOL - DEN"
+                ],
+                "RUSSIA": [
+                    "F NWY - SKA",
+                    "F SWE - BAL",
+                    "A STP - NWY",
+                    "A MOS - WAR",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1903M": {
@@ -8525,6 +10523,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A SIL - BER",
+                    "F HEL S A DEN",
+                    "A DEN H"
+                ],
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F SKA - SWE",
+                    "F BAL S A WAR - PRU",
+                    "A WAR - PRU",
+                    "F SEV - BLA",
+                    "A GAL - SIL",
+                    "A VIE S A ALB - TRI",
+                    "A BUD S A ALB - TRI"
+                ]
             }
         },
         "W1903A": {
@@ -8540,6 +10556,12 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "W1903A"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A MUN B"
+                ],
+                "RUSSIA": []
             }
         },
         "S1905M": {
@@ -8625,7 +10647,25 @@
                 "annotation": null,
                 "phase": "S1905M"
             },
-            "1699110247967940": "GERMANY added: A TYR - VEN"
+            "1699110247967940": "GERMANY added: A TYR - VEN",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A DEN S F SWE",
+                    "A HOL - YOR VIA",
+                    "A MUN - KIE",
+                    "A TYR - VEN",
+                    "F HEL S A DEN"
+                ],
+                "RUSSIA": [
+                    "F NTH C A HOL - YOR",
+                    "A NWY - SWE",
+                    "F SWE - SKA",
+                    "F SEV - RUM",
+                    "A UKR S F SEV - RUM",
+                    "A GAL S F SEV - RUM",
+                    "A BUD S F SEV - RUM"
+                ]
+            }
         },
         "F1905M": {
             "0": {
@@ -8693,6 +10733,24 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE S A DEN",
+                    "F HEL S A DEN",
+                    "A YOR - LVP",
+                    "A MUN - TYR",
+                    "A DEN S A SWE"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR S F RUM",
+                    "A GAL S F RUM",
+                    "F RUM H",
+                    "A BUD S F RUM"
+                ]
             }
         },
         "S1906M": {
@@ -8780,7 +10838,24 @@
             "1699111545443579": "GERMANY added: F HEL S F ENG - NTH",
             "1699111554436283": "GERMANY added: A KIE - HOL",
             "1699111564938441": "GERMANY added: A MUN - SIL",
-            "1699111567686831": "GERMANY added: A TYR - BOH"
+            "1699111567686831": "GERMANY added: A TYR - BOH",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A DEN S A SWE",
+                    "A KIE - HOL",
+                    "A LVP - EDI",
+                    "A MUN - SIL",
+                    "A TYR - BOH",
+                    "F HEL S F ENG - NTH"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR - GAL",
+                    "A GAL - SIL"
+                ]
+            }
         },
         "F1906M": {
             "0": {
@@ -8811,7 +10886,24 @@
             "1699112621394699": "GERMANY added: F HEL - DEN",
             "1699112626963540": "GERMANY added: A KIE S F HEL - DEN",
             "1699112662466606": "GERMANY added: A HOL - RUH",
-            "1699112702202459": "GERMANY added: A BOH - VIE"
+            "1699112702202459": "GERMANY added: A BOH - VIE",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH - VIE",
+                    "A HOL - RUH",
+                    "A KIE S F HEL - DEN",
+                    "A LVP - EDI",
+                    "A MUN - TYR",
+                    "F HEL - DEN"
+                ],
+                "RUSSIA": [
+                    "A DEN H",
+                    "F NWY - NTH",
+                    "F SKA S A DEN",
+                    "A UKR - GAL",
+                    "A GAL - BOH"
+                ]
+            }
         },
         "S1907M": {
             "0": {
@@ -8849,7 +10941,23 @@
             },
             "1699113181813003": "GERMANY added: A LVP S F NTH - EDI",
             "1699113227108735": "GERMANY added: A LVP - YOR",
-            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI"
+            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH S A TYR - VIE",
+                    "A KIE S F DEN",
+                    "A LVP S A YOR - EDI",
+                    "A RUH - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F NTH - SKA"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SKA - NTH",
+                    "F SKA - NTH",
+                    "A SWE - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
+            }
         },
         "F1907M": {
             "0": {
@@ -8876,6 +10984,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH S A VIE",
+                    "A KIE - HOL",
+                    "A LVP S A EDI",
+                    "A MUN - TYR",
+                    "A VIE S A MUN - TYR",
+                    "F DEN S F LON - NTH"
+                ],
+                "RUSSIA": [
+                    "F NTH - DEN",
+                    "F NWY H",
+                    "A SWE S F NTH - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         }
     },
@@ -8916,6 +11040,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "F KIE - DEN",
+                    "A BER - KIE",
+                    "A MUN - BUR"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -8938,6 +11074,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A MUN - TYR",
+                    "F DEN H"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -8965,7 +11113,23 @@
                 "annotation": null,
                 "phase": "S1902M"
             },
-            "1699104834661753": "GERMANY added: F DEN - NTH"
+            "1699104834661753": "GERMANY added: F DEN - NTH",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A HOL S A KIE - RUH",
+                    "A KIE - RUH",
+                    "A MUN - SIL",
+                    "A TYR - VIE",
+                    "F DEN - NTH"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
+            }
         },
         "F1903M": {
             "0": {
@@ -9007,6 +11171,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE - HOL",
+                    "A SIL - BER",
+                    "F HEL S A DEN",
+                    "A DEN H"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
             }
         },
         "S1904M": {
@@ -9035,6 +11215,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A MUN S A BER",
+                    "A KIE S A BER",
+                    "F HEL S A DEN",
+                    "A DEN S F BAL - SWE",
+                    "A BER S A MUN"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1905M": {
@@ -9070,6 +11268,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A KIE S A DEN",
+                    "F HEL S A DEN",
+                    "A YOR - LVP",
+                    "A MUN - TYR",
+                    "A DEN S A SWE"
+                ],
+                "TURKEY": [
+                    "F SEV S A BUL - RUM",
+                    "F ION H",
+                    "F BLA S A BUL - RUM",
+                    "F ALB - TRI",
+                    "A SER S A BUL - RUM",
+                    "A BUL - RUM"
+                ]
             }
         },
         "S1906M": {
@@ -9100,6 +11315,26 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A DEN S A SWE",
+                    "A KIE - HOL",
+                    "A LVP - EDI",
+                    "A MUN - SIL",
+                    "A TYR - BOH",
+                    "F HEL S F ENG - NTH"
+                ],
+                "TURKEY": [
+                    "F SEV S A RUM",
+                    "F ION - ADR",
+                    "F BLA S A RUM",
+                    "A RUM S A SER",
+                    "F ALB - TRI",
+                    "A SER S F ALB - TRI",
+                    "F SMY - AEG",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1906R": {
@@ -9115,6 +11350,12 @@
                 "truth": "Neutral",
                 "annotation": null,
                 "phase": "S1906R"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A DEN R KIE"
+                ],
+                "TURKEY": []
             }
         },
         "F1906M": {
@@ -9173,6 +11414,26 @@
                 "truth": "Truth",
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH - VIE",
+                    "A HOL - RUH",
+                    "A KIE S F HEL - DEN",
+                    "A LVP - EDI",
+                    "A MUN - TYR",
+                    "F HEL - DEN"
+                ],
+                "TURKEY": [
+                    "F SEV - BLA",
+                    "F TRI - VEN",
+                    "F BLA - CON",
+                    "A RUM - BUD",
+                    "F ADR S F TRI - VEN",
+                    "F AEG - ION",
+                    "A SER S A RUM - BUD",
+                    "A BUL - GRE"
+                ]
             }
         },
         "S1907M": {
@@ -9207,7 +11468,28 @@
             },
             "1699113181813003": "GERMANY added: A LVP S F NTH - EDI",
             "1699113227108735": "GERMANY added: A LVP - YOR",
-            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI"
+            "1699113234037811": "GERMANY added: A LVP S A YOR - EDI",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH S A TYR - VIE",
+                    "A KIE S F DEN",
+                    "A LVP S A YOR - EDI",
+                    "A RUH - MUN",
+                    "A TYR - VIE",
+                    "F DEN S F NTH - SKA"
+                ],
+                "TURKEY": [
+                    "F BLA C A ANK - SEV",
+                    "F ADR - VEN",
+                    "F AEG - GRE",
+                    "F ALB S A SER - TRI",
+                    "A GRE - SER",
+                    "A BUD S A SER - TRI",
+                    "A SER - TRI",
+                    "A ANK - SEV VIA",
+                    "F CON - AEG"
+                ]
+            }
         },
         "F1907M": {
             "0": {
@@ -9240,7 +11522,28 @@
                 "phase": "F1907M"
             },
             "1699113605115393": "GERMANY added: A KIE - HOL",
-            "1699113620906306": "GERMANY added: F DEN S F LON - NTH"
+            "1699113620906306": "GERMANY added: F DEN S F LON - NTH",
+            "end_phase_orders": {
+                "GERMANY": [
+                    "A BOH S A VIE",
+                    "A KIE - HOL",
+                    "A LVP S A EDI",
+                    "A MUN - TYR",
+                    "A VIE S A MUN - TYR",
+                    "F DEN S F LON - NTH"
+                ],
+                "TURKEY": [
+                    "A SEV - MOS",
+                    "A TRI S F ADR - VEN",
+                    "F BLA S A SER - RUM",
+                    "F ADR - VEN",
+                    "F AEG S F GRE - ION",
+                    "F ALB S A TRI",
+                    "F GRE - ION",
+                    "A BUD S A TRI",
+                    "A SER - RUM"
+                ]
+            }
         }
     },
     "ITALY-RUSSIA": {
@@ -9289,6 +11592,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ],
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ]
             }
         },
         "F1901M": {
@@ -9384,6 +11700,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ],
+                "RUSSIA": [
+                    "F BOT - SWE",
+                    "F SEV - BLA",
+                    "A UKR - RUM",
+                    "A GAL - BUD"
+                ]
             }
         },
         "S1902M": {
@@ -9458,6 +11787,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ],
+                "RUSSIA": [
+                    "F SWE S F STP/NC - NWY",
+                    "F STP/NC - NWY",
+                    "A MOS - STP",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1902M": {
@@ -9548,6 +11893,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A VEN",
+                    "A VEN H"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ]
             }
         },
         "S1903M": {
@@ -9600,6 +11961,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A ROM - APU",
+                    "A VEN S A TRI"
+                ],
+                "RUSSIA": [
+                    "F NWY - SKA",
+                    "F SWE - BAL",
+                    "A STP - NWY",
+                    "A MOS - WAR",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ]
             }
         },
         "F1903M": {
@@ -9676,6 +12055,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A VEN S A TRI",
+                    "A APU S A VEN"
+                ],
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F SKA - SWE",
+                    "F BAL S A WAR - PRU",
+                    "A WAR - PRU",
+                    "F SEV - BLA",
+                    "A GAL - SIL",
+                    "A VIE S A ALB - TRI",
+                    "A BUD S A ALB - TRI"
+                ]
             }
         },
         "S1904M": {
@@ -9768,6 +12165,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - TYS",
+                    "F NAP - TYS",
+                    "A VEN - TYR",
+                    "A APU - VEN"
+                ],
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA S A NWY",
+                    "F BAL - SWE",
+                    "A PRU - WAR",
+                    "A SIL - GAL",
+                    "F SEV - BLA",
+                    "A VIE - TRI",
+                    "A BUD S A VIE - TRI"
+                ]
             }
         },
         "F1904M": {
@@ -9876,6 +12291,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - TYS",
+                    "A TYR - VIE",
+                    "F NAP - TYS",
+                    "A VEN - TRI"
+                ],
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA - NTH",
+                    "F SWE S A NWY",
+                    "A WAR - UKR",
+                    "F SEV S A GAL - RUM",
+                    "A GAL - RUM",
+                    "A TRI - SER",
+                    "A BUD S A GAL - RUM"
+                ]
             }
         },
         "S1905M": {
@@ -9961,6 +12394,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - WES",
+                    "F NAP - TYS",
+                    "A ROM - VEN",
+                    "A VEN - TYR",
+                    "A VIE S A VEN - TYR",
+                    "A TRI S A VEN - TYR"
+                ],
+                "RUSSIA": [
+                    "F NTH C A HOL - YOR",
+                    "A NWY - SWE",
+                    "F SWE - SKA",
+                    "F SEV - RUM",
+                    "A UKR S F SEV - RUM",
+                    "A GAL S F SEV - RUM",
+                    "A BUD S F SEV - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -10038,6 +12490,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN S F ALB - ION",
+                    "F TYS - NAP",
+                    "A TYR - TRI",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A TRI - BUD",
+                    "A TRI - BUD"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR S F RUM",
+                    "A GAL S F RUM",
+                    "F RUM H",
+                    "A BUD S F RUM"
+                ]
             }
         },
         "S1906M": {
@@ -10122,6 +12593,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "F NAP S F TUN - ION",
+                    "F ROM - TYS",
+                    "A VEN - TRI",
+                    "A VIE S A BUD",
+                    "A TRI - SER",
+                    "A BUD S A TRI - SER"
+                ],
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR - GAL",
+                    "A GAL - SIL"
+                ]
             }
         },
         "F1906M": {
@@ -10190,6 +12679,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS - TUN",
+                    "A TYR - TRI",
+                    "F ION - ADR",
+                    "F NAP - APU",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A BUD",
+                    "A BUD S A TYR - TRI"
+                ],
+                "RUSSIA": [
+                    "A DEN H",
+                    "F NWY - NTH",
+                    "F SKA S A DEN",
+                    "A UKR - GAL",
+                    "A GAL - BOH"
+                ]
             }
         },
         "S1907M": {
@@ -10257,6 +12764,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "A VIE - TYR",
+                    "A TRI - VEN",
+                    "F APU S A TRI - VEN"
+                ],
+                "RUSSIA": [
+                    "F NWY S F SKA - NTH",
+                    "F SKA - NTH",
+                    "A SWE - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         },
         "F1907M": {
@@ -10323,6 +12846,21 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "A TYR - VEN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "F APU S A TYR - VEN"
+                ],
+                "RUSSIA": [
+                    "F NTH - DEN",
+                    "F NWY H",
+                    "A SWE S F NTH - DEN",
+                    "A GAL S A BOH - VIE"
+                ]
             }
         }
     },
@@ -10419,6 +12957,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F NAP - ION",
+                    "A ROM - APU",
+                    "A VEN H"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -10553,6 +13103,18 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION - TUN",
+                    "A VEN H",
+                    "A APU S A VEN"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -10625,6 +13187,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A APU - VEN",
+                    "A APU - VEN"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
             }
         },
         "F1902M": {
@@ -10721,6 +13297,20 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "A ROM S A VEN",
+                    "A VEN H"
+                ],
+                "TURKEY": [
+                    "F AEG - GRE",
+                    "A ALB S A BUL - SER",
+                    "F ANK - BLA",
+                    "A BUL - SER",
+                    "F CON - AEG"
+                ]
             }
         },
         "S1903M": {
@@ -10843,6 +13433,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A ROM - APU",
+                    "A VEN S A TRI"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "A ALB - TRI",
+                    "F GRE S F AEG - ION",
+                    "A SER S A ALB - TRI",
+                    "F ANK - BLA",
+                    "F SMY - EAS"
+                ]
             }
         },
         "F1903M": {
@@ -10965,6 +13571,22 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F ION H",
+                    "F NAP S F ION",
+                    "A VEN S A TRI",
+                    "A APU S A VEN"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
             }
         },
         "S1904M": {
@@ -11056,6 +13678,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - TYS",
+                    "F NAP - TYS",
+                    "A VEN - TYR",
+                    "A APU - VEN"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1904M": {
@@ -11195,6 +13834,23 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - TYS",
+                    "A TYR - VIE",
+                    "F NAP - TYS",
+                    "A VEN - TRI"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A SER - BUD",
+                    "F ALB S A VEN - TRI",
+                    "A SER - BUD",
+                    "F ANK - ARM",
+                    "A BUL S A RUM",
+                    "F CON - BLA"
+                ]
             }
         },
         "S1905M": {
@@ -11272,6 +13928,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - WES",
+                    "F NAP - TYS",
+                    "A ROM - VEN",
+                    "A VEN - TYR",
+                    "A VIE S A VEN - TYR",
+                    "A TRI S A VEN - TYR"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "F ARM - SEV",
+                    "F BLA S F ARM - SEV",
+                    "A RUM - UKR",
+                    "F ALB S A TRI",
+                    "A SER - BUD",
+                    "A BUL - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -11356,6 +14031,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN S F ALB - ION",
+                    "F TYS - NAP",
+                    "A TYR - TRI",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A TRI - BUD",
+                    "A TRI - BUD"
+                ],
+                "TURKEY": [
+                    "F SEV S A BUL - RUM",
+                    "F ION H",
+                    "F BLA S A BUL - RUM",
+                    "F ALB - TRI",
+                    "A SER S A BUL - RUM",
+                    "A BUL - RUM"
+                ]
             }
         },
         "S1906M": {
@@ -11403,6 +14096,27 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TUN - ION",
+                    "F NAP S F TUN - ION",
+                    "F ROM - TYS",
+                    "A VEN - TRI",
+                    "A VIE S A BUD",
+                    "A TRI - SER",
+                    "A BUD S A TRI - SER"
+                ],
+                "TURKEY": [
+                    "F SEV S A RUM",
+                    "F ION - ADR",
+                    "F BLA S A RUM",
+                    "A RUM S A SER",
+                    "F ALB - TRI",
+                    "A SER S F ALB - TRI",
+                    "F SMY - AEG",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1906M": {
@@ -11482,6 +14196,27 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS - TUN",
+                    "A TYR - TRI",
+                    "F ION - ADR",
+                    "F NAP - APU",
+                    "A VEN S A TYR - TRI",
+                    "A VIE S A BUD",
+                    "A BUD S A TYR - TRI"
+                ],
+                "TURKEY": [
+                    "F SEV - BLA",
+                    "F TRI - VEN",
+                    "F BLA - CON",
+                    "A RUM - BUD",
+                    "F ADR S F TRI - VEN",
+                    "F AEG - ION",
+                    "A SER S A RUM - BUD",
+                    "A BUL - GRE"
+                ]
             }
         },
         "S1907M": {
@@ -11537,6 +14272,27 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "A VIE - TYR",
+                    "A TRI - VEN",
+                    "F APU S A TRI - VEN"
+                ],
+                "TURKEY": [
+                    "F BLA C A ANK - SEV",
+                    "F ADR - VEN",
+                    "F AEG - GRE",
+                    "F ALB S A SER - TRI",
+                    "A GRE - SER",
+                    "A BUD S A SER - TRI",
+                    "A SER - TRI",
+                    "A ANK - SEV VIA",
+                    "F CON - AEG"
+                ]
             }
         },
         "F1907M": {
@@ -11591,6 +14347,26 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "ITALY": [
+                    "F TYS S F ION - TUN",
+                    "A TYR - VEN",
+                    "F ION - TUN",
+                    "A VEN - TUS",
+                    "F APU S A TYR - VEN"
+                ],
+                "TURKEY": [
+                    "A SEV - MOS",
+                    "A TRI S F ADR - VEN",
+                    "F BLA S A SER - RUM",
+                    "F ADR - VEN",
+                    "F AEG S F GRE - ION",
+                    "F ALB S A TRI",
+                    "F GRE - ION",
+                    "A BUD S A TRI",
+                    "A SER - RUM"
+                ]
             }
         }
     },
@@ -11728,6 +14504,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1901M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F STP/SC - BOT",
+                    "A MOS - UKR",
+                    "A WAR - GAL",
+                    "F SEV - BLA"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A SMY - CON",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1901M": {
@@ -11823,6 +14612,19 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1901M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F BOT - SWE",
+                    "F SEV - BLA",
+                    "A UKR - RUM",
+                    "A GAL - BUD"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA",
+                    "A BUL - GRE",
+                    "A CON - BUL"
+                ]
             }
         },
         "S1902M": {
@@ -11899,6 +14701,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1902M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F SWE S F STP/NC - NWY",
+                    "F STP/NC - NWY",
+                    "A MOS - STP",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ],
+                "TURKEY": [
+                    "A GRE - ALB",
+                    "F ANK - BLA",
+                    "F SMY - AEG",
+                    "A BUL - SER",
+                    "F CON - BUL/SC"
+                ]
             }
         },
         "F1902M": {
@@ -11935,6 +14755,24 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1902M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NWY S F SWE",
+                    "F SWE S F NWY",
+                    "A STP S F NWY",
+                    "F SEV - BLA",
+                    "A GAL - WAR",
+                    "A RUM S A BUL - SER",
+                    "A BUD - VIE"
+                ],
+                "TURKEY": [
+                    "F AEG - GRE",
+                    "A ALB S A BUL - SER",
+                    "F ANK - BLA",
+                    "A BUL - SER",
+                    "F CON - AEG"
+                ]
             }
         },
         "S1903M": {
@@ -11981,6 +14819,26 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1903M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NWY - SKA",
+                    "F SWE - BAL",
+                    "A STP - NWY",
+                    "A MOS - WAR",
+                    "A WAR - GAL",
+                    "F SEV - BLA",
+                    "A RUM - BUD",
+                    "A BUD - VIE"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "A ALB - TRI",
+                    "F GRE S F AEG - ION",
+                    "A SER S A ALB - TRI",
+                    "F ANK - BLA",
+                    "F SMY - EAS"
+                ]
             }
         },
         "F1903M": {
@@ -12035,6 +14893,26 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1903M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F SKA - SWE",
+                    "F BAL S A WAR - PRU",
+                    "A WAR - PRU",
+                    "F SEV - BLA",
+                    "A GAL - SIL",
+                    "A VIE S A ALB - TRI",
+                    "A BUD S A ALB - TRI"
+                ],
+                "TURKEY": [
+                    "F AEG S F EAS - ION",
+                    "A ALB - TRI",
+                    "F EAS - ION",
+                    "F GRE S F EAS - ION",
+                    "A SER - RUM",
+                    "F ANK - BLA"
+                ]
             }
         },
         "S1904M": {
@@ -12082,6 +14960,27 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1904M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA S A NWY",
+                    "F BAL - SWE",
+                    "A PRU - WAR",
+                    "A SIL - GAL",
+                    "F SEV - BLA",
+                    "A VIE - TRI",
+                    "A BUD S A VIE - TRI"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A ALB - SER",
+                    "F AEG - CON",
+                    "A ALB - SER",
+                    "F GRE - ALB",
+                    "F ANK - BLA",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1904M": {
@@ -12137,6 +15036,27 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1904M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "A NWY H",
+                    "F SKA - NTH",
+                    "F SWE S A NWY",
+                    "A WAR - UKR",
+                    "F SEV S A GAL - RUM",
+                    "A GAL - RUM",
+                    "A TRI - SER",
+                    "A BUD S A GAL - RUM"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "A RUM S A SER - BUD",
+                    "F ALB S A VEN - TRI",
+                    "A SER - BUD",
+                    "F ANK - ARM",
+                    "A BUL S A RUM",
+                    "F CON - BLA"
+                ]
             }
         },
         "S1905M": {
@@ -12207,6 +15127,26 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1905M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NTH C A HOL - YOR",
+                    "A NWY - SWE",
+                    "F SWE - SKA",
+                    "F SEV - RUM",
+                    "A UKR S F SEV - RUM",
+                    "A GAL S F SEV - RUM",
+                    "A BUD S F SEV - RUM"
+                ],
+                "TURKEY": [
+                    "F ION H",
+                    "F ARM - SEV",
+                    "F BLA S F ARM - SEV",
+                    "A RUM - UKR",
+                    "F ALB S A TRI",
+                    "A SER - BUD",
+                    "A BUL - RUM"
+                ]
             }
         },
         "F1905M": {
@@ -12284,6 +15224,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1905M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR S F RUM",
+                    "A GAL S F RUM",
+                    "F RUM H",
+                    "A BUD S F RUM"
+                ],
+                "TURKEY": [
+                    "F SEV S A BUL - RUM",
+                    "F ION H",
+                    "F BLA S A BUL - RUM",
+                    "F ALB - TRI",
+                    "A SER S A BUL - RUM",
+                    "A BUL - RUM"
+                ]
             }
         },
         "S1906M": {
@@ -12377,6 +15336,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1906M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NTH S A SWE - DEN",
+                    "F SKA S A SWE - DEN",
+                    "A SWE - DEN",
+                    "A UKR - GAL",
+                    "A GAL - SIL"
+                ],
+                "TURKEY": [
+                    "F SEV S A RUM",
+                    "F ION - ADR",
+                    "F BLA S A RUM",
+                    "A RUM S A SER",
+                    "F ALB - TRI",
+                    "A SER S F ALB - TRI",
+                    "F SMY - AEG",
+                    "A CON - BUL"
+                ]
             }
         },
         "F1906M": {
@@ -12470,6 +15448,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1906M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "A DEN H",
+                    "F NWY - NTH",
+                    "F SKA S A DEN",
+                    "A UKR - GAL",
+                    "A GAL - BOH"
+                ],
+                "TURKEY": [
+                    "F SEV - BLA",
+                    "F TRI - VEN",
+                    "F BLA - CON",
+                    "A RUM - BUD",
+                    "F ADR S F TRI - VEN",
+                    "F AEG - ION",
+                    "A SER S A RUM - BUD",
+                    "A BUL - GRE"
+                ]
             }
         },
         "S1907M": {
@@ -12556,6 +15553,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "S1907M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NWY S F SKA - NTH",
+                    "F SKA - NTH",
+                    "A SWE - DEN",
+                    "A GAL S A BOH - VIE"
+                ],
+                "TURKEY": [
+                    "F BLA C A ANK - SEV",
+                    "F ADR - VEN",
+                    "F AEG - GRE",
+                    "F ALB S A SER - TRI",
+                    "A GRE - SER",
+                    "A BUD S A SER - TRI",
+                    "A SER - TRI",
+                    "A ANK - SEV VIA",
+                    "F CON - AEG"
+                ]
             }
         },
         "F1907M": {
@@ -12698,6 +15714,25 @@
                 "truth": null,
                 "annotation": null,
                 "phase": "F1907M"
+            },
+            "end_phase_orders": {
+                "RUSSIA": [
+                    "F NTH - DEN",
+                    "F NWY H",
+                    "A SWE S F NTH - DEN",
+                    "A GAL S A BOH - VIE"
+                ],
+                "TURKEY": [
+                    "A SEV - MOS",
+                    "A TRI S F ADR - VEN",
+                    "F BLA S A SER - RUM",
+                    "F ADR - VEN",
+                    "F AEG S F GRE - ION",
+                    "F ALB S A TRI",
+                    "F GRE - ION",
+                    "A BUD S A TRI",
+                    "A SER - RUM"
+                ]
             }
         }
     }

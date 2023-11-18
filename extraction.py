@@ -581,7 +581,17 @@ def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
         power1, power2 = convo.split("-")
 
         for phase, msg_logs in phases.items():
-            pass
+            power1_orders = end_phase_orders[phase][power1]
+            power2_orders = end_phase_orders[phase][power2]
+            results = {power1: power1_orders, power2: power2_orders}
+            msg_logs['end_phase_orders'] = results
+            phases[phase] = msg_logs
+
+        msg_orders[convo] = phases
+
+    return msg_orders
+
+
 
 ############## main ##############
 
@@ -608,11 +618,15 @@ def main():
 
         cicero_start_of_phase_logs = start_phase_logs(data)
 
+        with_cicero_start_phase_logs = add_start_phase_logs_to_msg_orders(
+                    msg_orders, cicero_start_of_phase_logs, bot_players(data)
+                )
+        
+        end_phase_added = add_end_phase_orders_to_msg_orders(with_cicero_start_phase_logs, all_orders(data))
+
         with open("test.json", "w") as f:
             json.dump(
-                add_start_phase_logs_to_msg_orders(
-                    msg_orders, cicero_start_of_phase_logs, bot_players(data)
-                ),
+                end_phase_added,
                 f,
                 indent=4,
             )
