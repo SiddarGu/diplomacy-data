@@ -429,7 +429,6 @@ def combine_msgs_orders(convos, orders):
     :return: a dictionary of order logs, with phase as key and {power: {time_sent: log}} as value
     """
     convos_with_orders = convos
-    country_regex = r'([A-Z]+)\W.*'
 
     for phase in orders:
         for time_sent, log in orders[phase].items():
@@ -445,14 +444,13 @@ def combine_msgs_orders(convos, orders):
     # sort by key
     for convo in convos_with_orders:
         for phase in convos_with_orders[convo]:
-            history = dict(
-                sorted(convos_with_orders[convo][phase].items())
-            )
+            history = dict(sorted(convos_with_orders[convo][phase].items()))
 
             initial_orders = {}
             updated = {}
             initial_order_time_sents = []
 
+            # only add order logs
             for time_sent, log in sorted(history.items()):
                 if isinstance(log, str):
                     initial_orders[time_sent] = log
@@ -461,15 +459,17 @@ def combine_msgs_orders(convos, orders):
                     break
 
             reduced_orders = reduce_duplicate_orders(initial_orders)
-            
+
             updated[0] = reduced_orders
 
+            # add the messages
             for time_sent, log in sorted(history.items()):
                 if time_sent not in initial_order_time_sents:
                     updated[time_sent] = log
 
             convos_with_orders[convo][phase] = updated
     return convos_with_orders
+
 
 def reduce_duplicate_orders(orders):
     """
@@ -478,15 +478,15 @@ def reduce_duplicate_orders(orders):
     :param orders: a dict of orders
     :return: a dictionary of {power: [orders]}
     """
-    remove_all_regex = r'([A-Z]+) removed its orders\:'
-    add_order_regex = r'([A-Z]+) added\:\W([A-Z]\W[A-Z]{3})(.*)'
-    remove_order_regex = r'([A-Z]+) removed\:\W([A-Z]\W[A-Z]{3})(.*)'
+    remove_all_regex = r"([A-Z]+) removed its orders\:"
+    add_order_regex = r"([A-Z]+) added\:\W([A-Z]\W[A-Z]{3})(.*)"
+    remove_order_regex = r"([A-Z]+) removed\:\W([A-Z]\W[A-Z]{3})(.*)"
     cleaned_orders = {}
 
     for time_sent, order_log in orders.items():
-        if 'updated' in order_log:
+        if "updated" in order_log:
             continue
-        
+
         m = re.match(remove_all_regex, order_log)
         if m:
             power = m.group(1)
@@ -523,10 +523,57 @@ def reduce_duplicate_orders(orders):
 
         for unit, move in moves.items():
             results[power].append(unit + move)
-            
+
         results[power].sort()
     return results
-    
+
+
+def start_phase_logs(data):
+    start_phase_log_regex = r"At the start of this phase\, I intend to do: \((.*)\)"
+    start_phase_logs = {}
+
+    all_cicero_logs = all_logs(data)
+
+    for phase, logs in all_cicero_logs.items():
+        current_phase_logs = {}
+
+        for log in logs:
+            log_sender = log["sender"]
+            m = re.match(start_phase_log_regex, log["message"])
+            if m:
+                orders = m.group(1).split(",")
+
+                stripped_orders = map(lambda x: x.replace("'", "").strip(), orders)
+                current_phase_logs[log_sender] = list(stripped_orders)
+
+        if len(current_phase_logs) > 0:
+            start_phase_logs[phase] = current_phase_logs
+
+    return start_phase_logs
+
+
+def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
+    for convo, phases in msg_orders.items():
+        power1, power2 = convo.split("-")
+
+        for phase, msg_logs in phases.items():
+            start_of_phase_orders = msg_logs[0]
+
+
+            if phase in start_phase_logs:
+                cicero_logs = start_phase_logs[phase]
+
+                if power1 in bots and power1 in cicero_logs:
+                    start_of_phase_orders[power1] = cicero_logs[power1]
+
+                if power2 in bots and power2 in cicero_logs:
+                    start_of_phase_orders[power2] = cicero_logs[power2]
+
+                phases[phase] = start_of_phase_orders
+
+        msg_orders[convo] = phases
+
+    return msg_orders
 
 ############## main ##############
 
@@ -551,8 +598,16 @@ def main():
 
         msg_orders = combine_msgs_orders(convos, all_order_logs(data))
 
-        with open('test.json', 'w') as f:
-            json.dump(msg_orders, f, indent=4)
+        cicero_start_of_phase_logs = start_phase_logs(data)
+
+        with open("test.json", "w") as f:
+            json.dump(
+                add_start_phase_logs_to_msg_orders(
+                    msg_orders, cicero_start_of_phase_logs, bot_players(data)
+                ),
+                f,
+                indent=4,
+            )
 
         print("\n")
         break
