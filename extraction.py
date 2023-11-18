@@ -569,11 +569,19 @@ def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
                 if power2 in bots and power2 in cicero_logs:
                     start_of_phase_orders[power2] = cicero_logs[power2]
 
-                phases[phase] = start_of_phase_orders
+                msg_logs[0] = start_of_phase_orders
+                phases[phase] = msg_logs
 
         msg_orders[convo] = phases
 
     return msg_orders
+
+def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
+    for convo, phases in msg_orders.items():
+        power1, power2 = convo.split("-")
+
+        for phase, msg_logs in phases.items():
+            pass
 
 ############## main ##############
 
