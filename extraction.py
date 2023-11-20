@@ -440,7 +440,6 @@ def combine_msgs_orders(convos, orders, humans):
             for convo in convos_with_orders:
                 if power in convo and phase in convos_with_orders[convo].keys():
                     convos_with_orders[convo][phase][time_sent] = log
-            
 
     for convo in convos_with_orders:
         power1, power2 = convo.split("-")
@@ -456,7 +455,7 @@ def combine_msgs_orders(convos, orders, humans):
                 if isinstance(msg, str):
                     m = re.match(order_log_regex, msg)
                     power = m.group(1)
-                    
+
                     if power == power1:
                         power_msg_logs[power1][time_sent] = msg
                     if power == power2:
@@ -472,7 +471,7 @@ def combine_msgs_orders(convos, orders, humans):
                         power_msg_logs[power2][time_sent] = msg
                     if sender != power1 and sender != power2:
                         raise Exception("sender not in convo", sender, convo)
-                    
+
             for power in [power1, power2]:
                 if power not in humans:
                     continue
@@ -492,7 +491,7 @@ def combine_msgs_orders(convos, orders, humans):
                     initial_orders[power] = reduced_orders
 
             updated_dict = {}
-            
+
             for power in [power1, power2]:
                 updated_dict.update(power_msg_logs[power])
 
@@ -517,7 +516,7 @@ def combine_msgs_orders(convos, orders, humans):
                 updated[time_sent] = reduced_orders
 
             updated[0] = initial_orders
-            
+
             # sort updated by key
             updated = dict(sorted(updated.items()))
             convos_with_orders[convo][phase] = updated
@@ -648,6 +647,7 @@ def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
 
     return msg_orders
 
+
 def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
     """
     add order results to message orders
@@ -664,12 +664,13 @@ def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
             power1_orders = end_phase_orders[phase][power1]
             power2_orders = end_phase_orders[phase][power2]
             results = {power1: power1_orders, power2: power2_orders}
-            msg_logs['end_phase_orders'] = results
+            msg_logs["end_phase_orders"] = results
             phases[phase] = msg_logs
 
         msg_orders[convo] = phases
 
     return msg_orders
+
 
 def filter_persuations(message_orders):
     filtered = {}
@@ -683,10 +684,10 @@ def filter_persuations(message_orders):
                 continue
 
             power1_start = sorted(msg_logs[0][power1])
-            power1_end = sorted(msg_logs['end_phase_orders'][power1])
+            power1_end = sorted(msg_logs["end_phase_orders"][power1])
 
             power2_start = sorted(msg_logs[0][power2])
-            power2_end = sorted(msg_logs['end_phase_orders'][power2])
+            power2_end = sorted(msg_logs["end_phase_orders"][power2])
 
             if power1_start == power1_end and power2_start == power2_end:
                 continue
@@ -694,7 +695,6 @@ def filter_persuations(message_orders):
                 filtered[convo][phase] = msg_logs
 
     return filtered
-
 
 
 ############## main ##############
@@ -718,15 +718,19 @@ def main():
         sorted_msgs = msgs_by_time_sent(msgs)
         convos = message_channels(sorted_msgs)
 
-        msg_orders = combine_msgs_orders(convos, all_order_logs(data), human_players(data))
+        msg_orders = combine_msgs_orders(
+            convos, all_order_logs(data), human_players(data)
+        )
 
         cicero_start_of_phase_logs = start_phase_logs(data)
 
         with_cicero_start_phase_logs = add_start_phase_logs_to_msg_orders(
-                    msg_orders, cicero_start_of_phase_logs, bot_players(data)
-                )
-        
-        end_phase_added = add_end_phase_orders_to_msg_orders(with_cicero_start_phase_logs, all_orders(data))
+            msg_orders, cicero_start_of_phase_logs, bot_players(data)
+        )
+
+        end_phase_added = add_end_phase_orders_to_msg_orders(
+            with_cicero_start_phase_logs, all_orders(data)
+        )
 
         filtered = filter_persuations(end_phase_added)
 
