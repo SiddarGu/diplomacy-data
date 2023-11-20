@@ -434,6 +434,8 @@ def combine_msgs_orders(convos, orders, humans):
         for time_sent, log in orders[phase].items():
             time_sent = int(time_sent)
             m = re.match(order_log_regex, log)
+            if not m:
+                continue
             power = m.group(1)
             order = m.group(2)
 
@@ -477,10 +479,15 @@ def combine_msgs_orders(convos, orders, humans):
                     continue
 
                 cache = {}
+
+                if phase == "F1903M" and convo == "FRANCE-RUSSIA":
+                    print(sorted(power_msg_logs[power].items()))
+
                 for time_sent, msg_order in sorted(power_msg_logs[power].items()):
                     if isinstance(msg_order, str):
                         cache[time_sent] = power_msg_logs[power].pop(time_sent)
                     else:
+                        print(phase, convo)
                         reduced_orders = reduce_duplicate_orders(cache)[power]
                         initial_orders[power] = reduced_orders
                         cache = {}
@@ -734,7 +741,7 @@ def main():
 
         filtered = filter_persuations(end_phase_added)
 
-        with open("test.json", "w") as f:
+        with open(f"persuations/{data['game_id']}.json", "w") as f:
             json.dump(
                 filtered,
                 f,
@@ -742,7 +749,6 @@ def main():
             )
 
         print("\n")
-        break
 
 
 if __name__ == "__main__":

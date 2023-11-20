@@ -1,0 +1,38 @@
+import json
+
+# Function to extract and map provinces to their three-letter codes in each message, now accounting for the actual structure
+def map_provinces_in_all_phases(phases_data, province_map):
+    delimiters = [",", " ", "-",";","/","!","?","."]
+
+    mapped_phases = {}
+    for phase, messages in phases_data.items():
+        mapped_messages = []
+        for message_data in messages:
+            message_text = message_data['message'].lower()
+            for delimiter in delimiters:
+              message_text = " ".join(message_text.split(delimiter))
+            message_text = message_text.split()
+            provinces_found = set()
+            for province, variations in province_map.items():
+                # Check both the three-letter code and its variations
+                if province in message_text or any(variation.lower() in message_text for variation in variations):
+                    provinces_found.add(province.upper())
+            mapped_messages.append({
+                'sender': message_data['sender'],
+                'recipient': message_data['recipient'],
+                'time_sent': message_data['time_sent'],
+                'message': message_data['message'],
+                'provinces': list(provinces_found)
+            })
+        mapped_phases[phase] = mapped_messages
+    return mapped_phases
+
+
+# Load the JSON file containing the province mappings
+mapping_file_path = 'mapping_province.json'
+with open(mapping_file_path, 'r') as file:
+    province_map = json.load(file)
+	
+# Cicero only messages
+msg_history = msgs_to_ciceros(data)
+msg_history_with_extract_provinces = map_provinces_in_all_phases(msg_history, province_map)
