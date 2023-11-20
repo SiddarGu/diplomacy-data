@@ -420,7 +420,7 @@ def message_channels(data):
     return convos
 
 
-def combine_msgs_orders(convos, orders):
+def combine_msgs_orders(convos, orders, humans):
     """
     combine messages and orders by time_sent
 
@@ -440,40 +440,94 @@ def combine_msgs_orders(convos, orders):
             for convo in convos_with_orders:
                 if power in convo and phase in convos_with_orders[convo].keys():
                     convos_with_orders[convo][phase][time_sent] = log
+            
 
-    # sort by key
     for convo in convos_with_orders:
+        power1, power2 = convo.split("-")
+
         for phase in convos_with_orders[convo]:
-            history = dict(sorted(convos_with_orders[convo][phase].items()))
+            if phase[-1] != "M":
+                continue
 
-            initial_orders = {}
-            updated = {}
-            initial_order_time_sents = []
+            power_msg_logs = {power1: {}, power2: {}}
+            initial_orders = {power1: [], power2: []}
 
-            # only add order logs
-            for time_sent, log in sorted(history.items()):
-                if isinstance(log, str):
-                    initial_orders[time_sent] = log
-                    initial_order_time_sents.append(time_sent)
+            for time_sent, msg in convos_with_orders[convo][phase].items():
+                if isinstance(msg, str):
+                    m = re.match(order_log_regex, msg)
+                    power = m.group(1)
+                    
+                    if power == power1:
+                        power_msg_logs[power1][time_sent] = msg
+                    if power == power2:
+                        power_msg_logs[power2][time_sent] = msg
+                    if power != power1 and power != power2:
+                        raise Exception("power not in convo", power, convo)
                 else:
-                    break
+                    sender = msg["sender"]
 
-            reduced_orders = reduce_duplicate_orders(initial_orders)
+                    if sender == power1:
+                        power_msg_logs[power1][time_sent] = msg
+                    if sender == power2:
+                        power_msg_logs[power2][time_sent] = msg
+                    if sender != power1 and sender != power2:
+                        raise Exception("sender not in convo", sender, convo)
+                    
+            for power in [power1, power2]:
+                if power not in humans:
+                    continue
 
-            updated[0] = reduced_orders
+                cache = {}
+                for time_sent, msg_order in sorted(power_msg_logs[power].items()):
+                    if isinstance(msg_order, str):
+                        cache[time_sent] = power_msg_logs[power].pop(time_sent)
+                    else:
+                        reduced_orders = reduce_duplicate_orders(cache)[power]
+                        initial_orders[power] = reduced_orders
+                        cache = {}
+                        break
 
-            # add the messages
-            for time_sent, log in sorted(history.items()):
-                if time_sent not in initial_order_time_sents:
-                    updated[time_sent] = log
+                if len(cache) > 0:
+                    reduced_orders = reduce_duplicate_orders(cache)[power]
+                    initial_orders[power] = reduced_orders
 
+            updated_dict = {}
+            
+            for power in [power1, power2]:
+                updated_dict.update(power_msg_logs[power])
+
+            updated = {}
+            cache = {}
+
+            for time_sent, log in sorted(updated_dict.items()):
+                if isinstance(log, str):
+                    cache[time_sent] = log
+                else:
+                    if len(cache) == 0:
+                        updated[time_sent] = log
+                        continue
+                    else:
+                        reduced_orders = reduce_duplicate_orders(cache)
+                        updated[time_sent - 1] = reduced_orders
+                        cache = {}
+                        updated[time_sent] = log
+
+            if len(cache) > 0:
+                reduced_orders = reduce_duplicate_orders(cache)
+                updated[time_sent] = reduced_orders
+
+            updated[0] = initial_orders
+            
+            # sort updated by key
+            updated = dict(sorted(updated.items()))
             convos_with_orders[convo][phase] = updated
+
     return convos_with_orders
 
 
 def reduce_duplicate_orders(orders):
     """
-    simplify orders in a list
+    simplify orders
 
     :param orders: a dict of orders
     :return: a dictionary of {power: [orders]}
@@ -529,6 +583,13 @@ def reduce_duplicate_orders(orders):
 
 
 def start_phase_logs(data):
+    """
+    get cicero's start of phase logs in the game
+
+    :param data: dictionary of game data after json.load
+    :return: a dictionary of logs
+    """
+
     start_phase_log_regex = r"At the start of this phase\, I intend to do: \((.*)\)"
     start_phase_logs = {}
 
@@ -553,12 +614,23 @@ def start_phase_logs(data):
 
 
 def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
+    """
+    add cicero's start of phase logs to message orders
+
+    :param msg_orders: existing message orders
+    :param start_phase_logs: cicero logs
+    :param bots: a list of powers that has cicero prefix usernames
+    :return: message orders with cicero's start of phase logs
+    """
+
     for convo, phases in msg_orders.items():
         power1, power2 = convo.split("-")
 
         for phase, msg_logs in phases.items():
-            start_of_phase_orders = msg_logs[0]
-
+            if 0 not in msg_logs:
+                start_of_phase_orders = {}
+            else:
+                start_of_phase_orders = msg_logs[0]
 
             if phase in start_phase_logs:
                 cicero_logs = start_phase_logs[phase]
@@ -577,6 +649,14 @@ def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
     return msg_orders
 
 def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
+    """
+    add order results to message orders
+
+    :param msg_orders: existing message orders
+    :param end_phase_orders: order results for each power for each phase
+    :return: message orders with end of phase orders
+    """
+
     for convo, phases in msg_orders.items():
         power1, power2 = convo.split("-")
 
@@ -590,6 +670,30 @@ def add_end_phase_orders_to_msg_orders(msg_orders, end_phase_orders):
         msg_orders[convo] = phases
 
     return msg_orders
+
+def filter_persuations(message_orders):
+    filtered = {}
+
+    for convo, phases in message_orders.items():
+        filtered[convo] = {}
+        power1, power2 = convo.split("-")
+
+        for phase, msg_logs in phases.items():
+            if phase[-1] != "M":
+                continue
+
+            power1_start = sorted(msg_logs[0][power1])
+            power1_end = sorted(msg_logs['end_phase_orders'][power1])
+
+            power2_start = sorted(msg_logs[0][power2])
+            power2_end = sorted(msg_logs['end_phase_orders'][power2])
+
+            if power1_start == power1_end and power2_start == power2_end:
+                continue
+            else:
+                filtered[convo][phase] = msg_logs
+
+    return filtered
 
 
 
@@ -614,7 +718,7 @@ def main():
         sorted_msgs = msgs_by_time_sent(msgs)
         convos = message_channels(sorted_msgs)
 
-        msg_orders = combine_msgs_orders(convos, all_order_logs(data))
+        msg_orders = combine_msgs_orders(convos, all_order_logs(data), human_players(data))
 
         cicero_start_of_phase_logs = start_phase_logs(data)
 
@@ -624,9 +728,11 @@ def main():
         
         end_phase_added = add_end_phase_orders_to_msg_orders(with_cicero_start_phase_logs, all_orders(data))
 
+        filtered = filter_persuations(end_phase_added)
+
         with open("test.json", "w") as f:
             json.dump(
-                end_phase_added,
+                filtered,
                 f,
                 indent=4,
             )
