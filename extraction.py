@@ -4,6 +4,16 @@ game_dir = "./human_games/"
 POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
 order_log_regex = r"([A-Z]+)\W(.*)"
 
+power_mapping = {
+    "russia": "rus",
+    "austria": "aus",
+    "england": "eng",
+    "france": "fra",
+    "germany": "ger",
+    "italy": "ita",
+    "turkey": "tur",
+}
+
 
 def human_players(data):
     """
@@ -383,7 +393,7 @@ def msgs_by_time_sent(data):
     return msgs
 
 
-def message_channels(data):
+def message_channels(data, humans):
     """
     get conversations between players
 
@@ -394,7 +404,7 @@ def message_channels(data):
 
     for power1 in POWERS:
         for power2 in POWERS:
-            if power1 != power2:
+            if power1 != power2 and (power1 in humans or power2 in humans):
                 sorted_powers = sorted([power1, power2])
                 convo_key = sorted_powers[0] + "-" + sorted_powers[1]
 
@@ -406,7 +416,11 @@ def message_channels(data):
             sender = msg["sender"]
             recipient = msg["recipient"]
 
-            if sender not in POWERS or recipient not in POWERS:
+            if (
+                sender not in POWERS
+                or recipient not in POWERS
+                or (sender not in humans and recipient not in humans)
+            ):
                 continue
 
             sorted_powers = sorted([sender, recipient])
@@ -611,7 +625,8 @@ def start_phase_logs(data):
                 orders = m.group(1).split(",")
 
                 stripped_orders = map(lambda x: x.replace("'", "").strip(), orders)
-                current_phase_logs[log_sender] = list(stripped_orders)
+                filtered_orders = filter(lambda x: x != "", stripped_orders)
+                current_phase_logs[log_sender] = list(filtered_orders)
 
         if len(current_phase_logs) > 0:
             start_phase_logs[phase] = current_phase_logs
@@ -704,6 +719,80 @@ def filter_persuations(message_orders):
     return filtered
 
 
+def filter_location(mapping, data):
+    filtered = {}
+
+    for convo, phases in data.items():
+        power1, power2 = convo.split("-")
+        filtered[convo] = {}
+
+        for phase, msg_logs in phases.items():
+            if phase[-1] != "M":
+                continue
+            curr_msg_logs = msg_logs
+            curr_msg_logs["mentioned"] = []
+
+            for _, msg in msg_logs.items():
+                if isinstance(msg, dict) and "message" in msg.keys():
+                    split_msg = split_sentence(msg["message"].lower())
+
+                    for word in split_msg:
+                        for loc, variations in mapping.items():
+                            if word == loc.lower():
+                                curr_msg_logs["mentioned"].append(loc)
+                            for variation in variations:
+                                if word == variation.lower():
+                                    curr_msg_logs["mentioned"].append(loc)
+
+                        for power, variation in power_mapping.items():
+                            if word == power and power not in [power1.lower(), power2.lower()]:
+                                curr_msg_logs["mentioned"].append(power)
+                            if word == variation and power not in [power1.lower(), power2.lower()]:
+                                curr_msg_logs["mentioned"].append(power)
+
+            if len(curr_msg_logs["mentioned"]) > 0:
+                filtered[convo][phase] = curr_msg_logs
+
+    return filtered
+
+
+def split_sentence(sentence):
+    delimiters = [",", " ", "-", ";", "/", "!", "?", ".", ":", "'", '"']
+
+    for delimiter in delimiters:
+        sentence = " ".join(sentence.split(delimiter))
+
+    return sentence.split()
+
+
+def prettier(data):
+    data_copy = {}
+
+    for convo, phases in data.items():
+        data_copy[convo] = {}
+
+        for phase, msg_logs in phases.items():
+            data_copy[convo][phase] = {}
+            convo_msgs = []
+
+            start = msg_logs.pop(0)
+            end = msg_logs.pop("end_phase_orders")
+            mentioned = list(set(msg_logs.pop("mentioned")))
+
+            data_copy[convo][phase]["mentioned"] = mentioned
+            data_copy[convo][phase]["start"] = start
+            data_copy[convo][phase]["end"] = end
+
+            for _, msg in msg_logs.items():
+                msg_keys = msg.keys()
+                if "sender" in msg_keys and "message" in msg_keys:
+                    convo_msgs.append(f'{msg["sender"]}: {msg["message"]}')
+
+            data_copy[convo][phase]["messages"] = convo_msgs
+
+    return data_copy
+
+
 ############## main ##############
 
 
@@ -716,6 +805,9 @@ def main():
         )
     )
 
+    with open("mapping_province.json", "r") as f:
+        mapping = json.load(f)
+
     for game in games:
         with open(game, "r") as f:
             data = json.load(f)
@@ -723,7 +815,7 @@ def main():
         print(data["game_id"])
         msgs = all_msgs(data)
         sorted_msgs = msgs_by_time_sent(msgs)
-        convos = message_channels(sorted_msgs)
+        convos = message_channels(sorted_msgs, human_players(data))
 
         msg_orders = combine_msgs_orders(
             convos, all_order_logs(data), human_players(data)
@@ -741,9 +833,13 @@ def main():
 
         filtered = filter_persuations(end_phase_added)
 
+        filtered_again = filter_location(mapping, filtered)
+
+        prettified = prettier(filtered_again)
+
         with open(f"persuations/{data['game_id']}.json", "w") as f:
             json.dump(
-                filtered,
+                prettified,
                 f,
                 indent=4,
             )
