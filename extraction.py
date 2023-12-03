@@ -756,18 +756,28 @@ def filter_location(mapping, data, state_history):
                             are_locs_in_orders = [
                                 loc.upper() in order
                                 for order in end_of_phase_orders[power1]
-                                     + end_of_phase_orders[power2]
-                                
+                                + end_of_phase_orders[power2]
+                            ]
+                            in_start_orders = [
+                                loc.upper() in order
+                                for order in start_of_phase_orders[power1]
+                                + start_of_phase_orders[power2]
                             ]
 
-                            if word == loc.lower() and (
-                                len(are_locs_in_orders) > 0 and any(are_locs_in_orders)
+                            if (
+                                word == loc.lower()
+                                and (
+                                    len(are_locs_in_orders) > 0
+                                    and any(are_locs_in_orders)
+                                )
+                                and not any(in_start_orders)
                             ):
                                 curr_msg_logs["mentioned"].append(loc)
                             for variation in variations:
                                 if word == variation.lower() and (
                                     len(are_locs_in_orders) > 0
                                     and any(are_locs_in_orders)
+                                    and not any(in_start_orders)
                                 ):
                                     curr_msg_logs["mentioned"].append(loc)
 
@@ -775,12 +785,16 @@ def filter_location(mapping, data, state_history):
                             influence = influence_history[power.upper()]
 
                             are_locs_in_orders = [
-                                        loc.upper() in order
-                                        for order in end_of_phase_orders[power1] +
-                                            end_of_phase_orders[power2]
-                                        
-                                        for loc in influence
-                                    ]
+                                loc.upper() in order
+                                for order in end_of_phase_orders[power1]
+                                + end_of_phase_orders[power2]
+                                for loc in influence
+                            ]
+                            in_start_orders = [
+                                loc.upper() in order
+                                for order in start_of_phase_orders[power1]
+                                + start_of_phase_orders[power2]
+                            ]
 
                             if (
                                 word == power
@@ -789,7 +803,11 @@ def filter_location(mapping, data, state_history):
                                     power1.lower(),
                                     power2.lower(),
                                 ]
-                                and (len(are_locs_in_orders) > 0 and any(are_locs_in_orders))
+                                and (
+                                    len(are_locs_in_orders) > 0
+                                    and any(are_locs_in_orders)
+                                )
+                                and not any(in_start_orders)
                             ):
                                 curr_msg_logs["mentioned"].append(power)
                             if (
@@ -799,7 +817,11 @@ def filter_location(mapping, data, state_history):
                                     power1.lower(),
                                     power2.lower(),
                                 ]
-                                and (len(are_locs_in_orders) > 0 and any(are_locs_in_orders))
+                                and (
+                                    len(are_locs_in_orders) > 0
+                                    and any(are_locs_in_orders)
+                                )
+                                and not any(in_start_orders)
                             ):
                                 curr_msg_logs["mentioned"].append(power)
 
