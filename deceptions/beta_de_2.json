@@ -1,0 +1,133 @@
+{
+    "perceived_lies": [],
+    "outgoing_lies": [
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1691792096355391,
+            "phase": "S1901M",
+            "message": "I am not opposed but how would that work?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1691792913977969,
+            "phase": "F1901M",
+            "message": "If you help me into Bel, I can build army in Par and Mar, to go into Bur",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1691793464397912,
+            "phase": "S1902M",
+            "message": "Sure, how about you do that this turn?  I will support from Den.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "AUSTRIA",
+            "time_sent": 1691793761060118,
+            "phase": "S1902M",
+            "message": "I think Germany will attack me soon, would you mind cooperating? I think Italy wants to fight Turkey",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "GERMANY",
+            "time_sent": 1691794380234277,
+            "phase": "F1902M",
+            "message": "Now I have some buffer again",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1691794439971196,
+            "phase": "F1902M",
+            "message": "I see that you are going against England, but are you not also worried about Italy? They're growing quickly, and are in a good spot right now.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691794517930348,
+            "phase": "F1902M",
+            "message": "Do it now or I will attack you.  ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1691794940835653,
+            "phase": "S1903M",
+            "message": "YOU attacked me.  Yes let's have peace.  ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691795918059207,
+            "phase": "F1903M",
+            "message": "That's a lie.  Who is austria being attacked by?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1691797098508162,
+            "phase": "F1904M",
+            "message": "Make sure you hold Swe so he can't take it.  ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1691797880191031,
+            "phase": "S1905M",
+            "message": "A BUR - MAR [S]\nA MAR - PIE [S]\nA PIC - BUR [S]",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691798646717164,
+            "phase": "F1905M",
+            "message": "Why? I won't attack you.  ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691798829507935,
+            "phase": "S1906M",
+            "message": "I didn't attack you.  ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691798936381833,
+            "phase": "S1906M",
+            "message": "Yes that is to help you.  Like you helped me in Tyr!  I am a good ally.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691799770896367,
+            "phase": "F1906M",
+            "message": "I will help you.  Where should I move?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1691799927300152,
+            "phase": "F1906M",
+            "message": "Why not?  I won't take it.  I am your ally.  ",
+            "truth": "Lie"
+        }
+    ]
+}

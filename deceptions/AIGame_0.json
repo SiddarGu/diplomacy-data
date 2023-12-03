@@ -1,0 +1,142 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1693854847784805,
+            "phase": "S1901M",
+            "message": "If you're interested in this, would you be okay with supporting me to Belgium in the fall? That would allow me to have an army in Scandinavia to pressure Russia, and also gives us each two builds while keeping France on the back foot. Then we can see how France opens and decide how to proceed from there.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "GERMANY",
+            "time_sent": 1693858851885610,
+            "phase": "S1904M",
+            "message": "The army in Moscow instead of Warsaw is really good news for you, but they're about to turn on you soon",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693859023344145,
+            "phase": "S1904M",
+            "message": "I'll move against Russia",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693859738327829,
+            "phase": "F1904M",
+            "message": "You should also move Denmark to North Sea, so that you can take London later",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693863165378781,
+            "phase": "F1906M",
+            "message": "It's pretty obvious that France is going to attack you",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693863317110449,
+            "phase": "F1906M",
+            "message": "Also, if you keep attacking me, you are going to give more centers to France. They are already much stronger than you are.",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693863903061408,
+            "phase": "S1907M",
+            "message": "France has three fleets now, there's no doubt they are going to attack you",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693864135967235,
+            "phase": "S1907M",
+            "message": "France is already planning to stab you.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1693864767492254,
+            "phase": "F1907M",
+            "message": "France is going to stab you sooner than you think.",
+            "truth": null
+        }
+    ],
+    "outgoing_lies": [
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1693854806575672,
+            "phase": "S1901M",
+            "message": "Then we can contain russia from Sweden",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1693855548469569,
+            "phase": "F1901M",
+            "message": "I need to cover for France attacking me",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1693856850504714,
+            "phase": "F1902M",
+            "message": "While I'm not a position yet to do anything about Russia, I am considering a change for next year.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1693857633576179,
+            "phase": "S1903M",
+            "message": "Yes, I'll move it to Kie",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1693859712185661,
+            "phase": "F1904M",
+            "message": "No",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1693861724427305,
+            "phase": "S1905M",
+            "message": "Berlin is moving to Kie",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1693862891820432,
+            "phase": "S1906M",
+            "message": "That's true, it could be possible to cooperate against Austria",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1693863373159944,
+            "phase": "F1906M",
+            "message": "I will move my armies to attack Austria",
+            "truth": "Lie"
+        }
+    ]
+}

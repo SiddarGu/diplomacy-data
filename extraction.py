@@ -884,7 +884,6 @@ def main():
         mapping = json.load(f)
 
     for game in games:
-        print(game)
         with open(game, "r") as f:
             data = json.load(f)
 

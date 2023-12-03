@@ -1,0 +1,230 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1699103896185108,
+            "phase": "F1901M",
+            "message": "(also, please don't be alarmed by Galicia, I just wanted to be able to ensure Rumania)",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "GERMANY",
+            "time_sent": 1699105213835042,
+            "phase": "F1902M",
+            "message": "can you support Pic in? I'd like to keep Bur to shift down to Mar if necessary.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699106930674238,
+            "phase": "S1903M",
+            "message": "Is there anything we can work out? I'd prefer not to fight you",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699107088184333,
+            "phase": "S1903M",
+            "message": "I'm moving into Baltic Sea to do that this turn",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1699107479615143,
+            "phase": "F1903M",
+            "message": "I might move NAO back to Norwegian sea.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "GERMANY",
+            "time_sent": 1699108612692856,
+            "phase": "S1904M",
+            "message": "You ok with me sending Ven->Tyr? I'm trying to work with Turkey, but obviously I have to be able to defend myself, or I'm dead too",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "GERMANY",
+            "time_sent": 1699108636435325,
+            "phase": "S1904M",
+            "message": "I think you and England just have to work together against Russia. You and England can even give France Holland, if necessary",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "GERMANY",
+            "time_sent": 1699108828195860,
+            "phase": "S1904M",
+            "message": "If Turkey stabs me this turn, I have to do whatever I can to stop Russia from killing me. That means sending an army to Tyrolia",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1699108878961674,
+            "phase": "S1904M",
+            "message": "Keep defending against Russia. I'm trying to convince France to stop attacking you.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "GERMANY",
+            "time_sent": 1699109009695333,
+            "phase": "S1904M",
+            "message": "Russia has 4 units bordering Tri, I have 2. I can't take Tri even with Turkey's help. I need to move to Tyr",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699109924738403,
+            "phase": "S1905M",
+            "message": "I need your help against Turkey",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699110005852769,
+            "phase": "S1905M",
+            "message": "But France is getting too strong",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699110210125879,
+            "phase": "S1905M",
+            "message": "I can't help in England right now",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699110434950024,
+            "phase": "F1905M",
+            "message": "Sorry, I didn't see this",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1699110483026203,
+            "phase": "F1905M",
+            "message": "Why are you letting Russia take your centers?",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1699110725594887,
+            "phase": "F1905M",
+            "message": "Russia is going to become too strong and go for you next.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699112199538080,
+            "phase": "F1906M",
+            "message": "Sorry, I'll attack Italy",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699112551101856,
+            "phase": "F1906M",
+            "message": "I'm moving to Bohemia to attack Italy",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699112589273036,
+            "phase": "F1906M",
+            "message": "I want to work with you",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1699113524703964,
+            "phase": "F1907M",
+            "message": "I'm worried that France is going to win this game.",
+            "truth": null
+        }
+    ],
+    "outgoing_lies": [
+        {
+            "sender": "AUSTRIA",
+            "recipient": "TURKEY",
+            "time_sent": 1699103381946166,
+            "phase": "S1901M",
+            "message": "Russia's around. They're moving to ARM.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "ITALY",
+            "time_sent": 1699103478330480,
+            "phase": "S1901M",
+            "message": "Sounds like a plan!",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "ENGLAND",
+            "time_sent": 1699103891304455,
+            "phase": "F1901M",
+            "message": "France is quiet",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1699104008383832,
+            "phase": "F1901M",
+            "message": "I wouldn't be surprised, but they're not being very communicative about it",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "ITALY",
+            "time_sent": 1699104014339649,
+            "phase": "F1901M",
+            "message": "I've already reconsidered, I'm reversing course.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1699104805718744,
+            "phase": "S1902M",
+            "message": "I'm moving on Moscow, go protect it.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1699109947683385,
+            "phase": "S1905M",
+            "message": "Sure thing!",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1699111422182918,
+            "phase": "S1906M",
+            "message": "Agreed",
+            "truth": "Lie"
+        }
+    ]
+}

@@ -1,0 +1,198 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1699643153170770,
+            "phase": "S1901M",
+            "message": "So the English are dorks, wanna take 'em out?",
+            "truth": "Truth"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699643187107275,
+            "phase": "S1901M",
+            "message": "Hey France! I think our countries are natural allies, and I think we can help each other out a lot by sharing information for now.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1699643523360674,
+            "phase": "S1901M",
+            "message": "I think we should prepare to fight him. I've had next to no press from him.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699644500594860,
+            "phase": "S1902M",
+            "message": "If you move into EC now, you could probably convoy to London?",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699647831912624,
+            "phase": "F1904M",
+            "message": "Sorry, I didn't see your message in time.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1699647884652365,
+            "phase": "F1904M",
+            "message": "So, you're sure you don't want to try to stop Austria before he solos?",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1699648089281025,
+            "phase": "F1904M",
+            "message": "You're the only one who can stop Austria.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699648828625464,
+            "phase": "S1905M",
+            "message": "When I'm not under pressure in the north",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "FRANCE",
+            "time_sent": 1699650812503149,
+            "phase": "F1906M",
+            "message": "Not this time. I want to stay in my center",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1699651422727761,
+            "phase": "S1907M",
+            "message": "Austria will win if you take St Petersburg",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699652345537233,
+            "phase": "F1907M",
+            "message": "I'm moving Prussia to Warsaw",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1699652386146226,
+            "phase": "F1907M",
+            "message": "Could you use Silesia to hit Galicia?",
+            "truth": null
+        }
+    ],
+    "outgoing_lies": [
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1699643554026311,
+            "phase": "S1901M",
+            "message": "Yeah I think so.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1699644251774320,
+            "phase": "F1901M",
+            "message": "Yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1699645110386695,
+            "phase": "F1902M",
+            "message": "Do you need help with Germany?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1699645643138296,
+            "phase": "W1902A",
+            "message": "I thought you said you wanted support there?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1699645761553252,
+            "phase": "S1903M",
+            "message": "Excellent!",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1699645925109632,
+            "phase": "S1903M",
+            "message": "France thinks so, too.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1699646048828226,
+            "phase": "S1903M",
+            "message": "Yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1699646054633004,
+            "phase": "S1903M",
+            "message": "Yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1699646177142377,
+            "phase": "S1903M",
+            "message": "Hmm, might be best for us to untangle.  If you convoyed Wal -> Den it would get me off the island and also distract Germany",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1699646863811677,
+            "phase": "F1903M",
+            "message": "As soon as you stop attacking me",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1699648751492409,
+            "phase": "S1905M",
+            "message": "Lmao what a load of shit",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1699649266329032,
+            "phase": "F1905M",
+            "message": "Threatening Edi and Nth.  Can you support me to Nth?",
+            "truth": "Lie"
+        }
+    ]
+}

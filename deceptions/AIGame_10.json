@@ -1,0 +1,558 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1700312601584659,
+            "phase": "S1901M",
+            "message": "Hey Germany, just reaching out to establish comms! I'd love to share intel as the game goes on if you'd be down to do the same, I reckon we could help one another out quite a bit!",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1700312642942531,
+            "phase": "S1901M",
+            "message": "Germany, fairest friend, how is Saturday? I am, I suspect, in need of your protection. Would love it if you'd ask Russia to keep off me.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312724658179,
+            "phase": "S1901M",
+            "message": "Well I'm hoping to get a bounce in BLA",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312741081348,
+            "phase": "S1901M",
+            "message": "Maybe include Italy in our deal so you both have different ways to go?",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1700312768580681,
+            "phase": "S1901M",
+            "message": "Sounds great, I'll let you know what Russia tells me and I'd love if you did the same for me!",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312847579242,
+            "phase": "S1901M",
+            "message": "It is, but if I offer something to Italy and you offer another thing we have a deal. ",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312868897400,
+            "phase": "S1901M",
+            "message": "Sure! Btw the Russians have already courted me to attack you. Jsyk.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312970333212,
+            "phase": "S1901M",
+            "message": "You have a read on who our potential third/fourth humans are? My bet's on Turkey and Germany atm.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700312978588042,
+            "phase": "S1901M",
+            "message": "Yeah England's a pretty solid bet.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313023668515,
+            "phase": "S1901M",
+            "message": "Well that's good to hear!",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313062932529,
+            "phase": "S1901M",
+            "message": "Yeah, I figure they're probably iterating on it every week.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313081720294,
+            "phase": "S1901M",
+            "message": "Trying to get Germany to bounce Sweden",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313121809976,
+            "phase": "S1901M",
+            "message": "I've got a bounce with Turkey in BLA, sorry.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313153985689,
+            "phase": "S1901M",
+            "message": "Italy is allegedly attacking you",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313418517629,
+            "phase": "F1901M",
+            "message": "Well, you'd not be getting it this turn either way. Better one of us there than leaving it empty, and it means in the spring we can shove you into Bulgaria.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313439562413,
+            "phase": "F1901M",
+            "message": "Then afterward I can convoy with a standard sort of Lapanto pattern from Greece into Syria",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313556180762,
+            "phase": "F1901M",
+            "message": "We don't necessarily need to bounce anymore, but at the same time I don't have a lot for VEN to do. Could wander down to Apulia I suppose.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313570725528,
+            "phase": "F1901M",
+            "message": "I don't think he will try to go for both. He has told me that he wants to support himself into Rum. I'm not going to move to the Black Sea because I need to be able to build a fleet in Smyrna to cover a lepanto",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313601549678,
+            "phase": "F1901M",
+            "message": "Oh, okay. Can you agree with Turkey to bounce Russia out of Rum?",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313621060454,
+            "phase": "F1901M",
+            "message": "Absolutely, as soon as we're in a position to not have to bounce I'll probably move out.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313639271092,
+            "phase": "F1901M",
+            "message": "For sure, not a lot for you to do with a fleet, especially after Turkey's down.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313714245513,
+            "phase": "F1901M",
+            "message": "I think Italy might be going for GRE by the way. He hasn't given me details, but I think you might want to bounce him out.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700313769599736,
+            "phase": "F1901M",
+            "message": "Yeah I'm worried about an RT too. Turks are trying to talk me into letting them have Greece and I'm not sure I'll be able to spin well enough that they let me walk in.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314084734866,
+            "phase": "W1901A",
+            "message": "See, you could have said that instead of attempting to betray me.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700314540508080,
+            "phase": "S1902M",
+            "message": "Fleet Marseilles is not intended for you. It's intended to go to spain and then midatlantic.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314616654936,
+            "phase": "S1902M",
+            "message": "Wow, I really didn't think you would go for Greece. This is a shame, we could have worked well together!",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314635176194,
+            "phase": "S1902M",
+            "message": "I'm going to bounce Russia out of Sweden first. Then I'll go to Stp in the fall. If you and Turkey can bounce Rum that would be great",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314653780379,
+            "phase": "S1902M",
+            "message": "I'll probably cover STP. Do you think you could work with Italy to take GRE this turn?",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314710286437,
+            "phase": "S1902M",
+            "message": "How do you propose we do that?",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314743861616,
+            "phase": "S1902M",
+            "message": "Well, let's see if we can get something worked out then.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "ITALY",
+            "time_sent": 1700314841704938,
+            "phase": "S1902M",
+            "message": "Not the worst first year for you. Only one build is rough though",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314912098451,
+            "phase": "S1902M",
+            "message": "That is what I would prefer, but how do you propose we do that?",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700314931525074,
+            "phase": "S1902M",
+            "message": "I guess I could have done that, but I really need to move my fleet out of marseilles. I've said I'm moving it to spain.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700314942786528,
+            "phase": "S1902M",
+            "message": "I understand, but I need to be able to defend myself.",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700315032506916,
+            "phase": "S1902M",
+            "message": "Hmm, aren't bots quite good at tactics. He had Tun 100% and he risked with GRE",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1700315154869991,
+            "phase": "F1902M",
+            "message": "Now you can move to the Adriatic and get it for sure next turn",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1700315174970815,
+            "phase": "F1902M",
+            "message": "I would have much rather supported you into Greece, but I thought that you were going to move to Adr so that you could take Trieste. I really want to work with you against Austria, I don't see why this isn't fair",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700315335974100,
+            "phase": "F1902M",
+            "message": "I don't think that Russia is a bot, but I do think that you are human haha. What do you propose that we do this turn?",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700315364067654,
+            "phase": "F1902M",
+            "message": "Maybe next year? I really need Mun to defend now against Russia. Next year we shall discuss about Italy",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700315898066010,
+            "phase": "W1902A",
+            "message": "Oh no I'd rather see you lose at this point. Don't mistake this for me trying to be your friend lol.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700316057393599,
+            "phase": "W1902A",
+            "message": "I will talk to him. We were talking from the start, and he was keen to limit Russia this whole time. We have a chance now",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700316179166546,
+            "phase": "S1903M",
+            "message": "That was a shame, I thought for sure that you would be able to get Rum this turn",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700317211641845,
+            "phase": "F1903M",
+            "message": "Yeah, sorry about that. Hopefully we will be able to work together in the future",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700317629171246,
+            "phase": "S1904M",
+            "message": "My offer is simple. Stop attacking me and I won't attack you.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700318782665309,
+            "phase": "F1904M",
+            "message": "I won't move to West Med if you don't want me to.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1700319097324677,
+            "phase": "S1905M",
+            "message": "Sorry about that. But I was willing to work with you if you would have built an army instead of a fleet. But now that I have a foothold in Ion, I don't see an easy way for us to work together",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700319319052020,
+            "phase": "S1905M",
+            "message": "Would you rather have me in Tyrrhenian or Gulf of Lyon?",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700319351906049,
+            "phase": "S1905M",
+            "message": "I'm moving to Tyrrhenian. If you don't want that, let me know.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1700319383108938,
+            "phase": "S1905M",
+            "message": "I'm not attacking you. I want to help you out.",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700320013097909,
+            "phase": "F1905M",
+            "message": "I'd say that three of us losers are humans here. And I wish I could do the same to England",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1700320099490395,
+            "phase": "F1905M",
+            "message": "Can you cut support in Burgundy?",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700320112235936,
+            "phase": "F1905M",
+            "message": "They are survivors, I'm sure in that",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1700322648883708,
+            "phase": "F1907M",
+            "message": "sorry I didnt see, I can help you get vienna back?",
+            "truth": null
+        }
+    ],
+    "outgoing_lies": [
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700312762777435,
+            "phase": "S1901M",
+            "message": "Hello. If you stay out of SIL and PRU we have a deal",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700313111506112,
+            "phase": "S1901M",
+            "message": "Not sure yet. Stuff is going around. No commits for now. ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700313355237002,
+            "phase": "F1901M",
+            "message": "I got info that Austria and Italy are working together actually",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1700313365109369,
+            "phase": "F1901M",
+            "message": "Eh, I think it'd be more important to get the momentum from having an army there so I can support you to Serbia in the Spring next year.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700313495753046,
+            "phase": "F1901M",
+            "message": "I'm not sure yet",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1700313726705758,
+            "phase": "F1901M",
+            "message": "I am trying; we will see if he goes for it",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1700313772932618,
+            "phase": "F1901M",
+            "message": "Wow. I asked you not to move in BUR and I honored that DMZ. While you moved there. Why? Can you get out of there so we can start working together",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700314854930488,
+            "phase": "S1902M",
+            "message": "Sorry for that SWE. I am going to support you there now if you like. Things changed",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1700314970814811,
+            "phase": "S1902M",
+            "message": "There is, but if you move out of BEL we definitely have an alliance then.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1700315316509321,
+            "phase": "F1902M",
+            "message": "BRE and MAR are open...",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1700316695254669,
+            "phase": "S1903M",
+            "message": "Can you talk to him and make sure he understands that England has all the power against you and France. And even I can't fight him without you two",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1700316890503676,
+            "phase": "F1903M",
+            "message": "If you move in the right direction... I wasn't attackng you this turn. Just covering my Mun. I will negotiate now. What do you want or need",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ITALY",
+            "time_sent": 1700317166248651,
+            "phase": "F1903M",
+            "message": "You have a fighting chance now. But you spent a lot more time getting to this power. I am still offering you MAR and some centers in Iberia if you move West",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1700317837938214,
+            "phase": "S1904M",
+            "message": "I'm not sure if I'll be able to get VIE, but you can definitely do the Gre-alb play.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "FRANCE",
+            "time_sent": 1700319951503106,
+            "phase": "F1905M",
+            "message": "England is going to take BEL this turn",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "TURKEY",
+            "time_sent": 1700322420123250,
+            "phase": "S1907M",
+            "message": "Do you want support to bud?",
+            "truth": "Lie"
+        }
+    ]
+}
