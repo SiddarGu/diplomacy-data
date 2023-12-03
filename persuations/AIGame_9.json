@@ -2,18 +2,13 @@
     "AUSTRIA-FRANCE": {
         "F1901M": {
             "mentioned": [
-                "bot",
-                "turkey",
-                "mun",
-                "italy",
-                "tri",
-                "wes"
+                "tri"
             ],
             "start": {
                 "AUSTRIA": [
+                    "A SER S F ALB - GRE",
                     "A VIE - TYR",
-                    "F ALB - GRE",
-                    "A SER S F ALB - GRE"
+                    "F ALB - GRE"
                 ],
                 "FRANCE": [
                     "A BUR - BEL",
@@ -50,57 +45,18 @@
         }
     },
     "AUSTRIA-GERMANY": {
-        "F1901M": {
-            "mentioned": [
-                "mun",
-                "turkey",
-                "italy"
-            ],
-            "start": {
-                "AUSTRIA": [
-                    "A VIE - TYR",
-                    "F ALB - GRE",
-                    "A SER S F ALB - GRE"
-                ],
-                "GERMANY": [
-                    "A KIE - HOL",
-                    "A RUH S A KIE - HOL",
-                    "F DEN H"
-                ]
-            },
-            "end": {
-                "AUSTRIA": [
-                    "A VIE - TRI",
-                    "F ALB - GRE",
-                    "A SER S F ALB - GRE"
-                ],
-                "GERMANY": [
-                    "A KIE - HOL",
-                    "A RUH S A KIE - HOL",
-                    "F DEN H"
-                ]
-            },
-            "messages": [
-                "AUSTRIA: Well, I guess Italy didn't want to work together haha",
-                "GERMANY: Looks pretty hostile to you, yeah. Gives me some worries about Munich too though!",
-                "AUSTRIA: Yeah, you'll have to cover. I'll see if I can help",
-                "GERMANY: Italy suggested they're looking to work with Turkey, how are your relations there?",
-                "AUSTRIA: Not sure yet. Turkey seems friendly but scared"
-            ]
-        },
         "S1902M": {
             "mentioned": [
-                "russia",
                 "england",
-                "france",
-                "italy"
+                "italy",
+                "france"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A TRI - VIE",
-                    "F GRE - ION",
                     "A BUD S A TRI - VIE",
-                    "A SER S A BUL - RUM"
+                    "A SER S A BUL - RUM",
+                    "A TRI - VIE",
+                    "F GRE - ION"
                 ],
                 "GERMANY": [
                     "A HOL H",
@@ -139,61 +95,17 @@
                 "GERMANY: I hope not!"
             ]
         },
-        "F1902M": {
-            "mentioned": [
-                "turkey",
-                "bur",
-                "france"
-            ],
-            "start": {
-                "AUSTRIA": [
-                    "A ALB - TRI",
-                    "F GRE - ION",
-                    "A BUD S A ALB - TRI",
-                    "A SER S A ALB - TRI"
-                ],
-                "GERMANY": [
-                    "A HOL H",
-                    "A KIE S A MUN",
-                    "A MUN H",
-                    "F DEN S F HEL - NTH",
-                    "F HEL - NTH"
-                ]
-            },
-            "end": {
-                "AUSTRIA": [
-                    "A ALB - TRI",
-                    "F GRE - ION",
-                    "A BUD S A ALB - TRI",
-                    "A SER S A ALB - TRI"
-                ],
-                "GERMANY": [
-                    "A HOL H",
-                    "A KIE S A MUN",
-                    "A MUN H",
-                    "F DEN S F SWE",
-                    "F HEL - NTH"
-                ]
-            },
-            "messages": [
-                "GERMANY: Looks like you have Turkey on board at least?",
-                "AUSTRIA: For now. Not sure how long it'll last though. What about you and France? I assume you didn't think he was moving to Burgundy"
-            ]
-        },
         "S1903M": {
             "mentioned": [
-                "bur",
-                "france",
-                "tyr",
                 "mun",
                 "italy"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A TRI - VIE",
-                    "F GRE S F AEG - ION",
                     "A BUD S A TRI - VIE",
-                    "A SER S A BUL - RUM"
+                    "A SER S A BUL - RUM",
+                    "A TRI - VIE",
+                    "F GRE S F AEG - ION"
                 ],
                 "GERMANY": [
                     "A HOL H",
@@ -231,12 +143,7 @@
         },
         "F1904M": {
             "mentioned": [
-                "england",
-                "france",
-                "tyr",
-                "bla",
-                "italy",
-                "russia"
+                "england"
             ],
             "start": {
                 "AUSTRIA": [
@@ -277,16 +184,13 @@
     "AUSTRIA-ITALY": {
         "F1901M": {
             "mentioned": [
-                "mun",
-                "bur",
-                "france",
                 "tyr"
             ],
             "start": {
                 "AUSTRIA": [
+                    "A SER S F ALB - GRE",
                     "A VIE - TYR",
-                    "F ALB - GRE",
-                    "A SER S F ALB - GRE"
+                    "F ALB - GRE"
                 ],
                 "ITALY": [
                     "A TYR - MUN",
@@ -318,15 +222,14 @@
     "AUSTRIA-TURKEY": {
         "F1901M": {
             "mentioned": [
-                "russia",
-                "rum",
-                "bla"
+                "bla",
+                "rum"
             ],
             "start": {
                 "AUSTRIA": [
+                    "A SER S F ALB - GRE",
                     "A VIE - TYR",
-                    "F ALB - GRE",
-                    "A SER S F ALB - GRE"
+                    "F ALB - GRE"
                 ],
                 "TURKEY": [
                     "A BUL - RUM",
@@ -355,11 +258,11 @@
         },
         "F1905M": {
             "mentioned": [
-                "ion",
+                "russia",
                 "gre",
                 "bul",
-                "italy",
-                "russia"
+                "ion",
+                "italy"
             ],
             "start": {
                 "AUSTRIA": [
@@ -397,59 +300,18 @@
             ]
         }
     },
-    "ENGLAND-FRANCE": {
-        "S1901M": {
-            "mentioned": [
-                "eng",
-                "bel"
-            ],
-            "start": {
-                "ENGLAND": [
-                    "F EDI - NWG",
-                    "F LON - NTH",
-                    "A LVP - EDI"
-                ],
-                "FRANCE": [
-                    "A MAR - SPA",
-                    "A PAR - BUR",
-                    "F BRE - ENG"
-                ]
-            },
-            "end": {
-                "ENGLAND": [
-                    "F EDI - NWG",
-                    "F LON - NTH",
-                    "A LVP - EDI"
-                ],
-                "FRANCE": [
-                    "A MAR - SPA",
-                    "A PAR - BUR",
-                    "F BRE - PIC"
-                ]
-            },
-            "messages": [
-                "ENGLAND: Hi France! Hoping for a good, friendly relationship. Do you think we can agree to a dmz in the Channel to start things off?",
-                "FRANCE: Hi there. I'm happy with DMZ",
-                "ENGLAND: Great. I hope we can work together well in the coming turns",
-                "FRANCE: How do we split centers?",
-                "ENGLAND: We can talk about that later! For now I'd just like to say that I have no plans to move against you and hope the feeling is mutual",
-                "ENGLAND: If we're both in position we can figure out who gets what. I'm open to discussion about Belgium and am happy to put you there as long as we're keeping things balanced",
-                "FRANCE: That works for me.",
-                "ENGLAND: Great"
-            ]
-        }
-    },
+    "ENGLAND-FRANCE": {},
     "ENGLAND-GERMANY": {
         "S1902M": {
             "mentioned": [
-                "swe",
-                "ska"
+                "ska",
+                "swe"
             ],
             "start": {
                 "ENGLAND": [
+                    "A NWY S F SKA - SWE",
                     "F LON - NTH",
                     "F NWG - BAR",
-                    "A NWY S F SKA - SWE",
                     "F SKA - SWE"
                 ],
                 "GERMANY": [
@@ -486,19 +348,14 @@
         },
         "F1902M": {
             "mentioned": [
-                "france",
-                "turkey",
-                "mos",
-                "italy",
-                "russia",
-                "war"
+                "russia"
             ],
             "start": {
                 "ENGLAND": [
-                    "F LON - NTH",
                     "A NWY - STP",
-                    "F SKA - SWE",
-                    "F BAR S A NWY - STP"
+                    "F BAR S A NWY - STP",
+                    "F LON - NTH",
+                    "F SKA - SWE"
                 ],
                 "GERMANY": [
                     "A HOL H",
@@ -538,11 +395,11 @@
             ],
             "start": {
                 "ENGLAND": [
-                    "F LON - WAL",
                     "A LVP S F LON - WAL",
-                    "F SKA - NTH",
+                    "A STP S F BAR - NWY",
                     "F BAR - NWY",
-                    "A STP S F BAR - NWY"
+                    "F LON - WAL",
+                    "F SKA - NTH"
                 ],
                 "GERMANY": [
                     "A HOL H",
@@ -576,16 +433,15 @@
         },
         "F1903M": {
             "mentioned": [
-                "france",
-                "italy"
+                "france"
             ],
             "start": {
                 "ENGLAND": [
-                    "F YOR - EDI",
+                    "A STP - MOS",
                     "A WAL - LON",
                     "F NWY S F SKA - SWE",
                     "F SKA - SWE",
-                    "A STP - MOS"
+                    "F YOR - EDI"
                 ],
                 "GERMANY": [
                     "A DEN S F SWE",
@@ -626,9 +482,9 @@
             ],
             "start": {
                 "ENGLAND": [
+                    "A NWY - LON VIA",
                     "F EDI S F NTH",
-                    "F NTH C A NWY - LON",
-                    "A NWY - LON VIA"
+                    "F NTH C A NWY - LON"
                 ],
                 "GERMANY": [
                     "A DEN H",
@@ -658,53 +514,16 @@
         }
     },
     "ENGLAND-ITALY": {
-        "F1901M": {
+        "S1902M": {
             "mentioned": [
-                "turkey",
+                "vie",
                 "russia"
             ],
             "start": {
                 "ENGLAND": [
-                    "A EDI - NWY VIA",
-                    "F NTH - SKA",
-                    "F NWG C A EDI - NWY"
-                ],
-                "ITALY": [
-                    "A TYR - MUN",
-                    "A VEN - TYR",
-                    "F ION - TUN"
-                ]
-            },
-            "end": {
-                "ENGLAND": [
-                    "A EDI - NWY VIA",
-                    "F NTH - SKA",
-                    "F NWG C A EDI - NWY"
-                ],
-                "ITALY": [
-                    "A TYR - VIE",
-                    "A VEN - TYR",
-                    "F ION - TUN"
-                ]
-            },
-            "messages": [
-                "ENGLAND: I really like that opening! It gives you so many options",
-                "ENGLAND: Do you think Turkey and Russia are working together?",
-                "ITALY: Not sure yet",
-                "ENGLAND: I think that's bad for both of us if they are"
-            ]
-        },
-        "S1902M": {
-            "mentioned": [
-                "russia",
-                "vie",
-                "germany"
-            ],
-            "start": {
-                "ENGLAND": [
+                    "A NWY S F SKA - SWE",
                     "F LON - NTH",
                     "F NWG - BAR",
-                    "A NWY S F SKA - SWE",
                     "F SKA - SWE"
                 ],
                 "ITALY": [
@@ -740,16 +559,15 @@
         "S1903M": {
             "mentioned": [
                 "russia",
-                "germany",
                 "france"
             ],
             "start": {
                 "ENGLAND": [
-                    "F LON - WAL",
                     "A LVP S F LON - WAL",
-                    "F SKA - NTH",
+                    "A STP S F BAR - NWY",
                     "F BAR - NWY",
-                    "A STP S F BAR - NWY"
+                    "F LON - WAL",
+                    "F SKA - NTH"
                 ],
                 "ITALY": [
                     "A TYR S A VEN - TRI",
@@ -784,19 +602,16 @@
     "ENGLAND-TURKEY": {
         "S1903M": {
             "mentioned": [
-                "france",
                 "austria",
-                "ion",
-                "germany",
-                "italy"
+                "france"
             ],
             "start": {
                 "ENGLAND": [
-                    "F LON - WAL",
                     "A LVP S F LON - WAL",
-                    "F SKA - NTH",
+                    "A STP S F BAR - NWY",
                     "F BAR - NWY",
-                    "A STP S F BAR - NWY"
+                    "F LON - WAL",
+                    "F SKA - NTH"
                 ],
                 "TURKEY": [
                     "A BUL - GRE",
@@ -832,20 +647,13 @@
     "FRANCE-GERMANY": {
         "S1902M": {
             "mentioned": [
-                "eng",
-                "england",
                 "bur",
-                "tyr",
-                "mun",
-                "hel",
-                "pic",
-                "swe",
+                "eng",
                 "bel",
-                "bre",
-                "italy",
-                "russia",
-                "eas",
-                "ber"
+                "pic",
+                "hel",
+                "mun",
+                "england"
             ],
             "start": {
                 "FRANCE": [
@@ -896,17 +704,13 @@
         },
         "F1902M": {
             "mentioned": [
-                "england",
-                "stp",
-                "mun",
+                "russia",
                 "nth",
-                "lon",
-                "wal",
-                "ruh",
                 "swe",
                 "bel",
-                "russia",
-                "ska"
+                "mun",
+                "england",
+                "wal"
             ],
             "start": {
                 "FRANCE": [
@@ -956,18 +760,8 @@
         "S1903M": {
             "mentioned": [
                 "england",
-                "war",
-                "nwy",
-                "austria",
-                "edi",
-                "turkey",
                 "nth",
-                "lon",
-                "tri",
-                "lvp",
-                "italy",
-                "russia",
-                "eas"
+                "lon"
             ],
             "start": {
                 "FRANCE": [
@@ -1017,14 +811,11 @@
         },
         "F1903M": {
             "mentioned": [
-                "mar",
-                "bur",
                 "gas",
-                "england",
-                "mun",
+                "bur",
                 "mao",
-                "italy",
-                "war"
+                "mun",
+                "england"
             ],
             "start": {
                 "FRANCE": [
@@ -1075,15 +866,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "bot",
                 "england",
-                "edi",
-                "stp",
-                "nth",
-                "swe",
-                "italy",
-                "russia",
-                "gal"
+                "edi"
             ],
             "start": {
                 "FRANCE": [
@@ -1138,15 +922,13 @@
         },
         "S1905M": {
             "mentioned": [
-                "mar",
-                "bur",
-                "nwy",
-                "stp",
-                "turkey",
-                "hel",
+                "russia",
                 "nth",
                 "swe",
-                "russia",
+                "bur",
+                "mar",
+                "nwy",
+                "hel",
                 "den"
             ],
             "start": {
@@ -1209,10 +991,8 @@
         },
         "S1906M": {
             "mentioned": [
-                "russia",
-                "nwy",
                 "mar",
-                "stp"
+                "russia"
             ],
             "start": {
                 "FRANCE": [
@@ -1268,10 +1048,8 @@
     "FRANCE-ITALY": {
         "F1901M": {
             "mentioned": [
-                "mun",
                 "bel",
-                "tyr",
-                "wes"
+                "tyr"
             ],
             "start": {
                 "FRANCE": [
@@ -1311,12 +1089,7 @@
         },
         "S1902M": {
             "mentioned": [
-                "austria",
-                "pie",
-                "tys",
-                "naf",
-                "lyo",
-                "wes"
+                "austria"
             ],
             "start": {
                 "FRANCE": [
@@ -1360,13 +1133,10 @@
         },
         "S1903M": {
             "mentioned": [
-                "eng",
-                "england",
-                "turkey",
                 "ion",
-                "germany",
-                "russia",
-                "tri"
+                "tri",
+                "eng",
+                "england"
             ],
             "start": {
                 "FRANCE": [
@@ -1415,11 +1185,8 @@
         },
         "S1906M": {
             "mentioned": [
-                "england",
                 "turkey",
-                "russia",
-                "eas",
-                "wes"
+                "eas"
             ],
             "start": {
                 "FRANCE": [
@@ -1481,8 +1248,7 @@
     "FRANCE-RUSSIA": {
         "S1904M": {
             "mentioned": [
-                "germany",
-                "italy"
+                "germany"
             ],
             "start": {
                 "FRANCE": [
@@ -1495,12 +1261,12 @@
                     "F IRI C A BRE - LVP"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A WAR - GAL",
                     "A MOS - STP",
+                    "A RUM S A BUD",
                     "A WAR - GAL",
                     "F SEV - BLA",
-                    "A RUM S A BUD",
-                    "A BUD S A WAR - GAL"
+                    "F SWE S F NTH - NWY"
                 ]
             },
             "end": {
@@ -1547,12 +1313,12 @@
                     "F IRI - MAO"
                 ],
                 "RUSSIA": [
-                    "F SWE S F SKA - NWY",
-                    "A STP S F SKA - NWY",
+                    "A BUD S A SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A SER"
+                    "A STP S F SKA - NWY",
+                    "F BLA - ANK",
+                    "F SWE S F SKA - NWY"
                 ]
             },
             "end": {
@@ -1582,8 +1348,8 @@
         },
         "S1905M": {
             "mentioned": [
-                "bud",
-                "italy"
+                "italy",
+                "bud"
             ],
             "start": {
                 "FRANCE": [
@@ -1598,13 +1364,13 @@
                     "F MAO - SPA/SC"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NWY",
-                    "A STP S F NWY",
-                    "F SEV - ARM",
+                    "A BUD S A TRI - SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A TRI - SER"
+                    "A STP S F NWY",
+                    "F BLA - ANK",
+                    "F SEV - ARM",
+                    "F SWE S F NWY"
                 ]
             },
             "end": {
@@ -1636,7 +1402,6 @@
         },
         "S1906M": {
             "mentioned": [
-                "vie",
                 "germany",
                 "italy"
             ],
@@ -1651,15 +1416,15 @@
                     "F SPA/SC S A GAS - MAR"
                 ],
                 "RUSSIA": [
-                    "A NWY - FIN",
-                    "F SWE S F STP/NC - NWY",
-                    "F STP/NC - NWY",
-                    "A WAR - GAL",
-                    "A SEV - ARM",
-                    "F BLA S A SEV - ARM",
-                    "A RUM S A BUL",
                     "A BUD S A RUM",
-                    "A BUL S A ALB - GRE"
+                    "A BUL S A ALB - GRE",
+                    "A NWY - FIN",
+                    "A RUM S A BUL",
+                    "A SEV - ARM",
+                    "A WAR - GAL",
+                    "F BLA S A SEV - ARM",
+                    "F STP/NC - NWY",
+                    "F SWE S F STP/NC - NWY"
                 ]
             },
             "end": {
@@ -1694,12 +1459,9 @@
         },
         "F1906M": {
             "mentioned": [
-                "edi",
-                "stp",
-                "nwg",
-                "lon",
                 "germany",
-                "bar"
+                "lon",
+                "edi"
             ],
             "start": {
                 "FRANCE": [
@@ -1712,15 +1474,15 @@
                     "F SPA/SC S A BUR - MAR"
                 ],
                 "RUSSIA": [
-                    "F NWY S F SWE",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
                     "A BUD - TRI",
+                    "A BUL S F BLA - CON",
+                    "A FIN S F NWY",
+                    "A GAL - VIE",
                     "A SER S A BUD - TRI",
-                    "A BUL S F BLA - CON"
+                    "A SEV - ARM",
+                    "F BLA - CON",
+                    "F NWY S F SWE",
+                    "F SWE S F NWY"
                 ]
             },
             "end": {
@@ -1756,12 +1518,7 @@
     "FRANCE-TURKEY": {
         "F1902M": {
             "mentioned": [
-                "eng",
-                "england",
-                "austria",
-                "germany",
-                "italy",
-                "war"
+                "eng"
             ],
             "start": {
                 "FRANCE": [
@@ -1808,11 +1565,8 @@
     "GERMANY-ITALY": {
         "F1901M": {
             "mentioned": [
-                "austria",
                 "tyr",
-                "turkey",
-                "mun",
-                "bel"
+                "austria"
             ],
             "start": {
                 "GERMANY": [
@@ -1849,8 +1603,7 @@
         "S1902M": {
             "mentioned": [
                 "vie",
-                "france",
-                "wes"
+                "france"
             ],
             "start": {
                 "GERMANY": [
@@ -1894,10 +1647,7 @@
         "F1902M": {
             "mentioned": [
                 "austria",
-                "france",
-                "turkey",
-                "russia",
-                "wes"
+                "russia"
             ],
             "start": {
                 "GERMANY": [
@@ -1940,8 +1690,6 @@
         },
         "S1903M": {
             "mentioned": [
-                "russia",
-                "france",
                 "tri",
                 "austria"
             ],
@@ -2032,13 +1780,9 @@
         },
         "F1904M": {
             "mentioned": [
-                "bur",
-                "england",
-                "france",
-                "edi",
                 "mun",
-                "russia",
-                "gal"
+                "england",
+                "france"
             ],
             "start": {
                 "GERMANY": [
@@ -2083,8 +1827,8 @@
         },
         "S1905M": {
             "mentioned": [
-                "mar",
                 "bur",
+                "mar",
                 "france"
             ],
             "start": {
@@ -2131,12 +1875,11 @@
         },
         "F1905M": {
             "mentioned": [
-                "mar",
-                "nwy",
+                "russia",
                 "france",
-                "edi",
                 "swe",
-                "russia"
+                "mar",
+                "edi"
             ],
             "start": {
                 "GERMANY": [
@@ -2185,12 +1928,9 @@
         },
         "S1906M": {
             "mentioned": [
-                "france",
-                "por",
-                "sil",
-                "bel",
+                "spa",
                 "russia",
-                "spa"
+                "france"
             ],
             "start": {
                 "GERMANY": [
@@ -2243,9 +1983,8 @@
         },
         "S1907M": {
             "mentioned": [
-                "mar",
-                "gas",
-                "spa"
+                "spa",
+                "mar"
             ],
             "start": {
                 "GERMANY": [
@@ -2291,10 +2030,10 @@
     "GERMANY-RUSSIA": {
         "S1902M": {
             "mentioned": [
+                "nwy",
                 "england",
-                "swe",
                 "france",
-                "nwy"
+                "swe"
             ],
             "start": {
                 "GERMANY": [
@@ -2305,11 +2044,11 @@
                     "F KIE - HEL"
                 ],
                 "RUSSIA": [
-                    "F SWE S A STP - NWY",
+                    "A GAL - BUD",
                     "A STP - NWY",
-                    "F SEV S A UKR - RUM",
                     "A UKR - RUM",
-                    "A GAL - BUD"
+                    "F SEV S A UKR - RUM",
+                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
@@ -2337,8 +2076,7 @@
         },
         "F1902M": {
             "mentioned": [
-                "swe",
-                "italy"
+                "swe"
             ],
             "start": {
                 "GERMANY": [
@@ -2349,11 +2087,11 @@
                     "F HEL - NTH"
                 ],
                 "RUSSIA": [
-                    "F SWE S A STP - NWY",
+                    "A GAL S A UKR - RUM",
                     "A STP - NWY",
-                    "F SEV S A UKR - RUM",
                     "A UKR - RUM",
-                    "A GAL S A UKR - RUM"
+                    "F SEV S A UKR - RUM",
+                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
@@ -2380,12 +2118,11 @@
         },
         "S1903M": {
             "mentioned": [
-                "england",
-                "nwy",
-                "france",
-                "stp",
                 "swe",
-                "mos"
+                "mos",
+                "nwy",
+                "england",
+                "stp"
             ],
             "start": {
                 "GERMANY": [
@@ -2396,11 +2133,11 @@
                     "F HEL - NTH"
                 ],
                 "RUSSIA": [
-                    "F SWE - NWY",
-                    "A MOS - STP",
-                    "F SEV S A RUM",
                     "A GAL - BUD",
-                    "A RUM S A GAL - BUD"
+                    "A MOS - STP",
+                    "A RUM S A GAL - BUD",
+                    "F SEV S A RUM",
+                    "F SWE - NWY"
                 ]
             },
             "end": {
@@ -2436,11 +2173,11 @@
         },
         "F1903M": {
             "mentioned": [
-                "nwy",
-                "england",
-                "stp",
                 "swe",
-                "den"
+                "nwy",
+                "den",
+                "england",
+                "stp"
             ],
             "start": {
                 "GERMANY": [
@@ -2451,11 +2188,11 @@
                     "F NTH - NWY"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A RUM",
                     "A MOS - STP",
-                    "F SEV S A RUM",
                     "A RUM S A BUD",
-                    "A BUD S A RUM"
+                    "F SEV S A RUM",
+                    "F SWE S F NTH - NWY"
                 ]
             },
             "end": {
@@ -2486,12 +2223,9 @@
         },
         "S1904M": {
             "mentioned": [
-                "nwy",
                 "england",
-                "france",
                 "stp",
-                "swe",
-                "italy"
+                "swe"
             ],
             "start": {
                 "GERMANY": [
@@ -2502,12 +2236,12 @@
                     "F NTH - SKA"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A WAR - GAL",
                     "A MOS - STP",
+                    "A RUM S A BUD",
                     "A WAR - GAL",
                     "F SEV - BLA",
-                    "A RUM S A BUD",
-                    "A BUD S A WAR - GAL"
+                    "F SWE S F NTH - NWY"
                 ]
             },
             "end": {
@@ -2542,14 +2276,12 @@
         },
         "F1904M": {
             "mentioned": [
-                "bud",
-                "nwy",
-                "england",
-                "france",
-                "edi",
-                "italy",
                 "gal",
-                "ska"
+                "nwy",
+                "italy",
+                "ska",
+                "england",
+                "bud"
             ],
             "start": {
                 "GERMANY": [
@@ -2560,12 +2292,12 @@
                     "F SKA - NWY"
                 ],
                 "RUSSIA": [
-                    "F SWE S F SKA - NWY",
-                    "A STP S F SKA - NWY",
+                    "A BUD S A SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A SER"
+                    "A STP S F SKA - NWY",
+                    "F BLA - ANK",
+                    "F SWE S F SKA - NWY"
                 ]
             },
             "end": {
@@ -2601,8 +2333,8 @@
         "S1905M": {
             "mentioned": [
                 "nwy",
-                "swe",
-                "france"
+                "france",
+                "swe"
             ],
             "start": {
                 "GERMANY": [
@@ -2613,13 +2345,13 @@
                     "F NWY H"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NWY",
-                    "A STP S F NWY",
-                    "F SEV - ARM",
+                    "A BUD S A TRI - SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A TRI - SER"
+                    "A STP S F NWY",
+                    "F BLA - ANK",
+                    "F SEV - ARM",
+                    "F SWE S F NWY"
                 ]
             },
             "end": {
@@ -2650,9 +2382,8 @@
         "S1906M": {
             "mentioned": [
                 "nwy",
-                "swe",
-                "sil",
-                "france"
+                "france",
+                "swe"
             ],
             "start": {
                 "GERMANY": [
@@ -2664,15 +2395,15 @@
                     "F NWG S F NTH - NWY"
                 ],
                 "RUSSIA": [
-                    "A NWY - FIN",
-                    "F SWE S F STP/NC - NWY",
-                    "F STP/NC - NWY",
-                    "A WAR - GAL",
-                    "A SEV - ARM",
-                    "F BLA S A SEV - ARM",
-                    "A RUM S A BUL",
                     "A BUD S A RUM",
-                    "A BUL S A ALB - GRE"
+                    "A BUL S A ALB - GRE",
+                    "A NWY - FIN",
+                    "A RUM S A BUL",
+                    "A SEV - ARM",
+                    "A WAR - GAL",
+                    "F BLA S A SEV - ARM",
+                    "F STP/NC - NWY",
+                    "F SWE S F STP/NC - NWY"
                 ]
             },
             "end": {
@@ -2712,10 +2443,9 @@
             "mentioned": [
                 "france",
                 "edi",
+                "kie",
                 "mun",
-                "bel",
-                "eas",
-                "kie"
+                "bel"
             ],
             "start": {
                 "GERMANY": [
@@ -2727,15 +2457,15 @@
                     "F NWG S A DEN - EDI"
                 ],
                 "RUSSIA": [
-                    "F NWY S F SWE",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
                     "A BUD - TRI",
+                    "A BUL S F BLA - CON",
+                    "A FIN S F NWY",
+                    "A GAL - VIE",
                     "A SER S A BUD - TRI",
-                    "A BUL S F BLA - CON"
+                    "A SEV - ARM",
+                    "F BLA - CON",
+                    "F NWY S F SWE",
+                    "F SWE S F NWY"
                 ]
             },
             "end": {
@@ -2774,9 +2504,8 @@
             "mentioned": [
                 "nwy",
                 "france",
-                "bel",
-                "kie",
-                "den"
+                "den",
+                "kie"
             ],
             "start": {
                 "GERMANY": [
@@ -2787,17 +2516,17 @@
                     "F NWG - NTH"
                 ],
                 "RUSSIA": [
-                    "F NWY S A FIN - SWE",
-                    "F SWE - BAL",
-                    "A FIN - SWE",
-                    "A MOS - SEV",
-                    "A WAR - SIL",
-                    "A SEV - ARM",
-                    "A VIE - TRI",
-                    "A RUM - SER",
                     "A BUD S A RUM - SER",
                     "A BUL S F CON",
-                    "F CON H"
+                    "A FIN - SWE",
+                    "A MOS - SEV",
+                    "A RUM - SER",
+                    "A SEV - ARM",
+                    "A VIE - TRI",
+                    "A WAR - SIL",
+                    "F CON H",
+                    "F NWY S A FIN - SWE",
+                    "F SWE - BAL"
                 ]
             },
             "end": {
@@ -2837,11 +2566,9 @@
     "GERMANY-TURKEY": {
         "S1905M": {
             "mentioned": [
-                "ser",
                 "italy",
                 "russia",
-                "eas",
-                "wes"
+                "eas"
             ],
             "start": {
                 "GERMANY": [
@@ -2934,11 +2661,10 @@
     "ITALY-RUSSIA": {
         "S1902M": {
             "mentioned": [
-                "bud",
+                "tri",
                 "austria",
-                "turkey",
                 "rum",
-                "tri"
+                "bud"
             ],
             "start": {
                 "ITALY": [
@@ -2949,11 +2675,11 @@
                     "F TUN S F NAP - ION"
                 ],
                 "RUSSIA": [
-                    "F SWE S A STP - NWY",
+                    "A GAL - BUD",
                     "A STP - NWY",
-                    "F SEV S A UKR - RUM",
                     "A UKR - RUM",
-                    "A GAL - BUD"
+                    "F SEV S A UKR - RUM",
+                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
@@ -2982,12 +2708,11 @@
         },
         "F1902M": {
             "mentioned": [
-                "bud",
-                "austria",
-                "turkey",
-                "rum",
                 "gal",
-                "vie"
+                "austria",
+                "rum",
+                "vie",
+                "bud"
             ],
             "start": {
                 "ITALY": [
@@ -2998,11 +2723,11 @@
                     "F TUN - ION"
                 ],
                 "RUSSIA": [
-                    "F SWE S A STP - NWY",
+                    "A GAL S A UKR - RUM",
                     "A STP - NWY",
-                    "F SEV S A UKR - RUM",
                     "A UKR - RUM",
-                    "A GAL S A UKR - RUM"
+                    "F SEV S A UKR - RUM",
+                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
@@ -3034,14 +2759,13 @@
         },
         "S1903M": {
             "mentioned": [
-                "bud",
-                "austria",
-                "turkey",
-                "ion",
-                "alb",
-                "rum",
                 "gal",
-                "tri"
+                "austria",
+                "alb",
+                "ion",
+                "rum",
+                "tri",
+                "bud"
             ],
             "start": {
                 "ITALY": [
@@ -3052,11 +2776,11 @@
                     "F TUN - ION"
                 ],
                 "RUSSIA": [
-                    "F SWE - NWY",
-                    "A MOS - STP",
-                    "F SEV S A RUM",
                     "A GAL - BUD",
-                    "A RUM S A GAL - BUD"
+                    "A MOS - STP",
+                    "A RUM S A GAL - BUD",
+                    "F SEV S A RUM",
+                    "F SWE - NWY"
                 ]
             },
             "end": {
@@ -3095,8 +2819,7 @@
         "F1903M": {
             "mentioned": [
                 "turkey",
-                "gre",
-                "aeg"
+                "gre"
             ],
             "start": {
                 "ITALY": [
@@ -3107,11 +2830,11 @@
                     "F ION - TYS"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A RUM",
                     "A MOS - STP",
-                    "F SEV S A RUM",
                     "A RUM S A BUD",
-                    "A BUD S A RUM"
+                    "F SEV S A RUM",
+                    "F SWE S F NTH - NWY"
                 ]
             },
             "end": {
@@ -3139,8 +2862,8 @@
         },
         "S1904M": {
             "mentioned": [
-                "turkey",
-                "bla"
+                "bla",
+                "turkey"
             ],
             "start": {
                 "ITALY": [
@@ -3152,12 +2875,12 @@
                     "F NAP - TYS"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A WAR - GAL",
                     "A MOS - STP",
+                    "A RUM S A BUD",
                     "A WAR - GAL",
                     "F SEV - BLA",
-                    "A RUM S A BUD",
-                    "A BUD S A WAR - GAL"
+                    "F SWE S F NTH - NWY"
                 ]
             },
             "end": {
@@ -3185,8 +2908,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "tri",
-                "ser"
+                "ser",
+                "tri"
             ],
             "start": {
                 "ITALY": [
@@ -3198,12 +2921,12 @@
                     "F TYS - LYO"
                 ],
                 "RUSSIA": [
-                    "F SWE S F SKA - NWY",
-                    "A STP S F SKA - NWY",
+                    "A BUD S A SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A SER"
+                    "A STP S F SKA - NWY",
+                    "F BLA - ANK",
+                    "F SWE S F SKA - NWY"
                 ]
             },
             "end": {
@@ -3232,15 +2955,14 @@
         },
         "S1905M": {
             "mentioned": [
-                "bud",
                 "france",
-                "ion",
-                "ser",
-                "gre",
-                "bul",
                 "alb",
+                "ser",
+                "bul",
+                "ion",
                 "rum",
-                "tri"
+                "tri",
+                "bud"
             ],
             "start": {
                 "ITALY": [
@@ -3252,13 +2974,13 @@
                     "F LYO S A PIE - MAR"
                 ],
                 "RUSSIA": [
-                    "F SWE S F NWY",
-                    "A STP S F NWY",
-                    "F SEV - ARM",
+                    "A BUD S A TRI - SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A TRI - SER"
+                    "A STP S F NWY",
+                    "F BLA - ANK",
+                    "F SEV - ARM",
+                    "F SWE S F NWY"
                 ]
             },
             "end": {
@@ -3313,13 +3035,13 @@
                     "F LYO S A MAR"
                 ],
                 "RUSSIA": [
-                    "F SWE S A STP - NWY",
-                    "A STP - NWY",
+                    "A BUD S A GAL - RUM",
                     "A GAL - RUM",
+                    "A RUM - BUL",
+                    "A STP - NWY",
                     "F ARM - ANK",
                     "F BLA S A RUM - BUL",
-                    "A RUM - BUL",
-                    "A BUD S A GAL - RUM"
+                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
@@ -3363,15 +3085,15 @@
                     "F NAP - TYS"
                 ],
                 "RUSSIA": [
-                    "A NWY - FIN",
-                    "F SWE S F STP/NC - NWY",
-                    "F STP/NC - NWY",
-                    "A WAR - GAL",
-                    "A SEV - ARM",
-                    "F BLA S A SEV - ARM",
-                    "A RUM S A BUL",
                     "A BUD S A RUM",
-                    "A BUL S A ALB - GRE"
+                    "A BUL S A ALB - GRE",
+                    "A NWY - FIN",
+                    "A RUM S A BUL",
+                    "A SEV - ARM",
+                    "A WAR - GAL",
+                    "F BLA S A SEV - ARM",
+                    "F STP/NC - NWY",
+                    "F SWE S F STP/NC - NWY"
                 ]
             },
             "end": {
@@ -3401,61 +3123,6 @@
                 "ITALY: I will take Greece this turn"
             ]
         },
-        "F1906M": {
-            "mentioned": [
-                "gre",
-                "austria"
-            ],
-            "start": {
-                "ITALY": [
-                    "A ALB - GRE",
-                    "A MAR H",
-                    "A TRI - SER",
-                    "F EAS - SMY",
-                    "F ION S A ALB - GRE",
-                    "F LYO S A MAR",
-                    "F TYS - WES"
-                ],
-                "RUSSIA": [
-                    "F NWY S F SWE",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
-                    "A BUD - TRI",
-                    "A SER S A BUD - TRI",
-                    "A BUL S F BLA - CON"
-                ]
-            },
-            "end": {
-                "ITALY": [
-                    "A ALB - SER",
-                    "A MAR H",
-                    "A TRI S A ALB - SER",
-                    "F EAS - ION",
-                    "F ION - TYS",
-                    "F LYO S A MAR",
-                    "F TYS - WES"
-                ],
-                "RUSSIA": [
-                    "F NWY S F LON - NTH",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
-                    "A BUD S A GAL - VIE",
-                    "A SER S A BUL",
-                    "A BUL S F BLA - CON"
-                ]
-            },
-            "messages": [
-                "ITALY: Is there a way we can divide up austria's CP that you would be satisfied with?",
-                "RUSSIA: You can take Greece now.",
-                "ITALY: Ok"
-            ]
-        },
         "S1907M": {
             "mentioned": [
                 "gre"
@@ -3470,17 +3137,17 @@
                     "F WES S F LYO - SPA/SC"
                 ],
                 "RUSSIA": [
-                    "F NWY S A FIN - SWE",
-                    "F SWE - BAL",
-                    "A FIN - SWE",
-                    "A MOS - SEV",
-                    "A WAR - SIL",
-                    "A SEV - ARM",
-                    "A VIE - TRI",
-                    "A RUM - SER",
                     "A BUD S A RUM - SER",
                     "A BUL S F CON",
-                    "F CON H"
+                    "A FIN - SWE",
+                    "A MOS - SEV",
+                    "A RUM - SER",
+                    "A SEV - ARM",
+                    "A VIE - TRI",
+                    "A WAR - SIL",
+                    "F CON H",
+                    "F NWY S A FIN - SWE",
+                    "F SWE - BAL"
                 ]
             },
             "end": {
@@ -3555,8 +3222,7 @@
         },
         "F1902M": {
             "mentioned": [
-                "tri",
-                "ser"
+                "tri"
             ],
             "start": {
                 "ITALY": [
@@ -3596,9 +3262,8 @@
         },
         "F1903M": {
             "mentioned": [
-                "gre",
                 "ser",
-                "russia"
+                "gre"
             ],
             "start": {
                 "ITALY": [
@@ -3641,19 +3306,18 @@
     "RUSSIA-TURKEY": {
         "F1903M": {
             "mentioned": [
-                "bud",
                 "ser",
-                "bul",
                 "bla",
-                "italy"
+                "bul",
+                "bud"
             ],
             "start": {
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A RUM",
                     "A MOS - STP",
-                    "F SEV S A RUM",
                     "A RUM S A BUD",
-                    "A BUD S A RUM"
+                    "F SEV S A RUM",
+                    "F SWE S F NTH - NWY"
                 ],
                 "TURKEY": [
                     "A BUL S A GRE - SER",
@@ -3700,12 +3364,12 @@
             ],
             "start": {
                 "RUSSIA": [
-                    "F SWE S F NTH - NWY",
+                    "A BUD S A WAR - GAL",
                     "A MOS - STP",
+                    "A RUM S A BUD",
                     "A WAR - GAL",
                     "F SEV - BLA",
-                    "A RUM S A BUD",
-                    "A BUD S A WAR - GAL"
+                    "F SWE S F NTH - NWY"
                 ],
                 "TURKEY": [
                     "A BUL - SER",
@@ -3748,12 +3412,12 @@
             ],
             "start": {
                 "RUSSIA": [
-                    "F SWE S F SKA - NWY",
-                    "A STP S F SKA - NWY",
+                    "A BUD S A SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A SER"
+                    "A STP S F SKA - NWY",
+                    "F BLA - ANK",
+                    "F SWE S F SKA - NWY"
                 ],
                 "TURKEY": [
                     "A BUL - SER",
@@ -3793,13 +3457,13 @@
             ],
             "start": {
                 "RUSSIA": [
-                    "F SWE S F NWY",
-                    "A STP S F NWY",
-                    "F SEV - ARM",
+                    "A BUD S A TRI - SER",
                     "A GAL S A BUD",
-                    "F BLA - ANK",
                     "A RUM - BUL",
-                    "A BUD S A TRI - SER"
+                    "A STP S F NWY",
+                    "F BLA - ANK",
+                    "F SEV - ARM",
+                    "F SWE S F NWY"
                 ],
                 "TURKEY": [
                     "A BUL - RUM",
@@ -3834,22 +3498,21 @@
         },
         "S1906M": {
             "mentioned": [
-                "bot",
-                "bud",
+                "italy",
                 "gre",
-                "italy"
+                "bud"
             ],
             "start": {
                 "RUSSIA": [
-                    "A NWY - FIN",
-                    "F SWE S F STP/NC - NWY",
-                    "F STP/NC - NWY",
-                    "A WAR - GAL",
-                    "A SEV - ARM",
-                    "F BLA S A SEV - ARM",
-                    "A RUM S A BUL",
                     "A BUD S A RUM",
-                    "A BUL S A ALB - GRE"
+                    "A BUL S A ALB - GRE",
+                    "A NWY - FIN",
+                    "A RUM S A BUL",
+                    "A SEV - ARM",
+                    "A WAR - GAL",
+                    "F BLA S A SEV - ARM",
+                    "F STP/NC - NWY",
+                    "F SWE S F STP/NC - NWY"
                 ],
                 "TURKEY": [
                     "A ARM - SEV",
@@ -3895,73 +3558,23 @@
                 "TURKEY: What?"
             ]
         },
-        "F1906M": {
-            "mentioned": [
-                "bot"
-            ],
-            "start": {
-                "RUSSIA": [
-                    "F NWY S F SWE",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
-                    "A BUD - TRI",
-                    "A SER S A BUD - TRI",
-                    "A BUL S F BLA - CON"
-                ],
-                "TURKEY": [
-                    "A ARM - SEV",
-                    "A CON - SMY",
-                    "F ANK - BLA",
-                    "F GRE - BUL/SC"
-                ]
-            },
-            "end": {
-                "RUSSIA": [
-                    "F NWY S F LON - NTH",
-                    "F SWE S F NWY",
-                    "A FIN S F NWY",
-                    "A SEV - ARM",
-                    "A GAL - VIE",
-                    "F BLA - CON",
-                    "A BUD S A GAL - VIE",
-                    "A SER S A BUL",
-                    "A BUL S F BLA - CON"
-                ],
-                "TURKEY": [
-                    "A ARM - SEV",
-                    "A CON - SMY",
-                    "F ANK - BLA",
-                    "F GRE - BUL/SC"
-                ]
-            },
-            "messages": [
-                "RUSSIA: You seem to think that I am a bot because I didn't take all of Turkey's centers last year even though I had the chance.",
-                "TURKEY: No?",
-                "RUSSIA: Are you being sarcastic?",
-                "RUSSIA: If you are, I will leave you with one center after this turn."
-            ]
-        },
         "S1907M": {
             "mentioned": [
-                "gre",
                 "con"
             ],
             "start": {
                 "RUSSIA": [
-                    "F NWY S A FIN - SWE",
-                    "F SWE - BAL",
-                    "A FIN - SWE",
-                    "A MOS - SEV",
-                    "A WAR - SIL",
-                    "A SEV - ARM",
-                    "A VIE - TRI",
-                    "A RUM - SER",
                     "A BUD S A RUM - SER",
                     "A BUL S F CON",
-                    "F CON H"
+                    "A FIN - SWE",
+                    "A MOS - SEV",
+                    "A RUM - SER",
+                    "A SEV - ARM",
+                    "A VIE - TRI",
+                    "A WAR - SIL",
+                    "F CON H",
+                    "F NWY S A FIN - SWE",
+                    "F SWE - BAL"
                 ],
                 "TURKEY": [
                     "A ARM - ANK",

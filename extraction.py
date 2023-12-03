@@ -62,6 +62,16 @@ def num_phases(data):
     return len(data["state_history"])
 
 
+def get_state_history(data):
+    """
+    get state history of the game
+
+    :param data: dictionary of game data after json.load
+    :return: a dictionary of state history, with phase as key and state as value
+    """
+    return data["state_history"]
+
+
 def num_phases_with_msg(data):
     """
     get number of phases with messages in the game
@@ -494,7 +504,7 @@ def combine_msgs_orders(convos, orders, humans):
 
                 cache = {}
 
-                if phase == "F1903M" and convo == "FRANCE-RUSSIA":
+                if phase == "F1901M" and convo == "ENGLAND-FRANCE":
                     print(sorted(power_msg_logs[power].items()))
 
                 for time_sent, msg_order in sorted(power_msg_logs[power].items()):
@@ -503,13 +513,13 @@ def combine_msgs_orders(convos, orders, humans):
                     else:
                         print(phase, convo)
                         reduced_orders = reduce_duplicate_orders(cache)[power]
-                        initial_orders[power] = reduced_orders
+                        initial_orders[power] = sorted(reduced_orders)
                         cache = {}
                         break
 
                 if len(cache) > 0:
                     reduced_orders = reduce_duplicate_orders(cache)[power]
-                    initial_orders[power] = reduced_orders
+                    initial_orders[power] = sorted(reduced_orders)
 
             updated_dict = {}
 
@@ -657,10 +667,10 @@ def add_start_phase_logs_to_msg_orders(msg_orders, start_phase_logs, bots):
                 cicero_logs = start_phase_logs[phase]
 
                 if power1 in bots and power1 in cicero_logs:
-                    start_of_phase_orders[power1] = cicero_logs[power1]
+                    start_of_phase_orders[power1] = sorted(cicero_logs[power1])
 
                 if power2 in bots and power2 in cicero_logs:
-                    start_of_phase_orders[power2] = cicero_logs[power2]
+                    start_of_phase_orders[power2] = sorted(cicero_logs[power2])
 
                 msg_logs[0] = start_of_phase_orders
                 phases[phase] = msg_logs
@@ -719,7 +729,7 @@ def filter_persuations(message_orders):
     return filtered
 
 
-def filter_location(mapping, data):
+def filter_location(mapping, data, state_history):
     filtered = {}
 
     for convo, phases in data.items():
@@ -731,6 +741,10 @@ def filter_location(mapping, data):
                 continue
             curr_msg_logs = msg_logs
             curr_msg_logs["mentioned"] = []
+            influence_history = state_history[phase]["influence"]
+
+            start_of_phase_orders = msg_logs[0]
+            end_of_phase_orders = msg_logs["end_phase_orders"]
 
             for _, msg in msg_logs.items():
                 if isinstance(msg, dict) and "message" in msg.keys():
@@ -738,16 +752,55 @@ def filter_location(mapping, data):
 
                     for word in split_msg:
                         for loc, variations in mapping.items():
-                            if word == loc.lower():
+                            # if the mentioned location is reflected in the orders
+                            are_locs_in_orders = [
+                                loc.upper() in order
+                                for order in end_of_phase_orders[power1]
+                                     + end_of_phase_orders[power2]
+                                
+                            ]
+
+                            if word == loc.lower() and (
+                                len(are_locs_in_orders) > 0 and any(are_locs_in_orders)
+                            ):
                                 curr_msg_logs["mentioned"].append(loc)
                             for variation in variations:
-                                if word == variation.lower():
+                                if word == variation.lower() and (
+                                    len(are_locs_in_orders) > 0
+                                    and any(are_locs_in_orders)
+                                ):
                                     curr_msg_logs["mentioned"].append(loc)
 
                         for power, variation in power_mapping.items():
-                            if word == power and power not in [power1.lower(), power2.lower()]:
+                            influence = influence_history[power.upper()]
+
+                            are_locs_in_orders = [
+                                        loc.upper() in order
+                                        for order in end_of_phase_orders[power1] +
+                                            end_of_phase_orders[power2]
+                                        
+                                        for loc in influence
+                                    ]
+
+                            if (
+                                word == power
+                                and power
+                                not in [
+                                    power1.lower(),
+                                    power2.lower(),
+                                ]
+                                and (len(are_locs_in_orders) > 0 and any(are_locs_in_orders))
+                            ):
                                 curr_msg_logs["mentioned"].append(power)
-                            if word == variation and power not in [power1.lower(), power2.lower()]:
+                            if (
+                                word == variation
+                                and power
+                                not in [
+                                    power1.lower(),
+                                    power2.lower(),
+                                ]
+                                and (len(are_locs_in_orders) > 0 and any(are_locs_in_orders))
+                            ):
                                 curr_msg_logs["mentioned"].append(power)
 
             if len(curr_msg_logs["mentioned"]) > 0:
@@ -809,6 +862,7 @@ def main():
         mapping = json.load(f)
 
     for game in games:
+        print(game)
         with open(game, "r") as f:
             data = json.load(f)
 
@@ -833,7 +887,7 @@ def main():
 
         filtered = filter_persuations(end_phase_added)
 
-        filtered_again = filter_location(mapping, filtered)
+        filtered_again = filter_location(mapping, filtered, get_state_history(data))
 
         prettified = prettier(filtered_again)
 
