@@ -1,5 +1,6 @@
 import os, json, re
 import numpy as np
+import matplotlib.pyplot as plt
 
 game_dir = "./human_games/"
 POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
@@ -57,62 +58,88 @@ def main():
         )
     )
 
+    total_humans = {}
+    total_bots = {}
+    human_msg_cnt = {}
+    bot_msg_cnt = {}
+    human_token_cnt = {}
+    bot_token_cnt = {}
+
     with open("mapping_province.json", "r") as f:
         mapping = json.load(f)
 
     for game in games:
+
         with open(game, "r") as f:
             data = json.load(f)
 
-        messages_flattened = []
-
         message_history = data["message_history"]
+        state_history = data['state_history']
+
 
         human_players = get_human_players(data)
         bot_players = get_bot_players(data)
 
-        human_msg_cnt = {}
-        bot_msg_cnt = {}
 
-        for _, messages in message_history.items():
-            for message in messages:
-                messages_flattened.append(message)
-
-        for message in messages_flattened:
-            phase = message["phase"]
+        for phase, messages in message_history.items():
             if phase[-1] != "M":
                 continue
-            sender = message["sender"]
-            if sender in human_players:
-                if phase not in human_msg_cnt:
-                    human_msg_cnt[phase] = 1
-                else:
+            phase_centers = state_history[phase]["centers"]
+
+            if phase not in human_msg_cnt:
+                human_msg_cnt[phase] = 0
+            if phase not in bot_msg_cnt:
+                bot_msg_cnt[phase] = 0
+            if phase not in total_humans:
+                total_humans[phase] = 0
+            if phase not in total_bots:
+                total_bots[phase] = 0
+            if phase not in human_token_cnt:
+                human_token_cnt[phase] = 0
+            if phase not in bot_token_cnt:
+                bot_token_cnt[phase] = 0
+
+            players_alive = [power for power, centers in phase_centers.items() if len(centers) > 0]
+            humans_alive = [power for power in human_players if power in players_alive]
+            bots_alive = [power for power in bot_players if power in players_alive]
+
+            total_humans[phase] += len(humans_alive)
+            total_bots[phase] += len(bots_alive)
+
+            for message in messages:
+                if message['sender'] in humans_alive:
                     human_msg_cnt[phase] += 1
-            elif sender in bot_players:
-                if phase not in bot_msg_cnt:
-                    bot_msg_cnt[phase] = 1
-                else:
+                    human_token_cnt[phase] += len(message['message'])
+                elif message['sender'] in bots_alive:
                     bot_msg_cnt[phase] += 1
+                    bot_token_cnt[phase] += len(message['message'])
 
-        human_msg_avg = {}
-        bot_msg_avg = {}
+    avg_human_msg_by_phase = np.array([human_msg_cnt[phase] / total_humans[phase] for phase in human_msg_cnt])
+    avg_bot_msg_by_phase = np.array([bot_msg_cnt[phase] / total_bots[phase] for phase in bot_msg_cnt])
+    
+    avg_human_token_by_phase = np.array([human_token_cnt[phase] / total_humans[phase] for phase in human_token_cnt])
+    avg_bot_token_by_phase = np.array([bot_token_cnt[phase] / total_bots[phase] for phase in bot_token_cnt])
 
-        for phase, cnt in human_msg_cnt.items():
-            human_msg_avg[phase] = round(cnt / len(human_players), 2)
+    #plt.plot(avg_human_msg_by_phase, label="human")
+    #plt.plot(avg_bot_msg_by_phase, label="bot")
 
-        for phase, cnt in bot_msg_cnt.items():
-            bot_msg_avg[phase] = round(cnt / len(bot_players), 2)
-                
+    #plt.plot(avg_human_token_by_phase, label="human")
+    #plt.plot(avg_bot_token_by_phase, label="bot")
 
-        with open(f"stats/{data['game_id']}.json", "w") as f:
-            json.dump(
-                {
-                    "human_msg_avg": human_msg_avg,
-                    "bot_msg_avg": bot_msg_avg,
-                },
-                f,
-                indent=4,
-            )
+    ratio = avg_bot_msg_by_phase / avg_human_msg_by_phase 
+    token_ratio = avg_bot_token_by_phase / avg_human_token_by_phase
+    plt.plot(ratio, label="msg ratio")
+    plt.plot(token_ratio, label="char ratio")
+
+    xticks = [phase[0] + phase[-3:] for phase in human_msg_cnt]
+    plt.xticks(range(len(xticks)), xticks)
+    plt.legend()
+    plt.show()
+
+
+    #for phase, cnt in human_msg_cnt.items():
+    #    print(f"average human message count in {phase}: {round(cnt / total_humans[phase], 2)}")
+    #    print(f"average bot message count in {phase}: {round(bot_msg_cnt[phase] / total_bots[phase], 2)}")
 
 if __name__ == "__main__":
     main()
