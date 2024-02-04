@@ -1,0 +1,946 @@
+{
+    "AUSTRIA-RUSSIA": {
+        "S1901M": {
+            "mentioned": [
+                "ukr",
+                "gal",
+                "war"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A MOS - STP",
+                    "A WAR - UKR"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A MOS - UKR",
+                    "A WAR - GAL"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: Hey Russia, are we bouncing in Galicia?",
+                "AUSTRIA: Would you be down to cooperate against Turkey? I think it's always good to knock the corner power out quickly.",
+                "RUSSIA: Hi Austria! I would be interested in working against Turkey here. Can we not bounce in Gal?",
+                "AUSTRIA: Would rather bounce this turn, then you can move to Ukraine and we can start to DMZ the border in the fall? If we're going after Turkey, having Sev open to build a second southern fleet is important",
+                "RUSSIA: I can move Sev to Rum in fall, but again I prefer not to bounce. My reasoning is that I am considering opening north and if I do that I'd like to move War - Ukr. What do you think? That will let us focus on turkey together while I can slow down the west.",
+                "AUSTRIA: Sorry Russia, bouncing",
+                "RUSSIA: okay",
+                "AUSTRIA: Sorry for the late change, just really want to ensure we're on the same page here",
+                "RUSSIA: that's fine, i want you to be comfortable\n",
+                "AUSTRIA: Thanks! I'm definitely down to work together, especially since it sounds like Italy is down for a Lepanto"
+            ]
+        },
+        "F1901M": {
+            "mentioned": [
+                "bla",
+                "sev",
+                "ukr",
+                "rum"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A UKR S F SEV - RUM",
+                    "F SEV - RUM"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A UKR - RUM",
+                    "F SEV - BLA"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: Would you like me to support you into Rumania? Will help us take down Turkey quicker",
+                "RUSSIA: I can support myself into Rum if you want to support yourself into Gre. Do you still want to bounce in Gal?",
+                "RUSSIA: Do you want me to put Ukr or Sev in Rum? It might be nice to bounce Turkey again in BLA but i get that you might want the fleet in Rum.",
+                "AUSTRIA: I'll support Ukraine in, that works",
+                "RUSSIA: Okay that's fine.",
+                "AUSTRIA: Sounds like Germany is letting you into Sweden too, fyi",
+                "RUSSIA: thanks",
+                "AUSTRIA: No problem"
+            ]
+        },
+        "S1902M": {
+            "mentioned": [
+                "gal"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A GAL H",
+                    "A MOS H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A GAL S A RUM",
+                    "A MOS - STP",
+                    "A RUM S A GAL",
+                    "A STP - FIN",
+                    "F SEV S A RUM",
+                    "F SWE S A STP - FIN"
+                ]
+            },
+            "messages": [
+                "RUSSIA: I thought we were bouncing in Gal again. What do you want to do here? I am concerned there is a western triple with that fleet move to Spa sc, and england convoying to Nwy. ",
+                "AUSTRIA: Yeah, looks like there might be",
+                "RUSSIA: How do you want to go forward?",
+                "AUSTRIA: Do you think you could support me into Bulgaria in the fall?",
+                "RUSSIA: very possibly, I need to see the moves but if it's a WT then absolutely.",
+                "AUSTRIA: Ok, sounds good. And I don't think there's a WT",
+                "RUSSIA: why?",
+                "AUSTRIA: No longer think there is one"
+            ]
+        },
+        "F1902M": {
+            "mentioned": [
+                "nwy",
+                "bla",
+                "sev",
+                "bul",
+                "ser",
+                "turkey",
+                "swe"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A GAL H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN S F SWE - NWY",
+                    "A GAL - SIL",
+                    "A RUM S A SER - BUL",
+                    "A STP S F SWE - NWY",
+                    "F SEV - BLA",
+                    "F SWE - NWY"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: Are you good to support me into Bulgaria now?",
+                "RUSSIA: Yes, can I get the next dot off Turkey though?",
+                "AUSTRIA: Yes. You should move Sev to the Black Sea here",
+                "RUSSIA: Okay, are you moving Ser-Bul? Is that the unit I should support?",
+                "AUSTRIA: Yes please",
+                "RUSSIA: okay",
+                "AUSTRIA: Also, you might be better off using Sweden to support St. Pete to Norway"
+            ]
+        },
+        "S1904M": {
+            "mentioned": [
+                "germany"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A STP H",
+                    "A WAR H",
+                    "F NWG H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN S F NWG - NWY",
+                    "A STP S F NWG - NWY",
+                    "A WAR - SIL",
+                    "F NWG - NWY"
+                ]
+            },
+            "messages": [
+                "RUSSIA: I disbanded my southern units. I don't want to fight you anymore. I want to make Germany pay for that terrible play. They saw you were growing big and instead of help me they screwed me.\nRUSSIA\nI ask that you don't take Sev so that I can help you fight Germany. Sev will always be there.",
+                "RUSSIA: move to Tyr/Boh, I can help you v Germany before France takes all the centers."
+            ]
+        }
+    },
+    "AUSTRIA-TURKEY": {
+        "F1901M": {
+            "mentioned": [
+                "bla"
+            ],
+            "start": {
+                "TURKEY": [
+                    "F ANK - CON"
+                ]
+            },
+            "end": {
+                "TURKEY": [
+                    "F ANK - BLA"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: I think if I offer to support Russia into Rumania, he'll let you into the Black Sea, and then you can take Rumania with my help instead of letting him take it",
+                "AUSTRIA: If you let me know now what you're planning to do, I can try to coordinate with Russia",
+                "TURKEY: I worry Italy might be a bot. If you're human, that might mean Trie is a target. I'm not going to tap Serb if you want to cover with the fleet.",
+                "TURKEY: Also not tapping Greece right now.",
+                "AUSTRIA: Ok, sounds good",
+                "TURKEY: Nvm. You can't cover Trie without leaving another center open. Please disregard.",
+                "AUSTRIA: Yeah lol, covering Trieste"
+            ]
+        },
+        "S1903M": {
+            "mentioned": [
+                "russia",
+                "rum"
+            ],
+            "start": {
+                "AUSTRIA": [
+                    "A BUD H",
+                    "A SER - BUL"
+                ],
+                "TURKEY": [
+                    "F ANK S F CON"
+                ]
+            },
+            "end": {
+                "AUSTRIA": [
+                    "A BUD S A SER - RUM",
+                    "A SER - RUM"
+                ],
+                "TURKEY": [
+                    "F ANK - ARM"
+                ]
+            },
+            "messages": [
+                "TURKEY: If you leave Con alone, I can cut black and you can force both Rum and Gal.",
+                "TURKEY: I've been consistent and truthful in my messages to you. Russia has lied to me, and Italy seems to be following a script. I see you built the fleet, which is anti Italian. I can help you with Russia.",
+                "AUSTRIA: That works for me. You can cut Black Sea and I'll leave Constantinople alone",
+                "TURKEY: Do you want A Con S F Gre - Bul(SC)?",
+                "TURKEY: F Con S F Gre - Bul(SC) (fixed it)"
+            ]
+        }
+    },
+    "ENGLAND-RUSSIA": {},
+    "ENGLAND-TURKEY": {
+        "F1903M": {
+            "mentioned": [
+                "austria"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A LVP H"
+                ],
+                "TURKEY": [
+                    "F ANK S F CON",
+                    "F CON H"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A LVP S F CLY"
+                ],
+                "TURKEY": [
+                    "F ANK - CON",
+                    "F CON - BUL/SC"
+                ]
+            },
+            "messages": [
+                "ENGLAND: I think Russia may be distracted by Austria. Good time to take the Black Sea?",
+                "TURKEY: Yeah, that'd be interesting.",
+                "ENGLAND: Might be your only hope to survive.",
+                "ENGLAND: If you work with Austria you could make it."
+            ]
+        }
+    },
+    "FRANCE-RUSSIA": {
+        "S1902M": {
+            "mentioned": [
+                "spa"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A POR - SPA",
+                    "F BRE - MAO",
+                    "F MAR - LYO",
+                    "F SPA/SC - WES"
+                ],
+                "RUSSIA": [
+                    "A GAL H",
+                    "A MOS H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A POR H",
+                    "F BRE - ENG",
+                    "F MAR - SPA/SC",
+                    "F SPA/SC - MAO"
+                ],
+                "RUSSIA": [
+                    "A GAL S A RUM",
+                    "A MOS - STP",
+                    "A RUM S A GAL",
+                    "A STP - FIN",
+                    "F SEV S A RUM",
+                    "F SWE S A STP - FIN"
+                ]
+            },
+            "messages": [
+                "FRANCE: Looks like you're going strong north",
+                "RUSSIA: Hey France, why take Spa with Fleet? Looks like a WT play. that's why i built in the north",
+                "FRANCE: It's so England doesn't expect anything"
+            ]
+        },
+        "F1902M": {
+            "mentioned": [
+                "england"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A BEL - WAL VIA",
+                    "A BUR - BEL",
+                    "F ENG C A BEL - WAL"
+                ],
+                "RUSSIA": [
+                    "A FIN S F SWE",
+                    "A STP - NWY",
+                    "F SWE S A STP - NWY"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A BEL H",
+                    "A BUR S A BEL",
+                    "F ENG - LON"
+                ],
+                "RUSSIA": [
+                    "A FIN S F SWE - NWY",
+                    "A STP S F SWE - NWY",
+                    "F SWE - NWY"
+                ]
+            },
+            "messages": [
+                "FRANCE: You really going all in?",
+                "RUSSIA: I'm being attacked by England and Germany apparently so I will defend.",
+                "FRANCE: Gotcha. Well maybe you and England can work together and take Germany"
+            ]
+        },
+        "F1903M": {
+            "mentioned": [
+                "mun",
+                "bur",
+                "sil"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "F ENG - NTH",
+                    "F LON S F ENG - NTH"
+                ],
+                "RUSSIA": [
+                    "A FIN H",
+                    "A NWY H",
+                    "A SEV H",
+                    "A SIL H",
+                    "F BLA H",
+                    "F NWG H"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A BUR S A SIL - MUN",
+                    "F ENG - BEL",
+                    "F LON - NTH"
+                ],
+                "RUSSIA": [
+                    "A FIN - STP",
+                    "A NWY S A FIN - STP",
+                    "A SEV - RUM",
+                    "A SIL - WAR",
+                    "F BLA S F CON - BUL",
+                    "F NWG - EDI"
+                ]
+            },
+            "messages": [
+                "FRANCE: Or do you need that unit elsewhere?",
+                "FRANCE: Actually looks like you're gonna need it. I should be able to help next turn",
+                "RUSSIA: can you support Sil into Mun and cut Ruh?",
+                "FRANCE: I think he'll attack Burgundy which would cut my support",
+                "FRANCE: I could make a stab at Holland though"
+            ]
+        },
+        "S1904M": {
+            "mentioned": [
+                "germany"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A STP H",
+                    "A WAR H",
+                    "F NWG H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN S F NWG - NWY",
+                    "A STP S F NWG - NWY",
+                    "A WAR - SIL",
+                    "F NWG - NWY"
+                ]
+            },
+            "messages": [
+                "RUSSIA: What can I do to help you kill Germany?",
+                "FRANCE: Not letting him grab a center would be great"
+            ]
+        },
+        "S1905M": {
+            "mentioned": [
+                "nwy"
+            ],
+            "start": {
+                "FRANCE": [
+                    "F EDI - CLY",
+                    "F NTH H"
+                ],
+                "RUSSIA": [
+                    "F NWG S F NTH - NWY"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "F EDI S F NTH",
+                    "F NTH S F EDI"
+                ],
+                "RUSSIA": [
+                    "F NWG - NWY"
+                ]
+            },
+            "messages": [
+                "FRANCE: Thanks for the support",
+                "RUSSIA: sure. I'm supporting you to Nwy, unless you want to support me into there.",
+                "FRANCE: Maybe we can keep working together",
+                "FRANCE: I can't do it now, I have to finish England"
+            ]
+        }
+    },
+    "FRANCE-TURKEY": {
+        "F1903M": {
+            "mentioned": [
+                "russia"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "F ENG - NTH",
+                    "F LON S F ENG - NTH"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A BUR S A SIL - MUN",
+                    "F ENG - BEL",
+                    "F LON - NTH"
+                ]
+            },
+            "messages": [
+                "FRANCE: Not looking too good over there",
+                "FRANCE: Maybe you could ally with Russia"
+            ]
+        }
+    },
+    "GERMANY-RUSSIA": {
+        "S1901M": {
+            "mentioned": [
+                "gal",
+                "war"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A MOS - STP",
+                    "A WAR - UKR"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A MOS - UKR",
+                    "A WAR - GAL"
+                ]
+            },
+            "messages": [
+                "GERMANY: Hi Russia! What are you planning with A War?",
+                "RUSSIA: HI Germany, I'm not sure yet, do you have an opinion on it?\n",
+                "GERMANY: No, it's just that there are some powers who prefer that you don't send it to Galicia, and some who don't"
+            ]
+        },
+        "S1902M": {
+            "mentioned": [
+                "stp",
+                "fin",
+                "mos"
+            ],
+            "start": {
+                "GERMANY": [
+                    "A DEN H",
+                    "A HOL H",
+                    "F KIE - HEL"
+                ],
+                "RUSSIA": [
+                    "A GAL H",
+                    "A MOS H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "GERMANY": [
+                    "A DEN - SWE",
+                    "A HOL - RUH",
+                    "F KIE - HOL"
+                ],
+                "RUSSIA": [
+                    "A GAL S A RUM",
+                    "A MOS - STP",
+                    "A RUM S A GAL",
+                    "A STP - FIN",
+                    "F SEV S A RUM",
+                    "F SWE S A STP - FIN"
+                ]
+            },
+            "messages": [
+                "RUSSIA: are they trying to get you to do a western triple?",
+                "GERMANY: I'm not sure. France is definitely hostile to England though.",
+                "GERMANY: Do you want to move Stp-fin and Mos-stp?",
+                "RUSSIA: Yes most likely, can you and I work against England together here?",
+                "RUSSIA: do you want me to support you into Nwy?",
+                "GERMANY: Yes, I'd like that!",
+                "GERMANY: Actually, I think it would be better for me to tap North Sea.",
+                "RUSSIA: okay",
+                "RUSSIA: although you need an army in Mun asap",
+                "RUSSIA: ok"
+            ]
+        },
+        "F1902M": {
+            "mentioned": [
+                "nwy",
+                "swe"
+            ],
+            "start": {
+                "GERMANY": [
+                    "A DEN - KIE",
+                    "A RUH - MUN",
+                    "F BAL - DEN",
+                    "F HOL S A DEN - KIE",
+                    "F SKA S F BAL - DEN"
+                ],
+                "RUSSIA": [
+                    "A FIN H",
+                    "A GAL H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "GERMANY": [
+                    "A DEN - SWE",
+                    "A RUH - KIE",
+                    "F BAL S A DEN - SWE",
+                    "F HOL - KIE",
+                    "F SKA S A DEN - SWE"
+                ],
+                "RUSSIA": [
+                    "A FIN S F SWE - NWY",
+                    "A GAL - SIL",
+                    "A RUM S A SER - BUL",
+                    "A STP S F SWE - NWY",
+                    "F SEV - BLA",
+                    "F SWE - NWY"
+                ]
+            },
+            "messages": [
+                "RUSSIA: you're coming after me when you're being the target of an EF? You're not going to last long like that. You and I need to be on the same page.",
+                "GERMANY: You're right, it looks bad. I think I'll be able to get out of it though.",
+                "GERMANY: Would you be okay if I took Sweden?",
+                "RUSSIA: No I am not okay with you taking Swe, why would I be okay with that?",
+                "GERMANY: You'd still be up one center and you can take Norway anyway.",
+                "RUSSIA: No I wouldn't. ",
+                "GERMANY: Fair enough."
+            ]
+        },
+        "F1903M": {
+            "mentioned": [
+                "sil",
+                "edi",
+                "austria",
+                "stp",
+                "bot",
+                "rum",
+                "swe"
+            ],
+            "start": {
+                "GERMANY": [
+                    "A SWE S F NTH - NWY",
+                    "F BOT - STP/SC",
+                    "F NTH - NWY",
+                    "F SKA S F NTH - NWY"
+                ],
+                "RUSSIA": [
+                    "A FIN H",
+                    "A NWY H",
+                    "A SEV H",
+                    "A SIL H",
+                    "F BLA H",
+                    "F NWG H"
+                ]
+            },
+            "end": {
+                "GERMANY": [
+                    "A SWE - NWY",
+                    "F BOT - SWE",
+                    "F NTH - EDI",
+                    "F SKA S A SWE - NWY"
+                ],
+                "RUSSIA": [
+                    "A FIN - STP",
+                    "A NWY S A FIN - STP",
+                    "A SEV - RUM",
+                    "A SIL - WAR",
+                    "F BLA S F CON - BUL",
+                    "F NWG - EDI"
+                ]
+            },
+            "messages": [
+                "RUSSIA: I need to focus on Austria now, and you need that too or they'll come for you next. Can we stop fighting in the north? Move your fleets out to the atlantic.",
+                "RUSSIA: Can you support me into Edi? ",
+                "RUSSIA: I'll move Sil away.",
+                "GERMANY: Can you move your army back to Stp?",
+                "GERMANY: Sure.",
+                "RUSSIA: Which army?",
+                "GERMANY: I'll support your fleet.",
+                "RUSSIA: okay. which army do you want me to move back?",
+                "GERMANY: I'm going to move Gob to Sweden.",
+                "RUSSIA: Okay, we need to work together here. France and Austria are getting very big.",
+                "GERMANY: Any of the ones that aren't next to my centers would be great.",
+                "RUSSIA: sure thing",
+                "GERMANY: I think you should be able to take Rumania back this turn."
+            ]
+        }
+    },
+    "GERMANY-TURKEY": {},
+    "ITALY-RUSSIA": {
+        "F1903M": {
+            "mentioned": [
+                "austria",
+                "rum"
+            ],
+            "start": {
+                "ITALY": [
+                    "F ION S F EAS - AEG"
+                ],
+                "RUSSIA": [
+                    "A FIN H",
+                    "A NWY H",
+                    "A SEV H",
+                    "A SIL H",
+                    "F BLA H",
+                    "F NWG H"
+                ]
+            },
+            "end": {
+                "ITALY": [
+                    "F ION H"
+                ],
+                "RUSSIA": [
+                    "A FIN - STP",
+                    "A NWY S A FIN - STP",
+                    "A SEV - RUM",
+                    "A SIL - WAR",
+                    "F BLA S F CON - BUL",
+                    "F NWG - EDI"
+                ]
+            },
+            "messages": [
+                "ITALY: I think we're in good shape if we work together",
+                "RUSSIA: yeah Austria screwed me. I think you and I need to work together. Austria has 2 fleets and can bounce in Tri and build a 3rd.",
+                "ITALY: That's what I'm thinking",
+                "RUSSIA: Okay well I need your help here. You can get most of the Austrian dots if you work with me.",
+                "ITALY: I'll try to do what I can",
+                "ITALY: You should be able to take back Rumania"
+            ]
+        }
+    },
+    "ITALY-TURKEY": {
+        "S1902M": {
+            "mentioned": [
+                "eas"
+            ],
+            "start": {
+                "ITALY": [
+                    "F ION - AEG"
+                ],
+                "TURKEY": [
+                    "F ANK - CON"
+                ]
+            },
+            "end": {
+                "ITALY": [
+                    "F ION - EAS"
+                ],
+                "TURKEY": [
+                    "F ANK H"
+                ]
+            },
+            "messages": [
+                "ITALY: Can you let me into Aegean? We can take Greece from Austria",
+                "TURKEY: Yes",
+                "TURKEY: There's a fleet in Mar, and you're looking to move east?!",
+                "TURKEY: There are fleets Sp(SC) and Mar... you need to cover France or you're toast."
+            ]
+        }
+    },
+    "RUSSIA-TURKEY": {
+        "F1901M": {
+            "mentioned": [
+                "bla",
+                "sev",
+                "rum",
+                "ank"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A UKR S F SEV - RUM",
+                    "F SEV - RUM"
+                ],
+                "TURKEY": [
+                    "F ANK - CON"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A UKR - RUM",
+                    "F SEV - BLA"
+                ],
+                "TURKEY": [
+                    "F ANK - BLA"
+                ]
+            },
+            "messages": [
+                "TURKEY: What are you thinking for this turn?",
+                "RUSSIA: I'm not sure, do you have a preference?",
+                "TURKEY: Italy straight up said he's running a lepanto, so I'll need a second fleet. The issue is I must build it in Ank because my army is moving to Smy. Is that ok?",
+                "RUSSIA: If italy is running a lepanto why not build the fleet inSmy?",
+                "TURKEY: Because I need my army down to Syria in the Spring.",
+                "RUSSIA: okay",
+                "TURKEY: I could hold in ank and build in Con or move to Black and build in Con, but holding is the same as moving to Con and moving to Black would be antagonistic.",
+                "TURKEY: Can you please put an army in Rum instead of the fleet? A fleet in Rum would be very bad for me and allow you to build in Sev.",
+                "RUSSIA: army going to Rum",
+                "TURKEY: Fleet holding?",
+                "RUSSIA: Fleet to BLA"
+            ]
+        },
+        "S1902M": {
+            "mentioned": [
+                "sev",
+                "rum"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A GAL H",
+                    "A MOS H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ],
+                "TURKEY": [
+                    "F ANK - CON"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A GAL S A RUM",
+                    "A MOS - STP",
+                    "A RUM S A GAL",
+                    "A STP - FIN",
+                    "F SEV S A RUM",
+                    "F SWE S A STP - FIN"
+                ],
+                "TURKEY": [
+                    "F ANK H"
+                ]
+            },
+            "messages": [
+                "TURKEY: How do you want to handle Rum?",
+                "RUSSIA: Looks like a Western Triple. I need to guard scandinavia.",
+                "TURKEY: Can you support Rum?",
+                "RUSSIA: Support rum to hold?",
+                "TURKEY: Yes please",
+                "RUSSIA: can we DMZ BLA then?",
+                "RUSSIA: you can defend against the Lepanto and focus there.",
+                "TURKEY: Yes. Also, to provide incentive, Italy is going to be toast if he attacks me. Look at the French fleets.",
+                "TURKEY: Would you rather bounce Black?",
+                "TURKEY: It's the same thing as a DMZ",
+                "RUSSIA: yeah it looks like a western triple\n",
+                "RUSSIA: No I can't bounce in BLA because Sev needs to hold Rum.",
+                "TURKEY: Ok",
+                "RUSSIA: so can we DMZ BLA?",
+                "TURKEY: Yes",
+                "RUSSIA: great"
+            ]
+        },
+        "F1902M": {
+            "mentioned": [
+                "bla",
+                "england",
+                "bul",
+                "rum",
+                "swe"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A GAL H",
+                    "A RUM H",
+                    "A STP H",
+                    "F SEV H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN S F SWE - NWY",
+                    "A GAL - SIL",
+                    "A RUM S A SER - BUL",
+                    "A STP S F SWE - NWY",
+                    "F SEV - BLA",
+                    "F SWE - NWY"
+                ]
+            },
+            "messages": [
+                "TURKEY: No support for Rum huh?\n\nLook at the lack of armies in Germany. Why help them fight me?",
+                "RUSSIA: I have no idea what you're talking about. I supported Rum with 2 units like you asked. How can Germany attack you? You're not neighbors at all. That makes no sense.",
+                "TURKEY: I'm an idiot, I said Rum and I meant Black.",
+                "TURKEY: I mean bul",
+                "TURKEY: Jeez, need to slow down.\n\nOk. I''m supporting Rum. I'd appreciate A Rum S Bul hold. Sorry for the confusion I caused there.",
+                "TURKEY: England going to help you keep Sweden in exchange for Denmark?",
+                "RUSSIA: I don't think they will",
+                "TURKEY: That sucks."
+            ]
+        },
+        "S1903M": {
+            "mentioned": [
+                "bla",
+                "rum"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A RUM H",
+                    "F BLA S A RUM"
+                ],
+                "TURKEY": [
+                    "F ANK S F CON"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A RUM - ARM VIA",
+                    "F BLA C A RUM - ARM"
+                ],
+                "TURKEY": [
+                    "F ANK - ARM"
+                ]
+            },
+            "messages": [
+                "TURKEY: Why?",
+                "RUSSIA: because you weren't making any sense.",
+                "TURKEY: Yeah, I mistyped a message and got flustered. I think you're unlikely to take my centers for a year or two, and Austria could force both Rum and Gal this turn.",
+                "TURKEY: You might throw a wrench in things with\nA Rum - Bul\nF Black C A Rum - Bul.\n\nYou'd bypass the Austrian fleet, and I could support you in Bul. Just a thought",
+                "TURKEY: You could then cover Sev with Black in the fall"
+            ]
+        },
+        "F1903M": {
+            "mentioned": [
+                "bul",
+                "rum"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A NWY H",
+                    "A SEV H",
+                    "A SIL H",
+                    "F BLA H",
+                    "F NWG H"
+                ],
+                "TURKEY": [
+                    "F ANK S F CON",
+                    "F CON H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN - STP",
+                    "A NWY S A FIN - STP",
+                    "A SEV - RUM",
+                    "A SIL - WAR",
+                    "F BLA S F CON - BUL",
+                    "F NWG - EDI"
+                ],
+                "TURKEY": [
+                    "F ANK - CON",
+                    "F CON - BUL/SC"
+                ]
+            },
+            "messages": [
+                "RUSSIA: well this isn't goin gwell",
+                "TURKEY: Nope. Any ideas?",
+                "TURKEY: I can take Bul if you support me and tap Rum.",
+                "RUSSIA: Okay, I'll do that.",
+                "RUSSIA: supporting you to Bul sc",
+                "TURKEY: Can you support to SC or only EC",
+                "RUSSIA: I can support to sc",
+                "TURKEY: I'm moving to SC",
+                "RUSSIA: you have my support"
+            ]
+        },
+        "S1904M": {
+            "mentioned": [
+                "germany"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A FIN H",
+                    "A STP H",
+                    "A WAR H",
+                    "F NWG H"
+                ],
+                "TURKEY": [
+                    "F BUL/SC - AEG"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A FIN S F NWG - NWY",
+                    "A STP S F NWG - NWY",
+                    "A WAR - SIL",
+                    "F NWG - NWY"
+                ],
+                "TURKEY": [
+                    "F BUL/SC - CON"
+                ]
+            },
+            "messages": [
+                "RUSSIA: I disbanded my southern units. I don't want to fight you anymore. I want to make Germany pay for that terrible play. They saw you were growing big and instead of help me they screwed me.\n",
+                "RUSSIA: I ask that you don't take Sev so that I can help you fight Germany. Sev will always be there.",
+                "TURKEY: I only ever had 4 centers?"
+            ]
+        }
+    }
+}

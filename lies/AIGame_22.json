@@ -1,0 +1,910 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901402473304,
+            "phase": "S1901M",
+            "message": "Hey Russia! Are you interested in a strong, early R/T?\n\nI'm thinking we could bounce in Black Sea to start",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901484446164,
+            "phase": "S1901M",
+            "message": "Hey Russia! Would you be interested in a DMZ of Prussia and Silesia?",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1706901533411601,
+            "phase": "S1901M",
+            "message": "peace?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901752810364,
+            "phase": "S1901M",
+            "message": "What about yourself?",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901788790004,
+            "phase": "S1901M",
+            "message": "So I assume you open south right?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901857611826,
+            "phase": "S1901M",
+            "message": "I can support you into Rumania in the fall if you want",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706901903477924,
+            "phase": "S1901M",
+            "message": "I'm happy to DMZ English if you'll support me into Belgium!",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706901952834489,
+            "phase": "S1901M",
+            "message": "Anyways, I think it's important for us to bounce in the Black Sea.\n\nYou can support yourself in in the fall if you want Rumania",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902010730784,
+            "phase": "F1901M",
+            "message": "That would get you Rumania for sure",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902077812874,
+            "phase": "F1901M",
+            "message": "So do you want to do a DMZ now?",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902146518780,
+            "phase": "F1901M",
+            "message": "I'm taking Nwy with a fleet, hope that makes you happy",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902167244756,
+            "phase": "F1901M",
+            "message": "Austria's opening is very funny haha",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902200936158,
+            "phase": "F1901M",
+            "message": "Great! You take Rumania and I'll take Greece and then we'll take Bulgaria next year and Turkey will be finished",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706902234868395,
+            "phase": "F1901M",
+            "message": "Germany is going to bounce me in Belgium.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902332500756,
+            "phase": "F1901M",
+            "message": "Agreed",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902369081757,
+            "phase": "F1901M",
+            "message": "Wow, Austria's opening is bizarre. What do you make of it?",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902408417179,
+            "phase": "F1901M",
+            "message": "I hope GAL is still DMZ.",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902433531541,
+            "phase": "F1901M",
+            "message": "Why wouldn't you support yourself? It's much better than having two units do nothing",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "ENGLAND",
+            "time_sent": 1706902445141762,
+            "phase": "F1901M",
+            "message": "Besides, France doesn't need any more enemies",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706902540344274,
+            "phase": "F1901M",
+            "message": "It seems that way. I don't think that any German player wants to work with a weak Austria.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706902549436188,
+            "phase": "F1901M",
+            "message": "We'll bounce, and then Germany will be too strong.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706902568378849,
+            "phase": "F1901M",
+            "message": "Please just take Norway.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903003516634,
+            "phase": "S1902M",
+            "message": "Alright, let's take down Turkey",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706903026798630,
+            "phase": "S1902M",
+            "message": "Not a great time to betray me, England. Germany built two fleets... that's usually not a good sign for you.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706903053488413,
+            "phase": "S1902M",
+            "message": "I'm still willing to work with you.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903281985917,
+            "phase": "S1902M",
+            "message": "Ok. What are you planning on doing with Rumania then?",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903331027878,
+            "phase": "S1902M",
+            "message": "I will be keeping you out of Sweden, and I think England will move to St. Petersburg.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706903441160462,
+            "phase": "F1902M",
+            "message": "Germany is set up to betray you, and you're going to lose out if they do.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903549086145,
+            "phase": "F1902M",
+            "message": "If I tell you I'll support you in Sweden, would you believe me?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903644472269,
+            "phase": "F1902M",
+            "message": "You should support me into Serbia now",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903681105449,
+            "phase": "F1902M",
+            "message": "pretty sure we're both humans here",
+            "truth": "Truth"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903691344768,
+            "phase": "F1902M",
+            "message": "What?",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903700856998,
+            "phase": "F1902M",
+            "message": "do you want to support Nwy to Swe instead?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903722494638,
+            "phase": "F1902M",
+            "message": "I'm sure you would like an empty Nwy",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903735657077,
+            "phase": "F1902M",
+            "message": "Are you good meaning what?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903810669585,
+            "phase": "F1902M",
+            "message": "Ok. Can you support Bulgaria to Serbia then?",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903840744007,
+            "phase": "F1902M",
+            "message": "Saying 'please don't' after I've already put myself into position to attack you.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706903929508478,
+            "phase": "F1902M",
+            "message": "Why?",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904023089814,
+            "phase": "W1902A",
+            "message": "he's a bot",
+            "truth": "Truth"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706904122879196,
+            "phase": "S1903M",
+            "message": "Well, I tried to move away.",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904179215136,
+            "phase": "S1903M",
+            "message": "Ok, well, I've been stabbed.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904241146747,
+            "phase": "S1903M",
+            "message": "sorry about Stp btw, I couldn't resist",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904247577984,
+            "phase": "S1903M",
+            "message": "Thanks. I think you should have disbanded the fleet in Sevastopol",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904356296828,
+            "phase": "S1903M",
+            "message": "I will.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904380474832,
+            "phase": "S1903M",
+            "message": "Well, ok then",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904393027188,
+            "phase": "S1903M",
+            "message": "I'm going to move Black Sea to Constantinople",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904532997011,
+            "phase": "S1903M",
+            "message": "Germany is no longer as big a problem. They're actually hurting pretty bad now.",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904544924711,
+            "phase": "S1903M",
+            "message": "Germany will move out of Livonia. if you work with me\n",
+            "truth": "Truth"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706904569806242,
+            "phase": "S1903M",
+            "message": "Deal. I'm moving Picardy to Belgium.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904613933705,
+            "phase": "S1903M",
+            "message": "Italy and Austria are trying to get me to attack you. Don't worry though. I'm not going to",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904614943679,
+            "phase": "S1903M",
+            "message": "Ok give me RUM back then",
+            "truth": "Truth"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904648082886,
+            "phase": "S1903M",
+            "message": "And move away from GAL",
+            "truth": "Truth"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904663854525,
+            "phase": "S1903M",
+            "message": "Let it be DMZ\n",
+            "truth": "Truth"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904744525209,
+            "phase": "F1903M",
+            "message": "Why didn't you support yourself to Galicia?",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1706904833057185,
+            "phase": "F1903M",
+            "message": "You invaded it first.\n",
+            "truth": "Truth"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905061958567,
+            "phase": "F1903M",
+            "message": "whatcha doing",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905141787772,
+            "phase": "F1903M",
+            "message": "oh come on, what is this, your first diplomacy game?",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905149178158,
+            "phase": "F1903M",
+            "message": "oh wait it probably is",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905153258074,
+            "phase": "F1903M",
+            "message": "apologies",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1706905570245497,
+            "phase": "S1904M",
+            "message": "I feel like it would benefit us both to stop fighting.",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1706905608124525,
+            "phase": "S1904M",
+            "message": "Italy is getting pretty strong.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905681252075,
+            "phase": "S1904M",
+            "message": "pretty strange i assume",
+            "truth": "Neutral"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1706905852905429,
+            "phase": "S1904M",
+            "message": "That's fair.",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "ENGLAND",
+            "time_sent": 1706906904493498,
+            "phase": "S1905M",
+            "message": "It's a shame we can't stop fighting.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1706906962911775,
+            "phase": "S1905M",
+            "message": "Turkey will weaken Italy",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706907161973163,
+            "phase": "S1905M",
+            "message": "Hey, you should support move into Holland from Belgium, Germany is going to try to sneak in",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706907285981403,
+            "phase": "S1905M",
+            "message": "That's not how you support, you can't move with the unit you are supporting",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706907309244152,
+            "phase": "S1905M",
+            "message": "I'm just going to give my centers to Germany",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1706907454609822,
+            "phase": "F1905M",
+            "message": "You don't need all three armies to take Vienna",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1706907515826972,
+            "phase": "F1905M",
+            "message": "I'm going for Trieste",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706908825601914,
+            "phase": "F1906M",
+            "message": "I'm just going to put everything on Germany",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706908826070385,
+            "phase": "F1906M",
+            "message": "I'm taking London back and you are going to lose Edi",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1706908961702946,
+            "phase": "F1906M",
+            "message": "You can bounce me out of it",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706909166437089,
+            "phase": "F1906M",
+            "message": "Yeah, we can take him out later",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706909248212772,
+            "phase": "F1906M",
+            "message": "I've ordered a move to Finland, which doesn't actually threaten you.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706909532275253,
+            "phase": "S1907M",
+            "message": "This is a bad idea for you",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706909579035989,
+            "phase": "S1907M",
+            "message": "Italy is going to win",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910077297453,
+            "phase": "F1907M",
+            "message": "Why don't you focus on Germany",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910231191199,
+            "phase": "F1907M",
+            "message": "I had to do something to stop Italy.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910281978025,
+            "phase": "F1907M",
+            "message": "You need to defend Warsaw",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910398061433,
+            "phase": "F1907M",
+            "message": "You should stop fighting me and Germany",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910425937405,
+            "phase": "F1907M",
+            "message": "Okay.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910515385256,
+            "phase": "F1907M",
+            "message": "What does that mean?",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910806976758,
+            "phase": "S1908M",
+            "message": "Yes, I need to focus on Italy.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910872117160,
+            "phase": "S1908M",
+            "message": "Let me know when you realize that you're losing",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910886182662,
+            "phase": "S1908M",
+            "message": "This is the worst move you've made all game",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706910926054152,
+            "phase": "S1908M",
+            "message": "Sorry about Silesia, I'm trying to cut a deal with Germany",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706911025248697,
+            "phase": "S1908M",
+            "message": "I will",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706911429470764,
+            "phase": "F1908M",
+            "message": "Please don't help Italy take Munich.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ENGLAND",
+            "time_sent": 1706911544314875,
+            "phase": "F1908M",
+            "message": "This is not the best way for you to survive either",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "RUSSIA",
+            "time_sent": 1706911655722278,
+            "phase": "F1908M",
+            "message": "What do you mean?",
+            "truth": null
+        }
+    ],
+    "actual_lies": [
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706901438736373,
+            "phase": "S1901M",
+            "message": "No I want a DMZ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706901500411083,
+            "phase": "S1901M",
+            "message": "That is insane",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706901523411346,
+            "phase": "S1901M",
+            "message": "Don't know wanna team up?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706901765562150,
+            "phase": "S1901M",
+            "message": "Not true and I need Romania\n",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706901915294789,
+            "phase": "S1901M",
+            "message": "ok",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "FRANCE",
+            "time_sent": 1706901961253468,
+            "phase": "S1901M",
+            "message": "Just support me when anyone invades,I will too do the same for you.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706902329106889,
+            "phase": "F1901M",
+            "message": "no I'm taking Romania",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1706903604755771,
+            "phase": "F1902M",
+            "message": "what are you on about?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "ENGLAND",
+            "time_sent": 1706903648494552,
+            "phase": "F1902M",
+            "message": "I dunno",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "GERMANY",
+            "time_sent": 1706903836642914,
+            "phase": "F1902M",
+            "message": "Yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1706903966187437,
+            "phase": "F1902M",
+            "message": "ok",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706904448009844,
+            "phase": "S1903M",
+            "message": "ok, if you move your fleets away from me, I will give you belgium",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "ITALY",
+            "time_sent": 1706905041615881,
+            "phase": "F1903M",
+            "message": "you don't need to, I'm sure austria won't stab you",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706905970543873,
+            "phase": "S1904M",
+            "message": "ok, later",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706906454897719,
+            "phase": "F1904M",
+            "message": "you can take London",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706907206280356,
+            "phase": "S1905M",
+            "message": "ok, Belgoium is supporting nth to Holland",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706907320801968,
+            "phase": "S1905M",
+            "message": "I am supporting Nth to Hol with belgium",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706910053439145,
+            "phase": "F1907M",
+            "message": "I will move to denmark",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1706910163511355,
+            "phase": "F1907M",
+            "message": "yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1706910419138757,
+            "phase": "F1907M",
+            "message": "sure",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1706911221940835,
+            "phase": "S1908M",
+            "message": "yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "ITALY",
+            "time_sent": 1706911487769804,
+            "phase": "F1908M",
+            "message": "you can move to London if you want",
+            "truth": "Lie"
+        }
+    ]
+}

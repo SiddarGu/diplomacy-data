@@ -1,0 +1,236 @@
+{
+    "S1901M": {
+        "RUSSIA": [
+            "A MOS - UKR",
+            "A WAR - GAL",
+            "F SEV - BLA",
+            "F STP/SC - BOT"
+        ],
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - ANK",
+            "F ANK - BLA"
+        ],
+        "ENGLAND": [
+            "A LVP - YOR",
+            "F EDI - NWG",
+            "F LON - NTH"
+        ]
+    },
+    "F1901M": {
+        "RUSSIA": [
+            "A UKR - RUM",
+            "A WAR - GAL",
+            "F BOT - SWE",
+            "F SEV S A UKR - RUM"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A SMY - ARM",
+            "F ANK - BLA"
+        ],
+        "ENGLAND": [
+            "A YOR - LON",
+            "F NTH - BEL",
+            "F NWG - NWY"
+        ]
+    },
+    "S1902M": {
+        "TURKEY": [
+            "A ANK H",
+            "A BUL H",
+            "F CON S A BUL",
+            "F SMY - AEG"
+        ],
+        "RUSSIA": [
+            "A MOS - STP",
+            "A RUM S A WAR - GAL",
+            "A UKR S A RUM",
+            "A WAR - GAL",
+            "F BLA S A RUM",
+            "F SWE H"
+        ],
+        "ENGLAND": [
+            "A WAL H",
+            "F LON S F NTH - ENG",
+            "F NTH - ENG",
+            "F NWY - SKA"
+        ]
+    },
+    "F1902M": {
+        "ENGLAND": [
+            "A WAL - LVP",
+            "F ENG H",
+            "F LON S F ENG",
+            "F NWY H"
+        ],
+        "TURKEY": [
+            "A ARM - SYR",
+            "A BUL H",
+            "F AEG - SMY",
+            "F CON S A BUL"
+        ],
+        "RUSSIA": [
+            "A GAL S A MOS - WAR",
+            "A MOS - WAR",
+            "A RUM H",
+            "A UKR - SEV",
+            "F BLA S A RUM",
+            "F SWE - NWY"
+        ]
+    },
+    "S1903M": {
+        "TURKEY": [
+            "A SYR - ARM",
+            "F AEG - BUL/SC",
+            "F CON S F AEG - BUL/SC"
+        ],
+        "RUSSIA": [
+            "A BUL S F BLA - CON",
+            "A GAL - WAR",
+            "A MOS S A GAL - WAR",
+            "A SEV - ARM",
+            "F BLA - CON",
+            "F SKA H"
+        ],
+        "ENGLAND": [
+            "A LVP H",
+            "F ENG H",
+            "F LON S F ENG",
+            "F NWY H"
+        ]
+    },
+    "F1903M": {
+        "TURKEY": [
+            "A SYR - ARM",
+            "F AEG - CON",
+            "F CON - ANK"
+        ],
+        "ENGLAND": [
+            "A LVP - CLY",
+            "F ENG S F LON - NTH",
+            "F LON - NTH",
+            "F NWY - SWE"
+        ],
+        "RUSSIA": [
+            "A BUL - CON",
+            "A MOS - LVN",
+            "A SEV - UKR",
+            "A WAR H",
+            "F BLA S A BUL - CON",
+            "F SKA - SWE"
+        ]
+    },
+    "S1904M": {
+        "ENGLAND": [
+            "A CLY - LVP",
+            "F ENG - LON",
+            "F NTH S F ENG - LON"
+        ],
+        "TURKEY": [
+            "A ARM - SEV",
+            "F ANK - CON"
+        ],
+        "RUSSIA": [
+            "A CON H",
+            "A MOS S A UKR",
+            "A UKR S A MOS",
+            "F BLA - SEV"
+        ]
+    },
+    "F1904M": {
+        "TURKEY": [
+            "A ARM - SMY",
+            "F ANK - CON"
+        ],
+        "RUSSIA": [
+            "A CON - BUL",
+            "A RUM S F AEG - BUL/SC",
+            "A UKR - GAL",
+            "F BLA - SEV"
+        ],
+        "ENGLAND": [
+            "A CLY - EDI",
+            "F ENG - LON",
+            "F LON - YOR"
+        ]
+    },
+    "S1905M": {
+        "ENGLAND": [
+            "A EDI H",
+            "F LON - ENG"
+        ],
+        "TURKEY": [
+            "A ARM - SEV"
+        ],
+        "RUSSIA": [
+            "A BUL - ANK VIA",
+            "A CON S A BUL - ANK",
+            "F BLA C A BUL - ANK"
+        ]
+    },
+    "F1905M": {
+        "RUSSIA": [
+            "A ANK S A CON",
+            "A CON S F BLA - BUL/EC",
+            "F BLA - BUL/EC"
+        ],
+        "ENGLAND": [
+            "A EDI H",
+            "F LON H"
+        ],
+        "TURKEY": [
+            "A SEV S F BLA - RUM"
+        ]
+    },
+    "S1906M": {
+        "ENGLAND": [
+            "A EDI H",
+            "F LON - ENG"
+        ],
+        "RUSSIA": [
+            "A CON H",
+            "F BLA S A CON"
+        ],
+        "TURKEY": [
+            "A SEV S F BLA - RUM"
+        ]
+    },
+    "F1906M": {
+        "TURKEY": [
+            "A SEV - MOS"
+        ],
+        "ENGLAND": [
+            "A YOR - LVP",
+            "F LON - ENG"
+        ],
+        "RUSSIA": [
+            "A ANK H",
+            "F RUM H"
+        ]
+    },
+    "S1907M": {
+        "RUSSIA": [
+            "A ANK - CON",
+            "F RUM - BUL/EC"
+        ],
+        "ENGLAND": [
+            "F ENG - LON"
+        ],
+        "TURKEY": [
+            "A MOS - WAR"
+        ]
+    },
+    "F1907M": {
+        "TURKEY": [
+            "A STP - MOS"
+        ],
+        "ENGLAND": [
+            "F ENG - LON"
+        ],
+        "RUSSIA": [
+            "A CON H",
+            "F RUM - SEV"
+        ]
+    }
+}

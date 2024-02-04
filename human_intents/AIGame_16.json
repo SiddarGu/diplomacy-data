@@ -1,0 +1,187 @@
+{
+    "S1901M": {
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - CON",
+            "F ANK - BLA"
+        ],
+        "AUSTRIA": [
+            "A BUD - SER",
+            "A VIE - GAL",
+            "F TRI - ALB"
+        ]
+    },
+    "F1901M": {
+        "AUSTRIA": [
+            "A SER - TRI",
+            "A VIE - GAL",
+            "F ALB - GRE"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A CON - BUL",
+            "F ANK - BLA"
+        ]
+    },
+    "S1902M": {
+        "AUSTRIA": [
+            "A BUD S A BUL - RUM",
+            "A TRI - SER",
+            "A VIE - GAL",
+            "F GRE - AEG"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A CON - BUL",
+            "F BLA S A BUL - RUM",
+            "F SMY - AEG"
+        ]
+    },
+    "F1902M": {
+        "TURKEY": [
+            "A BUL S A RUM",
+            "A RUM S A BUL",
+            "F BLA - ANK",
+            "F SMY H"
+        ],
+        "AUSTRIA": [
+            "A BUD S A VIE - GAL",
+            "A SER H",
+            "A VIE - GAL",
+            "F GRE - AEG"
+        ]
+    },
+    "S1903M": {
+        "AUSTRIA": [
+            "A BUD - TRI",
+            "A GAL - UKR",
+            "A SER S A BUD - TRI"
+        ],
+        "TURKEY": [
+            "A BUL S A SER - GRE",
+            "A RUM H",
+            "F ANK S F CON - BLA",
+            "F CON - BLA",
+            "F SMY H"
+        ]
+    },
+    "F1903M": {
+        "AUSTRIA": [
+            "A BUD S A SER",
+            "A GAL - WAR",
+            "A SER S A BUL - GRE"
+        ],
+        "TURKEY": [
+            "A BUL S A SER",
+            "A RUM - SEV",
+            "F ANK H",
+            "F BLA S A RUM - SEV",
+            "F SMY H"
+        ]
+    },
+    "S1904M": {
+        "AUSTRIA": [
+            "A BUD S A VIE - TRI",
+            "A SER S A VIE - TRI",
+            "A VIE - TRI"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "F ANK S F BLA",
+            "F BLA S A BUL - RUM",
+            "F SMY H"
+        ]
+    },
+    "F1904M": {
+        "TURKEY": [
+            "A BUL - RUM",
+            "F ANK S F BLA",
+            "F BLA S A BUL - RUM",
+            "F SMY H"
+        ],
+        "AUSTRIA": [
+            "A BUD S A RUM",
+            "A SER - GRE",
+            "A TRI S A PIE - VEN"
+        ]
+    },
+    "S1905M": {
+        "TURKEY": [
+            "F ANK - BLA",
+            "F BLA - BUL/EC",
+            "F SMY H"
+        ],
+        "AUSTRIA": [
+            "A BUD H",
+            "A GRE - BUL",
+            "A TRI S A VIE - TYR",
+            "A VIE - TYR"
+        ]
+    },
+    "F1905M": {
+        "TURKEY": [
+            "F ANK - CON",
+            "F SMY - AEG"
+        ],
+        "AUSTRIA": [
+            "A BUD S A RUM",
+            "A BUL - CON",
+            "A TRI S A TYR - VEN",
+            "A TYR - VEN"
+        ]
+    },
+    "S1906M": {
+        "AUSTRIA": [
+            "A BUD - SER",
+            "A BUL - CON",
+            "A RUM - BUD",
+            "A TRI - VEN",
+            "A TYR S A TRI - VEN"
+        ],
+        "TURKEY": [
+            "F AEG - GRE",
+            "F CON H"
+        ]
+    },
+    "F1906M": {
+        "AUSTRIA": [
+            "A GRE S A SER",
+            "A RUM H",
+            "A SER S A RUM",
+            "A TYR - VEN",
+            "A VEN - TUS"
+        ],
+        "TURKEY": [
+            "F AEG S F CON",
+            "F CON H"
+        ]
+    },
+    "S1907M": {
+        "AUSTRIA": [
+            "A GRE S A SER - BUL",
+            "A RUM S A SER - BUL",
+            "A SER - BUL",
+            "A TUS S A TYR - VEN",
+            "A TYR - VEN",
+            "F TRI - ADR"
+        ],
+        "TURKEY": [
+            "F AEG S F CON",
+            "F CON H"
+        ]
+    },
+    "F1907M": {
+        "AUSTRIA": [
+            "A BUL - CON",
+            "A GRE H",
+            "A RUM - BUD",
+            "A TUS - ROM",
+            "A VEN S A TUS - ROM",
+            "F TRI - ADR"
+        ],
+        "TURKEY": [
+            "F AEG S F CON",
+            "F CON H"
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1701523742256725,
+            "phase": "S1901M",
+            "message": "What have you heard from Austria? He told me he was going for Greece.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1701523921919934,
+            "phase": "S1901M",
+            "message": "That's the gist of it. If we're all on the same page then we can divide up Germany quickly.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "FRANCE",
+            "time_sent": 1701524630748528,
+            "phase": "F1901M",
+            "message": "I think you should be able to trust him. He told me he'd be bouncing with you in Bur.",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1701525021452238,
+            "phase": "S1902M",
+            "message": "If you can get into the Aegean, we should be able to get you Greece.",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1701525123939088,
+            "phase": "S1902M",
+            "message": "Italy just told me he's planning to do the Lepanto against you, so you're going to need to bounce him in AEG. I'll see if I can get Austria to tap ION",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1701525129534650,
+            "phase": "S1902M",
+            "message": "Yeah, I will!",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "TURKEY",
+            "time_sent": 1701525251485384,
+            "phase": "S1902M",
+            "message": "I'm still willing to work with you, Turkey",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1701525502399801,
+            "phase": "F1902M",
+            "message": "Not too surprising, but Italy just got stabbed by Austria. You're safe for the moment. Let me know if you need my help",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1701525902639249,
+            "phase": "F1902M",
+            "message": "What can I do?",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "FRANCE",
+            "time_sent": 1701526252710159,
+            "phase": "S1903M",
+            "message": "I'm hoping we can divide Italy evenly. Would that be ok with you?",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1701526341605940,
+            "phase": "S1903M",
+            "message": "Sorry, I saw this too late",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "FRANCE",
+            "time_sent": 1701528844417372,
+            "phase": "F1904M",
+            "message": "Thanks. It's a guessing game, but we'll see what happens",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1701529460163197,
+            "phase": "S1905M",
+            "message": "Well, I didn't expect Austria to attack me...",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1701529675029189,
+            "phase": "S1905M",
+            "message": "Unfortunately, that's not a good enough argument. I needed those builds to defend myself.",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "GERMANY",
+            "time_sent": 1701529807604751,
+            "phase": "S1905M",
+            "message": "Not sure Austria will let me though",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1701530285499636,
+            "phase": "F1905M",
+            "message": "Will do",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1701531745255687,
+            "phase": "F1906M",
+            "message": "Germany, Austria is going to win this game if you don't let up your attack. I can't hold against him if I continue to lose centers.",
+            "truth": null
+        }
+    ],
+    "actual_lies": []
+}

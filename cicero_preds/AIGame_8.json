@@ -1,0 +1,3458 @@
+{
+    "S1901M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BUD - SER",
+                "A VIE - GAL",
+                "F TRI - ALB"
+            ],
+            "ENGLAND": [
+                "A LVP - EDI",
+                "F EDI - NWG",
+                "F LON - NTH"
+            ],
+            "FRANCE": [
+                "A MAR - SPA",
+                "A PAR - BUR",
+                "F BRE - MAO"
+            ],
+            "GERMANY": [
+                "A BER - KIE",
+                "A MUN - RUH",
+                "F KIE - DEN"
+            ],
+            "ITALY": [
+                "A ROM - APU",
+                "A VEN H",
+                "F NAP - ION"
+            ],
+            "RUSSIA": [
+                "A MOS - UKR",
+                "A WAR - GAL",
+                "F SEV - BLA",
+                "F STP/SC - BOT"
+            ],
+            "TURKEY": [
+                "A CON - BUL",
+                "A SMY - CON",
+                "F ANK - BLA"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "RUSSIA": [
+                    1699643629434407,
+                    [
+                        "A MOS - UKR",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "F STP/SC - BOT"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699643644952838,
+                    [
+                        "A BUD - SER",
+                        "A VIE - GAL",
+                        "F TRI - ALB"
+                    ]
+                ],
+                "ITALY": [
+                    1699643658459222,
+                    [
+                        "A ROM - APU",
+                        "A VEN H",
+                        "F NAP - ION"
+                    ]
+                ],
+                "GERMANY": [
+                    1699643611615797,
+                    [
+                        "A BER - KIE",
+                        "A MUN - RUH",
+                        "F KIE - DEN"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699643503860072,
+                    [
+                        "A LVP - YOR",
+                        "F EDI - NWG",
+                        "F LON - NTH"
+                    ]
+                ],
+                "FRANCE": [
+                    1699643315920726,
+                    [
+                        "A MAR - SPA",
+                        "A PAR - BUR",
+                        "F BRE - MAO"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "GERMANY": [
+                    1699643252609323,
+                    [
+                        "A BER - KIE",
+                        "A MUN - RUH",
+                        "F KIE - DEN"
+                    ]
+                ],
+                "ITALY": [
+                    1699643272207823,
+                    [
+                        "A ROM - APU",
+                        "A VEN H",
+                        "F NAP - ION"
+                    ]
+                ],
+                "TURKEY": [
+                    1699643590548697,
+                    [
+                        "A CON - BUL",
+                        "A SMY - CON",
+                        "F ANK - BLA"
+                    ]
+                ],
+                "FRANCE": [
+                    1699643629441599,
+                    [
+                        "A MAR S A PAR - BUR",
+                        "A PAR - BUR",
+                        "F BRE - MAO"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699643652851011,
+                    [
+                        "A LVP - YOR",
+                        "F EDI - NWG",
+                        "F LON - NTH"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699643611608803,
+                    [
+                        "A BUD - SER",
+                        "A VIE - GAL",
+                        "F TRI - ALB"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "GERMANY": [
+                    1699643314024055,
+                    [
+                        "A BER - KIE",
+                        "A MUN - RUH",
+                        "F KIE - DEN"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699643656820790,
+                    [
+                        "A MOS - UKR",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "F STP/SC - BOT"
+                    ]
+                ],
+                "ITALY": [
+                    1699643638952231,
+                    [
+                        "A ROM - APU",
+                        "A VEN H",
+                        "F NAP - ION"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699643602824793,
+                    [
+                        "A LVP - EDI",
+                        "F EDI - NWG",
+                        "F LON - NTH"
+                    ]
+                ],
+                "FRANCE": [
+                    1699643295575359,
+                    [
+                        "A MAR S A PAR - BUR",
+                        "A PAR - BUR",
+                        "F BRE - MAO"
+                    ]
+                ],
+                "TURKEY": [
+                    1699643625253960,
+                    [
+                        "A CON - BUL",
+                        "A SMY - CON",
+                        "F ANK - BLA"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "FRANCE": [
+                    1699643180988429,
+                    [
+                        "A MAR S A PAR - BUR",
+                        "A PAR - BUR",
+                        "F BRE - MAO"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699643647016398,
+                    [
+                        "A MOS - UKR",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "F STP/SC - BOT"
+                    ]
+                ],
+                "GERMANY": [
+                    1699643523691658,
+                    [
+                        "A BER - KIE",
+                        "A MUN - RUH",
+                        "F KIE - DEN"
+                    ]
+                ],
+                "ITALY": [
+                    1699643282187310,
+                    [
+                        "A ROM - VEN",
+                        "A VEN - TYR",
+                        "F NAP - ION"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699643670059335,
+                    [
+                        "A BUD - SER",
+                        "A VIE - GAL",
+                        "F TRI - ALB"
+                    ]
+                ],
+                "TURKEY": [
+                    1699643630526068,
+                    [
+                        "A CON - BUL",
+                        "A SMY - CON",
+                        "F ANK - BLA"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "FRANCE": [
+                    1699643216106878,
+                    [
+                        "A MAR - SPA",
+                        "A PAR - BUR",
+                        "F BRE - MAO"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699643667128348,
+                    [
+                        "A BUD - SER",
+                        "A VIE - GAL",
+                        "F TRI - ALB"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699643371331476,
+                    [
+                        "A MOS - UKR",
+                        "A WAR - GAL",
+                        "F SEV - BLA",
+                        "F STP/SC - BOT"
+                    ]
+                ],
+                "GERMANY": [
+                    1699643203034150,
+                    [
+                        "A BER - KIE",
+                        "A MUN - RUH",
+                        "F KIE - DEN"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699643249828516,
+                    [
+                        "A LVP - EDI",
+                        "F EDI - NWG",
+                        "F LON - NTH"
+                    ]
+                ],
+                "TURKEY": [
+                    1699643564961681,
+                    [
+                        "A CON - BUL",
+                        "A SMY - CON",
+                        "F ANK - BLA"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1901M": {
+        "actual": {
+            "AUSTRIA": [
+                "A SER S F ALB - GRE",
+                "A VIE - TRI",
+                "F ALB - GRE"
+            ],
+            "ENGLAND": [
+                "A EDI - NWY VIA",
+                "F NTH - SKA",
+                "F NWG C A EDI - NWY"
+            ],
+            "FRANCE": [
+                "A BUR H",
+                "A SPA - POR",
+                "F MAO - SPA/SC"
+            ],
+            "GERMANY": [
+                "A KIE - HOL",
+                "A RUH - BEL",
+                "F DEN H"
+            ],
+            "ITALY": [
+                "A APU - TUN VIA",
+                "A VEN H",
+                "F ION C A APU - TUN"
+            ],
+            "RUSSIA": [
+                "A UKR - RUM",
+                "A WAR - UKR",
+                "F BOT - SWE",
+                "F SEV S A UKR - RUM"
+            ],
+            "TURKEY": [
+                "A BUL - GRE",
+                "A CON - BUL",
+                "F ANK - BLA"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "FRANCE": [
+                    1699644215882318,
+                    [
+                        "A BUR - BEL",
+                        "A SPA - POR",
+                        "F MAO - SPA/SC"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644278946681,
+                    [
+                        "A EDI - NWY VIA",
+                        "F NTH - SKA",
+                        "F NWG C A EDI - NWY"
+                    ]
+                ],
+                "ITALY": [
+                    1699644187458933,
+                    [
+                        "A APU - TUN VIA",
+                        "A VEN H",
+                        "F ION C A APU - TUN"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699643933523807,
+                    [
+                        "A UKR - RUM",
+                        "A WAR - GAL",
+                        "F BOT - SWE",
+                        "F SEV S A UKR - RUM"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644086831519,
+                    [
+                        "A SER S F ALB - GRE",
+                        "A VIE - TRI",
+                        "F ALB - GRE"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "AUSTRIA": [
+                    1699644206180000,
+                    [
+                        "A SER S F ALB - GRE",
+                        "A VIE - GAL",
+                        "F ALB - GRE"
+                    ]
+                ],
+                "TURKEY": [
+                    1699643996255207,
+                    [
+                        "A BUL - GRE",
+                        "A CON - BUL",
+                        "F ANK - BLA"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644177890489,
+                    [
+                        "A EDI - NWY VIA",
+                        "F NTH - BEL",
+                        "F NWG C A EDI - NWY"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699644054966397,
+                    [
+                        "A UKR - RUM",
+                        "A WAR - GAL",
+                        "F BOT - SWE",
+                        "F SEV S A UKR - RUM"
+                    ]
+                ],
+                "FRANCE": [
+                    1699644275010831,
+                    [
+                        "A BUR - BEL",
+                        "A SPA H",
+                        "F MAO - POR"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ITALY": [
+                    1699644173259043,
+                    [
+                        "A APU - TUN VIA",
+                        "A VEN H",
+                        "F ION C A APU - TUN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699643866294514,
+                    [
+                        "A BUR - BEL",
+                        "A SPA H",
+                        "F MAO - POR"
+                    ]
+                ],
+                "TURKEY": [
+                    1699644154886974,
+                    [
+                        "A BUL - GRE",
+                        "A CON - BUL",
+                        "F ANK - BLA"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699644213269329,
+                    [
+                        "A UKR - RUM",
+                        "A WAR - GAL",
+                        "F BOT - SWE",
+                        "F SEV S A UKR - RUM"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644234827109,
+                    [
+                        "A EDI - NWY VIA",
+                        "F NTH - SKA",
+                        "F NWG C A EDI - NWY"
+                    ]
+                ],
+                "GERMANY": [
+                    1699644137979860,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "F DEN - SWE"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "GERMANY": [
+                    1699643836806465,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - MUN",
+                        "F DEN H"
+                    ]
+                ],
+                "TURKEY": [
+                    1699644265802234,
+                    [
+                        "A BUL - GRE",
+                        "A CON - BUL",
+                        "F ANK - BLA"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644189872538,
+                    [
+                        "A EDI - YOR",
+                        "F NTH - SKA",
+                        "F NWG - NWY"
+                    ]
+                ],
+                "ITALY": [
+                    1699644138424022,
+                    [
+                        "A APU - TUN VIA",
+                        "A VEN H",
+                        "F ION C A APU - TUN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699644119802114,
+                    [
+                        "A BUR - MUN",
+                        "A SPA H",
+                        "F MAO - POR"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644246094414,
+                    [
+                        "A SER S F ALB - GRE",
+                        "A VIE - TRI",
+                        "F ALB - GRE"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "RUSSIA": [
+                    1699644098373033,
+                    [
+                        "A UKR - RUM",
+                        "A WAR - GAL",
+                        "F BOT - SWE",
+                        "F SEV S A UKR - RUM"
+                    ]
+                ],
+                "GERMANY": [
+                    1699644272044006,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "F DEN - SWE"
+                    ]
+                ],
+                "TURKEY": [
+                    1699644148819763,
+                    [
+                        "A BUL - RUM",
+                        "A CON - BUL",
+                        "F ANK - BLA"
+                    ]
+                ],
+                "ITALY": [
+                    1699644246932868,
+                    [
+                        "A APU - TUN VIA",
+                        "A VEN H",
+                        "F ION C A APU - TUN"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644208571058,
+                    [
+                        "A SER S F ALB - GRE",
+                        "A VIE - GAL",
+                        "F ALB - GRE"
+                    ]
+                ],
+                "FRANCE": [
+                    1699643925562349,
+                    [
+                        "A BUR - BEL",
+                        "A SPA H",
+                        "F MAO - POR"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1902M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BUD S A RUM",
+                "A SER - BUL",
+                "A TRI - SER",
+                "A VIE - TRI",
+                "F GRE S A SER - BUL"
+            ],
+            "ENGLAND": [
+                "A NWY S F SKA - SWE",
+                "F EDI - NTH",
+                "F NWG - BAR",
+                "F SKA - SWE"
+            ],
+            "FRANCE": [
+                "A BUR - MAR",
+                "A POR H",
+                "F BRE - ENG",
+                "F MAR - SPA/SC",
+                "F SPA/SC - MAO"
+            ],
+            "GERMANY": [
+                "A BEL - RUH",
+                "A HOL - KIE",
+                "A MUN - TYR",
+                "F BER - BAL",
+                "F DEN S F BER - BAL",
+                "F KIE - HEL"
+            ],
+            "ITALY": [
+                "A TUN H",
+                "A VEN H",
+                "F ION - EAS",
+                "F NAP - ION"
+            ],
+            "RUSSIA": [
+                "A MOS - STP",
+                "A RUM S A SER - BUL",
+                "A UKR S A RUM",
+                "F SEV - ARM",
+                "F STP/NC - BAR",
+                "F SWE S F DEN - SKA"
+            ],
+            "TURKEY": [
+                "A BUL S A RUM",
+                "A CON S A BUL",
+                "F BLA S A RUM",
+                "F SMY - AEG"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "GERMANY": [
+                    1699644506556306,
+                    [
+                        "A BEL - RUH",
+                        "A HOL - KIE",
+                        "A MUN - RUH",
+                        "F BER - BAL",
+                        "F DEN S F SWE",
+                        "F KIE - HEL"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644803804471,
+                    [
+                        "A NWY - SWE",
+                        "F EDI - NTH",
+                        "F NWG - NWY",
+                        "F SKA S A NWY - SWE"
+                    ]
+                ],
+                "FRANCE": [
+                    1699644544502786,
+                    [
+                        "A BUR H",
+                        "A POR - SPA",
+                        "F BRE - MAO",
+                        "F MAR - LYO",
+                        "F SPA/SC - WES"
+                    ]
+                ],
+                "ITALY": [
+                    1699644895044768,
+                    [
+                        "A TUN H",
+                        "A VEN - PIE",
+                        "F ION - EAS",
+                        "F NAP - ION"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699644864832777,
+                    [
+                        "A MOS - STP",
+                        "A RUM S A UKR - GAL",
+                        "A UKR - GAL",
+                        "F SEV S A RUM",
+                        "F STP/NC - BAR",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644676720321,
+                    [
+                        "A BUD S A VIE - GAL",
+                        "A SER - BUL",
+                        "A TRI - SER",
+                        "A VIE - GAL",
+                        "F GRE S A SER - BUL"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "ENGLAND": [
+                    1699644876928737,
+                    [
+                        "A NWY - SWE",
+                        "F EDI - NTH",
+                        "F NWG - NWY",
+                        "F SKA S A NWY - SWE"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644810497774,
+                    [
+                        "A BUD S A TRI - SER",
+                        "A SER - BUL",
+                        "A TRI - SER",
+                        "A VIE - TRI",
+                        "F GRE S A SER - BUL"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699644567621041,
+                    [
+                        "A MOS - STP",
+                        "A RUM S A SER - BUL",
+                        "A UKR S A RUM",
+                        "F SEV - BLA",
+                        "F STP/NC - BAR",
+                        "F SWE H"
+                    ]
+                ],
+                "FRANCE": [
+                    1699644747230976,
+                    [
+                        "A BUR - PIC",
+                        "A POR - SPA",
+                        "F BRE - ENG",
+                        "F MAR - LYO",
+                        "F SPA/SC - WES"
+                    ]
+                ],
+                "TURKEY": [
+                    1699644831349734,
+                    [
+                        "A BUL H",
+                        "A CON S A BUL",
+                        "F BLA S A BUL",
+                        "F SMY - AEG"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "TURKEY": [
+                    1699644889460889,
+                    [
+                        "A BUL S A RUM",
+                        "A CON S A BUL",
+                        "F BLA S A BUL",
+                        "F SMY - AEG"
+                    ]
+                ],
+                "ITALY": [
+                    1699644825879649,
+                    [
+                        "A TUN - NAF",
+                        "A VEN - PIE",
+                        "F ION - TUN",
+                        "F NAP - TYS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644922345614,
+                    [
+                        "A BUD S A VIE - GAL",
+                        "A SER - BUL",
+                        "A TRI - SER",
+                        "A VIE - GAL",
+                        "F GRE S A SER - BUL"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "GERMANY": [
+                    1699644544529214,
+                    [
+                        "A BEL H",
+                        "A HOL H",
+                        "A MUN H",
+                        "F BER - BAL",
+                        "F DEN - SKA",
+                        "F KIE - HEL"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699644943063618,
+                    [
+                        "A MOS - STP",
+                        "A RUM S A SER - BUL",
+                        "A UKR S A RUM",
+                        "F SEV - BLA",
+                        "F STP/NC - BAR",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "ITALY": [
+                    1699644741262523,
+                    [
+                        "A TUN H",
+                        "A VEN H",
+                        "F ION - EAS",
+                        "F NAP - ION"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699644845436330,
+                    [
+                        "A NWY - SWE",
+                        "F EDI - NTH",
+                        "F NWG - NWY",
+                        "F SKA S A NWY - SWE"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "FRANCE": [
+                    1699644501028520,
+                    [
+                        "A BUR - PIC",
+                        "A POR - SPA",
+                        "F BRE - ENG",
+                        "F MAR - LYO",
+                        "F SPA/SC - WES"
+                    ]
+                ],
+                "ITALY": [
+                    1699644468998448,
+                    [
+                        "A TUN H",
+                        "A VEN H",
+                        "F ION - EAS",
+                        "F NAP - ION"
+                    ]
+                ],
+                "GERMANY": [
+                    1699644858153798,
+                    [
+                        "A BEL H",
+                        "A HOL H",
+                        "A MUN H",
+                        "F BER - BAL",
+                        "F DEN - SKA",
+                        "F KIE - HEL"
+                    ]
+                ],
+                "TURKEY": [
+                    1699644939331528,
+                    [
+                        "A BUL S A RUM",
+                        "A CON S A BUL",
+                        "F BLA S A BUL",
+                        "F SMY - EAS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699644910652532,
+                    [
+                        "A BUD S A RUM",
+                        "A SER - BUL",
+                        "A TRI S A VIE - TYR",
+                        "A VIE - TYR",
+                        "F GRE S A SER - BUL"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1902M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BUD - GAL",
+                "A BUL S A RUM",
+                "A SER S A BUL",
+                "A TRI - VIE",
+                "F GRE - AEG"
+            ],
+            "ENGLAND": [
+                "A NWY - YOR VIA",
+                "F NTH C A NWY - YOR",
+                "F NWG - NAO",
+                "F SWE - NWY"
+            ],
+            "FRANCE": [
+                "A MAR S A VEN - PIE",
+                "A POR - WAL VIA",
+                "F ENG C A POR - WAL",
+                "F MAO C A POR - WAL",
+                "F SPA/SC - LYO"
+            ],
+            "GERMANY": [
+                "A KIE - BER",
+                "A RUH - HOL",
+                "A TYR - VEN",
+                "F BAL S F DEN - SWE",
+                "F DEN - SWE",
+                "F HEL - NTH"
+            ],
+            "ITALY": [
+                "A TUN - SYR VIA",
+                "A VEN - PIE",
+                "F EAS C A TUN - SYR",
+                "F ION C A TUN - SYR"
+            ],
+            "RUSSIA": [
+                "A MOS - STP",
+                "A RUM S A BUL",
+                "A UKR - SEV",
+                "F ARM - BLA",
+                "F BOT - SWE",
+                "F STP/NC - NWY"
+            ],
+            "TURKEY": [
+                "A CON - ANK",
+                "F AEG - SMY",
+                "F BLA - ANK"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "RUSSIA": [
+                    1699645539886111,
+                    [
+                        "A MOS - STP",
+                        "A RUM - BUL",
+                        "A UKR - SEV",
+                        "F ARM - ANK",
+                        "F BOT - SWE",
+                        "F STP/NC - BAR"
+                    ]
+                ],
+                "ITALY": [
+                    1699645351947327,
+                    [
+                        "A TUN - SYR VIA",
+                        "A VEN H",
+                        "F EAS C A TUN - SYR",
+                        "F ION C A TUN - SYR"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699645387322317,
+                    [
+                        "A NWY S F SWE",
+                        "F NTH - LON",
+                        "F NWG - BAR",
+                        "F SWE H"
+                    ]
+                ],
+                "GERMANY": [
+                    1699645415553331,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "A TYR - VEN",
+                        "F BAL - SWE",
+                        "F DEN S F BAL - SWE",
+                        "F HEL - NTH"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "TURKEY": [
+                    1699645464940254,
+                    [
+                        "A CON - ANK",
+                        "F AEG - SMY",
+                        "F BLA - ANK"
+                    ]
+                ],
+                "GERMANY": [
+                    1699645053883951,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "A TYR - MUN",
+                        "F BAL - SWE",
+                        "F DEN S F BAL - SWE",
+                        "F HEL - NTH"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699645313276912,
+                    [
+                        "A NWY S F SWE",
+                        "F NTH - LON",
+                        "F NWG - NAO",
+                        "F SWE S A NWY"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699645501540928,
+                    [
+                        "A MOS - STP",
+                        "A RUM S A BUL",
+                        "A UKR - SEV",
+                        "F ARM - ANK",
+                        "F BOT - SWE",
+                        "F STP/NC - BAR"
+                    ]
+                ],
+                "FRANCE": [
+                    1699645526510624,
+                    [
+                        "A MAR - PIE",
+                        "A POR - WAL VIA",
+                        "F ENG C A POR - WAL",
+                        "F MAO C A POR - WAL",
+                        "F SPA/SC - WES"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699645557002835,
+                    [
+                        "A BUD - VIE",
+                        "A BUL S A RUM",
+                        "A SER S A BUL",
+                        "A TRI - VIE",
+                        "F GRE - AEG"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "RUSSIA": [
+                    1699645458534926,
+                    [
+                        "A MOS - SEV",
+                        "A RUM S A BUL",
+                        "A UKR S A RUM",
+                        "F ARM - ANK",
+                        "F BOT - SWE",
+                        "F STP/NC - NWY"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699645308013596,
+                    [
+                        "A BUD - VIE",
+                        "A BUL S A RUM",
+                        "A SER S A BUL",
+                        "A TRI - VIE",
+                        "F GRE S A BUL"
+                    ]
+                ],
+                "ITALY": [
+                    1699645146607074,
+                    [
+                        "A TUN - SYR VIA",
+                        "A VEN H",
+                        "F EAS C A TUN - SYR",
+                        "F ION C A TUN - SYR"
+                    ]
+                ],
+                "TURKEY": [
+                    1699645518241126,
+                    [
+                        "A CON - ANK",
+                        "F AEG - SMY",
+                        "F BLA - ANK"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699645542794890,
+                    [
+                        "A MOS - STP",
+                        "A RUM S A BUL",
+                        "A UKR - SEV",
+                        "F ARM - ANK",
+                        "F BOT - SWE",
+                        "F STP/NC - BAR"
+                    ]
+                ],
+                "ITALY": [
+                    1699645515472807,
+                    [
+                        "A TUN - SYR VIA",
+                        "A VEN H",
+                        "F EAS C A TUN - SYR",
+                        "F ION C A TUN - SYR"
+                    ]
+                ],
+                "GERMANY": [
+                    1699645330101703,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "A TYR - VEN",
+                        "F BAL - SWE",
+                        "F DEN S F BAL - SWE",
+                        "F HEL - NTH"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699645237829842,
+                    [
+                        "A NWY S F SWE",
+                        "F NTH - LON",
+                        "F NWG - NAO",
+                        "F SWE H"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "GERMANY": [
+                    1699645500690464,
+                    [
+                        "A KIE - HOL",
+                        "A RUH - BEL",
+                        "A TYR - VEN",
+                        "F BAL S F DEN - SWE",
+                        "F DEN - SWE",
+                        "F HEL - DEN"
+                    ]
+                ],
+                "TURKEY": [
+                    1699645404716709,
+                    [
+                        "A CON - ANK",
+                        "F AEG - SMY",
+                        "F BLA - ANK"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699645532318795,
+                    [
+                        "A BUD - VIE",
+                        "A BUL S A RUM",
+                        "A SER S A TRI",
+                        "A TRI S A BUD - VIE",
+                        "F GRE S A BUL"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699645141683612,
+                    [
+                        "A NWY - EDI VIA",
+                        "F NTH - LON",
+                        "F NWG C A NWY - EDI",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "ITALY": [
+                    1699645566664222,
+                    [
+                        "A TUN - SYR VIA",
+                        "A VEN - PIE",
+                        "F EAS C A TUN - SYR",
+                        "F ION C A TUN - SYR"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1903M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BUL - CON",
+                "A GAL - BOH",
+                "A SER - BUL",
+                "A TRI - VEN",
+                "A VIE - TYR",
+                "F AEG S A BUL - CON"
+            ],
+            "ENGLAND": [
+                "A YOR S F LON - WAL",
+                "F LON - WAL",
+                "F NAO - LVP",
+                "F NTH - ENG"
+            ],
+            "FRANCE": [
+                "A MAR - TUS VIA",
+                "A WAL - YOR",
+                "F ENG S F HEL - NTH",
+                "F LYO C A MAR - TUS",
+                "F MAO S F ENG"
+            ],
+            "GERMANY": [
+                "A BER - PRU",
+                "A HOL H",
+                "A KIE - LVN VIA",
+                "A MUN - SIL",
+                "A VEN S A MAR - TUS",
+                "F BAL C A KIE - LVN",
+                "F HEL - NTH",
+                "F SWE - NWY"
+            ],
+            "ITALY": [
+                "A SYR - SMY",
+                "F EAS S A SYR - SMY",
+                "F ION - TYS"
+            ],
+            "RUSSIA": [
+                "A MOS - WAR",
+                "A RUM - UKR",
+                "A SEV - ARM",
+                "F ARM - BLA",
+                "F STP/NC - NWY"
+            ],
+            "TURKEY": [
+                "A CON S F SMY",
+                "F BLA S A CON",
+                "F SMY S A CON"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "AUSTRIA": [
+                    1699646238562064,
+                    [
+                        "A BUL S F AEG - CON",
+                        "A GAL - BOH",
+                        "A SER S A BUL",
+                        "A TRI S A VIE - TYR",
+                        "A VIE - TYR",
+                        "F AEG - CON"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699646116807983,
+                    [
+                        "A MOS - WAR",
+                        "A RUM S A BUL",
+                        "A SEV - UKR",
+                        "F ARM - SEV",
+                        "F STP/NC - NWY"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "AUSTRIA": [
+                    1699646023526055,
+                    [
+                        "A BUL - CON",
+                        "A GAL - SIL",
+                        "A SER - BUL",
+                        "A TRI S A VIE - TYR",
+                        "A VIE - TYR",
+                        "F AEG S A BUL - CON"
+                    ]
+                ],
+                "FRANCE": [
+                    1699645842916520,
+                    [
+                        "A MAR - PIE",
+                        "A WAL - LON",
+                        "F ENG S A WAL - LON",
+                        "F LYO - TYS",
+                        "F MAO - IRI"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699646178018004,
+                    [
+                        "A YOR S F LON",
+                        "F LON S F NTH - ENG",
+                        "F NAO - LVP",
+                        "F NTH - ENG"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699646124923030,
+                    [
+                        "A MOS - WAR",
+                        "A RUM S A BUL",
+                        "A SEV S A RUM",
+                        "F ARM - ANK",
+                        "F STP/NC - NWY"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646102462969,
+                    [
+                        "A BER - PRU",
+                        "A HOL - BEL",
+                        "A KIE - MUN",
+                        "A MUN - SIL",
+                        "A VEN - ROM",
+                        "F BAL - DEN",
+                        "F HEL - NTH",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "TURKEY": [
+                    1699646209701824,
+                    [
+                        "A CON S F SMY",
+                        "F BLA - ANK",
+                        "F SMY S A CON"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "ITALY": [
+                    1699646206371955,
+                    [
+                        "A SYR - SMY",
+                        "F EAS S A SYR - SMY",
+                        "F ION - TYS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699646092949400,
+                    [
+                        "A BUL - CON",
+                        "A GAL - BOH",
+                        "A SER - BUL",
+                        "A TRI S A VIE - TYR",
+                        "A VIE - TYR",
+                        "F AEG S A BUL - CON"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646132632899,
+                    [
+                        "A BER - PRU",
+                        "A HOL - BEL",
+                        "A KIE - MUN",
+                        "A MUN - SIL",
+                        "A VEN - ROM",
+                        "F BAL - DEN",
+                        "F HEL - NTH",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "FRANCE": [
+                    1699646240084510,
+                    [
+                        "A MAR - PIE",
+                        "A WAL - PIC VIA",
+                        "F ENG C A WAL - PIC",
+                        "F LYO - TYS",
+                        "F MAO S F ENG"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "ITALY": [
+                    1699646174836874,
+                    [
+                        "A SYR - SMY",
+                        "F EAS S A SYR - SMY",
+                        "F ION - TYS"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646140635978,
+                    [
+                        "A BER - PRU",
+                        "A HOL - BEL",
+                        "A KIE - LVN VIA",
+                        "A MUN - SIL",
+                        "A VEN - ROM",
+                        "F BAL C A KIE - LVN",
+                        "F HEL - NTH",
+                        "F SWE S F STP/NC - NWY"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699646007605785,
+                    [
+                        "A BUL - CON",
+                        "A GAL - BOH",
+                        "A SER - BUL",
+                        "A TRI S A VIE - TYR",
+                        "A VIE - TYR",
+                        "F AEG S A BUL - CON"
+                    ]
+                ],
+                "TURKEY": [
+                    1699646074261018,
+                    [
+                        "A CON S F SMY",
+                        "F BLA S A CON",
+                        "F SMY S A CON"
+                    ]
+                ],
+                "FRANCE": [
+                    1699646241462716,
+                    [
+                        "A MAR - PIE",
+                        "A WAL - LON",
+                        "F ENG S A WAL - LON",
+                        "F LYO - TYS",
+                        "F MAO S F ENG"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699646150821842,
+                    [
+                        "A MOS - WAR",
+                        "A RUM S A BUL",
+                        "A SEV S A RUM",
+                        "F ARM - ANK",
+                        "F STP/NC - NWY"
+                    ]
+                ],
+                "TURKEY": [
+                    1699646120113852,
+                    [
+                        "A CON S F SMY",
+                        "F BLA - ANK",
+                        "F SMY S A CON"
+                    ]
+                ],
+                "ITALY": [
+                    1699646233769712,
+                    [
+                        "A SYR - SMY",
+                        "F EAS S A SYR - SMY",
+                        "F ION - TYS"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699646199833847,
+                    [
+                        "A YOR - LVP",
+                        "F LON S F NTH - ENG",
+                        "F NAO - MAO",
+                        "F NTH - ENG"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646022569824,
+                    [
+                        "A BER - SIL",
+                        "A HOL - BEL",
+                        "A KIE - MUN",
+                        "A MUN - TYR",
+                        "A VEN S A MUN - TYR",
+                        "F BAL - DEN",
+                        "F HEL - NTH",
+                        "F SWE - NWY"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1903M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH - MUN",
+                "A BUL S A CON",
+                "A CON S F ARM - ANK",
+                "A TRI - VEN",
+                "A TYR S A TRI - VEN",
+                "F AEG S A CON"
+            ],
+            "ENGLAND": [
+                "A YOR S F WAL - LON",
+                "F DEN - SWE",
+                "F LVP - CLY",
+                "F WAL - LON"
+            ],
+            "FRANCE": [
+                "A TUS - ROM",
+                "F ENG - LON",
+                "F LYO - TYS",
+                "F MAO - WES"
+            ],
+            "GERMANY": [
+                "A HOL - KIE",
+                "A LVN S A PRU - WAR",
+                "A PRU - WAR",
+                "A SIL - MUN",
+                "A VEN - TYR",
+                "F BAL - DEN",
+                "F NTH S F ENG - LON",
+                "F SWE S F BAL - DEN"
+            ],
+            "ITALY": [
+                "A SMY S F ARM - ANK",
+                "F EAS - ION",
+                "F TYS - ROM"
+            ],
+            "RUSSIA": [
+                "A SEV - RUM",
+                "A UKR S A WAR",
+                "A WAR H",
+                "F ARM - ANK",
+                "F STP/NC - NWY"
+            ],
+            "TURKEY": [
+                "A ANK - RUM VIA",
+                "F BLA C A ANK - RUM"
+            ]
+        },
+        "expected": {
+            "TURKEY": {
+                "GERMANY": [
+                    1699646831087862,
+                    [
+                        "A HOL - KIE",
+                        "A LVN S A PRU - WAR",
+                        "A PRU - WAR",
+                        "A SIL S A PRU - WAR",
+                        "A VEN S A TUS - ROM",
+                        "F BAL - DEN",
+                        "F NTH - EDI",
+                        "F SWE S F BAL - DEN"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699646866967778,
+                    [
+                        "A BOH - MUN",
+                        "A BUL - RUM",
+                        "A CON S F ARM - ANK",
+                        "A TRI - VEN",
+                        "A TYR S A TRI - VEN",
+                        "F AEG S A CON"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "AUSTRIA": [
+                    1699646839932639,
+                    [
+                        "A BOH - MUN",
+                        "A BUL S A CON",
+                        "A CON S F ARM - ANK",
+                        "A TRI - VEN",
+                        "A TYR S A TRI - VEN",
+                        "F AEG S A CON"
+                    ]
+                ],
+                "ITALY": [
+                    1699646781676195,
+                    [
+                        "A SMY S A CON",
+                        "F EAS - ION",
+                        "F TYS - ROM"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646727784198,
+                    [
+                        "A HOL - KIE",
+                        "A LVN - WAR",
+                        "A PRU S A LVN - WAR",
+                        "A SIL - MUN",
+                        "A VEN S A TUS - ROM",
+                        "F BAL - DEN",
+                        "F NTH S F BAL - DEN",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "FRANCE": [
+                    1699646694045991,
+                    [
+                        "A TUS S A VEN",
+                        "F ENG - BEL",
+                        "F LYO - TYS",
+                        "F MAO - WES"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "RUSSIA": [
+                    1699646671224341,
+                    [
+                        "A SEV - MOS",
+                        "A UKR S A WAR",
+                        "A WAR S A SEV - MOS",
+                        "F ARM - ANK",
+                        "F STP/NC - NWY"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699646816824171,
+                    [
+                        "A YOR - EDI",
+                        "F DEN - KIE",
+                        "F LVP - IRI",
+                        "F WAL - LON"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646628384616,
+                    [
+                        "A HOL - KIE",
+                        "A LVN - WAR",
+                        "A PRU S A LVN - WAR",
+                        "A SIL S A LVN - WAR",
+                        "A VEN S A TUS - ROM",
+                        "F BAL - DEN",
+                        "F NTH - NWY",
+                        "F SWE S F BAL - DEN"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699646758404930,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A BUL S A CON",
+                        "A CON S F ARM - ANK",
+                        "A TRI - VEN",
+                        "A TYR - MUN",
+                        "F AEG S A CON"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "AUSTRIA": [
+                    1699646836331098,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A BUL S A CON",
+                        "A CON S F ARM - ANK",
+                        "A TRI - VEN",
+                        "A TYR - MUN",
+                        "F AEG - ION"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646732151962,
+                    [
+                        "A HOL - KIE",
+                        "A LVN - STP",
+                        "A PRU - BER",
+                        "A SIL - MUN",
+                        "A VEN S A TUS - ROM",
+                        "F BAL - DEN",
+                        "F NTH - EDI",
+                        "F SWE S F BAL - DEN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699646493723771,
+                    [
+                        "A TUS S A VEN",
+                        "F ENG - LON",
+                        "F LYO - TYS",
+                        "F MAO - IRI"
+                    ]
+                ],
+                "ITALY": [
+                    1699646628405040,
+                    [
+                        "A SMY S F ARM - ANK",
+                        "F EAS S A SMY",
+                        "F TYS - ROM"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ITALY": [
+                    1699646324979372,
+                    [
+                        "A SMY H",
+                        "F EAS - ION",
+                        "F TYS - ROM"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699646485447801,
+                    [
+                        "A YOR - EDI",
+                        "F DEN - KIE",
+                        "F LVP - IRI",
+                        "F WAL - LON"
+                    ]
+                ],
+                "TURKEY": [
+                    1699646591189186,
+                    [
+                        "A ANK H",
+                        "F BLA - RUM"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699646759201906,
+                    [
+                        "A SEV - RUM",
+                        "A UKR S A WAR",
+                        "A WAR H",
+                        "F ARM - ANK",
+                        "F STP/NC - NWY"
+                    ]
+                ],
+                "GERMANY": [
+                    1699646851864554,
+                    [
+                        "A HOL - KIE",
+                        "A LVN - STP",
+                        "A PRU - WAR",
+                        "A SIL - MUN",
+                        "A VEN - ROM",
+                        "F BAL - DEN",
+                        "F NTH - EDI",
+                        "F SWE S F BAL - DEN"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1904M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH - MUN",
+                "A BUL - CON",
+                "A CON - SMY",
+                "A TYR - PIE",
+                "A VEN S A TYR - PIE",
+                "A VIE - TYR",
+                "F AEG S A CON - SMY",
+                "F TRI - ADR"
+            ],
+            "ENGLAND": [
+                "A YOR S F WAL - LON",
+                "F HEL - HOL",
+                "F WAL - LON"
+            ],
+            "FRANCE": [
+                "A TUS - ROM",
+                "F BRE - MAO",
+                "F ENG - LON",
+                "F LYO - TYS",
+                "F WES - TUN"
+            ],
+            "GERMANY": [
+                "A KIE S A SIL - MUN",
+                "A LVN - PRU",
+                "A PRU - BER",
+                "A SIL - MUN",
+                "F DEN - HEL",
+                "F NTH S F DEN - HEL",
+                "F SWE - NWY"
+            ],
+            "ITALY": [
+                "A SMY H",
+                "F ION - TUN",
+                "F ROM S F TYS",
+                "F TYS S F ION - TUN"
+            ],
+            "RUSSIA": [
+                "A MOS S A WAR - LVN",
+                "A SEV - ARM",
+                "A STP S A WAR - LVN",
+                "A UKR - WAR",
+                "A WAR - LVN",
+                "F ANK - BLA",
+                "F NWY S F HEL - NTH"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ENGLAND": {
+                "ITALY": [
+                    1699647697044935,
+                    [
+                        "A SMY H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699647378679172,
+                    [
+                        "A TUS - PIE",
+                        "F BRE - ENG",
+                        "F ENG - IRI",
+                        "F LYO - TYS",
+                        "F WES S F LYO - TYS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699647726897363,
+                    [
+                        "A BOH - MUN",
+                        "A BUL - GRE",
+                        "A CON H",
+                        "A TYR S A BOH - MUN",
+                        "A VEN S F ROM - TUS",
+                        "A VIE - BOH",
+                        "F AEG - ION",
+                        "F TRI - ADR"
+                    ]
+                ],
+                "GERMANY": [
+                    1699647412197469,
+                    [
+                        "A KIE S A SIL - MUN",
+                        "A LVN - PRU",
+                        "A PRU - BER",
+                        "A SIL - MUN",
+                        "F DEN - HEL",
+                        "F NTH S F DEN - HEL",
+                        "F SWE - NWY"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "ENGLAND": [
+                    1699647679416319,
+                    [
+                        "A YOR S F WAL - LON",
+                        "F HEL - HOL",
+                        "F WAL - LON"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699647627953834,
+                    [
+                        "A BOH - MUN",
+                        "A BUL - CON",
+                        "A CON - SMY",
+                        "A TYR S A BOH - MUN",
+                        "A VEN - PIE",
+                        "A VIE - BOH",
+                        "F AEG S A CON - SMY",
+                        "F TRI - ADR"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699647475335665,
+                    [
+                        "A MOS - LVN",
+                        "A SEV - MOS",
+                        "A STP S A MOS - LVN",
+                        "A UKR S A WAR",
+                        "A WAR S A MOS - LVN",
+                        "F ANK - BLA",
+                        "F NWY - SWE"
+                    ]
+                ],
+                "FRANCE": [
+                    1699647367661194,
+                    [
+                        "A TUS - PIE",
+                        "F BRE - ENG",
+                        "F ENG - IRI",
+                        "F LYO S A TUS - PIE",
+                        "F WES - MAO"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "ITALY": [
+                    1699647393279726,
+                    [
+                        "A SMY H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "GERMANY": [
+                    1699647723422182,
+                    [
+                        "A KIE S A SIL - MUN",
+                        "A LVN - PRU",
+                        "A PRU - BER",
+                        "A SIL - MUN",
+                        "F DEN - HEL",
+                        "F NTH - HOL",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699647564735773,
+                    [
+                        "A BOH - MUN",
+                        "A BUL - GRE",
+                        "A CON - SMY",
+                        "A TYR S A BOH - MUN",
+                        "A VEN S F ROM - TUS",
+                        "A VIE - BOH",
+                        "F AEG S A CON - SMY",
+                        "F TRI - ADR"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ENGLAND": [
+                    1699647639680218,
+                    [
+                        "A YOR S F WAL - LON",
+                        "F HEL - NTH",
+                        "F WAL - LON"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699647459420862,
+                    [
+                        "A MOS - LVN",
+                        "A SEV - RUM",
+                        "A STP S A MOS - LVN",
+                        "A UKR S A WAR",
+                        "A WAR S A MOS - LVN",
+                        "F ANK H",
+                        "F NWY - SWE"
+                    ]
+                ],
+                "ITALY": [
+                    1699647735690009,
+                    [
+                        "A SMY H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699647695041953,
+                    [
+                        "A TUS - PIE",
+                        "F BRE - ENG",
+                        "F ENG - IRI",
+                        "F LYO - TYS",
+                        "F WES S F LYO - TYS"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1904M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH S A TYR - MUN",
+                "A CON S A SMY",
+                "A PIE - MAR",
+                "A SMY S A CON",
+                "A TYR - MUN",
+                "A VEN S F ROM",
+                "F ADR - ION",
+                "F AEG - GRE"
+            ],
+            "ENGLAND": [
+                "A YOR - EDI",
+                "F HOL - NTH",
+                "F LON S F HOL - NTH"
+            ],
+            "FRANCE": [
+                "A TUS - MAR VIA",
+                "F ENG - BEL",
+                "F LYO C A TUS - MAR",
+                "F MAO - NAO",
+                "F WES - MAO"
+            ],
+            "GERMANY": [
+                "A BER S A MUN",
+                "A KIE S F HEL - HOL",
+                "A MUN S A PRU - SIL",
+                "A PRU - SIL",
+                "F HEL - HOL",
+                "F NTH - BEL",
+                "F SWE - NWY"
+            ],
+            "ITALY": [
+                "A ANK H",
+                "F ION - TUN",
+                "F ROM S F TYS",
+                "F TYS S F ION - TUN"
+            ],
+            "RUSSIA": [
+                "A ARM - ANK",
+                "A LVN - PRU",
+                "A MOS - UKR",
+                "A STP - FIN",
+                "A WAR S A LVN - PRU",
+                "F BLA S A ARM - ANK",
+                "F NWY - SWE"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ITALY": {
+                "GERMANY": [
+                    1699647838046992,
+                    [
+                        "A BER S A MUN",
+                        "A KIE S F HEL - HOL",
+                        "A MUN S A PRU - SIL",
+                        "A PRU - SIL",
+                        "F HEL - HOL",
+                        "F NTH - BEL",
+                        "F SWE - NWY"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699648175425999,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR - MUN",
+                        "A VEN S F ROM",
+                        "F ADR - ION",
+                        "F AEG - GRE"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699648318092636,
+                    [
+                        "A YOR - EDI",
+                        "F HOL - BEL",
+                        "F LON H"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699648358208467,
+                    [
+                        "A ARM - ANK",
+                        "A LVN - PRU",
+                        "A MOS - STP",
+                        "A STP - FIN",
+                        "A WAR S A LVN - PRU",
+                        "F BLA S A ARM - ANK",
+                        "F NWY - SWE"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "AUSTRIA": [
+                    1699648344962536,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A CON - ANK",
+                        "A PIE - MAR",
+                        "A SMY S A CON - ANK",
+                        "A TYR - MUN",
+                        "A VEN H",
+                        "F ADR - ION",
+                        "F AEG - GRE"
+                    ]
+                ],
+                "ITALY": [
+                    1699648311248661,
+                    [
+                        "A ANK H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "FRANCE": [
+                    1699648089717675,
+                    [
+                        "A TUS - MAR VIA",
+                        "F ENG - LON",
+                        "F LYO C A TUS - MAR",
+                        "F MAO - NAF",
+                        "F WES - TUN"
+                    ]
+                ],
+                "GERMANY": [
+                    1699648180174446,
+                    [
+                        "A BER S A MUN",
+                        "A KIE S F HEL - HOL",
+                        "A MUN S A PRU - SIL",
+                        "A PRU - SIL",
+                        "F HEL - HOL",
+                        "F NTH - BEL",
+                        "F SWE - NWY"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "FRANCE": [
+                    1699647832442241,
+                    [
+                        "A TUS - ROM",
+                        "F ENG - LON",
+                        "F LYO - MAR",
+                        "F MAO - NAF",
+                        "F WES - TUN"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699648260010769,
+                    [
+                        "A ARM - ANK",
+                        "A LVN - PRU",
+                        "A MOS - LVN",
+                        "A STP S F NWY",
+                        "A WAR S A LVN - PRU",
+                        "F BLA S A ARM - ANK",
+                        "F NWY H"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699648207002727,
+                    [
+                        "A YOR - EDI",
+                        "F HOL - BEL",
+                        "F LON - NTH"
+                    ]
+                ],
+                "ITALY": [
+                    1699648112442989,
+                    [
+                        "A ANK H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "GERMANY": [
+                    1699648329729819,
+                    [
+                        "A BER S A MUN",
+                        "A KIE S F HEL - HOL",
+                        "A MUN H",
+                        "A PRU - SIL",
+                        "F HEL - HOL",
+                        "F NTH - BEL",
+                        "F SWE - NWY"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "AUSTRIA": [
+                    1699648335362050,
+                    [
+                        "A BOH - MUN",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A ARM - ANK",
+                        "A TYR S A BOH - MUN",
+                        "A VEN S F ROM",
+                        "F ADR - ION",
+                        "F AEG - GRE"
+                    ]
+                ],
+                "ITALY": [
+                    1699648294022515,
+                    [
+                        "A ANK H",
+                        "F ION - TUN",
+                        "F ROM S F TYS",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "GERMANY": [
+                    1699648123234066,
+                    [
+                        "A BER S A MUN",
+                        "A KIE S F HEL - HOL",
+                        "A MUN S A PRU - SIL",
+                        "A PRU - SIL",
+                        "F HEL - HOL",
+                        "F NTH - BEL",
+                        "F SWE - NWY"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1905M": {
+        "actual": {
+            "AUSTRIA": [],
+            "ENGLAND": [
+                "A EDI - LVP",
+                "F LON - WAL",
+                "F NTH - LON"
+            ],
+            "FRANCE": [
+                "A TUS - MAR VIA",
+                "F ENG - LON",
+                "F LYO C A TUS - MAR",
+                "F MAO - WES",
+                "F NAO - NWG"
+            ],
+            "GERMANY": [
+                "A BER H",
+                "A KIE S A MUN",
+                "A MUN S A SIL - BOH",
+                "A SIL - BOH",
+                "F DEN S F SWE",
+                "F HOL - BEL",
+                "F SWE H"
+            ],
+            "ITALY": [
+                "F ROM - TUS",
+                "F TUN - NAF",
+                "F TYS - WES"
+            ],
+            "RUSSIA": [
+                "A ANK H",
+                "A FIN - SWE",
+                "A PRU S A WAR - SIL",
+                "A UKR - WAR",
+                "A WAR - SIL",
+                "F BLA S A ANK",
+                "F NWY S A FIN - SWE"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ENGLAND": {
+                "AUSTRIA": [
+                    1699648958019649,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A BUD - GAL",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR - MUN",
+                        "A VEN S F ROM - TUS",
+                        "F GRE - ION",
+                        "F ION - TYS"
+                    ]
+                ],
+                "FRANCE": [
+                    1699648539143664,
+                    [
+                        "A TUS - MAR VIA",
+                        "F ENG - LON",
+                        "F LYO C A TUS - MAR",
+                        "F MAO - IRI",
+                        "F NAO - LVP"
+                    ]
+                ],
+                "ITALY": [
+                    1699648924400172,
+                    [
+                        "F ROM S A VEN - TUS",
+                        "F TUN - NAF",
+                        "F TYS - WES"
+                    ]
+                ],
+                "GERMANY": [
+                    1699648998814348,
+                    [
+                        "A BER S A SIL - MUN",
+                        "A KIE S A SIL - MUN",
+                        "A MUN - BUR",
+                        "A SIL - MUN",
+                        "F DEN S F SWE",
+                        "F HOL - BEL",
+                        "F SWE H"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "RUSSIA": [
+                    1699649039620169,
+                    [
+                        "A ANK H",
+                        "A FIN - SWE",
+                        "A PRU S A WAR - SIL",
+                        "A UKR - GAL",
+                        "A WAR - SIL",
+                        "F BLA - RUM",
+                        "F NWY S A FIN - SWE"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699648925743546,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A BUD - GAL",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR - MUN",
+                        "A VEN S F ROM - TUS",
+                        "F GRE - ION",
+                        "F ION - TYS"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699648775266837,
+                    [
+                        "A EDI - LVP",
+                        "F LON S F NTH - ENG",
+                        "F NTH - ENG"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "AUSTRIA": [
+                    1699649052965955,
+                    [
+                        "A BOH S A TYR - MUN",
+                        "A BUD - GAL",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR - MUN",
+                        "A VEN S F ROM - TUS",
+                        "F GRE - ION",
+                        "F ION - TYS"
+                    ]
+                ],
+                "ITALY": [
+                    1699648947725011,
+                    [
+                        "F ROM - TUS",
+                        "F TUN - WES",
+                        "F TYS S F TUN - WES"
+                    ]
+                ],
+                "FRANCE": [
+                    1699648829518201,
+                    [
+                        "A TUS - MAR VIA",
+                        "F ENG - BEL",
+                        "F LYO C A TUS - MAR",
+                        "F MAO - IRI",
+                        "F NAO - LVP"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ENGLAND": [
+                    1699648829545690,
+                    [
+                        "A EDI - LVP",
+                        "F LON - WAL",
+                        "F NTH - LON"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699648922654637,
+                    [
+                        "A ANK H",
+                        "A FIN - SWE",
+                        "A PRU S A WAR - SIL",
+                        "A UKR - WAR",
+                        "A WAR - SIL",
+                        "F BLA S A ANK",
+                        "F NWY S A FIN - SWE"
+                    ]
+                ],
+                "ITALY": [
+                    1699648980002457,
+                    [
+                        "F ROM - TUS",
+                        "F TUN - WES",
+                        "F TYS - NAP"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1905M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BUD - RUM",
+                "A CON H",
+                "A PIE - MAR",
+                "A SMY S A CON",
+                "A TYR S A VIE - BOH",
+                "A VEN - ROM",
+                "A VIE - BOH",
+                "F GRE - BUL/SC",
+                "F ION - NAP"
+            ],
+            "ENGLAND": [
+                "A LVP - YOR",
+                "F NTH - BEL",
+                "F WAL - LON"
+            ],
+            "FRANCE": [
+                "A MAR - PIE",
+                "F ENG - LON",
+                "F LYO - TYS",
+                "F MAO - NAF",
+                "F NWG - NWY"
+            ],
+            "GERMANY": [
+                "A BER S A MUN - SIL",
+                "A BOH S A MUN - SIL",
+                "A KIE - MUN",
+                "A MUN - SIL",
+                "F BEL H",
+                "F DEN S F SWE",
+                "F SWE S F NWG - NWY"
+            ],
+            "ITALY": [
+                "F NAF S F TYS - WES",
+                "F TUS - LYO",
+                "F TYS - WES"
+            ],
+            "RUSSIA": [
+                "A ANK H",
+                "A FIN S F NWY",
+                "A PRU S A SIL",
+                "A SIL S A WAR - GAL",
+                "A WAR - GAL",
+                "F BLA S A ANK",
+                "F NWY S F NWG - NTH"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ENGLAND": {
+                "GERMANY": [
+                    1699649670037747,
+                    [
+                        "A BER S A BOH - SIL",
+                        "A BOH - SIL",
+                        "A KIE S A BER",
+                        "A MUN S A BOH - SIL",
+                        "F BEL - NTH",
+                        "F DEN S F SWE",
+                        "F SWE H"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699649322181524,
+                    [
+                        "A BUD - GAL",
+                        "A CON H",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR S A VIE - BOH",
+                        "A VEN - PIE",
+                        "A VIE - BOH",
+                        "F GRE - ION",
+                        "F ION - TYS"
+                    ]
+                ],
+                "ITALY": [
+                    1699649634667221,
+                    [
+                        "F NAF S F TYS - WES",
+                        "F TUS S F ION - TYS",
+                        "F TYS - WES"
+                    ]
+                ],
+                "FRANCE": [
+                    1699649604949461,
+                    [
+                        "A MAR - PIE",
+                        "F ENG - MAO",
+                        "F LYO S F MAO - WES",
+                        "F MAO - WES",
+                        "F NWG - NWY"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "AUSTRIA": [
+                    1699649580096712,
+                    [
+                        "A BUD - GAL",
+                        "A CON H",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR S A VIE - BOH",
+                        "A VEN - ROM",
+                        "A VIE - BOH",
+                        "F GRE - ION",
+                        "F ION - NAP"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699649528976125,
+                    [
+                        "A ANK H",
+                        "A FIN S F NWY",
+                        "A PRU S A SIL",
+                        "A SIL S A VIE - BOH",
+                        "A WAR S A SIL",
+                        "F BLA S A ANK",
+                        "F NWY H"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699649608525299,
+                    [
+                        "A LVP - EDI",
+                        "F NTH - LON",
+                        "F WAL - LON"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "ITALY": [
+                    1699649634133293,
+                    [
+                        "F NAF - MAO",
+                        "F TUS - LYO",
+                        "F TYS S F TUS - LYO"
+                    ]
+                ],
+                "FRANCE": [
+                    1699649440100117,
+                    [
+                        "A MAR - PIE",
+                        "F ENG - LON",
+                        "F LYO - WES",
+                        "F MAO S F LYO - WES",
+                        "F NWG - EDI"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699649671635029,
+                    [
+                        "A BUD - VIE",
+                        "A CON S A SMY",
+                        "A PIE - MAR",
+                        "A SMY S A CON",
+                        "A TYR - BOH",
+                        "A VEN - TYR",
+                        "F GRE - ION",
+                        "F ION - TYS"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ENGLAND": [
+                    1699649285785249,
+                    [
+                        "A LVP - EDI",
+                        "F NTH - LON",
+                        "F WAL - LON"
+                    ]
+                ],
+                "ITALY": [
+                    1699649640452089,
+                    [
+                        "F NAF S F TYS - WES",
+                        "F TUS - LYO",
+                        "F TYS - WES"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699649682140122,
+                    [
+                        "A ANK H",
+                        "A FIN S F NWY",
+                        "A PRU S A SIL",
+                        "A SIL S A VIE - BOH",
+                        "A WAR - GAL",
+                        "F BLA S A ANK",
+                        "F NWY H"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1906M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH S A VIE - GAL",
+                "A BUD S A RUM",
+                "A CON - ANK",
+                "A PIE - MAR",
+                "A ROM H",
+                "A RUM S A VIE - GAL",
+                "A SMY S A CON - ANK",
+                "A TYR S A BOH",
+                "A VIE - GAL",
+                "F BUL/SC - CON",
+                "F NAP - TYS",
+                "F TRI - ADR"
+            ],
+            "ENGLAND": [
+                "A YOR - EDI",
+                "F NTH - LON",
+                "F WAL - LON"
+            ],
+            "FRANCE": [
+                "A MAR S F MAO - SPA/SC",
+                "F ENG S F BEL - NTH",
+                "F MAO - SPA/SC",
+                "F NWG - NWY",
+                "F TYS - TUN"
+            ],
+            "GERMANY": [
+                "A BER S A MUN",
+                "A KIE - HOL",
+                "A MUN S A BER",
+                "F BEL - NTH",
+                "F DEN S F BEL - NTH",
+                "F SWE S F NWG - NWY"
+            ],
+            "ITALY": [
+                "F LYO S A PIE - MAR"
+            ],
+            "RUSSIA": [
+                "A ANK H",
+                "A FIN - NWY",
+                "A GAL - UKR",
+                "A PRU - WAR",
+                "F BLA S A ANK"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ENGLAND": {
+                "ITALY": [
+                    1699650215399668,
+                    [
+                        "F LYO S A PIE - MAR"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699649938752747,
+                    [
+                        "A BOH S A VIE - GAL",
+                        "A BUD S A VIE - GAL",
+                        "A CON - ANK",
+                        "A PIE - MAR",
+                        "A ROM H",
+                        "A RUM - SEV",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A BOH",
+                        "A VIE - GAL",
+                        "F BUL/SC - CON",
+                        "F NAP - ION",
+                        "F TRI - ADR"
+                    ]
+                ],
+                "GERMANY": [
+                    1699650053874760,
+                    [
+                        "A BER S A MUN",
+                        "A KIE S A MUN",
+                        "A MUN S A BER",
+                        "F BEL - HOL",
+                        "F DEN - NTH",
+                        "F SWE S F NWG - NWY"
+                    ]
+                ],
+                "FRANCE": [
+                    1699650143636958,
+                    [
+                        "A MAR - PIE",
+                        "F ENG - MAO",
+                        "F MAO - WES",
+                        "F NWG - NWY",
+                        "F TYS - ION"
+                    ]
+                ]
+            },
+            "ITALY": {
+                "ENGLAND": [
+                    1699650115323458,
+                    [
+                        "A YOR - EDI",
+                        "F NTH - LON",
+                        "F WAL - LON"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699650262174937,
+                    [
+                        "A ANK - SEV VIA",
+                        "A FIN - STP",
+                        "A GAL - UKR",
+                        "A PRU - LVN",
+                        "A SIL - WAR",
+                        "F BLA C A ANK - SEV"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699650237575827,
+                    [
+                        "A BOH S A VIE - GAL",
+                        "A BUD S A VIE - GAL",
+                        "A CON - ANK",
+                        "A PIE - MAR",
+                        "A ROM H",
+                        "A RUM - SEV",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A BOH",
+                        "A VIE - GAL",
+                        "F BUL/SC - CON",
+                        "F NAP - TYS",
+                        "F TRI - ADR"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "ITALY": [
+                    1699650158596783,
+                    [
+                        "F LYO S A PIE - MAR"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699650301605058,
+                    [
+                        "A BUD - GAL",
+                        "A CON - ANK",
+                        "A PIE - MAR",
+                        "A ROM H",
+                        "A RUM S A BUD - GAL",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A VIE",
+                        "A VIE S A TYR",
+                        "F BUL/SC - CON",
+                        "F NAP - TYS",
+                        "F TRI - ADR"
+                    ]
+                ],
+                "GERMANY": [
+                    1699650200630473,
+                    [
+                        "A BER S A SIL",
+                        "A BOH S A SIL",
+                        "A MUN S A BOH",
+                        "A SIL S A BOH",
+                        "F BEL - HOL",
+                        "F DEN - NTH",
+                        "F SWE S F NWG - NWY"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "ENGLAND": [
+                    1699650092812011,
+                    [
+                        "A YOR - EDI",
+                        "F NTH - LON",
+                        "F WAL - LON"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699650232812208,
+                    [
+                        "A ANK H",
+                        "A FIN - STP",
+                        "A GAL - UKR",
+                        "A PRU - WAR",
+                        "A SIL - GAL",
+                        "F BLA - SEV"
+                    ]
+                ],
+                "ITALY": [
+                    1699650279626417,
+                    [
+                        "F LYO S A PIE - MAR"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1906M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH S A BUD - GAL",
+                "A BUD - GAL",
+                "A CON - ANK",
+                "A GAL - UKR",
+                "A MAR S F LYO - SPA",
+                "A ROM - VEN",
+                "A RUM S A GAL - UKR",
+                "A SMY S A CON - ANK",
+                "A TYR S A BOH",
+                "F ADR - ION",
+                "F BUL/SC - CON",
+                "F TYS S F ADR - ION"
+            ],
+            "ENGLAND": [
+                "A EDI - YOR",
+                "F WAL S F YOR - LON",
+                "F YOR - LON"
+            ],
+            "FRANCE": [
+                "A BUR - MAR",
+                "F ENG - LON",
+                "F NWY S F DEN - NTH",
+                "F SPA/SC S A BUR - MAR",
+                "F TUN S F LYO - TYS"
+            ],
+            "GERMANY": [
+                "A BER S A MUN",
+                "A HOL H",
+                "A MUN H",
+                "F DEN - NTH",
+                "F NTH - NWG",
+                "F SWE H"
+            ],
+            "ITALY": [
+                "F LYO - SPA/SC"
+            ],
+            "RUSSIA": [
+                "A ANK H",
+                "A FIN - STP",
+                "A UKR - SEV",
+                "A WAR - MOS",
+                "F BLA S A ANK"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ITALY": {
+                "RUSSIA": [
+                    1699651022022666,
+                    [
+                        "A ANK H",
+                        "A FIN - STP",
+                        "A SIL - WAR",
+                        "A UKR - SEV",
+                        "A WAR - UKR",
+                        "F BLA S A ANK"
+                    ]
+                ],
+                "FRANCE": [
+                    1699651132304787,
+                    [
+                        "A BUR - MAR",
+                        "F ENG - MAO",
+                        "F NWY - STP/NC",
+                        "F SPA/SC S A BUR - MAR",
+                        "F TUN S F LYO - TYS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699650994170839,
+                    [
+                        "A BOH S A GAL",
+                        "A BUD S A RUM",
+                        "A CON - ANK",
+                        "A GAL S A RUM",
+                        "A MAR S F LYO - SPA",
+                        "A ROM H",
+                        "A RUM S A GAL",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A BOH",
+                        "F ADR - ION",
+                        "F BUL/SC - CON",
+                        "F TYS S F ADR - ION"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699651105755310,
+                    [
+                        "A EDI H",
+                        "F WAL - LON",
+                        "F YOR - LON"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "AUSTRIA": [
+                    1699650943514722,
+                    [
+                        "A BOH S A GAL",
+                        "A BUD - RUM",
+                        "A CON - ANK",
+                        "A GAL S A BUD - RUM",
+                        "A MAR S F LYO - SPA",
+                        "A ROM - TUS",
+                        "A RUM - SEV",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A BOH",
+                        "F ADR - ION",
+                        "F BUL/SC - CON",
+                        "F TYS - TUN"
+                    ]
+                ],
+                "ITALY": [
+                    1699651043012737,
+                    [
+                        "F LYO - SPA/SC"
+                    ]
+                ],
+                "GERMANY": [
+                    1699650981087765,
+                    [
+                        "A BER S A MUN",
+                        "A HOL - RUH",
+                        "A MUN S A BER",
+                        "F DEN - NTH",
+                        "F NTH - NWG",
+                        "F SWE S A FIN - NWY"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699651081626401,
+                    [
+                        "A ANK H",
+                        "A FIN - STP",
+                        "A SIL - WAR",
+                        "A UKR - SEV",
+                        "A WAR - UKR",
+                        "F BLA S A ANK"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "ITALY": [
+                    1699651119578751,
+                    [
+                        "F LYO - SPA/SC"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699651088033245,
+                    [
+                        "A BUD - RUM",
+                        "A CON - ANK",
+                        "A GAL - UKR",
+                        "A MAR S F LYO - SPA",
+                        "A ROM - VEN",
+                        "A RUM - SEV",
+                        "A SMY S A CON - ANK",
+                        "A TYR - VIE",
+                        "F ADR - ION",
+                        "F BUL/SC - CON",
+                        "F TYS S F ADR - ION"
+                    ]
+                ],
+                "GERMANY": [
+                    1699650996463972,
+                    [
+                        "A BER S A SIL",
+                        "A BOH S A MUN - TYR",
+                        "A MUN - TYR",
+                        "A SIL S A BER",
+                        "F DEN - NTH",
+                        "F NTH - LON",
+                        "F SWE S F NWY"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699651034129935,
+                    [
+                        "A EDI H",
+                        "F WAL - LON",
+                        "F YOR - LON"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699651000876385,
+                    [
+                        "A ANK H",
+                        "A FIN - STP",
+                        "A SIL - GAL",
+                        "A UKR - SEV",
+                        "A WAR S A SIL - GAL",
+                        "F BLA S A ANK"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699651044768651,
+                    [
+                        "A EDI H",
+                        "F WAL S F YOR - LON",
+                        "F YOR - LON"
+                    ]
+                ],
+                "ITALY": [
+                    1699650710365914,
+                    [
+                        "F LYO - SPA/SC"
+                    ]
+                ],
+                "FRANCE": [
+                    1699651101553073,
+                    [
+                        "A BUR - MAR",
+                        "F ENG - LON",
+                        "F NWY - STP/NC",
+                        "F SPA/SC S A BUR - MAR",
+                        "F TUN H"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1907M": {
+        "actual": {
+            "AUSTRIA": [
+                "A BOH S A GAL - SIL",
+                "A BUD - GAL",
+                "A CON - SMY",
+                "A GAL - SIL",
+                "A MAR - SPA",
+                "A RUM S A UKR - SEV",
+                "A SMY - ARM",
+                "A TYR S A BOH",
+                "A UKR - SEV",
+                "A VEN - PIE",
+                "F BUL/SC - CON",
+                "F ION - TUN",
+                "F TYS S F ION - TUN"
+            ],
+            "ENGLAND": [
+                "A YOR - EDI",
+                "F LON - NTH",
+                "F WAL - ENG"
+            ],
+            "FRANCE": [
+                "A BUR - MAR",
+                "F BRE - GAS",
+                "F ENG - IRI",
+                "F NWY - STP/NC",
+                "F SPA/SC S A BUR - MAR",
+                "F TUN - TYS"
+            ],
+            "GERMANY": [
+                "A BER - SIL",
+                "A HOL - EDI VIA",
+                "A KIE H",
+                "A MUN S A BER - SIL",
+                "F NTH C A HOL - EDI",
+                "F NWG S A HOL - EDI",
+                "F SWE - BAL"
+            ],
+            "ITALY": [],
+            "RUSSIA": [
+                "A ANK H",
+                "A MOS S A SEV",
+                "A SEV H",
+                "F BLA S A ANK"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "RUSSIA": {
+                "ENGLAND": [
+                    1699651675578888,
+                    [
+                        "A YOR - EDI",
+                        "F LON - NTH",
+                        "F WAL - LON"
+                    ]
+                ],
+                "FRANCE": [
+                    1699651563594318,
+                    [
+                        "A BUR - MAR",
+                        "F BRE - MAO",
+                        "F ENG - LON",
+                        "F NWY - NWG",
+                        "F SPA/SC S A BUR - MAR",
+                        "F TUN - WES"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699651796929603,
+                    [
+                        "A BUD - VIE",
+                        "A CON - ANK",
+                        "A GAL S A UKR - WAR",
+                        "A MAR - SPA",
+                        "A RUM - SEV",
+                        "A SMY S A CON - ANK",
+                        "A TYR S A BUD - VIE",
+                        "A UKR - WAR",
+                        "A VEN - PIE",
+                        "F BUL/SC - CON",
+                        "F ION - TUN",
+                        "F TYS S F ION - TUN"
+                    ]
+                ],
+                "GERMANY": [
+                    1699651753052915,
+                    [
+                        "A BER - SIL",
+                        "A BOH S A MUN - TYR",
+                        "A MUN - TYR",
+                        "A SIL - WAR",
+                        "F NTH S F NWG - EDI",
+                        "F NWG - EDI",
+                        "F SWE - BAL"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699651912406372,
+                    [
+                        "A ANK H",
+                        "A MOS S A SIL - WAR",
+                        "A SEV H",
+                        "A SIL - WAR",
+                        "F BLA S A ANK"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699651802622710,
+                    [
+                        "A YOR - EDI",
+                        "F LON - NTH",
+                        "F WAL - ENG"
+                    ]
+                ],
+                "FRANCE": [
+                    1699651586086522,
+                    [
+                        "A BUR - MAR",
+                        "F BRE - MAO",
+                        "F ENG - LON",
+                        "F NWY - STP/NC",
+                        "F SPA/SC S A BUR - MAR",
+                        "F TUN - WES"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "RUSSIA": [
+                    1699651716330959,
+                    [
+                        "A ANK H",
+                        "A MOS S A SEV",
+                        "A SEV H",
+                        "A SIL - WAR",
+                        "F BLA S A ANK"
+                    ]
+                ],
+                "FRANCE": [
+                    1699651684659594,
+                    [
+                        "A BUR - MAR",
+                        "F BRE - MAO",
+                        "F ENG - LON",
+                        "F NWY - STP/NC",
+                        "F SPA/SC S A BUR - MAR",
+                        "F TUN - TYS"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699651913342629,
+                    [
+                        "A BOH - SIL",
+                        "A BUD - RUM",
+                        "A CON - ANK",
+                        "A GAL S A UKR - WAR",
+                        "A MAR - SPA",
+                        "A RUM - UKR",
+                        "A SMY S A CON - ANK",
+                        "A TYR - MUN",
+                        "A UKR - WAR",
+                        "A VEN - PIE",
+                        "F BUL/SC - CON",
+                        "F ION - TUN",
+                        "F TYS S F ION - TUN"
+                    ]
+                ]
+            }
+        }
+    },
+    "F1907M": {
+        "actual": {
+            "AUSTRIA": [
+                "A ARM S A SMY - ANK",
+                "A BOH S A TYR - MUN",
+                "A BUD - RUM",
+                "A GAL - WAR",
+                "A PIE - MAR",
+                "A RUM - BUL",
+                "A SMY - ANK",
+                "A TYR - MUN",
+                "A UKR S A GAL - WAR",
+                "F CON S A SMY - ANK",
+                "F TUN S F TYS - WES",
+                "F TYS - WES"
+            ],
+            "ENGLAND": [
+                "A YOR - LVP",
+                "F ENG - BEL",
+                "F LON - NTH"
+            ],
+            "FRANCE": [
+                "A MAR H",
+                "F GAS - BRE",
+                "F IRI - LVP",
+                "F SPA/SC - LYO",
+                "F STP/NC H",
+                "F WES - TUN"
+            ],
+            "GERMANY": [
+                "A BER - PRU",
+                "A EDI S F IRI - LVP",
+                "A KIE S A MUN",
+                "A MUN H",
+                "F BAL - BOT",
+                "F NTH - BEL",
+                "F NWG - NTH"
+            ],
+            "ITALY": [],
+            "RUSSIA": [
+                "A ANK - CON",
+                "A SEV H",
+                "F BLA S A ANK - CON"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "RUSSIA": {
+                "ENGLAND": [
+                    1699652620525997,
+                    [
+                        "A EDI - LVP",
+                        "F ENG - BEL",
+                        "F LON - NTH"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699652660280526,
+                    [
+                        "A ARM - ANK",
+                        "A BUD - VIE",
+                        "A GAL - WAR",
+                        "A PIE - MAR",
+                        "A RUM - SEV",
+                        "A SMY S A ARM - ANK",
+                        "A TYR S A BUD - VIE",
+                        "A UKR S A GAL - WAR",
+                        "F CON S A ARM - ANK",
+                        "F TUN S F TYS - WES",
+                        "F TYS - WES"
+                    ]
+                ],
+                "GERMANY": [
+                    1699652533953855,
+                    [
+                        "A BER - PRU",
+                        "A BOH S A MUN - TYR",
+                        "A MUN - TYR",
+                        "A SIL - GAL",
+                        "F BAL S A BER - PRU",
+                        "F NTH - EDI",
+                        "F NWG S F NTH - EDI"
+                    ]
+                ]
+            },
+            "ENGLAND": {
+                "AUSTRIA": [
+                    1699652642214029,
+                    [
+                        "A ARM - ANK",
+                        "A BOH S A TYR - MUN",
+                        "A BUD - RUM",
+                        "A GAL - WAR",
+                        "A PIE - MAR",
+                        "A RUM - BUL",
+                        "A SMY S A ARM - ANK",
+                        "A TYR - MUN",
+                        "A UKR S A GAL - WAR",
+                        "F CON - BLA",
+                        "F TUN S F TYS - WES",
+                        "F TYS - WES"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699652671927753,
+                    [
+                        "A ANK - CON",
+                        "A MOS S A SEV",
+                        "A SEV H",
+                        "A SIL - WAR",
+                        "F BLA S A ANK - CON"
+                    ]
+                ],
+                "FRANCE": [
+                    1699652249422773,
+                    [
+                        "A MAR H",
+                        "F GAS - BRE",
+                        "F IRI - LVP",
+                        "F SPA/SC S F WES",
+                        "F STP/NC H",
+                        "F WES H"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699652647340164,
+                    [
+                        "A ANK - CON",
+                        "A MOS S A SEV",
+                        "A SEV H",
+                        "A SIL - WAR",
+                        "F BLA S A ANK - CON"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699652587739921,
+                    [
+                        "A YOR - LVP",
+                        "F ENG - BEL",
+                        "F LON - NTH"
+                    ]
+                ]
+            }
+        }
+    },
+    "S1908M": {
+        "actual": {
+            "AUSTRIA": [
+                "A ANK S A BUL - CON",
+                "A ARM - SMY",
+                "A BOH - SIL",
+                "A BUD - GAL",
+                "A BUL - CON",
+                "A PIE - TUS",
+                "A RUM - SEV",
+                "A TYR - MUN",
+                "A UKR S A WAR - MOS",
+                "A VIE - BOH",
+                "A WAR - MOS",
+                "F AEG - ION",
+                "F TUN - TYS",
+                "F WES - MAO"
+            ],
+            "ENGLAND": [
+                "F ENG - MAO"
+            ],
+            "FRANCE": [
+                "A MAR - PIE",
+                "A PAR - BRE",
+                "F BRE - MAO",
+                "F LVP - WAL",
+                "F LYO - TYS",
+                "F SPA/SC - WES",
+                "F STP/NC H"
+            ],
+            "GERMANY": [
+                "A BER - SIL",
+                "A EDI - YOR",
+                "A KIE - BER",
+                "A MUN S A BER - SIL",
+                "A PRU S A BER - SIL",
+                "F BOT H",
+                "F NTH - LON",
+                "F NWG - NTH"
+            ],
+            "ITALY": [],
+            "RUSSIA": [
+                "A CON - SMY",
+                "A MOS S A PRU - WAR"
+            ],
+            "TURKEY": []
+        },
+        "expected": {
+            "ENGLAND": {
+                "FRANCE": [
+                    1699652980692489,
+                    [
+                        "A MAR - PIE",
+                        "A PAR - BUR",
+                        "F BRE - GAS",
+                        "F LVP - IRI",
+                        "F LYO S F SPA/SC - WES",
+                        "F SPA/SC - WES",
+                        "F STP/NC H"
+                    ]
+                ],
+                "RUSSIA": [
+                    1699653413282552,
+                    [
+                        "A CON - BUL",
+                        "A MOS S A SIL - WAR",
+                        "A SIL - WAR"
+                    ]
+                ],
+                "GERMANY": [
+                    1699653041825421,
+                    [
+                        "A BER - SIL",
+                        "A EDI - YOR",
+                        "A KIE S A MUN",
+                        "A MUN S A BER - SIL",
+                        "A PRU S A BER - SIL",
+                        "F BOT - LVN",
+                        "F NTH - BEL",
+                        "F NWG - NTH"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699653384927791,
+                    [
+                        "A ANK S A BUL - CON",
+                        "A ARM - SMY",
+                        "A BOH - SIL",
+                        "A BUD - GAL",
+                        "A BUL - CON",
+                        "A PIE - MAR",
+                        "A RUM - SEV",
+                        "A TYR - MUN",
+                        "A UKR S A WAR - MOS",
+                        "A VIE - BOH",
+                        "A WAR - MOS",
+                        "F AEG - ION",
+                        "F TUN - TYS",
+                        "F WES - MAO"
+                    ]
+                ]
+            },
+            "RUSSIA": {
+                "FRANCE": [
+                    1699653234186122,
+                    [
+                        "A MAR - PIE",
+                        "A PAR - BUR",
+                        "F BRE - MAO",
+                        "F LVP - IRI",
+                        "F LYO S A MAR - PIE",
+                        "F SPA/SC S F BRE - MAO",
+                        "F STP/NC H"
+                    ]
+                ],
+                "AUSTRIA": [
+                    1699653366997104,
+                    [
+                        "A ANK - CON",
+                        "A ARM - SMY",
+                        "A BUD - GAL",
+                        "A BUL S A ANK - CON",
+                        "A PIE - MAR",
+                        "A RUM - SEV",
+                        "A TYR S A VIE - BOH",
+                        "A UKR S A WAR - MOS",
+                        "A VIE - BOH",
+                        "A WAR - MOS",
+                        "F AEG - ION",
+                        "F TUN - TYS",
+                        "F WES - MAO"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699653412379221,
+                    [
+                        "A EDI - LVP",
+                        "F ENG - MAO"
+                    ]
+                ]
+            },
+            "AUSTRIA": {
+                "RUSSIA": [
+                    1699653290023531,
+                    [
+                        "A CON H",
+                        "A MOS - STP",
+                        "A SIL - WAR"
+                    ]
+                ],
+                "ENGLAND": [
+                    1699653342297167,
+                    [
+                        "F ENG - MAO"
+                    ]
+                ],
+                "FRANCE": [
+                    1699653419488661,
+                    [
+                        "A MAR - PIE",
+                        "A PAR - BUR",
+                        "F BRE - MAO",
+                        "F LVP - IRI",
+                        "F LYO S A MAR - PIE",
+                        "F SPA/SC - WES",
+                        "F STP/NC H"
+                    ]
+                ]
+            }
+        }
+    }
+}

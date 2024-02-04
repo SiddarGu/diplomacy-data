@@ -1,0 +1,211 @@
+{
+    "S1901M": {
+        "FRANCE": [
+            "A MAR S A PAR - BUR",
+            "A PAR - BUR",
+            "F BRE - MAO"
+        ],
+        "GERMANY": [
+            "A BER - KIE",
+            "A MUN - RUH",
+            "F KIE - DEN"
+        ]
+    },
+    "F1901M": {
+        "GERMANY": [
+            "A KIE - HOL",
+            "A RUH - BEL",
+            "F DEN H"
+        ],
+        "FRANCE": [
+            "A MAR - SPA",
+            "F MAO - POR"
+        ]
+    },
+    "S1902M": {
+        "GERMANY": [
+            "A HOL S A RUH - BEL",
+            "A MUN - BUR",
+            "A RUH - BEL",
+            "F DEN S F KIE - HEL",
+            "F KIE - HEL"
+        ],
+        "FRANCE": [
+            "F BRE - ENG"
+        ]
+    },
+    "F1902M": {
+        "GERMANY": [
+            "A BEL H",
+            "A HOL S A BEL",
+            "A MUN - BUR",
+            "F DEN S F HEL - NTH",
+            "F HEL - NTH"
+        ],
+        "FRANCE": [
+            "A BUR S A PIC - BEL",
+            "A PIC S A BEL",
+            "F BRE - ENG",
+            "F MAO S F BRE - ENG"
+        ]
+    },
+    "S1903M": {
+        "GERMANY": [
+            "A HOL - RUH",
+            "F BER - BAL",
+            "F DEN - SKA",
+            "F HEL - DEN"
+        ],
+        "FRANCE": [
+            "A GAS - MAR"
+        ]
+    },
+    "F1903M": {
+        "GERMANY": [
+            "A RUH - KIE",
+            "F DEN H",
+            "F HEL S F KIE - HOL",
+            "F KIE - HOL"
+        ],
+        "FRANCE": [
+            "A MAR - PIE",
+            "F IRI - LVP"
+        ]
+    },
+    "S1904M": {
+        "GERMANY": [
+            "A BUR - MAR",
+            "A RUH - BEL",
+            "F DEN S F HEL - NTH",
+            "F HEL - NTH",
+            "F HOL S F HEL - NTH"
+        ],
+        "FRANCE": [
+            "A BEL - RUH",
+            "A GAS - BUR",
+            "A MAR - PIE",
+            "A PAR S A GAS - BUR",
+            "F BRE - MAO",
+            "F LVP - WAL"
+        ]
+    },
+    "F1904M": {
+        "FRANCE": [
+            "A BUR S A RUH - BEL",
+            "A PAR - PIC",
+            "A RUH - BEL",
+            "F BRE - ENG",
+            "F MAO S F BRE - ENG",
+            "F WAL - LON"
+        ],
+        "GERMANY": [
+            "A KIE S A MUN",
+            "A MUN H",
+            "F DEN H",
+            "F HOL - NTH",
+            "F NTH - EDI"
+        ]
+    },
+    "S1905M": {
+        "GERMANY": [
+            "A BER - PRU",
+            "A KIE - MUN",
+            "A MUN - SIL",
+            "F DEN - SWE",
+            "F LON S F NTH",
+            "F NTH H"
+        ],
+        "FRANCE": [
+            "A BUR - MAR",
+            "A PIC - BUR",
+            "A PIE - TUS",
+            "F MAO - WES",
+            "F WAL - LVP"
+        ]
+    },
+    "F1905M": {
+        "GERMANY": [
+            "A DEN S F SKA - SWE",
+            "A PRU S A SIL - WAR",
+            "A SIL - WAR",
+            "F LON S F NTH",
+            "F NTH S A YOR - EDI",
+            "F SKA - SWE"
+        ],
+        "FRANCE": [
+            "F WES - TYS"
+        ]
+    },
+    "S1906M": {
+        "GERMANY": [
+            "A BER - PRU",
+            "A DEN S F SKA - SWE",
+            "A PRU - LVN",
+            "A SIL S A BER - PRU",
+            "F LON - NTH",
+            "F NWY - STP/NC",
+            "F SKA - SWE"
+        ],
+        "FRANCE": [
+            "A GAS H",
+            "A PIE - TYR",
+            "A TUS - ROM",
+            "A YOR S F CLY - EDI",
+            "F CLY - EDI",
+            "F TYS S A TUS - ROM",
+            "F WES S F TYS"
+        ]
+    },
+    "F1906M": {
+        "FRANCE": [
+            "A YOR - LVP",
+            "F EDI H"
+        ],
+        "GERMANY": [
+            "A SWE H",
+            "F NTH - NWY",
+            "F NWY - STP/NC",
+            "F SKA - DEN"
+        ]
+    },
+    "S1907M": {
+        "GERMANY": [
+            "A BER - SIL",
+            "A MUN - BOH",
+            "A PRU S A BER - SIL",
+            "A SIL - GAL",
+            "A SWE - NWY",
+            "F NTH S A SWE - NWY",
+            "F NWY - BAR",
+            "F SKA - SWE"
+        ],
+        "FRANCE": [
+            "A LVP - EDI",
+            "A PAR - BUR",
+            "A PIE - TUS",
+            "A TYR - VEN",
+            "A VEN - APU",
+            "F BRE - MAO",
+            "F EDI - CLY",
+            "F MAR - LYO",
+            "F TUN S F WES - TYS",
+            "F WES - TYS"
+        ]
+    },
+    "F1907M": {
+        "GERMANY": [
+            "A BER - MUN",
+            "A BOH - VIE",
+            "A NWY - STP",
+            "A PRU - LVN",
+            "A SIL S A BER - MUN",
+            "F BAR S A NWY - STP",
+            "F NTH - LON",
+            "F SWE - DEN"
+        ],
+        "FRANCE": [
+            "F CLY - NAO",
+            "F MAO - WES"
+        ]
+    }
+}

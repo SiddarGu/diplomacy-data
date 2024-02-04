@@ -1,0 +1,259 @@
+{
+    "S1901M": {
+        "RUSSIA": [
+            "A MOS - UKR",
+            "A WAR - GAL",
+            "F SEV - BLA",
+            "F STP/SC - BOT"
+        ],
+        "FRANCE": [
+            "A MAR - SPA",
+            "A PAR - BUR",
+            "F BRE - ENG"
+        ],
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - ANK",
+            "F ANK - BLA"
+        ]
+    },
+    "F1901M": {
+        "FRANCE": [
+            "A BUR - MUN",
+            "A SPA H",
+            "F MAO - POR"
+        ],
+        "RUSSIA": [
+            "A MOS - UKR",
+            "A WAR - UKR",
+            "F BOT - SWE",
+            "F SEV - RUM"
+        ],
+        "TURKEY": [
+            "A BUL H",
+            "A SMY - ANK",
+            "F ANK - CON"
+        ]
+    },
+    "S1902M": {
+        "RUSSIA": [
+            "A MOS - LVN",
+            "A SEV - UKR",
+            "A STP H",
+            "A WAR - GAL",
+            "F RUM H",
+            "F SWE - SKA"
+        ],
+        "FRANCE": [
+            "A BRE - PIC",
+            "A MUN H",
+            "A PAR - BUR",
+            "A POR - SPA",
+            "F MAR - LYO",
+            "F SPA/SC - WES"
+        ],
+        "TURKEY": [
+            "A ANK - CON",
+            "A BUL - SER",
+            "F CON - AEG",
+            "F SMY S F CON - AEG"
+        ]
+    },
+    "F1902M": {
+        "FRANCE": [
+            "A BUR - BEL",
+            "A PIC S A BUR - BEL",
+            "A SIL - MUN",
+            "A SPA - MAR",
+            "F LYO S F WES - TYS",
+            "F WES - TYS"
+        ],
+        "TURKEY": [
+            "A CON - BUL",
+            "F AEG S A CON - BUL",
+            "F SMY S F AEG"
+        ],
+        "RUSSIA": [
+            "A GAL H",
+            "A MOS H",
+            "A STP H",
+            "A UKR H",
+            "F RUM H",
+            "F SWE H"
+        ]
+    },
+    "S1903M": {
+        "FRANCE": [
+            "A BEL S A PIC - BUR",
+            "A PIC - BUR",
+            "A PRU - BER",
+            "A SPA - TUS VIA",
+            "F LYO C A SPA - TUS",
+            "F TYS - NAP"
+        ],
+        "TURKEY": [
+            "A BUL - GRE",
+            "A CON - BUL",
+            "F AEG - ION",
+            "F SMY - AEG"
+        ],
+        "RUSSIA": [
+            "A GAL H",
+            "A MOS H",
+            "A STP H",
+            "A WAR H",
+            "F RUM H",
+            "F SWE H"
+        ]
+    },
+    "F1903M": {
+        "FRANCE": [
+            "A BEL H",
+            "A PAR - BUR",
+            "A PRU - SIL",
+            "A TUS - ROM",
+            "F LYO - MAR",
+            "F TYS S A TUS - ROM"
+        ],
+        "RUSSIA": [
+            "A GAL H",
+            "A MOS H",
+            "A STP H",
+            "A WAR H",
+            "F RUM H",
+            "F SWE H"
+        ],
+        "TURKEY": [
+            "A BUL - SER",
+            "A CON - GRE VIA",
+            "F AEG C A CON - GRE",
+            "F ION S F AEG - GRE"
+        ]
+    },
+    "S1904M": {
+        "FRANCE": [
+            "A BEL H",
+            "A PAR - BUR",
+            "A TUS - ROM",
+            "F LYO - MAR",
+            "F TYS - TUN"
+        ],
+        "RUSSIA": [
+            "A MOS - UKR",
+            "A STP - NWY",
+            "A UKR H",
+            "A WAR S A UKR - GAL",
+            "F RUM - BLA",
+            "F SWE S A STP - NWY"
+        ],
+        "TURKEY": [
+            "A BUL - SER",
+            "A CON - APU VIA",
+            "F AEG C A CON - APU",
+            "F ION C A CON - APU"
+        ]
+    },
+    "F1904M": {
+        "FRANCE": [
+            "A BEL H",
+            "A PAR H",
+            "A TUS - PIE",
+            "F MAR - SPA/SC",
+            "F TUN H"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A CON - BUL",
+            "F AEG S F ION - GRE",
+            "F ION - GRE"
+        ],
+        "RUSSIA": [
+            "A MOS - STP",
+            "A NWY S A MOS - STP",
+            "A UKR - RUM",
+            "A WAR H",
+            "F BLA S A UKR - RUM",
+            "F SWE S A NWY"
+        ]
+    },
+    "S1905M": {
+        "FRANCE": [
+            "A BUR - MAR",
+            "A PIC - BEL",
+            "A PIE S A BUR - MAR",
+            "F LYO S A BUR - MAR"
+        ],
+        "RUSSIA": [
+            "A NWY S A STP - FIN",
+            "A SEV - RUM",
+            "A STP - FIN",
+            "A UKR S A SEV - RUM",
+            "A WAR H",
+            "F BLA S A SEV - RUM",
+            "F SWE S A STP - FIN"
+        ],
+        "TURKEY": [
+            "A BUL - SER",
+            "A CON - APU VIA",
+            "F AEG C A CON - APU",
+            "F ION C A CON - APU"
+        ]
+    },
+    "F1905M": {
+        "FRANCE": [
+            "A MAR H",
+            "A PIC - PAR",
+            "A PIE S A MAR",
+            "F LYO S A MAR"
+        ],
+        "TURKEY": [
+            "A APU - VEN",
+            "A CON - BUL",
+            "F AEG S A CON - BUL",
+            "F ION S F AEG"
+        ],
+        "RUSSIA": [
+            "A NWY S A STP - FIN",
+            "A RUM - BUD",
+            "A STP - FIN",
+            "A UKR - GAL",
+            "A WAR S A UKR - GAL",
+            "F BLA S A RUM",
+            "F SWE S A STP - FIN"
+        ]
+    },
+    "S1906M": {
+        "FRANCE": [
+            "A MAR H"
+        ],
+        "RUSSIA": [
+            "A GAL S A SEV - RUM",
+            "A NWY S F FIN - SWE",
+            "A SEV - RUM",
+            "A UKR S A SEV - RUM",
+            "F FIN - SWE"
+        ],
+        "TURKEY": [
+            "A CON - BUL",
+            "F AEG S F ION - GRE",
+            "F ION - GRE"
+        ]
+    },
+    "F1906M": {
+        "TURKEY": [
+            "A CON - BUL",
+            "F AEG S A CON - BUL",
+            "F EAS S F AEG"
+        ],
+        "FRANCE": [
+            "A MAR H"
+        ],
+        "RUSSIA": [
+            "A RUM H",
+            "A SWE - NWY",
+            "A UKR S A RUM",
+            "A WAR S A UKR",
+            "F FIN - STP/SC"
+        ]
+    }
+}

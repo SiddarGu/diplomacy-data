@@ -1,0 +1,330 @@
+{
+    "S1901M": {
+        "AUSTRIA": [
+            "A BUD - SER",
+            "A VIE - BUD",
+            "F TRI - ALB"
+        ],
+        "ENGLAND": [
+            "A LVP - YOR",
+            "F EDI - NWG",
+            "F LON - NTH"
+        ],
+        "RUSSIA": [
+            "A MOS - UKR",
+            "A WAR - GAL",
+            "F SEV - BLA",
+            "F STP/SC - BOT"
+        ],
+        "ITALY": [
+            "A ROM - APU",
+            "A VEN H",
+            "F NAP - ION"
+        ]
+    },
+    "F1901M": {
+        "AUSTRIA": [
+            "A SER S F ALB - GRE",
+            "A VIE - TRI",
+            "F ALB - GRE"
+        ],
+        "RUSSIA": [
+            "A UKR - RUM",
+            "A WAR - GAL",
+            "F BOT - SWE",
+            "F SEV - BLA"
+        ],
+        "ITALY": [
+            "A APU - TUN VIA",
+            "A VEN H",
+            "F ION C A APU - TUN"
+        ],
+        "ENGLAND": [
+            "A YOR - NWY VIA",
+            "F NTH C A YOR - NWY",
+            "F NWG S A YOR - NWY"
+        ]
+    },
+    "S1902M": {
+        "AUSTRIA": [
+            "A BUD S A TRI - SER",
+            "A SER - GRE",
+            "A TRI - SER",
+            "A VIE S A BUD",
+            "F GRE - AEG"
+        ],
+        "RUSSIA": [
+            "A GAL S A RUM",
+            "A MOS H",
+            "A RUM S A GAL",
+            "F BOT - SWE",
+            "F SEV - BLA"
+        ],
+        "ENGLAND": [
+            "A BEL H",
+            "A EDI H",
+            "F LON - NTH",
+            "F NTH - HEL",
+            "F NWY S F BOT - SWE"
+        ],
+        "ITALY": [
+            "A TUN H",
+            "A VEN H",
+            "F ION - EAS"
+        ]
+    },
+    "F1902M": {
+        "AUSTRIA": [
+            "A BUD S A TRI - SER",
+            "A GRE S A TRI - SER",
+            "A TRI - SER",
+            "A VIE S A BUD",
+            "F AEG - BUL/SC"
+        ],
+        "RUSSIA": [
+            "A GAL - BUD",
+            "A RUM S A BUL - SER",
+            "A STP - NWY",
+            "F SEV - BLA",
+            "F SWE S A STP - NWY"
+        ],
+        "ENGLAND": [
+            "A EDI - YOR",
+            "F HEL - DEN",
+            "F LON - NTH",
+            "F NWY S F LON - NTH"
+        ],
+        "ITALY": [
+            "A TUN H",
+            "A VEN H",
+            "F EAS - SMY"
+        ]
+    },
+    "S1903M": {
+        "AUSTRIA": [
+            "A BUD S A TRI - SER",
+            "A GRE S A TRI - SER",
+            "A TRI - SER",
+            "A VIE S A BUD",
+            "F AEG - BUL/SC"
+        ],
+        "ITALY": [
+            "A TUN H",
+            "A VEN H",
+            "F EAS - SMY",
+            "F NAP - ION"
+        ],
+        "RUSSIA": [
+            "A GAL - BOH",
+            "A NWY - FIN",
+            "A RUM S A WAR - GAL",
+            "A WAR - GAL",
+            "F BLA S A RUM",
+            "F STP/NC - NWY",
+            "F SWE S F STP/NC - NWY"
+        ],
+        "ENGLAND": [
+            "A YOR - WAL",
+            "F NTH C A NWY - DEN",
+            "F NWG - BAR"
+        ]
+    },
+    "F1903M": {
+        "ENGLAND": [
+            "A LON H",
+            "F BAR - STP/NC",
+            "F EDI - NTH"
+        ],
+        "RUSSIA": [
+            "A BOH - VIE",
+            "A FIN - STP",
+            "A GAL - WAR",
+            "A RUM S A BUL - SER",
+            "F BLA S A RUM",
+            "F NWY - NTH",
+            "F SWE - DEN"
+        ],
+        "ITALY": [
+            "A TUN - SMY VIA",
+            "A VEN H",
+            "F EAS C A TUN - SMY",
+            "F ION C A TUN - SMY"
+        ],
+        "AUSTRIA": [
+            "A BUD S A VIE",
+            "A GRE S A BUL",
+            "A SER S A GRE - BUL",
+            "A VIE S A BUD",
+            "F AEG S A GRE - BUL"
+        ]
+    },
+    "S1904M": {
+        "RUSSIA": [
+            "A BOH - VIE",
+            "A GAL - WAR",
+            "A RUM S A BUL - SER",
+            "A STP - MOS",
+            "F BLA S A RUM",
+            "F NWY - NTH",
+            "F SWE S F NTH - DEN"
+        ],
+        "AUSTRIA": [
+            "A BUD - TRI",
+            "A GRE - ALB",
+            "A SER S A BUD - TRI",
+            "A VIE S A BUD - TRI"
+        ],
+        "ITALY": [
+            "A ALB - SER",
+            "A TRI S A ALB - SER",
+            "A VEN S A TRI",
+            "F EAS - AEG",
+            "F ION - GRE"
+        ],
+        "ENGLAND": [
+            "F NTH - DEN"
+        ]
+    },
+    "F1904M": {
+        "AUSTRIA": [
+            "A BUD - TRI",
+            "A GRE - ALB",
+            "A SER S A BUD - TRI",
+            "A TYR S A BUD - TRI"
+        ],
+        "RUSSIA": [
+            "A GAL S A MOS - WAR",
+            "A MOS - WAR",
+            "A RUM - BUD",
+            "A VIE S A RUM - BUD",
+            "F BLA - RUM",
+            "F NWY - NTH",
+            "F SWE S F DEN"
+        ],
+        "ITALY": [
+            "A ALB - GRE",
+            "A TRI - SER",
+            "A VEN - TRI",
+            "F ADR S A VEN - TRI",
+            "F AEG S A ALB - GRE"
+        ],
+        "ENGLAND": [
+            "F DEN S F NWY - NTH"
+        ]
+    },
+    "S1905M": {
+        "RUSSIA": [
+            "A BUD S A RUM",
+            "A GAL S A BUD",
+            "A RUM S A SEV - BUL",
+            "A SEV - BUL VIA",
+            "A WAR - SIL",
+            "F BLA C A SEV - BUL",
+            "F NTH - EDI",
+            "F SWE S F DEN"
+        ],
+        "ITALY": [
+            "A GRE - SER",
+            "A ROM - VEN",
+            "A VEN - TRI",
+            "A VIE S A VEN - TRI",
+            "F ADR S A VEN - TRI",
+            "F AEG - GRE"
+        ],
+        "ENGLAND": [
+            "F DEN H"
+        ]
+    },
+    "F1905M": {
+        "RUSSIA": [
+            "A BUD - TRI",
+            "A RUM - SER",
+            "A SEV - ARM",
+            "A SIL - BOH",
+            "A VIE S A BUD - TRI",
+            "F BLA S A SEV - ARM",
+            "F NWY S F DEN - NTH",
+            "F SWE S F NWY"
+        ],
+        "ITALY": [
+            "A BOH - VIE",
+            "A SER S A BUL - RUM",
+            "A TRI S A BOH - VIE",
+            "A VEN - PIE",
+            "F ADR S A TRI",
+            "F GRE - ION"
+        ],
+        "ENGLAND": [
+            "F DEN - NTH"
+        ]
+    },
+    "S1906M": {
+        "RUSSIA": [
+            "A BUD - TRI",
+            "A SEV S F BLA - RUM",
+            "A SIL - BOH",
+            "A UKR S F BLA - RUM",
+            "A VIE - TRI",
+            "F BLA - RUM",
+            "F NWY S F NWG - NTH",
+            "F SWE S F NWY"
+        ],
+        "ITALY": [
+            "A BOH - VIE",
+            "A SER - BUD",
+            "A TRI S A BOH - VIE",
+            "A VEN - PIE",
+            "F APU - NAP",
+            "F ION - TUN"
+        ]
+    },
+    "F1906M": {
+        "ITALY": [
+            "A BOH - TYR",
+            "A SER - GRE",
+            "A TRI S A BUD",
+            "A VEN - PIE",
+            "F APU - NAP",
+            "F NAP - ROM"
+        ],
+        "RUSSIA": [
+            "A BUD - TRI",
+            "A SEV S F RUM",
+            "A SIL - BOH",
+            "A UKR S A SEV",
+            "A VIE - TRI",
+            "F NWY S F NTH",
+            "F RUM S A SEV",
+            "F SWE S F NWY"
+        ]
+    },
+    "S1907M": {
+        "RUSSIA": [
+            "A BOH - GAL",
+            "A BUD - RUM",
+            "A MOS S A SEV",
+            "A SEV S A BUD - RUM",
+            "A UKR S A BUD - RUM",
+            "A VIE - TRI",
+            "F NWG - EDI",
+            "F SWE - DEN"
+        ],
+        "ITALY": [
+            "A TRI - SER",
+            "A TYR - PIE",
+            "A VEN - ROM",
+            "F APU S F AEG - ION",
+            "F ROM - TUS"
+        ]
+    },
+    "F1907M": {
+        "ITALY": [
+            "A TRI - SER",
+            "A TYR - PIE",
+            "A VEN - ROM",
+            "F APU - NAP",
+            "F TUS - LYO"
+        ],
+        "RUSSIA": []
+    }
+}

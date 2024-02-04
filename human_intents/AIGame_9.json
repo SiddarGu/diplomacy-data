@@ -1,0 +1,402 @@
+{
+    "S1901M": {
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - CON",
+            "F ANK - BLA"
+        ],
+        "ITALY": [
+            "A ROM - VEN",
+            "A VEN - TYR",
+            "F NAP - ION"
+        ],
+        "FRANCE": [
+            "A MAR - SPA",
+            "A PAR - BUR",
+            "F BRE - ENG"
+        ],
+        "GERMANY": [
+            "A BER - KIE",
+            "A MUN - RUH",
+            "F KIE - DEN"
+        ]
+    },
+    "F1901M": {
+        "FRANCE": [
+            "A BUR - BEL",
+            "A SPA - POR",
+            "F PIC S A BUR - BEL"
+        ],
+        "GERMANY": [
+            "A KIE - HOL",
+            "A RUH S A KIE - HOL",
+            "F DEN H"
+        ],
+        "ITALY": [
+            "A TYR - MUN",
+            "A VEN - TRI",
+            "F ION - TUN"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A CON - BUL",
+            "F ANK - BLA"
+        ]
+    },
+    "S1902M": {
+        "ITALY": [
+            "A TYR S A VIE",
+            "A VEN - TRI",
+            "A VIE S A VEN - TRI",
+            "F NAP - ION",
+            "F TUN S F NAP - ION"
+        ],
+        "FRANCE": [
+            "A BEL S A MAR - BUR",
+            "A MAR - BUR",
+            "A PAR S A MAR - BUR",
+            "A POR - SPA",
+            "F PIC - ENG"
+        ],
+        "GERMANY": [
+            "A HOL H",
+            "A MUN - BUR",
+            "A RUH - BUR",
+            "F DEN - NTH",
+            "F KIE - HEL"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A CON - BUL",
+            "F ANK - BLA",
+            "F SMY - EAS"
+        ]
+    },
+    "F1902M": {
+        "TURKEY": [
+            "A BUL - SER",
+            "A CON - SMY",
+            "F BLA - CON",
+            "F EAS - AEG"
+        ],
+        "ITALY": [
+            "A TRI S A GAL - BUD",
+            "A TYR S A TRI",
+            "A VIE S A TRI",
+            "F ION - ALB",
+            "F TUN - ION"
+        ],
+        "FRANCE": [
+            "A BEL - WAL VIA",
+            "A BUR S A MUN",
+            "A PAR - PIC",
+            "A SPA H",
+            "F ENG C A BEL - WAL"
+        ],
+        "GERMANY": [
+            "A HOL H",
+            "A KIE S A MUN",
+            "A MUN H",
+            "F DEN S F HEL - NTH",
+            "F HEL - NTH"
+        ]
+    },
+    "S1903M": {
+        "FRANCE": [
+            "A BEL - BUR",
+            "A PIC - BUR",
+            "A SPA - GAS",
+            "A WAL - LON",
+            "F BRE - MAO",
+            "F ENG S A WAL - LON"
+        ],
+        "GERMANY": [
+            "A HOL H",
+            "A KIE - RUH",
+            "A MUN - RUH",
+            "F DEN S F HEL - NTH",
+            "F HEL - NTH"
+        ],
+        "ITALY": [
+            "A TYR S A VEN - TRI",
+            "A VEN - TRI",
+            "A VIE S A VEN - TRI",
+            "F ALB S F TUN - ION",
+            "F TUN - ION"
+        ],
+        "TURKEY": [
+            "A BUL - GRE",
+            "A CON - BUL",
+            "F AEG S A BUL - GRE",
+            "F BLA S A CON - BUL"
+        ]
+    },
+    "F1903M": {
+        "TURKEY": [
+            "A BUL S A GRE - SER",
+            "A GRE - SER",
+            "F AEG - GRE",
+            "F BLA - CON"
+        ],
+        "FRANCE": [
+            "A BEL H",
+            "A GAS - BUR",
+            "A LON S F NTH - YOR",
+            "A PIC S A BEL",
+            "F ENG S A LON",
+            "F MAO - IRI"
+        ],
+        "ITALY": [
+            "A TRI H",
+            "A TYR - PIE",
+            "A VIE S A TRI",
+            "F ALB - ION",
+            "F ION - TYS"
+        ],
+        "GERMANY": [
+            "A DEN S F SWE",
+            "A HOL - RUH",
+            "A MUN - RUH",
+            "F HEL - NTH",
+            "F NTH - NWY"
+        ]
+    },
+    "S1904M": {
+        "FRANCE": [
+            "A BEL S A PIC",
+            "A BRE - LVP VIA",
+            "A GAS - MAR",
+            "A LON - YOR",
+            "A PIC S A BEL",
+            "F ENG C A BRE - LVP",
+            "F IRI C A BRE - LVP"
+        ],
+        "GERMANY": [
+            "A DEN S F SWE",
+            "A MUN H",
+            "A RUH - HOL",
+            "F HEL - NTH",
+            "F NTH - SKA"
+        ],
+        "TURKEY": [
+            "A BUL - SER",
+            "A GRE S A BUL - SER",
+            "F AEG S A GRE",
+            "F CON H",
+            "F SMY - EAS"
+        ],
+        "ITALY": [
+            "A TRI S A SER",
+            "A TYR - PIE",
+            "A VIE S A TRI",
+            "F ALB - ADR",
+            "F ION - EAS",
+            "F NAP - TYS"
+        ]
+    },
+    "F1904M": {
+        "TURKEY": [
+            "A BUL - SER",
+            "A GRE S A BUL - SER",
+            "F AEG S F SMY - EAS",
+            "F CON - ANK",
+            "F SMY - EAS"
+        ],
+        "GERMANY": [
+            "A DEN H",
+            "A HOL H",
+            "A MUN H",
+            "F HEL H",
+            "F SKA - NWY"
+        ],
+        "ITALY": [
+            "A PIE - MAR",
+            "A TRI - ALB",
+            "A VIE - TRI",
+            "F ADR - ALB",
+            "F ION - EAS",
+            "F TYS - LYO"
+        ],
+        "FRANCE": [
+            "A BEL S A HOL",
+            "A LVP S A YOR - EDI",
+            "A MAR H",
+            "A PIC S A BEL",
+            "A YOR - EDI",
+            "F ENG - LON",
+            "F IRI - MAO"
+        ]
+    },
+    "S1905M": {
+        "FRANCE": [
+            "A BEL S A PAR - BUR",
+            "A EDI - YOR",
+            "A LVP - WAL",
+            "A MAR S F MAO - SPA/SC",
+            "A PAR - BUR",
+            "A PIC S A BEL",
+            "F BRE - GAS",
+            "F ENG - MAO",
+            "F MAO - SPA/SC"
+        ],
+        "GERMANY": [
+            "A DEN - SWE",
+            "A HOL H",
+            "A MUN H",
+            "F HEL - NTH",
+            "F NWY - NWG"
+        ],
+        "ITALY": [
+            "A PIE - MAR",
+            "A TRI - SER",
+            "A VIE - TRI",
+            "F ADR S F ION",
+            "F ION H",
+            "F LYO S A PIE - MAR"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A GRE - SMY VIA",
+            "F AEG C A GRE - SMY",
+            "F CON - ANK",
+            "F EAS - ION"
+        ]
+    },
+    "F1905M": {
+        "TURKEY": [
+            "A BUL - CON",
+            "A SMY S F ANK",
+            "F AEG - GRE",
+            "F ANK H",
+            "F EAS - ION"
+        ],
+        "FRANCE": [
+            "A BEL S A PAR - BUR",
+            "A GAS S F SPA/SC - MAR",
+            "A PAR - BUR",
+            "A PIC S A BEL",
+            "A WAL - LON",
+            "A YOR - EDI",
+            "F ENG - NTH",
+            "F MAO - SPA/SC",
+            "F SPA/SC - MAR"
+        ],
+        "GERMANY": [
+            "A DEN - SWE",
+            "A HOL - BEL",
+            "A MUN - BUR",
+            "F NTH - EDI",
+            "F NWG S F NTH - EDI"
+        ],
+        "ITALY": [
+            "A ALB - GRE",
+            "A MAR H",
+            "A TRI - SER",
+            "F ADR S F ION",
+            "F ION S A ALB - GRE",
+            "F LYO S A MAR"
+        ]
+    },
+    "S1906M": {
+        "TURKEY": [
+            "A ARM - SEV",
+            "A CON - BUL",
+            "F ANK - BLA",
+            "F GRE S A CON - BUL"
+        ],
+        "FRANCE": [
+            "A BEL S A PAR - BUR",
+            "A GAS - MAR",
+            "A PAR - BUR",
+            "A PIC S A PAR - BUR",
+            "A YOR - EDI",
+            "F NTH S A YOR - EDI",
+            "F SPA/SC S A GAS - MAR"
+        ],
+        "GERMANY": [
+            "A DEN - SWE",
+            "A HOL H",
+            "A KIE S A HOL",
+            "A MUN - SIL",
+            "F EDI - NTH",
+            "F NWG S F NTH - NWY"
+        ],
+        "ITALY": [
+            "A ALB - GRE",
+            "A MAR S F LYO - SPA/SC",
+            "A SER S A ALB - GRE",
+            "A VEN - TRI",
+            "F ADR - ION",
+            "F ION - AEG",
+            "F LYO - SPA/SC",
+            "F NAP - TYS"
+        ]
+    },
+    "F1906M": {
+        "ITALY": [
+            "A ALB - GRE",
+            "A MAR H",
+            "A TRI - SER",
+            "F EAS - SMY",
+            "F ION S A ALB - GRE",
+            "F LYO S A MAR",
+            "F TYS - WES"
+        ],
+        "GERMANY": [
+            "A DEN - EDI VIA",
+            "A HOL - BEL",
+            "A KIE - MUN",
+            "A RUH - BUR",
+            "F NTH C A DEN - EDI",
+            "F NWG S A DEN - EDI"
+        ],
+        "FRANCE": [
+            "A BEL H",
+            "A BUR - MAR",
+            "A EDI H",
+            "A GAS S A BUR - MAR",
+            "A PIC S A BEL",
+            "F LON - NTH",
+            "F SPA/SC S A BUR - MAR"
+        ],
+        "TURKEY": [
+            "A ARM - SEV",
+            "A CON - SMY",
+            "F ANK - BLA",
+            "F GRE - BUL/SC"
+        ]
+    },
+    "S1907M": {
+        "TURKEY": [
+            "A ARM - ANK",
+            "A SMY - CON",
+            "F BLA - SEV"
+        ],
+        "GERMANY": [
+            "A BUR - GAS",
+            "A DEN - KIE",
+            "A HOL S A MUN - RUH",
+            "A MUN - RUH",
+            "F NWG - NTH"
+        ],
+        "ITALY": [
+            "A PIE - MAR",
+            "A SER - GRE",
+            "A TRI H",
+            "F ION S A SER - GRE",
+            "F LYO - SPA/SC",
+            "F WES S F LYO - SPA/SC"
+        ],
+        "FRANCE": [
+            "A BEL - HOL",
+            "A EDI - CLY",
+            "A GAS S A MAR",
+            "A MAR S A PAR - BUR",
+            "A PAR - BUR",
+            "A PIC S A PAR - BUR",
+            "F BRE - MAO",
+            "F NTH S A BEL - HOL",
+            "F SPA/SC S A MAR"
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "S1901M": {
+        "FRANCE": [
+            "A MAR - SPA",
+            "A PAR - PIC",
+            "F BRE - ENG"
+        ],
+        "GERMANY": [
+            "A BER - KIE",
+            "A MUN - RUH",
+            "F KIE - DEN"
+        ]
+    },
+    "F1901M": {
+        "FRANCE": [
+            "A MAR - SPA",
+            "A PIC - BEL",
+            "F MAO - POR"
+        ],
+        "GERMANY": [
+            "A KIE - HOL",
+            "A RUH - BEL",
+            "F DEN - SWE"
+        ]
+    },
+    "S1902M": {
+        "FRANCE": [
+            "A PAR - BUR",
+            "A PIC S A PAR - BUR",
+            "A SPA - MAR",
+            "F BRE - ENG",
+            "F POR - MAO"
+        ],
+        "GERMANY": [
+            "A HOL - BEL",
+            "A MUN - SIL",
+            "A RUH - MUN",
+            "F DEN - NTH",
+            "F KIE - DEN"
+        ]
+    },
+    "F1902M": {
+        "FRANCE": [
+            "A BUR - RUH",
+            "A MAR - BUR",
+            "A PIC - BEL",
+            "F ENG S A PIC - BEL",
+            "F MAO - NAO"
+        ],
+        "GERMANY": [
+            "A MUN - BUR",
+            "A SIL - WAR",
+            "F DEN - NTH",
+            "F HEL S F DEN - NTH"
+        ]
+    },
+    "S1903M": {
+        "FRANCE": [
+            "A LON H",
+            "A MAR - BUR",
+            "A PAR - PIC",
+            "A RUH - HOL",
+            "F ENG S A PAR - PIC",
+            "F NAO - NWG"
+        ],
+        "GERMANY": [
+            "A BEL - PIC",
+            "A MUN - BUR",
+            "A SIL - WAR",
+            "F HEL - KIE",
+            "F SKA - SWE"
+        ]
+    },
+    "F1903M": {
+        "FRANCE": [
+            "A HOL S A PIC - BEL",
+            "A LON - YOR",
+            "A MAR - BUR",
+            "A PIC - BEL",
+            "F ENG S A PIC - BEL",
+            "F NWG - NTH"
+        ],
+        "GERMANY": [
+            "A BEL S F KIE - HOL",
+            "A BUR - PAR",
+            "A SIL - WAR",
+            "F KIE - HOL",
+            "F SKA S F BOT - SWE"
+        ]
+    },
+    "S1904M": {
+        "FRANCE": [
+            "A LON - YOR",
+            "F BRE - MAO",
+            "F ENG S F BRE - MAO"
+        ],
+        "GERMANY": [
+            "A MUN S A RUH - BUR",
+            "A PAR - GAS",
+            "A RUH - BUR",
+            "F KIE - HOL"
+        ]
+    },
+    "F1904M": {
+        "FRANCE": [
+            "A HOL - KIE",
+            "A PAR S F ENG - BRE",
+            "A RUH S A HOL - KIE",
+            "A YOR S F NTH - EDI",
+            "F ENG - BRE",
+            "F MAO S F ENG - BRE",
+            "F NTH - EDI"
+        ],
+        "GERMANY": [
+            "A BRE - PAR",
+            "A BUR - MAR",
+            "A MUN - BUR",
+            "F KIE - DEN"
+        ]
+    },
+    "S1905M": {
+        "GERMANY": [
+            "A BUR - MAR",
+            "A MAR - PIE",
+            "A PIC - BUR"
+        ],
+        "FRANCE": [
+            "A KIE - BER",
+            "A PAR H",
+            "A RUH - BEL",
+            "A YOR - LVP",
+            "F BRE H",
+            "F EDI - NTH",
+            "F MAO - NAO"
+        ]
+    },
+    "F1905M": {
+        "FRANCE": [
+            "F SPA/SC - MAR"
+        ],
+        "GERMANY": [
+            "A BUR - MAR",
+            "A MUN - BER",
+            "A PIE - TUS"
+        ]
+    },
+    "S1906M": {
+        "GERMANY": [
+            "A MAR - PIE",
+            "A MUN - BER",
+            "A TUS - ROM"
+        ],
+        "FRANCE": [
+            "A KIE - DEN",
+            "A LON - YOR",
+            "A PAR - BUR",
+            "A RUH - BEL",
+            "F BRE - MAO",
+            "F ENG - IRI",
+            "F MAO - SPA/SC",
+            "F NTH S A KIE - DEN"
+        ]
+    },
+    "F1906M": {
+        "GERMANY": [
+            "A MAR - PIE",
+            "A MUN - KIE",
+            "A PIE - TYR"
+        ],
+        "FRANCE": [
+            "A BUR S F SPA/SC - MAR",
+            "A DEN - SWE",
+            "A HOL S A MUN - KIE",
+            "A YOR - LVP",
+            "F IRI S A YOR - LVP",
+            "F MAO - SPA/SC",
+            "F NTH - EDI",
+            "F SPA/SC - MAR"
+        ]
+    }
+}

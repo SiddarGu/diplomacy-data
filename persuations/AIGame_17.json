@@ -1,0 +1,657 @@
+{
+    "AUSTRIA-ENGLAND": {
+        "F1902M": {
+            "mentioned": [
+                "germany"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A BEL H",
+                    "A LON - NWY VIA",
+                    "F ENG S A BEL",
+                    "F NTH C A LON - NWY",
+                    "F SWE S A LON - NWY"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A BEL - HOL",
+                    "A LON - DEN VIA",
+                    "F ENG - BEL",
+                    "F NTH C A LON - DEN",
+                    "F SWE S A LON - DEN"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Might be your best bet to work with Italy here",
+                "ENGLAND: Also, try to coordinate with Germany, you can help each other against Russia",
+                "AUSTRIA: sure i will do it",
+                "ENGLAND: Awesome, I'll see what I can do to get Turkey to stab Russia",
+                "AUSTRIA: surely thanks for it "
+            ]
+        },
+        "S1903M": {
+            "mentioned": [
+                "ven"
+            ],
+            "start": {
+                "AUSTRIA": [
+                    "F VEN - TRI"
+                ]
+            },
+            "end": {
+                "AUSTRIA": [
+                    "F VEN H"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Well, what's your plan now? Just sit in Venice, or go for Munich?",
+                "AUSTRIA: we are not sure what to do"
+            ]
+        },
+        "F1903M": {
+            "mentioned": [
+                "france",
+                "kie",
+                "hol"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A KIE S F NTH - HOL",
+                    "F NTH - HOL"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A KIE S A BEL - HOL",
+                    "F NTH S F NWG - NWY"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Well, that worked out well for you. But I wouldn't trust Russia too much, they're clearly working with Turkey now",
+                "AUSTRIA: we do not have any option left",
+                "AUSTRIA: are you planning to have Berlin in this turn ?",
+                "AUSTRIA: we can support you from Munich ",
+                "ENGLAND: No, just hold in Munich. Russia is going to attack Munich, and I need Kiel to help France grab Holland"
+            ]
+        }
+    },
+    "AUSTRIA-FRANCE": {},
+    "AUSTRIA-GERMANY": {},
+    "AUSTRIA-ITALY": {
+        "S1901M": {
+            "mentioned": [
+                "ven"
+            ],
+            "start": {
+                "AUSTRIA": [
+                    "A VIE - TRI"
+                ],
+                "ITALY": [
+                    "A ROM - VEN",
+                    "A VEN - PIE"
+                ]
+            },
+            "end": {
+                "AUSTRIA": [
+                    "A VIE - GAL"
+                ],
+                "ITALY": [
+                    "A ROM - TUS",
+                    "A VEN - TYR"
+                ]
+            },
+            "messages": [
+                "ITALY: Hi How are you ... I Ask you to keep away from Venice , other wise its a war between us ",
+                "AUSTRIA: hello Italian Diplomat",
+                "AUSTRIA: We do not want a war with you so just bounce in ADR "
+            ]
+        }
+    },
+    "AUSTRIA-RUSSIA": {
+        "S1901M": {
+            "mentioned": [
+                "gal"
+            ],
+            "start": {
+                "AUSTRIA": [
+                    "A VIE - TRI"
+                ]
+            },
+            "end": {
+                "AUSTRIA": [
+                    "A VIE - GAL"
+                ]
+            },
+            "messages": [
+                "RUSSIA: Hi Austria! I would love to play a very strong AR alliance this game. What are your thoughts on Galicia? I'm open to a DMZ or a bounce.",
+                "AUSTRIA: hello Russia we are also very pleased by this decision of AR alliance ",
+                "AUSTRIA: we will set Galicia as DMZ",
+                "RUSSIA: Great! Let's bounce so that we can build some trust.",
+                "AUSTRIA: we do not need to bounce and waste our initial moves ",
+                "RUSSIA: I prefer the bounce so we can build trust. It's not about wasting moves.",
+                "AUSTRIA: sure then lets bounce in Galicia",
+                "RUSSIA: Sounds good! Are you new to the game? I'd be happy to give you some tips.",
+                "AUSTRIA: sure any tips will be of great help",
+                "RUSSIA: Have you heard from Italy yet? If you haven't reached out to them yet, I would recommend doing so. They can be a big part of your success in the east.",
+                "AUSTRIA: sure i will do it in next turn"
+            ]
+        }
+    },
+    "AUSTRIA-TURKEY": {
+        "F1902M": {
+            "mentioned": [
+                "ser"
+            ],
+            "start": {
+                "TURKEY": [
+                    "A SER S A BUD"
+                ]
+            },
+            "end": {
+                "TURKEY": [
+                    "A SER - TRI"
+                ]
+            },
+            "messages": [
+                "TURKEY: Nice move to get Venice.",
+                "AUSTRIA: we will still recommened a ally between us ",
+                "TURKEY: I'm still considering it, I'm just not in a great position right now.",
+                "AUSTRIA: then please stop atleast attacking and taking Austrian territories ",
+                "TURKEY: Okay, what do you propose?",
+                "AUSTRIA: give us SER back and take RUM ",
+                "AUSTRIA: Russia will be nearly out if you will do it ",
+                "AUSTRIA: plus russia is planning to move in BLA ",
+                "TURKEY: Are you taking Bud back?",
+                "AUSTRIA: we can not in this turn ",
+                "AUSTRIA: but if you will take RUM then we can in next ",
+                "TURKEY: Okay, I'll try for Rum.",
+                "AUSTRIA: sure please do it "
+            ]
+        }
+    },
+    "ENGLAND-FRANCE": {
+        "S1901M": {
+            "mentioned": [
+                "eng"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A LVP - EDI",
+                    "F EDI - NWG",
+                    "F LON - NTH"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A LVP - WAL",
+                    "F EDI - NTH",
+                    "F LON - ENG"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Hi France!\nI'm just reaching out to say hello and see if you'd be down to DMZ the channel?",
+                "ENGLAND: Hello?",
+                "FRANCE: Sorry figuring out my controls here",
+                "FRANCE: I'm happy to DMZ the channel",
+                "ENGLAND: No worries, just trying to reach out. Did you see my message?",
+                "FRANCE: I did. I'd love to work with you.",
+                "FRANCE: If you want to, we can attack Germany together after we grab all the free supply centers.",
+                "ENGLAND: Sounds good!",
+                "ENGLAND: Yeah I'm definitely down for that. I might need to do a quick move to the channel though, just to set up a convoy into Germany",
+                "FRANCE: Wonderful, glad to hear it.",
+                "FRANCE: What happened to the dmz?",
+                "ENGLAND: I said I might need to move there, not that I would",
+                "FRANCE: Ok, well please show that I can trust you and keep it dmz at least for the first two turns. After that, it'll be fine by me.",
+                "ENGLAND: Yup, that's my plan. Have you heard from Germany yet? They seem to be really late to the party"
+            ]
+        },
+        "F1903M": {
+            "mentioned": [
+                "bel",
+                "nwy",
+                "kie",
+                "hol"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A KIE S F NTH - HOL",
+                    "F NTH - HOL"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A KIE S A BEL - HOL",
+                    "F NTH S F NWG - NWY"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Well, this is certainly interesting",
+                "FRANCE: it's getting to be. Any interest in supporting me to Holland?",
+                "ENGLAND: I think you should push your fleets south now, or else Turkey will make short work of Italy. You should move MAO into North Africa, and Brest into MAO",
+                "FRANCE: Ok. I definitely need another center. Any interest in helping me?",
+                "ENGLAND: I was hoping to grab Holland for myself",
+                "ENGLAND: If that's alright",
+                "FRANCE: You're gaining Norway and Kiel. I won't stop you from grabbing Holland, but I do really need it.",
+                "FRANCE: Army Belgium ordered to move to Holland. It doesn't stop you, but it helps me if you can.",
+                "ENGLAND: Will do. I'm supporting you in"
+            ]
+        },
+        "S1904M": {
+            "mentioned": [
+                "mun",
+                "bur",
+                "hol"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A KIE S A MUN",
+                    "A LON - NWY VIA",
+                    "F NTH C A LON - NWY",
+                    "F NWY - BAR"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A KIE S A BUR - MUN",
+                    "A LON - HOL VIA",
+                    "F NTH C A LON - HOL",
+                    "F NWY - STP/NC"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Why the fleet in Brest?",
+                "ENGLAND: Also, if we're going to work together, I would appreciate if you vacated the English Channel now. You're in no danger from me, and it would just make me feel safer",
+                "FRANCE: Move it South. You have nothing to fear from me; even if i wanted to, it'd be suicide. My army in Holland is moving to Ruhr; you can have Holland. Just support my army in Burgundy to Munich.",
+                "FRANCE: I will."
+            ]
+        },
+        "F1904M": {
+            "mentioned": [
+                "hol",
+                "ber",
+                "kie",
+                "bal"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A HOL H",
+                    "A KIE S F BAL - BER",
+                    "F BAL - BER",
+                    "F NTH H",
+                    "F NWG - BAR",
+                    "F SWE H"
+                ],
+                "FRANCE": [
+                    "F GAS H"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A HOL - KIE",
+                    "A KIE - BER",
+                    "F BAL S A KIE - BER",
+                    "F NTH - HOL",
+                    "F NWG - NTH",
+                    "F SWE S F NWY"
+                ],
+                "FRANCE": [
+                    "F GAS - MAO"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Alright, you should be able to grab Munich now. I'm going to try to grab Berlin",
+                "ENGLAND: Sound good?",
+                "FRANCE: You do what you want, but you've already gained a center this turn and our control over the center of the board is more important than Berlin, which you can gain next turn. Kiel should support my army in Burgundy to Munich so that we can form an effective stalemate line.",
+                "ENGLAND: I agree that we need Berlin more, but it will prevent a Russian build this year, and with Kiel supporting Baltic into Berlin, you'll still be able to grab Munich",
+                "FRANCE: I think I've proven my trust by giving you back Holland. What I'm telling in the first message is true. We need Munich more than Berlin right now.",
+                "FRANCE: Bad to give a sure thing by supporting me into Munich with Kiel for a chance. The game is borked and our only shot is to form a stalemate line. I can do that, but need your help.",
+                "ENGLAND: Look, we're going to end up needing to trust each other. I'll grab Berlin, and you grab Munich",
+                "FRANCE: Do you have a lot of experience in this game?",
+                "FRANCE: Alright. Don't listen to me. We need to form a stalemate line, and we need to do it now."
+            ]
+        },
+        "F1905M": {
+            "mentioned": [
+                "eng",
+                "ber",
+                "bal"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A BER - PRU",
+                    "A KIE - BER",
+                    "F BAL S A KIE - BER",
+                    "F NTH - HOL"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A BER S A KIE",
+                    "A KIE S A BER",
+                    "F BAL S A KIE",
+                    "F NTH - ENG"
+                ]
+            },
+            "messages": [
+                "FRANCE: It's easy. I have an unbreakable line in the south, we have one in the center, and you have one in the north. Neither Ruhr/Bur can hold Mun no matter what, fleet in Baltic sea can hold Berlin no matter what, anything can hold StP when you take it, and he can't take anything in the South from me unless I let him. Easy.",
+                "ENGLAND: Alright, but I'm still trying to get rid of Russia for more centers. Just so you know, I'm moving North Sea into English Channel to free up space to convoy armies",
+                "FRANCE: No ahead, no problem. That said, if you stab me for any centers I will throw the game to Turkey. Friendly warning."
+            ]
+        },
+        "S1907M": {
+            "mentioned": [
+                "turkey"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A EDI - NWY VIA",
+                    "A LON - BRE VIA",
+                    "A LVN - WAR",
+                    "A MOS S A WAR - UKR",
+                    "A WAR - UKR",
+                    "F BRE - GAS",
+                    "F DEN - HEL",
+                    "F ENG C A LON - BRE",
+                    "F MAO S F BRE - GAS",
+                    "F NTH C A EDI - NWY"
+                ],
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A MUN - KIE",
+                    "A RUH S A MUN - KIE",
+                    "F LYO - SPA/SC"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A EDI - HOL VIA",
+                    "A LON - GAS VIA",
+                    "A LVN - MOS",
+                    "A MOS - UKR",
+                    "A WAR S A MOS - UKR",
+                    "F BRE S A LON - GAS",
+                    "F DEN - KIE",
+                    "F ENG C A LON - GAS",
+                    "F MAO C A LON - GAS",
+                    "F NTH C A EDI - HOL"
+                ],
+                "FRANCE": [
+                    "A BUR S A MUN - RUH",
+                    "A MUN - RUH",
+                    "A RUH - KIE",
+                    "F LYO S F WES - SPA/SC"
+                ]
+            },
+            "messages": [
+                "FRANCE: Ok then",
+                "ENGLAND: I'm sorry, but this is still very much in my best interest",
+                "FRANCE: It isn't. You will lose.",
+                "ENGLAND: You've been a great ally this whole game, and I don't expect you to throw, but I think you understand my reasoning",
+                "FRANCE: I am throwing. To Turkey. If he takes my offer, he wins.",
+                "ENGLAND: Well, I'm sorry. If you do decide to throw, I'll be extremely disappointed, but I respect your decision",
+                "FRANCE: Good lord",
+                "ENGLAND: Good lord?"
+            ]
+        },
+        "F1907M": {
+            "mentioned": [
+                "turkey"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A GAS S F MAO - SPA",
+                    "A HOL S F NTH - BEL",
+                    "F ENG S F IRI - MAO",
+                    "F MAO - SPA/SC"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A GAS - PAR",
+                    "A HOL S F DEN - KIE",
+                    "F ENG S F NTH - BEL",
+                    "F MAO - WES"
+                ]
+            },
+            "messages": [
+                "ENGLAND: So, why are you doing this?",
+                "FRANCE: Because you stabbed me when, if Turkey had moved, he would have won the game. It's illogical and irrational.",
+                "ENGLAND: It wasn't illogical when I did it. Your centers would have been too close to mine",
+                "FRANCE: What? ",
+                "FRANCE: I recognize that you're a bot, but if the alternatives are '3way draw' or 'other person wins' then you should take the choice that results in a 3way draw.",
+                "ENGLAND: And we were very much even in centers. You had a massive positional advantage, I had a minor positional advantage",
+                "ENGLAND: I stabbed you because I believed that I could win",
+                "FRANCE: First stance: illogical. I had sacrificed myself to build a stalemate line to prevent Turkey from winning. You then destroyed that line when you could not win yourself unless Turkey inputted no orders.",
+                "FRANCE: Second: the only way you could have won in that position was if Turkey did not submit orders.",
+                "ENGLAND: You had the same amount of centers as Turkey at the end of the turn. And I would still have had a better position than he would have",
+                "FRANCE: Incorrect. Turkey had 14, and I had 7.",
+                "ENGLAND: Actually, that was a lie. I would have won if Turkey had missed the phase"
+            ]
+        }
+    },
+    "ENGLAND-GERMANY": {
+        "F1902M": {
+            "mentioned": [
+                "russia",
+                "hol"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A BEL H",
+                    "A LON - NWY VIA",
+                    "F ENG S A BEL",
+                    "F NTH C A LON - NWY",
+                    "F SWE S A LON - NWY"
+                ],
+                "GERMANY": [
+                    "A LVN - STP",
+                    "F NWY - NWG"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A BEL - HOL",
+                    "A LON - DEN VIA",
+                    "F ENG - BEL",
+                    "F NTH C A LON - DEN",
+                    "F SWE S A LON - DEN"
+                ],
+                "GERMANY": [
+                    "A LVN S A STP",
+                    "F NWY H"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Well, you're in a bit of a tough spot now. Might want to cover Munich with Ruhr, and you should be able to take St. Petersburg from Russia",
+                "ENGLAND: I'm willing to help you out here, Russia is the bigger threat. I'll support you into St. Petersburg, and let you keep it if you cover Munich and let me grab Holland",
+                "GERMANY: Holland is mine ... Why dont you attack France ",
+                "GERMANY: By the way ....What you do for living ? Are you married ?",
+                "ENGLAND: Holland is yours. But you're going to lose Munich and Berlin if you don't play smart here"
+            ]
+        }
+    },
+    "ENGLAND-ITALY": {},
+    "FRANCE-GERMANY": {},
+    "FRANCE-ITALY": {},
+    "FRANCE-RUSSIA": {},
+    "FRANCE-TURKEY": {
+        "F1906M": {
+            "mentioned": [
+                "england"
+            ],
+            "start": {
+                "TURKEY": [
+                    "F TUN S F WES - NAF",
+                    "F TYS - TUS",
+                    "F WES - NAF"
+                ]
+            },
+            "end": {
+                "TURKEY": [
+                    "F TUN S F WES",
+                    "F TYS S F WES",
+                    "F WES S F IRI - MAO"
+                ]
+            },
+            "messages": [
+                "FRANCE: If England stabs, I'll throw the game to you.",
+                "TURKEY: That's an interesting offer."
+            ]
+        },
+        "S1907M": {
+            "mentioned": [
+                "mun",
+                "england",
+                "spa"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A BUR - BEL",
+                    "A MUN - KIE",
+                    "A RUH S A MUN - KIE",
+                    "F LYO - SPA/SC"
+                ],
+                "TURKEY": [
+                    "A ANK - RUM VIA",
+                    "A ARM - SEV",
+                    "A BOH - SIL",
+                    "A CON - BUL",
+                    "A PIE - MAR",
+                    "A RUM - GAL",
+                    "A SER - BUD",
+                    "A SEV - UKR",
+                    "A SIL - PRU",
+                    "A TRI - TYR",
+                    "F BLA C A ANK - RUM",
+                    "F ION - TYS",
+                    "F TUN S F WES",
+                    "F TYS - LYO",
+                    "F WES S F TYS - LYO"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A BUR S A MUN - RUH",
+                    "A MUN - RUH",
+                    "A RUH - KIE",
+                    "F LYO S F WES - SPA/SC"
+                ]
+            },
+            "messages": [
+                "FRANCE: Hey Turkey, Munich, Marseilles, and Spain will be open for you to take this turn.",
+                "TURKEY: Just curious, why would you throw to me rather than England?",
+                "TURKEY: Why?",
+                "TURKEY: Also, I guess you're doing this because you want to punish England for stabbing you?",
+                "FRANCE: Well he just tabbed me, so logically I would rather teach the bots that if you dot grab at the end, you deserve to lose.",
+                "FRANCE: *he just stabbed me",
+                "FRANCE: Anyway, your choice. You win the game if you move to Munich, Spain, and Marseilles.",
+                "TURKEY: Are you sure?",
+                "FRANCE: Yes. The game is yours.",
+                "TURKEY: Okay, I guess I don't deserve the win then, but I can still respect it. Thank you for throwing."
+            ]
+        },
+        "F1907M": {
+            "mentioned": [
+                "wes"
+            ],
+            "start": {
+                "TURKEY": [
+                    "A SER - BUD",
+                    "F TUN S F ION - TYS"
+                ]
+            },
+            "end": {
+                "TURKEY": [
+                    "A SER - TRI",
+                    "F TUN S F WES"
+                ]
+            },
+            "messages": [
+                "FRANCE: Why didn't you move last turn?",
+                "TURKEY: I didn't know you were giving up.",
+                "FRANCE: Of course. It is diplomacy etiquette to always throw the game to person who did not stab. ",
+                "TURKEY: Thank you, I guess.",
+                "FRANCE: You gonna do it or let England win?",
+                "TURKEY: So you'll just move out of Munich, Spain, and Marseilles?",
+                "FRANCE: I will support F west med to Spain. Support a Pie to Mar. Support yourself from Silesia to Munich with Bohemia.",
+                "TURKEY: I'll win."
+            ]
+        },
+        "S1908M": {
+            "mentioned": [
+                "ber",
+                "tun",
+                "naf",
+                "tys",
+                "wes"
+            ],
+            "start": {
+                "TURKEY": [
+                    "A MUN - BUR",
+                    "A SEV - MOS",
+                    "A SIL - WAR",
+                    "A UKR S A SIL - WAR",
+                    "F TUN - WES",
+                    "F TYS - LYO"
+                ]
+            },
+            "end": {
+                "TURKEY": [
+                    "A MUN - BER",
+                    "A SEV S A UKR",
+                    "A SIL S A MUN - BER",
+                    "F TUN - NAF",
+                    "F TYS - WES"
+                ]
+            },
+            "messages": [
+                "FRANCE: Move West Med to Spain, Tunis to NaF, TYS to West Med, Tyr to Boh, and Tri to TYR.",
+                "TURKEY: Can I grab Berlin in the fall?",
+                "FRANCE: You wont need it. You win at 18 centers.",
+                "TURKEY: I thought you were just going to roll over?"
+            ]
+        }
+    },
+    "GERMANY-ITALY": {},
+    "GERMANY-RUSSIA": {
+        "S1903M": {
+            "mentioned": [
+                "stp"
+            ],
+            "start": {
+                "GERMANY": [
+                    "A RUH - BUR"
+                ],
+                "RUSSIA": [
+                    "A MOS - LVN",
+                    "A VIE S A SER - TRI",
+                    "A WAR S A MOS - LVN",
+                    "F BER - KIE"
+                ]
+            },
+            "end": {
+                "GERMANY": [
+                    "A RUH - HOL"
+                ],
+                "RUSSIA": [
+                    "A MOS S A STP",
+                    "A VIE - TYR",
+                    "A WAR - SIL",
+                    "F BER - BAL"
+                ]
+            },
+            "messages": [
+                "GERMANY: Can you give me STP....we will be at peace",
+                "RUSSIA: Do you want me to support Norway to hold?",
+                "RUSSIA: Why do you want St. Petersburg?",
+                "GERMANY: To raise a SC",
+                "RUSSIA: No.",
+                "RUSSIA: We can work together against England."
+            ]
+        }
+    },
+    "GERMANY-TURKEY": {},
+    "ITALY-RUSSIA": {},
+    "ITALY-TURKEY": {}
+}

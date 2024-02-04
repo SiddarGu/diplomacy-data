@@ -109,10 +109,10 @@ def main():
             for message in messages:
                 if message['sender'] in humans_alive:
                     human_msg_cnt[phase] += 1
-                    human_token_cnt[phase] += len(message['message'])
+                    human_token_cnt[phase] += len(message['message'].split())
                 elif message['sender'] in bots_alive:
                     bot_msg_cnt[phase] += 1
-                    bot_token_cnt[phase] += len(message['message'])
+                    bot_token_cnt[phase] += len(message['message'].split())
 
     avg_human_msg_by_phase = np.array([human_msg_cnt[phase] / total_humans[phase] for phase in human_msg_cnt])
     avg_bot_msg_by_phase = np.array([bot_msg_cnt[phase] / total_bots[phase] for phase in bot_msg_cnt])
@@ -126,10 +126,10 @@ def main():
     #plt.plot(avg_human_token_by_phase, label="human")
     #plt.plot(avg_bot_token_by_phase, label="bot")
 
-    ratio = avg_bot_msg_by_phase / avg_human_msg_by_phase 
-    token_ratio = avg_bot_token_by_phase / avg_human_token_by_phase
-    plt.plot(ratio, label="msg ratio")
-    plt.plot(token_ratio, label="char ratio")
+    #ratio = avg_bot_msg_by_phase / avg_human_msg_by_phase 
+    #token_ratio = avg_bot_token_by_phase / avg_human_token_by_phase
+    #plt.plot(ratio, label="msg ratio")
+    #plt.plot(token_ratio, label="char ratio")
 
     xticks = [phase[0] + phase[-3:] for phase in human_msg_cnt]
     plt.xticks(range(len(xticks)), xticks)

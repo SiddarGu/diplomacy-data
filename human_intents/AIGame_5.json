@@ -1,0 +1,264 @@
+{
+    "S1901M": {
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - ANK",
+            "F ANK - BLA"
+        ],
+        "FRANCE": [
+            "A MAR - BUR",
+            "A PAR - GAS",
+            "F BRE - ENG"
+        ],
+        "ENGLAND": [
+            "A LVP - YOR",
+            "F EDI - NTH",
+            "F LON - ENG"
+        ]
+    },
+    "F1901M": {
+        "ENGLAND": [
+            "A YOR - NWY VIA",
+            "F LON - ENG",
+            "F NTH C A YOR - NWY"
+        ],
+        "FRANCE": [
+            "A BUR - BEL",
+            "A GAS - SPA",
+            "F BRE - PIC"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A SMY - ARM",
+            "F ANK - CON"
+        ]
+    },
+    "S1902M": {
+        "ENGLAND": [
+            "A NWY - SWE",
+            "F ENG H",
+            "F LVP - NAO",
+            "F NTH S F ENG"
+        ],
+        "TURKEY": [
+            "A ANK S A BUL - CON",
+            "A ARM - SEV",
+            "A BUL - CON",
+            "F CON - AEG"
+        ],
+        "FRANCE": [
+            "A BEL S A HOL",
+            "A PAR - BUR",
+            "A SPA - POR",
+            "F BRE S F PIC - ENG",
+            "F PIC - ENG"
+        ]
+    },
+    "F1902M": {
+        "TURKEY": [
+            "A ANK S A CON",
+            "A CON S A ANK",
+            "A SYR - ARM",
+            "F SMY S A CON"
+        ],
+        "ENGLAND": [
+            "A NWY - BEL VIA",
+            "F ENG S A NWY - BEL",
+            "F IRI S F ENG",
+            "F NTH C A NWY - BEL"
+        ],
+        "FRANCE": [
+            "A BEL H",
+            "A BUR - GAS",
+            "A POR H",
+            "F BRE - MAO",
+            "F PIC - BRE"
+        ]
+    },
+    "S1903M": {
+        "FRANCE": [
+            "A BEL H",
+            "A MAR - PIE",
+            "A MUN - BER",
+            "A PAR - BRE",
+            "A POR H",
+            "F BRE - MAO",
+            "F PIC S A BEL"
+        ],
+        "TURKEY": [
+            "A SYR - SMY",
+            "F SMY - EAS"
+        ],
+        "ENGLAND": [
+            "A NWY - SWE",
+            "F ENG - MAO",
+            "F IRI - ENG",
+            "F NTH S F IRI - ENG"
+        ]
+    },
+    "F1903M": {
+        "FRANCE": [
+            "A BEL S F HOL",
+            "A BRE - PAR",
+            "A BUR - MAR",
+            "A PIE - VEN",
+            "A POR - SPA",
+            "F MAO - WES",
+            "F PIC S A BEL"
+        ],
+        "ENGLAND": [
+            "A NWY - SWE",
+            "F HOL H",
+            "F NAO - NWG",
+            "F NTH - SKA"
+        ],
+        "TURKEY": [
+            "A SYR - SMY",
+            "F AEG S A SYR - SMY"
+        ]
+    },
+    "S1904M": {
+        "FRANCE": [
+            "A BEL S A PAR - BUR",
+            "A MAR S A PAR - BUR",
+            "A PAR - BUR",
+            "A SPA - GAS",
+            "F PIC S A BEL",
+            "F WES - TYS"
+        ],
+        "TURKEY": [
+            "A SMY - ARM"
+        ],
+        "ENGLAND": [
+            "A NWY - SWE",
+            "F EDI - NTH",
+            "F HOL S F EDI - NTH",
+            "F NWG H",
+            "F SKA S A NWY - SWE"
+        ]
+    },
+    "F1904M": {
+        "TURKEY": [
+            "A SMY - CON"
+        ],
+        "FRANCE": [
+            "A BEL H",
+            "A BUR S A MUN",
+            "A GAS - MAR",
+            "A MAR - PIE",
+            "F PIC S A BEL",
+            "F TYS - TUN"
+        ],
+        "ENGLAND": [
+            "A NWY S A FIN - SWE",
+            "F HOL S F NWG - NTH",
+            "F NTH - HEL",
+            "F NWG - NTH"
+        ]
+    },
+    "S1905M": {
+        "FRANCE": [
+            "A BEL S A BUR",
+            "A BUR S A BEL",
+            "A GAS - BRE",
+            "A PIE - TUS",
+            "F MAR - LYO",
+            "F PIC - ENG",
+            "F TUN - TYS"
+        ],
+        "TURKEY": [
+            "A SMY S F AEG - CON"
+        ],
+        "ENGLAND": [
+            "A EDI - YOR",
+            "A NWY H",
+            "F HEL S F HOL - KIE",
+            "F HOL - KIE",
+            "F NWG - NTH"
+        ]
+    },
+    "F1905M": {
+        "ENGLAND": [
+            "A NWY - STP",
+            "A YOR - LON",
+            "F HEL - HOL",
+            "F KIE S A PRU - BER",
+            "F NWG - NTH"
+        ],
+        "TURKEY": [
+            "A ARM - SMY"
+        ],
+        "FRANCE": [
+            "A BEL - HOL",
+            "A BRE - WAL VIA",
+            "A BUR - BEL",
+            "A TUS - ROM",
+            "F ENG C A BRE - WAL",
+            "F LYO - PIE",
+            "F TYS S A TUS - ROM"
+        ]
+    },
+    "S1906M": {
+        "FRANCE": [
+            "A BEL S A BUR",
+            "A BUR S A BEL",
+            "A WAL - LVP",
+            "F ENG S A BEL",
+            "F PIE H",
+            "F TYS H"
+        ],
+        "TURKEY": [
+            "A ANK - SMY"
+        ],
+        "ENGLAND": [
+            "A NWY - STP",
+            "A YOR - LVP",
+            "F HEL - DEN",
+            "F KIE S F HEL - DEN",
+            "F NTH S F HEL - DEN"
+        ]
+    },
+    "F1906M": {
+        "TURKEY": [
+            "A SMY H"
+        ],
+        "FRANCE": [
+            "A BEL S A BUR",
+            "A BUR S A BEL",
+            "A WAL - LON",
+            "F ENG S A WAL - LON",
+            "F LYO - SPA/SC",
+            "F PIE H"
+        ],
+        "ENGLAND": [
+            "A LVP H",
+            "A NWY - SWE",
+            "F HEL - DEN",
+            "F HOL - KIE",
+            "F NTH S F HEL - DEN"
+        ]
+    },
+    "S1907M": {
+        "FRANCE": [
+            "A BUR - MUN",
+            "A HOL - BEL",
+            "A LON - YOR",
+            "A MAR - SPA",
+            "F BRE - MAO",
+            "F ENG S F BRE - MAO",
+            "F PIE H",
+            "F SPA/SC - WES"
+        ],
+        "ENGLAND": [
+            "A LVP - YOR",
+            "A STP H",
+            "F DEN - SWE",
+            "F EDI - NTH",
+            "F HEL S F EDI - NTH",
+            "F KIE H"
+        ],
+        "TURKEY": [
+            "A ANK - SMY"
+        ]
+    }
+}

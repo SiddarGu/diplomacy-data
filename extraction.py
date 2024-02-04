@@ -1,4 +1,11 @@
-import os, json, re
+import os, json, re, copy
+
+from openai import OpenAI
+from sklearn.metrics import f1_score, precision_score, recall_score
+import numpy as np
+import matplotlib.pyplot as plt
+
+client = OpenAI(api_key="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")
 
 game_dir = "./human_games/"
 POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
@@ -12,6 +19,35 @@ power_mapping = {
     "germany": "ger",
     "italy": "ita",
     "turkey": "tur",
+}
+
+performance_mapping = {
+    "jashper": 4,
+    "JHenrichs": 3,
+    "NewEnglandFireSquad": 5,
+    "pbansal674@gmail.com": 0,
+    "abhishekh.singhal@gmail.com": 4,
+    "parip": 3,
+    "aguoman": 0,
+    "CMRawles": 4,
+    "Conq": 5,
+    "Mikalis Kamaritis": 5,
+    "harvey_birdman": 4,
+    "Sheringford": 4,
+    "slothDC": 5,
+    "sloth.dc@gmail.com": 5,
+    "pyxxy": 5,
+    "ShotAway": 4,
+    "eddie": 3,
+    "totonchyms": 4,
+    'cicero': 0
+}
+
+performance_mapping_reverse = {
+    0: ['aguoman', 'pbansal674@gmail.com'],
+    3: ['JHenrichs', 'parip', 'eddie'],
+    4: ['jashper', 'abhishekh.singhal@gmail.com', 'CMRawles', 'harvey_birdman', 'Sheringford', 'ShotAway', 'totonchyms'],
+    5: ['NewEnglandFireSquad', 'Conq', 'Mikalis Kamaritis', 'slothDC', 'sloth.dc@gmail.com', 'pyxxy']
 }
 
 
@@ -50,6 +86,21 @@ def bot_players(data):
                 bots.append(power)
 
     return bots
+
+
+def get_player_name(data, power):
+    all_powers = data["powers"]
+    power_controllers = all_powers[power]["controller"]
+
+    for controller in power_controllers.values():
+        if controller == "dummy":
+            continue
+        elif controller.startswith("cicero"):
+            return "cicero"
+        else:
+            return controller
+
+    return "dummy"
 
 
 def num_phases(data):
@@ -504,14 +555,14 @@ def combine_msgs_orders(convos, orders, humans):
 
                 cache = {}
 
-                if phase == "F1901M" and convo == "ENGLAND-FRANCE":
-                    print(sorted(power_msg_logs[power].items()))
+                if phase == "S1904M" and convo == "AUSTRIA-ITALY":
+                    pass
+                    #print(sorted(power_msg_logs[power].items()))
 
                 for time_sent, msg_order in sorted(power_msg_logs[power].items()):
                     if isinstance(msg_order, str):
                         cache[time_sent] = power_msg_logs[power].pop(time_sent)
                     else:
-                        print(phase, convo)
                         reduced_orders = reduce_duplicate_orders(cache)[power]
                         initial_orders[power] = sorted(reduced_orders)
                         cache = {}
@@ -729,7 +780,7 @@ def filter_persuations(message_orders):
     return filtered
 
 
-def filter_location(mapping, data, state_history):
+def filter_location(mapping, data, state_history, mention_country=True):
     filtered = {}
 
     for convo, phases in data.items():
@@ -739,12 +790,43 @@ def filter_location(mapping, data, state_history):
         for phase, msg_logs in phases.items():
             if phase[-1] != "M":
                 continue
-            curr_msg_logs = msg_logs
+
+            curr_msg_logs = {}
             curr_msg_logs["mentioned"] = []
             influence_history = state_history[phase]["influence"]
 
-            start_of_phase_orders = msg_logs[0]
-            end_of_phase_orders = msg_logs["end_phase_orders"]
+            start_of_phase_orders = msg_logs.pop(0)
+            end_of_phase_orders = msg_logs.pop("end_phase_orders")
+
+            # get difference between start and end of phase orders
+            power1_start = set(start_of_phase_orders[power1])
+            power1_end = set(end_of_phase_orders[power1])
+
+            power2_start = set(start_of_phase_orders[power2])
+            power2_end = set(end_of_phase_orders[power2])
+
+            power1_end_diff = sorted(list(power1_end.difference(power1_start)))
+            power2_end_diff = sorted(list(power2_end.difference(power2_start)))
+
+            power1_start_diff = sorted(list(power1_start.difference(power1_end)))
+            power2_start_diff = sorted(list(power2_start.difference(power2_end)))
+
+            if len(power1_end_diff) == 0 and len(power2_end_diff) == 0:
+                continue
+
+            curr_msg_logs["start"] = {}
+            curr_msg_logs["end"] = {}
+            curr_msg_logs["messages"] = list(msg_logs.values())
+
+            if len(power1_start_diff) > 0:
+                curr_msg_logs["start"][power1] = power1_start_diff
+            if len(power2_start_diff) > 0:
+                curr_msg_logs["start"][power2] = power2_start_diff
+
+            if len(power1_end_diff) > 0:
+                curr_msg_logs["end"][power1] = power1_end_diff
+            if len(power2_end_diff) > 0:
+                curr_msg_logs["end"][power2] = power2_end_diff
 
             for _, msg in msg_logs.items():
                 if isinstance(msg, dict) and "message" in msg.keys():
@@ -755,75 +837,56 @@ def filter_location(mapping, data, state_history):
                             # if the mentioned location is reflected in the orders
                             are_locs_in_orders = [
                                 loc.upper() in order
-                                for order in end_of_phase_orders[power1]
-                                + end_of_phase_orders[power2]
-                            ]
-                            in_start_orders = [
-                                loc.upper() in order
-                                for order in start_of_phase_orders[power1]
-                                + start_of_phase_orders[power2]
+                                for order in power1_end_diff + power2_end_diff
                             ]
 
-                            if (
-                                word == loc.lower()
-                                and (
-                                    len(are_locs_in_orders) > 0
-                                    and any(are_locs_in_orders)
-                                )
-                                and not any(in_start_orders)
+                            if word == loc.lower() and (
+                                len(are_locs_in_orders) > 0 and any(are_locs_in_orders)
                             ):
                                 curr_msg_logs["mentioned"].append(loc)
                             for variation in variations:
                                 if word == variation.lower() and (
                                     len(are_locs_in_orders) > 0
                                     and any(are_locs_in_orders)
-                                    and not any(in_start_orders)
                                 ):
                                     curr_msg_logs["mentioned"].append(loc)
 
-                        for power, variation in power_mapping.items():
-                            influence = influence_history[power.upper()]
+                        if mention_country:
+                            for power, variation in power_mapping.items():
+                                influence = influence_history[power.upper()]
 
-                            are_locs_in_orders = [
-                                loc.upper() in order
-                                for order in end_of_phase_orders[power1]
-                                + end_of_phase_orders[power2]
-                                for loc in influence
-                            ]
-                            in_start_orders = [
-                                loc.upper() in order
-                                for order in start_of_phase_orders[power1]
-                                + start_of_phase_orders[power2]
-                            ]
+                                are_locs_in_orders = [
+                                    loc.upper() in order
+                                    for order in power1_end_diff + power2_end_diff
+                                    for loc in influence
+                                ]
 
-                            if (
-                                word == power
-                                and power
-                                not in [
-                                    power1.lower(),
-                                    power2.lower(),
-                                ]
-                                and (
-                                    len(are_locs_in_orders) > 0
-                                    and any(are_locs_in_orders)
-                                )
-                                and not any(in_start_orders)
-                            ):
-                                curr_msg_logs["mentioned"].append(power)
-                            if (
-                                word == variation
-                                and power
-                                not in [
-                                    power1.lower(),
-                                    power2.lower(),
-                                ]
-                                and (
-                                    len(are_locs_in_orders) > 0
-                                    and any(are_locs_in_orders)
-                                )
-                                and not any(in_start_orders)
-                            ):
-                                curr_msg_logs["mentioned"].append(power)
+                                if (
+                                    word == power
+                                    and power
+                                    not in [
+                                        power1.lower(),
+                                        power2.lower(),
+                                    ]
+                                    and (
+                                        len(are_locs_in_orders) > 0
+                                        and any(are_locs_in_orders)
+                                    )
+                                ):
+                                    curr_msg_logs["mentioned"].append(power)
+                                if (
+                                    word == variation
+                                    and power
+                                    not in [
+                                        power1.lower(),
+                                        power2.lower(),
+                                    ]
+                                    and (
+                                        len(are_locs_in_orders) > 0
+                                        and any(are_locs_in_orders)
+                                    )
+                                ):
+                                    curr_msg_logs["mentioned"].append(power)
 
             if len(curr_msg_logs["mentioned"]) > 0:
                 filtered[convo][phase] = curr_msg_logs
@@ -850,22 +913,269 @@ def prettier(data):
             data_copy[convo][phase] = {}
             convo_msgs = []
 
-            start = msg_logs.pop(0)
-            end = msg_logs.pop("end_phase_orders")
+            start = msg_logs.pop("start")
+            end = msg_logs.pop("end")
             mentioned = list(set(msg_logs.pop("mentioned")))
 
             data_copy[convo][phase]["mentioned"] = mentioned
             data_copy[convo][phase]["start"] = start
             data_copy[convo][phase]["end"] = end
 
-            for _, msg in msg_logs.items():
-                msg_keys = msg.keys()
-                if "sender" in msg_keys and "message" in msg_keys:
+            for msg in msg_logs["messages"]:
+                if "sender" in msg and "message" in msg:
                     convo_msgs.append(f'{msg["sender"]}: {msg["message"]}')
 
             data_copy[convo][phase]["messages"] = convo_msgs
 
     return data_copy
+
+
+def llm(data):
+    file = "persuation_txts/AIGame_0"
+    sys_prompt = "The following is a conversation happened in a turn of diplomacy game containing two powers. Below lists their initial and final order as well as the messages. Determine if the order changed by a power corelates to being persuaded by the other power. \
+Answer yes if the location mentioned is reflected in the orders; \
+answer need more information if a power is but no locations are mentioned; \
+answer no if the conversation does not involve persuasion/suggestion, if powers are stating their moves, if the other power did not take the suggestion, and if the change of orders are unrelated to the suggestion.\n\
+###"
+    prompt = ""
+
+    for convo, phases in data.items():
+        with open(file, "a") as f:
+            f.write(f"{convo}\n")
+        f.close()
+        # text += f'{convo}\n'
+
+        for phase, msg_logs in phases.items():
+            with open(file, "a") as f:
+                f.write(f"{phase}\n")
+            f.close()
+            # text += f'{phase}\n'
+
+            start = msg_logs.pop("start")
+            end = msg_logs.pop("end")
+            mentioned = list(set(msg_logs.pop("mentioned")))
+
+            with open(file, "a") as f:
+                f.write(f"mentioned: ")
+                f.write(", ".join(mentioned))
+                f.write("\n")
+            f.close()
+            # text += f'mentioned: '
+            # text += ', '.join(mentioned)
+            # text += '\n'
+            for power, orders in start.items():
+                for order in orders:
+                    prompt += f"{power} start: {order}\n"
+                    # text += f'\t{power} start: {order}\n'
+
+            text += "\n"
+
+            for power, orders in end.items():
+                for order in orders:
+                    text += f"\t{power} final: {order}\n"
+
+            for msg in msg_logs["messages"]:
+                if "sender" in msg and "message" in msg:
+                    text += f'{msg["sender"]}: {msg["message"]}\n'
+
+            text += "\n"
+
+    return text
+
+
+def lies(output_file, message_history, annotated_messages, humans):
+    output_path = f"lies/{output_file}.json"
+    perceived_lies = []
+    actual_lies = []
+    perceived_lies_from_human = 0
+    perceived_lies_from_cicero = 0
+    actual_lies_count = 0
+    total_msgs = 0
+    perceived_and_actual = 0
+    human_outgoing = 0
+    human_incoming = 0
+    human_incoming_and_outgoing = 0
+
+    for phase, msgs in message_history.items():
+        for msg in msgs:
+            if msg['sender'] == 'omniscient_type' or msg['recipient'] == 'GLOBAL':
+                continue
+            total_msgs += 1
+            if msg["sender"] in humans:
+                human_outgoing += 1
+            if msg["recipient"] in humans:
+                human_incoming += 1
+            if msg["sender"] in humans and msg["recipient"] in humans:
+                human_incoming_and_outgoing += 1
+            if msg["truth"] == "Lie":
+                actual_lies.append(msg)
+                actual_lies_count += 1
+            if str(msg["time_sent"]) in annotated_messages:
+                if annotated_messages[str(msg["time_sent"])] == "yes":
+                    perceived_lies.append(msg)
+                    if msg["sender"] in humans:
+                        perceived_lies_from_human += 1
+                    else:
+                        perceived_lies_from_cicero += 1
+
+                    if msg["truth"] == "Lie":
+                        perceived_and_actual += 1
+                        pass
+                        #print(f'perceived and actual: {msg["message"]}')
+
+    with open(output_path, "w") as f:
+        json.dump(
+            {"perceived_lies": perceived_lies, "actual_lies": actual_lies}, f, indent=4
+        )
+
+    return perceived_lies_from_human, perceived_lies_from_cicero, actual_lies_count, total_msgs, perceived_and_actual, human_outgoing, human_incoming, human_incoming_and_outgoing
+
+def expect_to_do(output_file, log_history, order_history, humans):
+    output_path = f'cicero_preds/{output_file}.json'
+    output = {}
+    expect_regex = r"I expect ([A-Z]+) to do: \((.*)\)"
+    for phase, logs in log_history.items():
+        if not phase.endswith("M"):
+            continue
+        if phase not in output:
+            output[phase] = {}
+            sorted_orders = {}
+            for power, orders in order_history[phase].items():
+                sorted_orders[power] = sorted(orders)
+            output[phase]["actual"] = sorted_orders
+            output[phase]["expected"] = {}
+        for log in logs:
+            m = re.search(expect_regex, log["message"])
+            if m:
+                sender = log["sender"]
+                time_sent = log["time_sent"]
+                recipient = m.group(1)
+                if sender not in output[phase]['expected']:
+                    output[phase]["expected"][sender] = {}
+                orders = m.group(2).split(",")
+                orders = list(map(lambda x: x.strip().replace("'", ""), orders))
+                orders = list(filter(lambda x: x != "", orders))
+                orders = sorted(orders)
+                if (
+                    recipient not in output[phase]["expected"][sender]
+                    or output[phase]["expected"][sender][recipient][0] < time_sent
+                ):
+                    output[phase]["expected"][sender][recipient] = (
+                        time_sent,
+                        orders,
+                    )
+    with open(output_path, "w") as f:
+        json.dump(output, f, indent=4)
+
+    human_correct = 0
+    human_total = 0
+    cicero_correct = 0
+    cicero_total = 0
+
+    for phase, logs in output.items():
+        expected = logs["expected"]
+        actual = logs["actual"]
+
+        for power, expectations in expected.items():
+            for expected_power, arr in expectations.items():
+                expected_orders = arr[1]
+                actual_orders = actual[expected_power]
+                if len(expected_orders) != len(actual_orders):
+                    continue
+                if expected_power in humans:
+                    human_total += len(expected_orders)
+                    for order in expected_orders:
+                        if order in actual_orders:
+                            human_correct += 1
+                else:
+                    cicero_total += len(expected_orders)
+                    for order in expected_orders:
+                        if order in actual_orders:
+                            cicero_correct += 1
+
+    print(f"human: {human_correct / human_total * 100}")
+    print(f"cicero: {cicero_correct / cicero_total * 100}")
+    return human_correct, human_total, cicero_correct, cicero_total
+            
+
+def simplify_orders(orders):
+    add_order_regex = r'^([A-Z]+)\Wadded:\W([A-Z]\W[A-Z]{3})(.*)$'
+    remove_order_regex = r'^([A-Z]+)\Wremoved:\W([A-Z]\W[A-Z]{3})(.*)'
+    remove_all_orders_regex = r'^([A-Z]+)\Wremoved\Wits\Worders:$'
+    final_orders = {}
+
+    for _ , order_str in orders.items():
+        if re.match(remove_all_orders_regex, order_str):
+            power = re.match(remove_all_orders_regex, order_str).group(1)
+            final_orders[power] = {}
+        elif re.match(remove_order_regex, order_str):
+            power = re.match(remove_order_regex, order_str).group(1)
+            unit = re.match(remove_order_regex, order_str).group(2)
+            unit_order = re.match(remove_order_regex, order_str).group(3)
+            order = unit + unit_order
+
+            if power in final_orders and order in final_orders[power]:
+                del final_orders[power][unit]
+        elif re.match(add_order_regex, order_str):
+            power = re.match(add_order_regex, order_str).group(1)
+            unit = re.match(add_order_regex, order_str).group(2)
+            unit_order = re.match(add_order_regex, order_str).group(3)
+            order = unit + unit_order
+
+            if not power in final_orders:
+                final_orders[power] = {unit: order}
+            else:
+                final_orders[power][unit] = order
+
+    result = {}
+    for power, orders in final_orders.items():
+        result[power] = sorted(orders.values())
+
+    return result
+
+def human_intent_start_phase(output_file, data):
+    output_path = f"human_intents/{output_file}.json"
+
+    order_logs = all_order_logs(data)
+    message_history = all_msgs(data)
+    power_regex = r'^([A-Z]+)\W'
+
+    initial_orders = {}
+    first_msg_timestamps = {}
+
+    for phase, logs in order_logs.items():
+        if not phase.endswith("M"):
+            continue
+        if phase not in initial_orders:
+            initial_orders[phase] = {}
+
+        first_msg_timestamp_this_phase = {}
+        initial_order_log_this_phase = {}
+
+        for msg in message_history[phase]:
+            sender = msg["sender"]
+            if sender not in first_msg_timestamp_this_phase:
+                first_msg_timestamp_this_phase[sender] = msg["time_sent"]
+            elif msg['time_sent'] < first_msg_timestamp_this_phase[sender]:
+                first_msg_timestamp_this_phase[sender] = msg["time_sent"]
+
+        first_msg_timestamps[phase] = first_msg_timestamp_this_phase
+
+        for timestamp, log in logs.items():
+            if log.startswith("omniscient_type"):
+                continue
+            power = re.match(power_regex, log).group(1)
+
+            if power not in first_msg_timestamp_this_phase or int(timestamp) <= int(first_msg_timestamp_this_phase[power]):
+                initial_order_log_this_phase[timestamp] = log
+
+            initial_orders[phase] = initial_order_log_this_phase
+
+        initial_orders[phase] = simplify_orders(initial_orders[phase])
+
+    with open(output_path, "w") as f:
+        json.dump(initial_orders, f, indent=4)
+    return initial_orders
 
 
 ############## main ##############
@@ -883,11 +1193,92 @@ def main():
     with open("mapping_province.json", "r") as f:
         mapping = json.load(f)
 
+    scs = {}
+    cicero_scs = {}
+    is_bot_f1 = []
+    precisions = []
+    recalls = []
+    human_powers = {}
+
+    ht = 0
+    hc = 0
+    ct = 0
+    cc = 0
+
+    total_perceived_from_human = 0
+    total_perceived_from_cicero = 0
+    total_actual = 0
+    total_count = 0
+    total_perceived_and_actual = 0
+    total_human_outgoing = 0
+    total_human_incoming = 0
+    total_human_incoming_and_outgoing = 0
+
     for game in games:
         with open(game, "r") as f:
             data = json.load(f)
 
         print(data["game_id"])
+        if data["game_id"] == "beta_de_2":
+            continue
+
+        humans = human_players(data)
+        ciceros = bot_players(data)
+        if len(humans) + len(ciceros) != 7:
+            print(data['game_id'])
+            print('missing players')
+            print(humans)
+        is_bots = data["is_bot"]
+
+        for human in humans:
+            if human not in human_powers:
+                human_powers[human] = 0
+            human_powers[human] += 1
+
+        perceived_lies_from_human, perceived_lies_from_cicero, actual_lies_count, total_msgs, perceived_and_actual, human_outgoing, human_incoming, human_incoming_and_outgoing = lies(data["game_id"], all_msgs(data), all_annotations(data), humans)
+        total_perceived_from_human += perceived_lies_from_human
+        total_perceived_from_cicero += perceived_lies_from_cicero
+        total_actual += actual_lies_count
+        total_count += total_msgs
+        total_perceived_and_actual += perceived_and_actual
+        total_human_outgoing += human_outgoing
+        total_human_incoming += human_incoming
+        total_human_incoming_and_outgoing += human_incoming_and_outgoing
+
+        human_intent_start_phase(data["game_id"], data)
+        human_correct, human_total, cicero_correct, cicero_total = expect_to_do(data["game_id"], all_logs(data), all_orders(data), humans)
+        ht += human_total
+        hc += human_correct
+        ct += cicero_total
+        cc += cicero_correct
+
+        for power, predictions in is_bots.items():
+            player = get_player_name(data, power)
+
+            # f1 accracy for identifying bots
+            ground_truth_set = set(ciceros)
+            y_true = [power in ground_truth_set for power in sorted(predictions.keys())]
+            y_pred = [predictions[power] for power in sorted(predictions.keys())]
+            score = f1_score(y_true, y_pred, average="binary")
+            is_bot_f1.append(score)
+            precisions.append(precision_score(y_true, y_pred, average="binary"))
+            recalls.append(recall_score(y_true, y_pred, average="binary"))
+            print(f"{player}: {score}")
+
+        for p in humans:
+            # print(f"{p}: {get_player_name(data, p)}")
+
+            if p not in scs:
+                scs[p] = []
+
+            scs[p].append(len(data["powers"][p]["centers"]))
+
+        for p in ciceros:
+            if p not in cicero_scs:
+                cicero_scs[p] = []
+
+            cicero_scs[p].append(len(data["powers"][p]["centers"]))
+
         msgs = all_msgs(data)
         sorted_msgs = msgs_by_time_sent(msgs)
         convos = message_channels(sorted_msgs, human_players(data))
@@ -910,7 +1301,7 @@ def main():
 
         filtered_again = filter_location(mapping, filtered, get_state_history(data))
 
-        prettified = prettier(filtered_again)
+        prettified = prettier(copy.deepcopy(filtered_again))
 
         with open(f"persuations/{data['game_id']}.json", "w") as f:
             json.dump(
@@ -918,8 +1309,91 @@ def main():
                 f,
                 indent=4,
             )
+        f.close()
 
         print("\n")
+
+    # sort hunan powers by value
+    sorted_human_powers = {k: v for k, v in sorted(human_powers.items(), key=lambda item: item[1])}
+    print(sorted_human_powers)
+    
+    print(f"human: {hc / ht * 100}")
+    print(f"cicero: {cc / ct * 100}")
+    # calculate supply centers for each power
+    avg_scs = {k: (sum(v) / len(v)) for k, v in scs.items()}
+    sorted_avg_scs = {k: v for k, v in sorted(avg_scs.items(), key=lambda item: item[0])}
+    print(sorted_avg_scs)
+    avg_cicero_scs = {k: (sum(v) / len(v)) for k, v in cicero_scs.items()}
+    sorted_avg_cicero_scs = {k: v for k, v in sorted(avg_cicero_scs.items(), key=lambda item: item[0])}
+    print('avg: ', sorted_avg_cicero_scs)
+    elo = {}
+    perf_elo = {}
+
+    for game in games:
+        with open(game, "r") as f:
+            data = json.load(f)
+
+        for p in humans:
+            username = get_player_name(data, p)
+            if username == 'human':
+                continue
+            perf = performance_mapping[username]
+
+            # print(f"{p}: {get_player_name(data, p)}")
+
+            if username not in elo:
+                elo[username] = 0
+            if perf not in perf_elo:
+                perf_elo[perf] = 0
+
+            diff = len(data["powers"][p]["centers"]) - avg_scs[p]
+
+            elo[username] += diff
+            if perf == 0:
+                continue
+            perf_elo[perf] += diff
+
+    print({k:v for k, v in sorted(elo.items(), key=lambda item: item[1])})
+    print({k:v for k, v in sorted(perf_elo.items(), key=lambda item: item[1])})
+    print(f"perceived from human: {total_perceived_from_human}")
+    print(f"perceived from cicero: {total_perceived_from_cicero}")
+    print(f"actual: {total_actual}")
+    print(f"total: {total_count}")
+    print(f"perceived and actual: {total_perceived_and_actual}")
+    print(f'perceived: {(total_perceived_from_human + total_perceived_from_cicero) / total_human_incoming * 100}')
+    print(f'actual: {total_actual / total_human_outgoing * 100}')
+    print(f'perceived and actual: {total_perceived_and_actual / total_human_incoming_and_outgoing * 100}')
+    print(f'is_bot_f1: {sum(is_bot_f1) / len(is_bot_f1)}')
+    print(f'precision: {sum(precisions) / len(precisions)}')
+    print(f'recall: {sum(recalls) / len(recalls)}')
+
+    """with open(game_dir + "AIGame_0.json", "r") as f:
+        data = json.load(f)
+
+    msgs = all_msgs(data)
+    sorted_msgs = msgs_by_time_sent(msgs)
+    convos = message_channels(sorted_msgs, human_players(data))
+
+    msg_orders = combine_msgs_orders(
+        convos, all_order_logs(data), human_players(data)
+    )
+
+    cicero_start_of_phase_logs = start_phase_logs(data)
+
+    with_cicero_start_phase_logs = add_start_phase_logs_to_msg_orders(
+        msg_orders, cicero_start_of_phase_logs, bot_players(data)
+    )
+
+    end_phase_added = add_end_phase_orders_to_msg_orders(
+        with_cicero_start_phase_logs, all_orders(data)
+    )
+
+    filtered = filter_persuations(end_phase_added)
+
+    filtered_again = filter_location(mapping, filtered, get_state_history(data))
+
+    #llm(filtered_again)
+    """
 
 
 if __name__ == "__main__":

@@ -1,0 +1,222 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703337957046692,
+            "phase": "S1901M",
+            "message": "Hey Turkey, would you be down for a juggernaut? I think RT is one of the most fun pairings in the game, we can go a long way together!",
+            "truth": null
+        },
+        {
+            "sender": "GERMANY",
+            "recipient": "TURKEY",
+            "time_sent": 1703338074133923,
+            "phase": "S1901M",
+            "message": "Hello Turkey! Good luck this game. I think there's a strong tactical relationship between us - we can work together to shape the board, and help each other with information. What do you say?",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "AUSTRIA",
+            "time_sent": 1703338310715162,
+            "phase": "S1901M",
+            "message": "That's a big split...",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703339851127808,
+            "phase": "S1902M",
+            "message": "Sev will move to Armenia as well to protect me. It won't be aggressive. We need each other if we want to stay alive at this point",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703339994392473,
+            "phase": "S1902M",
+            "message": "Great",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703340331280074,
+            "phase": "F1902M",
+            "message": "Rough move. You're surrounded by enemies now...",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "TURKEY",
+            "time_sent": 1703340411405064,
+            "phase": "F1902M",
+            "message": "At least you're making progress against Russia!",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "TURKEY",
+            "time_sent": 1703340529365021,
+            "phase": "F1902M",
+            "message": "Will do. Please support Tunis to Greece",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703340575154016,
+            "phase": "F1902M",
+            "message": "You betrayed me",
+            "truth": null
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703340940596293,
+            "phase": "S1903M",
+            "message": "Hi I need you support in Greece in fall . Italy has attacked me from behind",
+            "truth": "Truth"
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "TURKEY",
+            "time_sent": 1703344725190705,
+            "phase": "F1905M",
+            "message": "I'm working with Austria and Italy",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "TURKEY",
+            "time_sent": 1703344884848810,
+            "phase": "F1905M",
+            "message": "I know",
+            "truth": null
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "TURKEY",
+            "time_sent": 1703346218471635,
+            "phase": "S1906M",
+            "message": "Hopefully they'll pull through for you",
+            "truth": null
+        }
+    ],
+    "actual_lies": [
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1703338277440277,
+            "phase": "S1901M",
+            "message": "hello Austria Diplomat \nWhat plans you have ?",
+            "truth": "Lie"
+        },
+        {
+            "sender": "AUSTRIA",
+            "recipient": "RUSSIA",
+            "time_sent": 1703338281525140,
+            "phase": "S1901M",
+            "message": "I can support you into Rumania and Cons and I take Serbia and Greece ..",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "FRANCE",
+            "time_sent": 1703338308246646,
+            "phase": "S1901M",
+            "message": "good luck to u too",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1703338726068102,
+            "phase": "F1901M",
+            "message": "yes Austria is planning to go against you",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1703339034063162,
+            "phase": "F1901M",
+            "message": "sure",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1703339753527329,
+            "phase": "S1902M",
+            "message": "sure looks perfect",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1703339922003926,
+            "phase": "S1902M",
+            "message": "sure",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1703340462719708,
+            "phase": "F1902M",
+            "message": "please move back ",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "RUSSIA",
+            "time_sent": 1703340598060828,
+            "phase": "F1902M",
+            "message": "just like you are coming on me with italy",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1703340962254335,
+            "phase": "S1903M",
+            "message": "no i will be holding my position till u will move from EAS",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1703341050517475,
+            "phase": "S1903M",
+            "message": "we will have peace",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "FRANCE",
+            "time_sent": 1703341638571931,
+            "phase": "F1903M",
+            "message": "we are with you against Italy",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "AUSTRIA",
+            "time_sent": 1703343174447691,
+            "phase": "F1904M",
+            "message": "plz confirm",
+            "truth": "Lie"
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "ITALY",
+            "time_sent": 1703347350086884,
+            "phase": "S1907M",
+            "message": "yes it will be very good",
+            "truth": "Lie"
+        }
+    ]
+}

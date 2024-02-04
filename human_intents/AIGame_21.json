@@ -1,0 +1,205 @@
+{
+    "S1901M": {
+        "ITALY": [
+            "A ROM - APU",
+            "A VEN - TRI",
+            "F NAP - ION"
+        ],
+        "ENGLAND": [
+            "A LVP - WAL",
+            "F EDI - NTH",
+            "F LON - YOR"
+        ]
+    },
+    "F1901M": {
+        "ITALY": [
+            "A APU - TUN VIA",
+            "A TYR - TRI",
+            "F ION C A APU - TUN"
+        ],
+        "ENGLAND": [
+            "A YOR H",
+            "F LON H",
+            "F NTH H"
+        ]
+    },
+    "S1902M": {
+        "ENGLAND": [
+            "A LON H",
+            "A YOR H",
+            "F NTH - SKA",
+            "F NWY - SWE"
+        ],
+        "ITALY": [
+            "A TRI S A TUN - ALB",
+            "A TUN - ALB VIA",
+            "A VEN S A TRI",
+            "F ION C A TUN - ALB",
+            "F NAP - TYS"
+        ]
+    },
+    "F1902M": {
+        "ITALY": [
+            "A ALB S A VEN - TRI",
+            "A TYR S A VEN - TRI",
+            "A VEN - TRI",
+            "F ION - AEG",
+            "F TYS - ION"
+        ],
+        "ENGLAND": [
+            "A LON H",
+            "A YOR H",
+            "F NWY - SWE",
+            "F SKA - SWE"
+        ]
+    },
+    "S1903M": {
+        "ENGLAND": [
+            "A LON H",
+            "A YOR H",
+            "F NWY H",
+            "F SKA H"
+        ],
+        "ITALY": [
+            "A ALB - SER",
+            "A TRI - VIE",
+            "A TYR S A TRI - VIE",
+            "F ION H",
+            "F TYS S F ION"
+        ]
+    },
+    "F1903M": {
+        "ITALY": [
+            "A ALB - TRI",
+            "A TYR - VEN",
+            "A VIE S A ALB - TRI",
+            "F ION H",
+            "F TYS S F ION"
+        ],
+        "ENGLAND": [
+            "A LON H",
+            "A YOR H",
+            "F BAR - STP/NC"
+        ]
+    },
+    "S1904M": {
+        "ENGLAND": [
+            "A LON - BRE VIA",
+            "F BAR - STP/NC"
+        ],
+        "ITALY": [
+            "A ALB - TRI",
+            "A VEN S A ALB - TRI",
+            "A VIE S A ALB - TRI",
+            "F TUN - ION",
+            "F TYS - NAP"
+        ]
+    },
+    "F1904M": {
+        "ITALY": [
+            "A SER S A TRI",
+            "A TRI S A SER",
+            "A VIE S A TRI",
+            "F NAP - ROM",
+            "F TUN - ION"
+        ],
+        "ENGLAND": [
+            "A LON - DEN VIA",
+            "F BAR C A NWY - STP"
+        ]
+    },
+    "S1905M": {
+        "ITALY": [
+            "A TRI S A VIE",
+            "A VEN S F ROM",
+            "A VIE S A TRI",
+            "F ROM H",
+            "F TUN - ION"
+        ],
+        "ENGLAND": [
+            "A LON H"
+        ]
+    },
+    "F1905M": {
+        "ENGLAND": [
+            "A LON - EDI VIA"
+        ],
+        "ITALY": [
+            "A TRI S A VIE",
+            "A VEN S F ROM",
+            "A VIE S A TRI",
+            "F ROM S F NAP",
+            "F TUN - ION"
+        ]
+    },
+    "S1906M": {
+        "ENGLAND": [
+            "A LON H"
+        ],
+        "ITALY": [
+            "A TRI - SER",
+            "A VEN S F ROM",
+            "A VIE S A BUD",
+            "F ROM H",
+            "F TUN - ION"
+        ]
+    },
+    "F1906M": {
+        "ENGLAND": [
+            "A LON H"
+        ],
+        "ITALY": [
+            "A TRI S A TYR - VIE",
+            "A TYR - VIE",
+            "A VEN S F ROM",
+            "F ROM H",
+            "F WES - SPA/SC"
+        ]
+    },
+    "S1907M": {
+        "ENGLAND": [
+            "A LON - BEL VIA"
+        ],
+        "ITALY": [
+            "A TRI S A VIE - BUD",
+            "A VEN - APU",
+            "A VIE - BUD",
+            "F ROM - TYS",
+            "F SPA/SC H"
+        ]
+    },
+    "F1907M": {
+        "ENGLAND": [
+            "A LON - EDI VIA"
+        ],
+        "ITALY": [
+            "A TRI S A VIE - BUD",
+            "A VEN - APU",
+            "A VIE - BUD",
+            "F ROM - NAP",
+            "F SPA/SC - POR"
+        ]
+    },
+    "S1908M": {
+        "ENGLAND": [
+            "A LON H"
+        ],
+        "ITALY": [
+            "A TRI - BUD",
+            "A VEN - TRI",
+            "A VIE S A TRI - BUD",
+            "F TUS - TYS"
+        ]
+    },
+    "F1908M": {
+        "ENGLAND": [
+            "A YOR - LVP"
+        ],
+        "ITALY": [
+            "A BUD - VIE",
+            "A TRI - VIE",
+            "A VEN S F TUS - ROM",
+            "F TUS - ROM"
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "perceived_lies": [
+        {
+            "sender": "ITALY",
+            "recipient": "FRANCE",
+            "time_sent": 1702926821426000,
+            "phase": "F1901M",
+            "message": "Good luck against Germany.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1702927353748534,
+            "phase": "S1902M",
+            "message": "I apologize for my builds, but the way Germany is talking it sounds like you'll attack me regardless. If that's not the case, I'm willing to work with you. I just needed to have a fleet in London to support hold Belgium",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1702927575569253,
+            "phase": "S1902M",
+            "message": "Well, I didn't want to antagonize Russia",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "GERMANY",
+            "time_sent": 1702927663486337,
+            "phase": "S1902M",
+            "message": "Your builds are quite concerning",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "GERMANY",
+            "time_sent": 1702928677749158,
+            "phase": "S1903M",
+            "message": "Just remember that Russia is just shy of a solo.",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1702929936237702,
+            "phase": "S1904M",
+            "message": "Germany is really vulnerable right now, you could probably get a chance to get Belgium and Munich",
+            "truth": null
+        },
+        {
+            "sender": "ENGLAND",
+            "recipient": "FRANCE",
+            "time_sent": 1702930215735436,
+            "phase": "S1904M",
+            "message": "Maybe, maybe not, I'd have to cover Edi",
+            "truth": null
+        },
+        {
+            "sender": "RUSSIA",
+            "recipient": "GERMANY",
+            "time_sent": 1702932887112753,
+            "phase": "S1906M",
+            "message": "France is going to stab you this turn",
+            "truth": null
+        },
+        {
+            "sender": "ITALY",
+            "recipient": "FRANCE",
+            "time_sent": 1702932999649094,
+            "phase": "S1906M",
+            "message": "Ok. Good luck.",
+            "truth": null
+        },
+        {
+            "sender": "TURKEY",
+            "recipient": "FRANCE",
+            "time_sent": 1702935057785684,
+            "phase": "F1907M",
+            "message": "Yes.",
+            "truth": null
+        }
+    ],
+    "actual_lies": [
+        {
+            "sender": "FRANCE",
+            "recipient": "ENGLAND",
+            "time_sent": 1702928986807490,
+            "phase": "S1903M",
+            "message": "Yes",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1702930958727719,
+            "phase": "F1904M",
+            "message": "Hopefully with your help!",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "RUSSIA",
+            "time_sent": 1702931527729600,
+            "phase": "S1905M",
+            "message": "That way I can move two up to Liv and move another into the EC to combat the German fleets.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1702931588171312,
+            "phase": "S1905M",
+            "message": "I'm sorry about that build in Mar. I needed two fleets to take Liv and take on Germany.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1702932766253775,
+            "phase": "S1906M",
+            "message": "I'm going to Turkey.",
+            "truth": "Lie"
+        },
+        {
+            "sender": "FRANCE",
+            "recipient": "ITALY",
+            "time_sent": 1702932889125527,
+            "phase": "S1906M",
+            "message": "100%",
+            "truth": "Lie"
+        }
+    ]
+}

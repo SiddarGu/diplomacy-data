@@ -1,0 +1,263 @@
+{
+    "S1901M": {
+        "AUSTRIA": [
+            "A BUD - SER",
+            "A VIE - GAL",
+            "F TRI - ALB"
+        ],
+        "ITALY": [
+            "A ROM - APU",
+            "A VEN - TYR",
+            "F NAP - ION"
+        ],
+        "TURKEY": [
+            "A CON - BUL",
+            "A SMY - CON",
+            "F ANK - BLA"
+        ]
+    },
+    "F1901M": {
+        "AUSTRIA": [
+            "A SER H",
+            "A VIE - GAL",
+            "F TRI H"
+        ],
+        "ITALY": [
+            "A APU - VEN",
+            "A TYR - VEN",
+            "F ION - TUN"
+        ],
+        "TURKEY": [
+            "A CON S A BUL",
+            "F ANK S F SEV - BLA"
+        ]
+    },
+    "S1902M": {
+        "AUSTRIA": [
+            "A BUD - RUM",
+            "A SER H",
+            "A VIE - GAL",
+            "F TRI H"
+        ],
+        "ITALY": [
+            "A TUN - APU VIA",
+            "A TYR - VEN",
+            "F ION C A TUN - APU",
+            "F VEN - ADR"
+        ],
+        "TURKEY": [
+            "A BUL - RUM",
+            "A SMY S F ANK - ARM",
+            "F ANK S F BLA"
+        ]
+    },
+    "F1902M": {
+        "AUSTRIA": [
+            "A BUD S A GAL - RUM",
+            "A GAL - RUM",
+            "A SER - GRE",
+            "F TRI H"
+        ],
+        "TURKEY": [
+            "A BUL - RUM VIA",
+            "A CON - BUL",
+            "A SMY - ARM",
+            "F ANK - BLA"
+        ],
+        "ITALY": [
+            "A ALB S F ION - GRE",
+            "A VEN - TRI",
+            "F ADR S A VEN - TRI",
+            "F ION - GRE"
+        ]
+    },
+    "S1903M": {
+        "TURKEY": [
+            "A ARM - SEV",
+            "A BUL - RUM",
+            "A CON - BUL VIA",
+            "F ANK - BLA"
+        ],
+        "AUSTRIA": [
+            "A BUD S A VIE - TRI",
+            "A SER S A BUL - GRE",
+            "A VIE - TRI"
+        ],
+        "ITALY": [
+            "A ALB - SER",
+            "A TRI S A VEN - TYR",
+            "A VEN - TYR",
+            "F ADR S A TRI",
+            "F GRE H",
+            "F NAP - ION"
+        ]
+    },
+    "F1903M": {
+        "TURKEY": [
+            "A ARM S F AEG - SMY",
+            "A CON S A BUL",
+            "F ANK S F BLA"
+        ],
+        "AUSTRIA": [
+            "A BUD S A SER",
+            "A BUL H",
+            "A SER H",
+            "A VIE - TRI"
+        ],
+        "ITALY": [
+            "A GRE H",
+            "A TRI H",
+            "A VEN H",
+            "F ADR H",
+            "F AEG H",
+            "F ION H"
+        ]
+    },
+    "S1904M": {
+        "TURKEY": [
+            "A CON - BUL VIA",
+            "A SMY S A ARM",
+            "F ANK - ARM"
+        ],
+        "ITALY": [
+            "A GRE H",
+            "A TRI H",
+            "A VEN H",
+            "F ADR H",
+            "F AEG H",
+            "F ION H"
+        ],
+        "AUSTRIA": [
+            "A BUD - SER",
+            "A BUL S A RUM",
+            "A RUM S A BUD - SER",
+            "A VIE - GAL"
+        ]
+    },
+    "F1904M": {
+        "ITALY": [
+            "A GRE S A TRI - SER",
+            "A TRI - SER",
+            "A TYR - TRI",
+            "F ADR S A TYR - TRI",
+            "F AEG - BUL/SC",
+            "F ION H"
+        ],
+        "TURKEY": [
+            "A CON - BUL VIA",
+            "A SMY - SYR",
+            "F ANK - CON"
+        ],
+        "AUSTRIA": [
+            "A BUD S A VIE",
+            "A BUL S A RUM",
+            "A RUM S A BUL",
+            "A VIE H"
+        ]
+    },
+    "S1905M": {
+        "TURKEY": [
+            "A CON - ANK",
+            "A SYR - ARM"
+        ],
+        "AUSTRIA": [
+            "A BUD S A BUL - SER",
+            "A BUL - SER",
+            "A RUM S A BUL - SER",
+            "A VIE - TYR"
+        ],
+        "ITALY": [
+            "A GRE H",
+            "A SER H",
+            "A TYR H",
+            "A VEN H",
+            "F ADR H",
+            "F AEG H",
+            "F ION H"
+        ]
+    },
+    "F1905M": {
+        "TURKEY": [
+            "A ARM - SEV",
+            "A SMY - ANK"
+        ],
+        "AUSTRIA": [
+            "A BUD S A SER - TRI",
+            "A RUM - BUL",
+            "A SER - TRI",
+            "A VIE - TYR"
+        ],
+        "ITALY": [
+            "A BUL S A TRI - SER",
+            "A GRE S A TRI - SER",
+            "A TRI - SER",
+            "A TYR - TRI",
+            "F ADR S A TYR - TRI",
+            "F AEG S A BUL",
+            "F TYS H"
+        ]
+    },
+    "S1906M": {
+        "ITALY": [
+            "A BUL H",
+            "A GRE H",
+            "A SER H",
+            "A TYR H",
+            "F ADR H",
+            "F AEG H",
+            "F NAP - ION",
+            "F TYS - WES"
+        ],
+        "AUSTRIA": [
+            "A BUD S A RUM - SER",
+            "A RUM - SER",
+            "A VIE - TYR"
+        ],
+        "TURKEY": []
+    },
+    "F1906M": {
+        "AUSTRIA": [
+            "A BUD - TRI",
+            "A TYR - VEN"
+        ],
+        "ITALY": [
+            "A BUL S A GRE - SER",
+            "A GRE - SER",
+            "A SER - TRI",
+            "A TRI - VIE",
+            "F ADR - VEN",
+            "F AEG S A BUL",
+            "F ION - TUN",
+            "F TYS S F ION"
+        ]
+    },
+    "S1907M": {
+        "AUSTRIA": [
+            "A TYR - PIE"
+        ],
+        "ITALY": [
+            "A BUL S A GRE - SER",
+            "A GRE - SER",
+            "A SER - TRI",
+            "A TRI - VEN",
+            "F ADR S A TRI - VEN",
+            "F AEG S A BUL",
+            "F TUN S F TYS - WES",
+            "F TYS - WES"
+        ]
+    },
+    "F1907M": {
+        "ITALY": [
+            "A GRE - SER",
+            "A TRI S A GRE - SER",
+            "A VEN S A TRI",
+            "F ADR S A TRI",
+            "F AEG - GRE",
+            "F TUN - ION",
+            "F WES - SPA/SC"
+        ],
+        "AUSTRIA": [
+            "A PIE - MAR"
+        ]
+    }
+}

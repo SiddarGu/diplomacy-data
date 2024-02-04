@@ -2,40 +2,17 @@
     "AUSTRIA-FRANCE": {
         "S1902M": {
             "mentioned": [
+                "vie",
                 "boh"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A BUD - SER",
-                    "A SER - BUL",
-                    "A TRI - TYR",
-                    "A VIE - TYR",
-                    "F GRE S A SER - BUL"
-                ],
-                "FRANCE": [
-                    "A BRE - PIC",
-                    "A MUN H",
-                    "A PAR - BUR",
-                    "A POR - SPA",
-                    "F MAR - LYO",
-                    "F SPA/SC - WES"
+                    "A VIE - TYR"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A VIE - BOH",
-                    "A TRI - TYR",
-                    "F GRE S A SER - BUL",
-                    "A BUD - SER",
-                    "A SER - BUL"
-                ],
-                "FRANCE": [
-                    "A BRE - PIC",
-                    "A PAR - BUR",
-                    "F MAR - LYO",
-                    "F SPA/SC - WES",
-                    "A POR - SPA",
-                    "A MUN H"
+                    "A VIE - BOH"
                 ]
             },
             "messages": [
@@ -43,6 +20,32 @@
                 "FRANCE: Makes sense, no worries. Pretty sure Germany is a bot so we're taking it out",
                 "AUSTRIA: I'm thinking of moving Tri-tyr and Vie-boh. If you're uncomfortable with that, lmk and I can do something else. Just didn't want to scare you by moving right next to Munich",
                 "FRANCE: Would you be willing to assist with Germany? If so not uncomfortable at all"
+            ]
+        },
+        "S1903M": {
+            "mentioned": [
+                "tus",
+                "spa"
+            ],
+            "start": {
+                "FRANCE": [
+                    "A BEL S A PIC - BUR",
+                    "A PIC - BUR",
+                    "F TYS - NAP"
+                ]
+            },
+            "end": {
+                "FRANCE": [
+                    "A BEL - RUH",
+                    "A PIC - PAR",
+                    "F TYS S A SPA - TUS"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: Thanks for retreating into Prussia instead of Bohemia!",
+                "AUSTRIA: Is there anything you want me to do to help?",
+                "FRANCE: No problem! Would you support my Spain army into Tus?",
+                "AUSTRIA: I would be happy to support you into Rome in the fall if you're down to work together. This turn I want to hold Ven, but next turn I'd be happy to support you"
             ]
         },
         "F1904M": {
@@ -54,33 +57,15 @@
                     "A BUD S A GAL",
                     "A GAL H",
                     "A SER S F GRE",
-                    "A VEN S A TUS - ROM",
-                    "F ALB S F GRE",
-                    "F GRE H"
-                ],
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
+                    "A VEN S A TUS - ROM"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A VEN S A ROM",
-                    "A GAL - RUM",
-                    "F ALB S F GRE",
-                    "F GRE H",
                     "A BUD S A GAL - RUM",
-                    "A SER S A GAL - RUM"
-                ],
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
+                    "A GAL - RUM",
+                    "A SER S A GAL - RUM",
+                    "A VEN S A ROM"
                 ]
             },
             "messages": [
@@ -88,182 +73,25 @@
                 "AUSTRIA: I'm willing to work with you against Italy",
                 "FRANCE: No you aren't you're literally supporting them"
             ]
-        },
-        "S1905M": {
-            "mentioned": [
-                "germany"
-            ],
-            "start": {
-                "AUSTRIA": [
-                    "A BUD S A GAL",
-                    "A GAL H",
-                    "A SER S F GRE",
-                    "A VEN H",
-                    "F ALB - ION",
-                    "F GRE S F ALB - ION"
-                ],
-                "FRANCE": [
-                    "A BUR - MAR",
-                    "A PIC - BEL",
-                    "A PIE S A BUR - MAR",
-                    "F LYO S A BUR - MAR"
-                ]
-            },
-            "end": {
-                "AUSTRIA": [
-                    "A VEN H",
-                    "A GAL H",
-                    "F ALB - GRE",
-                    "F GRE - BUL/SC",
-                    "A BUD S A GAL",
-                    "A SER S F GRE - BUL"
-                ],
-                "FRANCE": [
-                    "A PIE S A BUR - MAR",
-                    "F LYO S A BUR - MAR",
-                    "A BUR - MAR",
-                    "A PIC - BEL"
-                ]
-            },
-            "messages": [
-                "AUSTRIA: You should be able to take back Marseilles if you use Gulf of Lyon and Burgundy to support Piedmont",
-                "AUSTRIA: If you use Burgundy to support Piedmont to Marseilles, and Gulf of Lyon to support Piedmont to Marseilles as well, you should be able to take back Marseilles. You should also use Picardy to support hold Burgundy in case Germany goes for Burgundy",
-                "FRANCE: Don't message me for the rest of the game",
-                "AUSTRIA: If you support Piedmont to Marseilles with Gulf of Lyon, Piedmont should be able to take back Marseilles",
-                "AUSTRIA: Use Picardy to support hold Burgundy. Use Gulf of Lyon to support Piedmont to Marseilles. Use Burgundy to support Piedmont to Marseilles"
-            ]
         }
     },
     "AUSTRIA-RUSSIA": {
-        "S1902M": {
-            "mentioned": [
-                "turkey"
-            ],
-            "start": {
-                "AUSTRIA": [
-                    "A BUD - SER",
-                    "A SER - BUL",
-                    "A TRI - TYR",
-                    "A VIE - TYR",
-                    "F GRE S A SER - BUL"
-                ],
-                "RUSSIA": [
-                    "A MOS - LVN",
-                    "A SEV - UKR",
-                    "A STP H",
-                    "A WAR - GAL",
-                    "F RUM H",
-                    "F SWE - SKA"
-                ]
-            },
-            "end": {
-                "AUSTRIA": [
-                    "A VIE - BOH",
-                    "A TRI - TYR",
-                    "F GRE S A SER - BUL",
-                    "A BUD - SER",
-                    "A SER - BUL"
-                ],
-                "RUSSIA": [
-                    "A MOS - STP",
-                    "A SEV - UKR",
-                    "A STP - FIN",
-                    "A WAR - GAL",
-                    "F RUM H",
-                    "F SWE - SKA"
-                ]
-            },
-            "messages": [
-                "AUSTRIA: Do you want to work together against Turkey? If you support Ser-bul this turn, I'd support you into the rest of Turkey if you're interested in that?",
-                "AUSTRIA: I'll be moving Ser-bul either way, and I'd like to coordinate with you if possible to maximize our efficiency. lmk if you want to work together!",
-                "RUSSIA: Depends. I'm not likely to get a spawn site this year, so I'd like something more concrete"
-            ]
-        },
-        "F1904M": {
-            "mentioned": [
-                "turkey"
-            ],
-            "start": {
-                "AUSTRIA": [
-                    "A BUD S A GAL",
-                    "A GAL H",
-                    "A SER S F GRE",
-                    "A VEN S A TUS - ROM",
-                    "F ALB S F GRE",
-                    "F GRE H"
-                ],
-                "RUSSIA": [
-                    "A MOS - STP",
-                    "A NWY S A MOS - STP",
-                    "A UKR S A BUL - RUM",
-                    "A WAR S A UKR",
-                    "F BLA S A BUL - RUM",
-                    "F SWE S A NWY"
-                ]
-            },
-            "end": {
-                "AUSTRIA": [
-                    "A VEN S A ROM",
-                    "A GAL - RUM",
-                    "F ALB S F GRE",
-                    "F GRE H",
-                    "A BUD S A GAL - RUM",
-                    "A SER S A GAL - RUM"
-                ],
-                "RUSSIA": [
-                    "A MOS - STP",
-                    "A NWY S A MOS - STP",
-                    "A UKR S A BUL - RUM",
-                    "A WAR S A UKR",
-                    "F BLA S A BUL - RUM",
-                    "F SWE S A NWY"
-                ]
-            },
-            "messages": [
-                "AUSTRIA: If you're interested in working together lmk. I think we can easily take down Turkey if we work together",
-                "AUSTRIA: If you're willing to work with me, I'll help you take down Turkey"
-            ]
-        },
         "S1905M": {
             "mentioned": [
                 "turkey"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A BUD S A GAL",
-                    "A GAL H",
                     "A SER S F GRE",
-                    "A VEN H",
                     "F ALB - ION",
                     "F GRE S F ALB - ION"
-                ],
-                "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A VEN H",
-                    "A GAL H",
+                    "A SER S F GRE - BUL",
                     "F ALB - GRE",
-                    "F GRE - BUL/SC",
-                    "A BUD S A GAL",
-                    "A SER S F GRE - BUL"
-                ],
-                "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
+                    "F GRE - BUL/SC"
                 ]
             },
             "messages": [
@@ -273,42 +101,18 @@
         },
         "S1906M": {
             "mentioned": [
-                "turkey",
-                "germany"
+                "germany",
+                "swe"
             ],
             "start": {
-                "AUSTRIA": [
-                    "A BUD S A VIE - GAL",
-                    "A RUM - BUL",
-                    "A SER S A RUM - BUL",
-                    "A TRI H",
-                    "A VIE - GAL",
-                    "F BUL/SC - AEG",
-                    "F GRE S F BUL/SC - AEG"
-                ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY S F FIN - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN - SWE"
                 ]
             },
             "end": {
-                "AUSTRIA": [
-                    "A VIE - GAL",
-                    "A TRI H",
-                    "A RUM - BUL",
-                    "F GRE S F BUL/SC - AEG",
-                    "A BUD S A VIE - GAL",
-                    "A SER S A RUM - BUL",
-                    "F BUL/SC - AEG"
-                ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN S A NWY - SWE"
                 ]
             },
@@ -322,40 +126,27 @@
         },
         "F1906M": {
             "mentioned": [
-                "germany"
+                "rum",
+                "war"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A BUD - RUM",
-                    "A GAL - UKR",
-                    "A SER S A BUD - RUM",
-                    "A TRI - BUD",
-                    "F BUL/SC S F GRE",
-                    "F GRE S F BUL/SC"
+                    "A TRI - BUD"
                 ],
                 "RUSSIA": [
                     "A RUM H",
-                    "A SWE - NWY",
                     "A UKR S A RUM",
-                    "A WAR - GAL",
-                    "F FIN - STP/SC"
+                    "A WAR - GAL"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A GAL - UKR",
-                    "A TRI - VIE",
-                    "F GRE S F BUL/SC",
-                    "A BUD - RUM",
-                    "A SER S A BUD - RUM",
-                    "F BUL/SC S F GRE"
+                    "A TRI - VIE"
                 ],
                 "RUSSIA": [
                     "A RUM - GAL",
-                    "A SWE - NWY",
                     "A UKR S A RUM - GAL",
-                    "A WAR S A RUM - GAL",
-                    "F FIN - STP/SC"
+                    "A WAR S A RUM - GAL"
                 ]
             },
             "messages": [
@@ -372,17 +163,10 @@
     "AUSTRIA-TURKEY": {
         "S1904M": {
             "mentioned": [
+                "gre",
                 "rum"
             ],
             "start": {
-                "AUSTRIA": [
-                    "A BUD S A GAL",
-                    "A GAL H",
-                    "A SER S F GRE",
-                    "A VEN S A ROM",
-                    "F ALB S F GRE",
-                    "F GRE H"
-                ],
                 "TURKEY": [
                     "A BUL - SER",
                     "A CON - APU VIA",
@@ -391,19 +175,11 @@
                 ]
             },
             "end": {
-                "AUSTRIA": [
-                    "A VEN S A ROM",
-                    "A GAL H",
-                    "F ALB S F GRE",
-                    "F GRE H",
-                    "A BUD S A GAL",
-                    "A SER S F GRE"
-                ],
                 "TURKEY": [
                     "A BUL S A UKR - RUM",
                     "A CON S A BUL",
-                    "F ION - GRE",
-                    "F AEG S F ION - GRE"
+                    "F AEG S F ION - GRE",
+                    "F ION - GRE"
                 ]
             },
             "messages": [
@@ -417,6 +193,7 @@
         "F1904M": {
             "mentioned": [
                 "russia",
+                "rum",
                 "italy"
             ],
             "start": {
@@ -424,31 +201,23 @@
                     "A BUD S A GAL",
                     "A GAL H",
                     "A SER S F GRE",
-                    "A VEN S A TUS - ROM",
-                    "F ALB S F GRE",
-                    "F GRE H"
+                    "A VEN S A TUS - ROM"
                 ],
                 "TURKEY": [
-                    "A BUL - RUM",
-                    "A CON - BUL",
                     "F AEG S F ION - GRE",
                     "F ION - GRE"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A VEN S A ROM",
-                    "A GAL - RUM",
-                    "F ALB S F GRE",
-                    "F GRE H",
                     "A BUD S A GAL - RUM",
-                    "A SER S A GAL - RUM"
+                    "A GAL - RUM",
+                    "A SER S A GAL - RUM",
+                    "A VEN S A ROM"
                 ],
                 "TURKEY": [
-                    "A BUL - RUM",
-                    "A CON - BUL",
-                    "F ION - NAP",
-                    "F AEG - ION"
+                    "F AEG - ION",
+                    "F ION - NAP"
                 ]
             },
             "messages": [
@@ -459,38 +228,46 @@
                 "AUSTRIA: If you don't want to work together, at least could you stop attacking me? I think we could both work together to take down Italy and Russia"
             ]
         },
-        "F1906M": {
+        "S1905M": {
             "mentioned": [
-                "russia"
+                "bul"
             ],
             "start": {
                 "AUSTRIA": [
-                    "A BUD - RUM",
-                    "A GAL - UKR",
-                    "A SER S A BUD - RUM",
-                    "A TRI - BUD",
-                    "F BUL/SC S F GRE",
-                    "F GRE S F BUL/SC"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
+                    "A SER S F GRE",
+                    "F ALB - ION",
+                    "F GRE S F ALB - ION"
                 ]
             },
             "end": {
                 "AUSTRIA": [
-                    "A GAL - UKR",
-                    "A TRI - VIE",
-                    "F GRE S F BUL/SC",
-                    "A BUD - RUM",
-                    "A SER S A BUD - RUM",
-                    "F BUL/SC S F GRE"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
+                    "A SER S F GRE - BUL",
+                    "F ALB - GRE",
+                    "F GRE - BUL/SC"
+                ]
+            },
+            "messages": [
+                "AUSTRIA: Are you willing to work together against Russia yet?",
+                "AUSTRIA: I'm worried that if you continue to work with Russia, they will become too strong and eventually turn against you to fight back",
+                "TURKEY: Agreed with you 100%. But the time was last turn. i needed you to support me to Rumania. I had Russia on side too. How do you propose we proceed?",
+                "AUSTRIA: If you let me take Bulgaria, I'll support you into Rumania",
+                "TURKEY: Sorry, no can do.",
+                "TURKEY: Bulgaria is more important to me than Rumania. Sorry!",
+                "AUSTRIA: I'd much rather you work with me against Russia than the other way around. If you work with Russia, they will just use you to get more territory and will eventually turn against you"
+            ]
+        },
+        "F1906M": {
+            "mentioned": [
+                "tri"
+            ],
+            "start": {
+                "AUSTRIA": [
+                    "A TRI - BUD"
+                ]
+            },
+            "end": {
+                "AUSTRIA": [
+                    "A TRI - VIE"
                 ]
             },
             "messages": [
@@ -506,76 +283,50 @@
         }
     },
     "ENGLAND-FRANCE": {
-        "F1901M": {
+        "S1901M": {
             "mentioned": [
-                "germany"
+                "bre"
             ],
             "start": {
-                "ENGLAND": [
-                    "A EDI - NWY VIA",
-                    "F NTH - SKA",
-                    "F NWG C A EDI - NWY"
-                ],
                 "FRANCE": [
-                    "A BUR - MUN",
-                    "A SPA H",
-                    "F MAO - POR"
+                    "F BRE - ENG"
                 ]
             },
             "end": {
-                "ENGLAND": [
-                    "A EDI - NWY VIA",
-                    "F NTH - SKA",
-                    "F NWG C A EDI - NWY"
-                ],
                 "FRANCE": [
-                    "A BUR - MUN",
-                    "A SPA - POR",
-                    "F MAO - SPA/SC"
+                    "F BRE - MAO"
                 ]
             },
             "messages": [
-                "ENGLAND: Are you planning to take Belgium?",
-                "ENGLAND: I'm moving North to Ska and convoying to Norway.",
-                "FRANCE: Only if that is okay with you",
-                "FRANCE: Did you offer Germany a triple?",
-                "FRANCE: If I have to build in Brest I will not build a fleet"
+                "ENGLAND: Hey France! Would you be interested in working together to sweep the board?",
+                "FRANCE: Sounds like a great plan to me! Did you have any thoughts on how we should get started?",
+                "ENGLAND: I think DMZ in English Channel is a must. And ideally for us, no fleet builds in Brest or Liverpool.",
+                "FRANCE: I like both of those. Would you be interested in bouncing in the ENG to start the first round or just making it a DMZ from the get go?",
+                "FRANCE: Also has Germany messaged you?",
+                "ENGLAND: What have you heard from Germany? They asked for a classic alliance against Russia.",
+                "ENGLAND: Should we include them and then stab or exclude them?",
+                "ENGLAND: We can also form a western triple with Germany.",
+                "FRANCE: They want me to take on you with them. I can cut him off or play dumb up to you. I'd prefer you as an ally though.",
+                "ENGLAND: What do you think?",
+                "FRANCE: I'd prefer to exclude but I still need to talk to Italy. Hearing rumors that they are trying to push Turkey with Austria",
+                "ENGLAND: What are your plans for your armies? I plan on opening to North and Norwegian.",
+                "ENGLAND: France?",
+                "FRANCE: I was thinking Bur and Spa but I need to talk to Italy"
             ]
         },
         "S1902M": {
             "mentioned": [
+                "nwy",
                 "fin"
             ],
             "start": {
                 "ENGLAND": [
-                    "A NWY - STP",
-                    "F EDI - NTH",
-                    "F NTH - SKA",
-                    "F NWG - BAR"
-                ],
-                "FRANCE": [
-                    "A BRE - PIC",
-                    "A MUN H",
-                    "A PAR - BUR",
-                    "A POR - SPA",
-                    "F MAR - LYO",
-                    "F SPA/SC - WES"
+                    "A NWY - STP"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F EDI - NTH",
-                    "F NTH - SKA",
-                    "F NWG - BAR",
                     "A NWY - FIN"
-                ],
-                "FRANCE": [
-                    "A BRE - PIC",
-                    "A PAR - BUR",
-                    "F MAR - LYO",
-                    "F SPA/SC - WES",
-                    "A POR - SPA",
-                    "A MUN H"
                 ]
             },
             "messages": [
@@ -598,32 +349,14 @@
                 "ENGLAND": [
                     "A NWY - STP",
                     "F BAR S A NWY - STP",
-                    "F EDI - NTH",
                     "F NTH - SKA"
-                ],
-                "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F EDI - NTH",
-                    "F NTH - HOL",
                     "A NWY H",
-                    "F BAR S A NWY"
-                ],
-                "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
+                    "F BAR S A NWY",
+                    "F NTH - HOL"
                 ]
             },
             "messages": [
@@ -635,37 +368,27 @@
         },
         "S1903M": {
             "mentioned": [
-                "hel"
+                "hel",
+                "pic",
+                "bel"
             ],
             "start": {
                 "ENGLAND": [
-                    "A NWY H",
-                    "F BAR S A NWY",
-                    "F EDI - NTH",
                     "F NTH - SKA"
                 ],
                 "FRANCE": [
                     "A BEL S A PIC - BUR",
                     "A PIC - BUR",
-                    "A PRU - BER",
-                    "A SPA - TUS VIA",
-                    "F LYO C A SPA - TUS",
                     "F TYS - NAP"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F EDI - NTH",
-                    "F NTH - HEL",
-                    "A NWY H",
-                    "F BAR S A NWY"
+                    "F NTH - HEL"
                 ],
                 "FRANCE": [
                     "A BEL - RUH",
                     "A PIC - PAR",
-                    "A PRU - BER",
-                    "A SPA - TUS VIA",
-                    "F LYO C A SPA - TUS",
                     "F TYS S A SPA - TUS"
                 ]
             },
@@ -680,8 +403,12 @@
         },
         "F1904M": {
             "mentioned": [
+                "nwy",
+                "par",
+                "fin",
                 "germany",
-                "bur"
+                "bur",
+                "nth"
             ],
             "start": {
                 "ENGLAND": [
@@ -690,25 +417,17 @@
                     "F NTH - NWY"
                 ],
                 "FRANCE": [
-                    "A BEL H",
-                    "A PAR H",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
+                    "A PAR H"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F NTH S F BAR - NWY",
+                    "A FIN S F BAR - NWY",
                     "F BAR - NWY",
-                    "A FIN S F BAR - NWY"
+                    "F NTH S F BAR - NWY"
                 ],
                 "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
+                    "A PAR - BUR"
                 ]
             },
             "messages": [
@@ -725,40 +444,99 @@
         }
     },
     "ENGLAND-RUSSIA": {
-        "F1905M": {
+        "S1902M": {
             "mentioned": [
-                "germany"
+                "stp"
             ],
             "start": {
                 "ENGLAND": [
-                    "A FIN - NWY",
-                    "F ENG - BRE",
-                    "F NWG S A FIN - NWY"
+                    "A NWY - STP"
                 ],
                 "RUSSIA": [
-                    "A NWY S F SWE - FIN",
-                    "A RUM - BUD",
-                    "A STP - FIN",
-                    "A UKR S A RUM",
-                    "A WAR - GAL",
-                    "F BLA S A RUM",
-                    "F SWE - FIN"
+                    "A MOS - LVN",
+                    "A STP H"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F NWG - EDI",
-                    "F ENG - BRE",
-                    "A FIN S A DEN - SWE"
+                    "A NWY - FIN"
                 ],
                 "RUSSIA": [
-                    "A NWY S F SWE - FIN",
-                    "A RUM - BUD",
-                    "A STP - FIN",
-                    "A UKR S A RUM",
-                    "A WAR - GAL",
-                    "F BLA S A RUM",
-                    "F SWE - FIN"
+                    "A MOS - STP",
+                    "A STP - FIN"
+                ]
+            },
+            "messages": [
+                "ENGLAND: Russia, I'm not sure why you built an army in Stp.",
+                "ENGLAND: It will make it more difficult for us to work together.",
+                "RUSSIA: Sorry, I'm a little bad at the interface",
+                "RUSSIA: what's your plans for germany?",
+                "ENGLAND: What are you planning to do with A Stp?",
+                "ENGLAND: Hello?"
+            ]
+        },
+        "S1904M": {
+            "mentioned": [
+                "nwy"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "F BAR - STP/NC"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "F BAR - NWY"
+                ]
+            },
+            "messages": [
+                "ENGLAND: I'm still going to support myself to hold in Norway.",
+                "ENGLAND: You should give up on Norway and try to take some other supply center.",
+                "RUSSIA: okay bot",
+                "ENGLAND: I want to work with you but you are not communicating with me.",
+                "ENGLAND: If you don't start communicating, I will just keep supporting myself to hold in Norway.",
+                "ENGLAND: You should at least tell me that you are going to attack me so that I can stop wasting my time."
+            ]
+        },
+        "F1904M": {
+            "mentioned": [
+                "nwy"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A FIN - STP",
+                    "F BAR S A FIN - STP",
+                    "F NTH - NWY"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A FIN S F BAR - NWY",
+                    "F BAR - NWY",
+                    "F NTH S F BAR - NWY"
+                ]
+            },
+            "messages": [
+                "ENGLAND: You should move back to St Petersburg. I will take Norway.",
+                "ENGLAND: You are just wasting your time by attacking me.",
+                "ENGLAND: Are you going to move A Norway back to St. Petersburg?"
+            ]
+        },
+        "F1905M": {
+            "mentioned": [
+                "germany",
+                "swe"
+            ],
+            "start": {
+                "ENGLAND": [
+                    "A FIN - NWY",
+                    "F NWG S A FIN - NWY"
+                ]
+            },
+            "end": {
+                "ENGLAND": [
+                    "A FIN S A DEN - SWE",
+                    "F NWG - EDI"
                 ]
             },
             "messages": [
@@ -766,124 +544,39 @@
                 "ENGLAND: It's no fun to play with someone who doesn't talk.",
                 "ENGLAND: I'm going to try to help Germany take Sweden."
             ]
+        },
+        "S1906M": {
+            "mentioned": [
+                "germany",
+                "nwy",
+                "swe"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A NWY S F FIN - SWE",
+                    "F FIN - SWE"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A NWY - SWE",
+                    "F FIN S A NWY - SWE"
+                ]
+            },
+            "messages": [
+                "ENGLAND: I would like to work with you against Germany.",
+                "ENGLAND: He is going to become a much bigger threat if he defeats me and then goes after you.",
+                "RUSSIA: sure, what's your idea?",
+                "ENGLAND: You should take Sweden from Germany.",
+                "RUSSIA: yes, thanks captain obvious\n",
+                "ENGLAND: You should support your move with A Norway.",
+                "RUSSIA: I don't have enough forces thanks to you",
+                "ENGLAND: You should talk to Italy and Turkey about how to work together to stop Germany and Austria.",
+                "RUSSIA: sure, can you tap north sea for me?"
+            ]
         }
     },
     "ENGLAND-TURKEY": {
-        "S1902M": {
-            "mentioned": [
-                "austria"
-            ],
-            "start": {
-                "ENGLAND": [
-                    "A NWY - STP",
-                    "F EDI - NTH",
-                    "F NTH - SKA",
-                    "F NWG - BAR"
-                ],
-                "TURKEY": [
-                    "A ANK - CON",
-                    "A BUL - SER",
-                    "F CON - AEG",
-                    "F SMY S F CON - AEG"
-                ]
-            },
-            "end": {
-                "ENGLAND": [
-                    "F EDI - NTH",
-                    "F NTH - SKA",
-                    "F NWG - BAR",
-                    "A NWY - FIN"
-                ],
-                "TURKEY": [
-                    "F CON - AEG",
-                    "F SMY S F CON - AEG",
-                    "A ANK - CON",
-                    "A BUL - SER"
-                ]
-            },
-            "messages": [
-                "ENGLAND: Austria taking Greece was a bit of a surprise.",
-                "ENGLAND: Russia building an army in Sev is a bit of a surprise. Hopefully you can convince Austria to work with you.",
-                "ENGLAND: Hopefully you can at least get into Black Sea this turn.",
-                "ENGLAND: You could even move F Con-bul(ec) and Bul-rum."
-            ]
-        },
-        "S1903M": {
-            "mentioned": [
-                "austria"
-            ],
-            "start": {
-                "ENGLAND": [
-                    "A NWY H",
-                    "F BAR S A NWY",
-                    "F EDI - NTH",
-                    "F NTH - SKA"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - BUL",
-                    "F AEG - ION",
-                    "F SMY - AEG"
-                ]
-            },
-            "end": {
-                "ENGLAND": [
-                    "F EDI - NTH",
-                    "F NTH - HEL",
-                    "A NWY H",
-                    "F BAR S A NWY"
-                ],
-                "TURKEY": [
-                    "F SMY - AEG",
-                    "F AEG - ION",
-                    "A CON - BUL",
-                    "A BUL - SER"
-                ]
-            },
-            "messages": [
-                "ENGLAND: Austria is getting really strong. Hopefully you can take Greece.",
-                "TURKEY: I'm hoping to of course",
-                "ENGLAND: You could even support yourself into Greece."
-            ]
-        },
-        "S1904M": {
-            "mentioned": [
-                "austria"
-            ],
-            "start": {
-                "ENGLAND": [
-                    "A NWY - FIN",
-                    "F BAR - STP/NC",
-                    "F EDI - NTH",
-                    "F HEL S F EDI - NTH"
-                ],
-                "TURKEY": [
-                    "A BUL S A UKR - RUM",
-                    "A CON S A BUL",
-                    "F AEG S F ION - GRE",
-                    "F ION - GRE"
-                ]
-            },
-            "end": {
-                "ENGLAND": [
-                    "F EDI - NTH",
-                    "F HEL S F EDI - NTH",
-                    "A NWY - FIN",
-                    "F BAR - NWY"
-                ],
-                "TURKEY": [
-                    "A BUL S A UKR - RUM",
-                    "A CON S A BUL",
-                    "F ION - GRE",
-                    "F AEG S F ION - GRE"
-                ]
-            },
-            "messages": [
-                "ENGLAND: You should be able to take Greece now.",
-                "ENGLAND: If you move A Bul-greece with support from F Aegean and F Ionian, there is no way that Austria can stop you.",
-                "ENGLAND: If you support yourself into Greece, you will probably take Greece."
-            ]
-        },
         "F1905M": {
             "mentioned": [
                 "russia"
@@ -891,27 +584,13 @@
             "start": {
                 "ENGLAND": [
                     "A FIN - NWY",
-                    "F ENG - BRE",
                     "F NWG S A FIN - NWY"
-                ],
-                "TURKEY": [
-                    "A APU S A ROM - VEN",
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE"
                 ]
             },
             "end": {
                 "ENGLAND": [
-                    "F NWG - EDI",
-                    "F ENG - BRE",
-                    "A FIN S A DEN - SWE"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE",
-                    "A APU S A ROM - VEN"
+                    "A FIN S A DEN - SWE",
+                    "F NWG - EDI"
                 ]
             },
             "messages": [
@@ -922,232 +601,95 @@
         }
     },
     "FRANCE-GERMANY": {
-        "F1902M": {
+        "F1904M": {
             "mentioned": [
-                "england"
+                "bur",
+                "par"
             ],
             "start": {
                 "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
-                ],
-                "GERMANY": [
-                    "A BER S A MUN",
-                    "A MUN S A BER",
-                    "A RUH - HOL",
-                    "F DEN - NTH"
+                    "A PAR H"
                 ]
             },
             "end": {
                 "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
-                ],
-                "GERMANY": [
-                    "F DEN - NTH",
-                    "A RUH - HOL",
-                    "A MUN S A BER - SIL",
-                    "A BER - SIL"
+                    "A PAR - BUR"
                 ]
             },
             "messages": [
-                "GERMANY: Do you want to talk?",
-                "FRANCE: No",
-                "GERMANY: We can still work together if you want. You should move Pic-belgium to stop England from taking it."
-            ]
-        },
-        "S1903M": {
-            "mentioned": [
-                "england"
-            ],
-            "start": {
-                "FRANCE": [
-                    "A BEL S A PIC - BUR",
-                    "A PIC - BUR",
-                    "A PRU - BER",
-                    "A SPA - TUS VIA",
-                    "F LYO C A SPA - TUS",
-                    "F TYS - NAP"
-                ],
-                "GERMANY": [
-                    "A MUN - BUR",
-                    "A RUH S F KIE - HOL",
-                    "A SIL - BER",
-                    "F DEN - NTH",
-                    "F KIE - HOL"
-                ]
-            },
-            "end": {
-                "FRANCE": [
-                    "A BEL - RUH",
-                    "A PIC - PAR",
-                    "A PRU - BER",
-                    "A SPA - TUS VIA",
-                    "F LYO C A SPA - TUS",
-                    "F TYS S A SPA - TUS"
-                ],
-                "GERMANY": [
-                    "F DEN - NTH",
-                    "A RUH S F KIE - HOL",
-                    "F KIE - HOL",
-                    "A MUN - BUR",
-                    "A SIL - BER"
-                ]
-            },
-            "messages": [
-                "GERMANY: England is going to be a much easier target for you to attack than I am.",
-                "GERMANY: Why do you keep refusing to work with me?",
-                "GERMANY: Can we bounce in Burgundy this turn?",
-                "FRANCE: We can do whatever you want",
-                "GERMANY: Can we bounce in Burgundy?",
-                "FRANCE: With support?"
-            ]
-        }
-    },
-    "FRANCE-ITALY": {
-        "F1903M": {
-            "mentioned": [
-                "germany"
-            ],
-            "start": {
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A PRU - SIL",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS S A TUS - ROM"
-                ],
-                "ITALY": [
-                    "A ROM H",
-                    "F NAP S A ROM",
-                    "F WES - SPA/SC"
-                ]
-            },
-            "end": {
-                "FRANCE": [
-                    "A PAR - BUR",
-                    "A PRU - SIL",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS S A TUS - ROM",
-                    "A BEL H"
-                ],
-                "ITALY": [
-                    "F WES - SPA/SC",
-                    "F NAP - TYS",
-                    "A ROM H"
-                ]
-            },
-            "messages": [
-                "ITALY: You should be much more worried about Germany right now, and it's not too late to make peace with me.",
-                "ITALY: Why aren't you willing to communicate?",
-                "FRANCE: Okay i propose a truce",
-                "FRANCE: I will not take Rome and you do not take Spain?"
-            ]
-        },
-        "S1904M": {
-            "mentioned": [
-                "germany"
-            ],
-            "start": {
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS - TUN"
-                ],
-                "ITALY": [
-                    "A ROM H",
-                    "F NAP - TYS",
-                    "F SPA/SC S A BUR - MAR"
-                ]
-            },
-            "end": {
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - GAS",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS - TUN"
-                ],
-                "ITALY": [
-                    "F SPA/SC S A BUR - MAR",
-                    "F NAP - TYS",
-                    "A ROM H"
-                ]
-            },
-            "messages": [
-                "ITALY: If you leave me alone, I will be able to help you against Germany.",
-                "FRANCE: Okay but I want Spain back",
-                "ITALY: Also, I won't let you take Spain back until you leave me alone.",
-                "FRANCE: Yeah I get that"
+                "FRANCE: Are we good?",
+                "GERMANY: You should move Paris to Gascony and then to Spain.",
+                "FRANCE: I will when you leave Bur",
+                "GERMANY: You should let me take Marseilles this turn in exchange for Belgium.",
+                "FRANCE: Go back to Munich please",
+                "FRANCE: No I need both of those"
             ]
         },
         "S1905M": {
             "mentioned": [
-                "germany"
+                "pic"
             ],
             "start": {
-                "FRANCE": [
-                    "A BUR - MAR",
-                    "A PIC - BEL",
-                    "A PIE S A BUR - MAR",
-                    "F LYO S A BUR - MAR"
-                ],
-                "ITALY": [
-                    "A ROM - NAP",
-                    "F SPA/SC S A MAR",
-                    "F TYS - WES"
+                "GERMANY": [
+                    "A BEL S A MUN - BUR",
+                    "A DEN H"
                 ]
             },
             "end": {
-                "FRANCE": [
-                    "A PIE S A BUR - MAR",
-                    "F LYO S A BUR - MAR",
-                    "A BUR - MAR",
-                    "A PIC - BEL"
-                ],
-                "ITALY": [
-                    "F SPA/SC S A MAR",
-                    "F TYS - TUN",
-                    "A ROM - VEN"
+                "GERMANY": [
+                    "A BEL - PIC",
+                    "A DEN - SWE"
                 ]
             },
             "messages": [
-                "ITALY: If you stop attacking me, I will help you take back Marseilles.",
-                "ITALY: I think Germany is going to attack England, which would be great for you.",
-                "FRANCE: I am done attacking you so deal"
+                "GERMANY: Are you willing to work together now?",
+                "GERMANY: If not, that's fine. We can continue to fight.",
+                "FRANCE: I want to work together",
+                "FRANCE: But I have to have Mar, you can't take my home center and then ask for an alliance",
+                "GERMANY: If you are willing to work together, I recommend the following moves:\n\nBurgundy - Marseilles\nGulf of Lyons support Burgundy - Marseilles\nPicardy - Burgundy\nPiedmont support Burgundy - Marseilles",
+                "FRANCE: What are you doing with Mar then"
+            ]
+        },
+        "F1905M": {
+            "mentioned": [
+                "pic",
+                "england"
+            ],
+            "start": {
+                "GERMANY": [
+                    "A BEL - YOR VIA",
+                    "F HOL - BEL",
+                    "F NTH C A BEL - YOR"
+                ]
+            },
+            "end": {
+                "GERMANY": [
+                    "A BEL - PIC",
+                    "F HOL - NTH",
+                    "F NTH - LON"
+                ]
+            },
+            "messages": [
+                "GERMANY: If you want to defend yourself against England, move Picardy to Brest.",
+                "FRANCE: No you can have Brest, just move Gascony there",
+                "GERMANY: You should also take Spain with Gulf of Lyons.",
+                "GERMANY: Are you moving Picardy to Brest?",
+                "FRANCE: No",
+                "FRANCE: You can move there",
+                "FRANCE: Because I want Mar",
+                "FRANCE: But give me Par"
             ]
         }
     },
+    "FRANCE-ITALY": {},
     "FRANCE-RUSSIA": {
         "F1902M": {
             "mentioned": [
                 "turkey",
                 "england",
-                "germany",
-                "italy",
                 "austria"
             ],
             "start": {
-                "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
-                ],
                 "RUSSIA": [
                     "A GAL H",
                     "A MOS H",
@@ -1158,14 +700,6 @@
                 ]
             },
             "end": {
-                "FRANCE": [
-                    "A BUR - BEL",
-                    "A PIC S A BUR - BEL",
-                    "A SIL - MUN",
-                    "A SPA - MAR",
-                    "F LYO S F WES - TYS",
-                    "F WES - TYS"
-                ],
                 "RUSSIA": [
                     "A GAL - BUD",
                     "A MOS - STP",
@@ -1186,78 +720,18 @@
         }
     },
     "FRANCE-TURKEY": {
-        "S1904M": {
-            "mentioned": [
-                "austria"
-            ],
-            "start": {
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS - TUN"
-                ],
-                "TURKEY": [
-                    "A BUL S A UKR - RUM",
-                    "A CON S A BUL",
-                    "F AEG S F ION - GRE",
-                    "F ION - GRE"
-                ]
-            },
-            "end": {
-                "FRANCE": [
-                    "A BEL H",
-                    "A PAR - GAS",
-                    "A TUS - ROM",
-                    "F LYO - MAR",
-                    "F TYS - TUN"
-                ],
-                "TURKEY": [
-                    "A BUL S A UKR - RUM",
-                    "A CON S A BUL",
-                    "F ION - GRE",
-                    "F AEG S F ION - GRE"
-                ]
-            },
-            "messages": [
-                "FRANCE: Are you moving into Tunis?",
-                "TURKEY: My goal is to fight austria. "
-            ]
-        },
         "F1904M": {
             "mentioned": [
-                "germany",
-                "italy"
+                "germany"
             ],
             "start": {
                 "FRANCE": [
-                    "A BEL H",
-                    "A PAR H",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
-                ],
-                "TURKEY": [
-                    "A BUL - RUM",
-                    "A CON - BUL",
-                    "F AEG - ION",
-                    "F ION - NAP"
+                    "A PAR H"
                 ]
             },
             "end": {
                 "FRANCE": [
-                    "A BEL H",
-                    "A PAR - BUR",
-                    "A TUS - PIE",
-                    "F MAR - SPA/SC",
-                    "F TUN H"
-                ],
-                "TURKEY": [
-                    "A BUL - RUM",
-                    "A CON - BUL",
-                    "F ION - NAP",
-                    "F AEG - ION"
+                    "A PAR - BUR"
                 ]
             },
             "messages": [
@@ -1273,30 +747,12 @@
                 "austria"
             ],
             "start": {
-                "FRANCE": [
-                    "A MAR H",
-                    "A PIC - PAR",
-                    "A PIE S A MAR",
-                    "F LYO S A MAR"
-                ],
                 "TURKEY": [
-                    "A APU - VEN",
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE"
+                    "A APU - VEN"
                 ]
             },
             "end": {
-                "FRANCE": [
-                    "A MAR H",
-                    "A PIE S A MAR",
-                    "F LYO S A MAR",
-                    "A PIC - PAR"
-                ],
                 "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE",
                     "A APU S A ROM - VEN"
                 ]
             },
@@ -1312,39 +768,20 @@
     "GERMANY-RUSSIA": {
         "S1902M": {
             "mentioned": [
-                "england",
-                "fin"
+                "stp",
+                "fin",
+                "mos"
             ],
             "start": {
-                "GERMANY": [
-                    "A BER S A KIE - MUN",
-                    "A HOL - RUH",
-                    "A KIE - MUN",
-                    "F DEN - NTH"
-                ],
                 "RUSSIA": [
                     "A MOS - LVN",
-                    "A SEV - UKR",
-                    "A STP H",
-                    "A WAR - GAL",
-                    "F RUM H",
-                    "F SWE - SKA"
+                    "A STP H"
                 ]
             },
             "end": {
-                "GERMANY": [
-                    "F DEN - NTH",
-                    "A HOL - RUH",
-                    "A KIE - MUN",
-                    "A BER S A KIE - MUN"
-                ],
                 "RUSSIA": [
                     "A MOS - STP",
-                    "A SEV - UKR",
-                    "A STP - FIN",
-                    "A WAR - GAL",
-                    "F RUM H",
-                    "F SWE - SKA"
+                    "A STP - FIN"
                 ]
             },
             "messages": [
@@ -1360,15 +797,16 @@
         },
         "F1902M": {
             "mentioned": [
+                "nwy",
                 "war",
-                "nwy"
+                "stp",
+                "mos",
+                "swe"
             ],
             "start": {
                 "GERMANY": [
                     "A BER S A MUN",
-                    "A MUN S A BER",
-                    "A RUH - HOL",
-                    "F DEN - NTH"
+                    "A MUN S A BER"
                 ],
                 "RUSSIA": [
                     "A GAL H",
@@ -1381,10 +819,8 @@
             },
             "end": {
                 "GERMANY": [
-                    "F DEN - NTH",
-                    "A RUH - HOL",
-                    "A MUN S A BER - SIL",
-                    "A BER - SIL"
+                    "A BER - SIL",
+                    "A MUN S A BER - SIL"
                 ],
                 "RUSSIA": [
                     "A GAL - BUD",
@@ -1407,41 +843,20 @@
         },
         "S1904M": {
             "mentioned": [
-                "england",
-                "austria"
+                "england"
             ],
             "start": {
                 "GERMANY": [
-                    "A BER - KIE",
                     "A BUR - PIC",
-                    "A RUH - BEL",
                     "F DEN - NTH",
                     "F HOL S A RUH - BEL"
-                ],
-                "RUSSIA": [
-                    "A MOS - UKR",
-                    "A STP - NWY",
-                    "A UKR H",
-                    "A WAR S A UKR - GAL",
-                    "F RUM - BLA",
-                    "F SWE S A STP - NWY"
                 ]
             },
             "end": {
                 "GERMANY": [
-                    "F DEN - HEL",
-                    "F HOL S F DEN - HEL",
                     "A BUR - GAS",
-                    "A RUH - BEL",
-                    "A BER - KIE"
-                ],
-                "RUSSIA": [
-                    "A MOS - UKR",
-                    "A STP - NWY",
-                    "A UKR H",
-                    "A WAR S A UKR - GAL",
-                    "F RUM - BLA",
-                    "F SWE S A STP - NWY"
+                    "F DEN - HEL",
+                    "F HOL S F DEN - HEL"
                 ]
             },
             "messages": [
@@ -1457,46 +872,25 @@
         },
         "S1905M": {
             "mentioned": [
-                "gal"
+                "gal",
+                "war"
             ],
             "start": {
                 "GERMANY": [
                     "A BEL S A MUN - BUR",
-                    "A DEN H",
-                    "A MAR S A MUN - BUR",
-                    "A MUN - BUR",
-                    "F HEL - NTH",
-                    "F HOL S F HEL - NTH",
-                    "F KIE - BAL"
+                    "A DEN H"
                 ],
                 "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR H",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
+                    "A WAR H"
                 ]
             },
             "end": {
                 "GERMANY": [
                     "A BEL - PIC",
-                    "A DEN - SWE",
-                    "F HEL - NTH",
-                    "F HOL S F HEL - NTH",
-                    "F KIE - BAL",
-                    "A MAR S A MUN - BUR",
-                    "A MUN - BUR"
+                    "A DEN - SWE"
                 ],
                 "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
+                    "A WAR - GAL"
                 ]
             },
             "messages": [
@@ -1506,134 +900,64 @@
                 "RUSSIA: thanks for the assist last turn"
             ]
         },
-        "S1906M": {
+        "F1905M": {
             "mentioned": [
-                "austria"
+                "ukr",
+                "nwy",
+                "rum"
             ],
             "start": {
                 "GERMANY": [
-                    "A BEL - PIC",
-                    "A BUR S A PAR - GAS",
-                    "A MUN - SIL",
-                    "A PAR - GAS",
-                    "A SWE - NWY",
-                    "F BAL - SWE",
-                    "F KIE - DEN",
-                    "F LON - ENG",
-                    "F NTH S A SWE - NWY"
+                    "A BEL - YOR VIA",
+                    "F HOL - BEL",
+                    "F NTH C A BEL - YOR"
                 ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
-                    "A NWY - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
-                    "F FIN S A NWY - SWE"
+                    "A NWY S A STP - FIN",
+                    "A UKR - GAL",
+                    "A WAR S A UKR - GAL",
+                    "F SWE S A STP - FIN"
                 ]
             },
             "end": {
                 "GERMANY": [
-                    "F LON - ENG",
-                    "F NTH C A BEL - NWY",
-                    "A BEL - NWY VIA",
-                    "A BUR - GAS",
-                    "F BAL - BOT",
-                    "F KIE - DEN",
-                    "A SWE S A BEL - NWY",
-                    "A PAR S A BUR - GAS",
-                    "A MUN - BUR"
+                    "A BEL - PIC",
+                    "F HOL - NTH",
+                    "F NTH - LON"
                 ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
-                    "A NWY - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
-                    "F FIN S A NWY - SWE"
+                    "A NWY S F SWE - FIN",
+                    "A UKR S A RUM",
+                    "A WAR - GAL",
+                    "F SWE - FIN"
                 ]
             },
             "messages": [
-                "GERMANY: Why did you stop responding to me?",
-                "GERMANY: If you talk to me, I will help you. If you don't talk to me, I will work with Austria to take your centers."
+                "GERMANY: If you let Turkey take Bulgaria this turn with Constantinople, you will be able to take Ankara next year. You should let Turkey know you will support the move with the Black Sea.",
+                "RUSSIA: okay",
+                "GERMANY: Also, make sure to use Ukraine to support the hold in Rumania.",
+                "GERMANY: Do you know what you are doing this turn?",
+                "GERMANY: I recommend supporting the hold in Rumania with Ukraine. You should also support Constantinople to Bulgaria with the Black Sea.",
+                "GERMANY: Are you supporting the hold in Norway?",
+                "GERMANY: I recommend letting Turkey take Bulgaria so that you will be able to take Ankara next year."
             ]
         }
     },
     "GERMANY-TURKEY": {
-        "F1902M": {
-            "mentioned": [
-                "austria"
-            ],
-            "start": {
-                "GERMANY": [
-                    "A BER S A MUN",
-                    "A MUN S A BER",
-                    "A RUH - HOL",
-                    "F DEN - NTH"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F SMY S F AEG"
-                ]
-            },
-            "end": {
-                "GERMANY": [
-                    "F DEN - NTH",
-                    "A RUH - HOL",
-                    "A MUN S A BER - SIL",
-                    "A BER - SIL"
-                ],
-                "TURKEY": [
-                    "F SMY S F AEG",
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL"
-                ]
-            },
-            "messages": [
-                "GERMANY: I really need your help. Are you planning to support yourself back into Bulgaria?",
-                "GERMANY: Turkey?",
-                "GERMANY: If you support Constantinople to Bulgaria with the Aegean Sea, you will almost certainly take it back.",
-                "GERMANY: You and Russia should be able to form a good alliance against Austria.",
-                "GERMANY: You should move to Eastern Med with Smyrna to block the Lepanto.",
-                "TURKEY: Its a guess there, support Aeg or EMed"
-            ]
-        },
         "S1905M": {
             "mentioned": [
-                "russia",
-                "italy",
-                "austria"
+                "russia"
             ],
             "start": {
                 "GERMANY": [
                     "A BEL S A MUN - BUR",
-                    "A DEN H",
-                    "A MAR S A MUN - BUR",
-                    "A MUN - BUR",
-                    "F HEL - NTH",
-                    "F HOL S F HEL - NTH",
-                    "F KIE - BAL"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
+                    "A DEN H"
                 ]
             },
             "end": {
                 "GERMANY": [
                     "A BEL - PIC",
-                    "A DEN - SWE",
-                    "F HEL - NTH",
-                    "F HOL S F HEL - NTH",
-                    "F KIE - BAL",
-                    "A MAR S A MUN - BUR",
-                    "A MUN - BUR"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
+                    "A DEN - SWE"
                 ]
             },
             "messages": [
@@ -1645,16 +969,10 @@
     "ITALY-RUSSIA": {
         "F1902M": {
             "mentioned": [
-                "bud",
-                "england"
+                "england",
+                "bud"
             ],
             "start": {
-                "ITALY": [
-                    "A APU - ROM",
-                    "A PIE - MAR",
-                    "F ION - TUN",
-                    "F TYS S F ION - TUN"
-                ],
                 "RUSSIA": [
                     "A GAL H",
                     "A MOS S A STP",
@@ -1665,12 +983,6 @@
                 ]
             },
             "end": {
-                "ITALY": [
-                    "F TYS S F ION - TUN",
-                    "A PIE - MAR",
-                    "F ION - TUN",
-                    "A APU - ROM"
-                ],
                 "RUSSIA": [
                     "A GAL - BUD",
                     "A MOS - STP",
@@ -1689,35 +1001,24 @@
         "F1903M": {
             "mentioned": [
                 "england",
-                "nwy"
+                "nwy",
+                "swe"
             ],
             "start": {
                 "ITALY": [
-                    "A ROM H",
-                    "F NAP S A ROM",
-                    "F WES - SPA/SC"
+                    "F NAP S A ROM"
                 ],
                 "RUSSIA": [
-                    "A GAL H",
-                    "A MOS H",
                     "A STP H",
-                    "A WAR H",
-                    "F RUM H",
                     "F SWE H"
                 ]
             },
             "end": {
                 "ITALY": [
-                    "F WES - SPA/SC",
-                    "F NAP - TYS",
-                    "A ROM H"
+                    "F NAP - TYS"
                 ],
                 "RUSSIA": [
-                    "A GAL H",
-                    "A MOS H",
                     "A STP - NWY",
-                    "A WAR H",
-                    "F RUM H",
                     "F SWE S A STP - NWY"
                 ]
             },
@@ -1737,33 +1038,13 @@
             "start": {
                 "ITALY": [
                     "A ROM - NAP",
-                    "F SPA/SC S A MAR",
                     "F TYS - WES"
-                ],
-                "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
                 ]
             },
             "end": {
                 "ITALY": [
-                    "F SPA/SC S A MAR",
-                    "F TYS - TUN",
-                    "A ROM - VEN"
-                ],
-                "RUSSIA": [
-                    "A NWY H",
-                    "A SEV - RUM",
-                    "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
-                    "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
-                    "F SWE S A NWY"
+                    "A ROM - VEN",
+                    "F TYS - TUN"
                 ]
             },
             "messages": [
@@ -1773,37 +1054,18 @@
         },
         "S1906M": {
             "mentioned": [
-                "germany"
+                "germany",
+                "swe"
             ],
             "start": {
-                "ITALY": [
-                    "A VEN H",
-                    "F NAP - ION",
-                    "F POR - SPA/SC",
-                    "F ROM - TYS",
-                    "F TUN S F NAP - ION"
-                ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY S F FIN - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN - SWE"
                 ]
             },
             "end": {
-                "ITALY": [
-                    "F POR - SPA/SC",
-                    "F TUN S F NAP - ION",
-                    "F NAP - ION",
-                    "F ROM - TYS",
-                    "A VEN H"
-                ],
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN S A NWY - SWE"
                 ]
             },
@@ -1815,6 +1077,42 @@
                 "ITALY: Also, I'm really glad to see that you disbanded St. Petersburg. Now, you can defend yourself from Germany.",
                 "ITALY: Are you going to use Galicia, Ukraine, and Sevastopol to try to take back Rumania?"
             ]
+        },
+        "F1906M": {
+            "mentioned": [
+                "ukr",
+                "gal",
+                "rum",
+                "war"
+            ],
+            "start": {
+                "ITALY": [
+                    "A VEN - PIE"
+                ],
+                "RUSSIA": [
+                    "A RUM H",
+                    "A UKR S A RUM",
+                    "A WAR - GAL"
+                ]
+            },
+            "end": {
+                "ITALY": [
+                    "A VEN - TRI"
+                ],
+                "RUSSIA": [
+                    "A RUM - GAL",
+                    "A UKR S A RUM - GAL",
+                    "A WAR S A RUM - GAL"
+                ]
+            },
+            "messages": [
+                "ITALY: You should probably use Sweden to attack Norway, to cut support.",
+                "ITALY: Also, you should move Warsaw to Galicia, to cut support.",
+                "RUSSIA: thx",
+                "ITALY: I think you should move Sweden to Norway, and Finland to St. Petersburg.",
+                "RUSSIA: on it",
+                "ITALY: Also, support Rumania to hold using Ukraine, and support Turkey to take Bulgaria."
+            ]
         }
     },
     "ITALY-TURKEY": {
@@ -1825,27 +1123,13 @@
             "start": {
                 "ITALY": [
                     "A ROM - NAP",
-                    "F SPA/SC S A MAR",
                     "F TYS - WES"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
                 ]
             },
             "end": {
                 "ITALY": [
-                    "F SPA/SC S A MAR",
-                    "F TYS - TUN",
-                    "A ROM - VEN"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
+                    "A ROM - VEN",
+                    "F TYS - TUN"
                 ]
             },
             "messages": [
@@ -1856,31 +1140,16 @@
         },
         "F1905M": {
             "mentioned": [
+                "ven",
                 "austria"
             ],
             "start": {
-                "ITALY": [
-                    "A ROM - VEN",
-                    "F SPA/SC - POR",
-                    "F TUN H"
-                ],
                 "TURKEY": [
-                    "A APU - VEN",
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE"
+                    "A APU - VEN"
                 ]
             },
             "end": {
-                "ITALY": [
-                    "F SPA/SC - POR",
-                    "F TUN H",
-                    "A ROM - VEN"
-                ],
                 "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE",
                     "A APU S A ROM - VEN"
                 ]
             },
@@ -1895,35 +1164,17 @@
         },
         "F1906M": {
             "mentioned": [
-                "austria",
-                "tri"
+                "tri",
+                "austria"
             ],
             "start": {
                 "ITALY": [
-                    "A VEN - PIE",
-                    "F ION H",
-                    "F SPA/SC S A MAR",
-                    "F TUN - WES",
-                    "F TYS - LYO"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
+                    "A VEN - PIE"
                 ]
             },
             "end": {
                 "ITALY": [
-                    "F SPA/SC S A MAR",
-                    "F TUN - WES",
-                    "F TYS - LYO",
-                    "F ION H",
                     "A VEN - TRI"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
                 ]
             },
             "messages": [
@@ -1937,13 +1188,45 @@
         }
     },
     "RUSSIA-TURKEY": {
-        "S1903M": {
+        "F1902M": {
             "mentioned": [
-                "ser"
+                "con",
+                "bul",
+                "rum"
             ],
             "start": {
                 "RUSSIA": [
                     "A GAL H",
+                    "A STP H",
+                    "A UKR H",
+                    "F RUM H",
+                    "F SWE H"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A GAL - BUD",
+                    "A STP - NWY",
+                    "A UKR - WAR",
+                    "F RUM S A CON - BUL",
+                    "F SWE S A STP - NWY"
+                ]
+            },
+            "messages": [
+                "TURKEY: Please support Con -> Bulgaria",
+                "TURKEY: Rum S Con - Bul",
+                "RUSSIA: sure"
+            ]
+        },
+        "S1903M": {
+            "mentioned": [
+                "con",
+                "rum",
+                "bul",
+                "ser"
+            ],
+            "start": {
+                "RUSSIA": [
                     "A MOS H",
                     "A STP H",
                     "A WAR H",
@@ -1951,15 +1234,11 @@
                     "F SWE H"
                 ],
                 "TURKEY": [
-                    "A BUL - GRE",
-                    "A CON - BUL",
-                    "F AEG - ION",
-                    "F SMY - AEG"
+                    "A BUL - GRE"
                 ]
             },
             "end": {
                 "RUSSIA": [
-                    "A GAL H",
                     "A MOS - STP",
                     "A STP - NWY",
                     "A WAR S A GAL",
@@ -1967,9 +1246,6 @@
                     "F SWE S A STP - NWY"
                 ],
                 "TURKEY": [
-                    "F SMY - AEG",
-                    "F AEG - ION",
-                    "A CON - BUL",
                     "A BUL - SER"
                 ]
             },
@@ -1985,39 +1261,18 @@
         },
         "F1903M": {
             "mentioned": [
-                "england",
-                "austria"
+                "england"
             ],
             "start": {
                 "RUSSIA": [
-                    "A GAL H",
-                    "A MOS H",
                     "A STP H",
-                    "A WAR H",
-                    "F RUM H",
                     "F SWE H"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - GRE VIA",
-                    "F AEG C A CON - GRE",
-                    "F ION S F AEG - GRE"
                 ]
             },
             "end": {
                 "RUSSIA": [
-                    "A GAL H",
-                    "A MOS H",
                     "A STP - NWY",
-                    "A WAR H",
-                    "F RUM H",
                     "F SWE S A STP - NWY"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - GRE VIA",
-                    "F AEG C A CON - GRE",
-                    "F ION S F AEG - GRE"
                 ]
             },
             "messages": [
@@ -2030,17 +1285,10 @@
         },
         "S1904M": {
             "mentioned": [
-                "austria"
+                "austria",
+                "rum"
             ],
             "start": {
-                "RUSSIA": [
-                    "A MOS - UKR",
-                    "A STP - NWY",
-                    "A UKR H",
-                    "A WAR S A UKR - GAL",
-                    "F RUM - BLA",
-                    "F SWE S A STP - NWY"
-                ],
                 "TURKEY": [
                     "A BUL - SER",
                     "A CON - APU VIA",
@@ -2049,19 +1297,11 @@
                 ]
             },
             "end": {
-                "RUSSIA": [
-                    "A MOS - UKR",
-                    "A STP - NWY",
-                    "A UKR H",
-                    "A WAR S A UKR - GAL",
-                    "F RUM - BLA",
-                    "F SWE S A STP - NWY"
-                ],
                 "TURKEY": [
                     "A BUL S A UKR - RUM",
                     "A CON S A BUL",
-                    "F ION - GRE",
-                    "F AEG S F ION - GRE"
+                    "F AEG S F ION - GRE",
+                    "F ION - GRE"
                 ]
             },
             "messages": [
@@ -2072,43 +1312,78 @@
                 "TURKEY: I will support your army into Rumania"
             ]
         },
+        "F1904M": {
+            "mentioned": [
+                "bla",
+                "ukr",
+                "rum"
+            ],
+            "start": {
+                "RUSSIA": [
+                    "A UKR - RUM",
+                    "A WAR H",
+                    "F BLA S A UKR - RUM"
+                ],
+                "TURKEY": [
+                    "F AEG S F ION - GRE",
+                    "F ION - GRE"
+                ]
+            },
+            "end": {
+                "RUSSIA": [
+                    "A UKR S A BUL - RUM",
+                    "A WAR S A UKR",
+                    "F BLA S A BUL - RUM"
+                ],
+                "TURKEY": [
+                    "F AEG - ION",
+                    "F ION - NAP"
+                ]
+            },
+            "messages": [
+                "TURKEY: Hello, you asked for my support but didn't follow through. Can you please support me to Rumania this turn from Black Sea and UKR?",
+                "TURKEY: You can stab me by moving into Ank. But I think Austria will win then.",
+                "RUSSIA: Yes so sorry about that",
+                "TURKEY: What's up? Is this the stab?",
+                "RUSSIA: No I was focused up north",
+                "RUSSIA: I won't move my fleet",
+                "RUSSIA: we can bounce in Rum",
+                "RUSSIA: and then next year we can come out in full force against Austria ",
+                "RUSSIA: how does that sound?",
+                "TURKEY: Goal is to get an army in Rum. Not a bounce. ",
+                "TURKEY: Cannot move against Austria without an army in Rum",
+                "TURKEY: Please support me to Rum",
+                "RUSSIA: fair enough",
+                "TURKEY: You can pull your fleet in Black if you have to pull",
+                "RUSSIA: what does that mean?",
+                "RUSSIA: oh true",
+                "RUSSIA: okay",
+                "TURKEY: I mean if you loose a supply center because I am in Rum you can pull fleet in Black. It will not be good for our long term alliance if russian fleet in black. ",
+                "TURKEY: i will build fleets or armies against austria",
+                "TURKEY: he is leader and he is bot",
+                "TURKEY: Will give Rum back once we make progress against Austria"
+            ]
+        },
         "S1905M": {
             "mentioned": [
                 "gal",
-                "austria"
+                "austria",
+                "war"
             ],
             "start": {
                 "RUSSIA": [
                     "A NWY S A STP - FIN",
-                    "A SEV - RUM",
                     "A STP - FIN",
-                    "A UKR S A SEV - RUM",
                     "A WAR H",
-                    "F BLA S A SEV - RUM",
                     "F SWE S A STP - FIN"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
                 ]
             },
             "end": {
                 "RUSSIA": [
                     "A NWY H",
-                    "A SEV - RUM",
                     "A STP S A NWY",
-                    "A UKR S A SEV - RUM",
                     "A WAR - GAL",
-                    "F BLA S A SEV - RUM",
                     "F SWE S A NWY"
-                ],
-                "TURKEY": [
-                    "A BUL - SER",
-                    "A CON - APU VIA",
-                    "F AEG C A CON - APU",
-                    "F ION C A CON - APU"
                 ]
             },
             "messages": [
@@ -2127,41 +1402,28 @@
         },
         "F1905M": {
             "mentioned": [
-                "italy",
-                "austria"
+                "ven",
+                "austria",
+                "italy"
             ],
             "start": {
                 "RUSSIA": [
                     "A NWY S A STP - FIN",
-                    "A RUM - BUD",
-                    "A STP - FIN",
-                    "A UKR S A RUM",
-                    "A WAR - GAL",
-                    "F BLA S A RUM",
                     "F SWE S A STP - FIN"
                 ],
                 "TURKEY": [
                     "A APU - VEN",
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
                     "F ION S F AEG"
                 ]
             },
             "end": {
                 "RUSSIA": [
                     "A NWY S F SWE - FIN",
-                    "A RUM - BUD",
-                    "A STP - FIN",
-                    "A UKR S A RUM",
-                    "A WAR - GAL",
-                    "F BLA S A RUM",
                     "F SWE - FIN"
                 ],
                 "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F ION - GRE",
-                    "A APU S A ROM - VEN"
+                    "A APU S A ROM - VEN",
+                    "F ION - GRE"
                 ]
             },
             "messages": [
@@ -2177,34 +1439,19 @@
         "S1906M": {
             "mentioned": [
                 "germany",
-                "austria"
+                "fin",
+                "swe"
             ],
             "start": {
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY S F FIN - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN - SWE"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S F ION - GRE",
-                    "F ION - GRE"
                 ]
             },
             "end": {
                 "RUSSIA": [
-                    "A GAL S A SEV - RUM",
                     "A NWY - SWE",
-                    "A SEV - RUM",
-                    "A UKR S A SEV - RUM",
                     "F FIN S A NWY - SWE"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F ION - GRE",
-                    "F AEG S F ION - GRE"
                 ]
             },
             "messages": [
@@ -2221,34 +1468,21 @@
         },
         "F1906M": {
             "mentioned": [
-                "gal"
+                "gal",
+                "rum"
             ],
             "start": {
                 "RUSSIA": [
                     "A RUM H",
-                    "A SWE - NWY",
                     "A UKR S A RUM",
-                    "A WAR S A UKR",
-                    "F FIN - STP/SC"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
+                    "A WAR S A UKR"
                 ]
             },
             "end": {
                 "RUSSIA": [
                     "A RUM - GAL",
-                    "A SWE - NWY",
                     "A UKR S A RUM - GAL",
-                    "A WAR S A RUM - GAL",
-                    "F FIN - STP/SC"
-                ],
-                "TURKEY": [
-                    "A CON - BUL",
-                    "F AEG S A CON - BUL",
-                    "F EAS S F AEG"
+                    "A WAR S A RUM - GAL"
                 ]
             },
             "messages": [
