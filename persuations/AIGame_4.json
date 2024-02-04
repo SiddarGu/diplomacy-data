@@ -139,9 +139,9 @@
         },
         "F1902M": {
             "mentioned": [
+                "bul",
                 "turkey",
-                "ukr",
-                "bul"
+                "ukr"
             ],
             "start": {
                 "RUSSIA": [
@@ -170,11 +170,11 @@
         },
         "F1904M": {
             "mentioned": [
+                "germany",
                 "italy",
                 "gal",
-                "war",
-                "germany",
-                "boh"
+                "boh",
+                "war"
             ],
             "start": {
                 "AUSTRIA": [
@@ -242,10 +242,10 @@
         },
         "F1905M": {
             "mentioned": [
-                "con",
-                "mun",
+                "italy",
                 "germany",
-                "italy"
+                "mun",
+                "con"
             ],
             "start": {
                 "AUSTRIA": [
@@ -437,8 +437,8 @@
     "ENGLAND-FRANCE": {
         "S1905M": {
             "mentioned": [
-                "eng",
-                "mao"
+                "mao",
+                "eng"
             ],
             "start": {
                 "ENGLAND": [
@@ -594,9 +594,9 @@
     "FRANCE-GERMANY": {
         "F1902M": {
             "mentioned": [
-                "den",
+                "kie",
                 "nwy",
-                "kie"
+                "den"
             ],
             "start": {
                 "FRANCE": [
@@ -718,8 +718,8 @@
     "FRANCE-ITALY": {
         "F1902M": {
             "mentioned": [
-                "por",
-                "spa"
+                "spa",
+                "por"
             ],
             "start": {
                 "FRANCE": [
@@ -749,8 +749,8 @@
         },
         "S1904M": {
             "mentioned": [
-                "por",
-                "spa"
+                "spa",
+                "por"
             ],
             "start": {
                 "FRANCE": [
@@ -892,9 +892,9 @@
         },
         "F1903M": {
             "mentioned": [
-                "ber",
                 "gal",
                 "austria",
+                "ber",
                 "war"
             ],
             "start": {
@@ -1106,9 +1106,9 @@
         },
         "F1903M": {
             "mentioned": [
-                "con",
                 "arm",
-                "italy"
+                "italy",
+                "con"
             ],
             "start": {
                 "GERMANY": [
@@ -1199,8 +1199,8 @@
         },
         "F1902M": {
             "mentioned": [
-                "austria",
-                "rum"
+                "rum",
+                "austria"
             ],
             "start": {
                 "ITALY": [
@@ -1285,10 +1285,10 @@
         },
         "S1904M": {
             "mentioned": [
-                "turkey",
-                "austria",
+                "con",
                 "ank",
-                "con"
+                "turkey",
+                "austria"
             ],
             "start": {
                 "ITALY": [
@@ -1401,9 +1401,9 @@
         },
         "S1904M": {
             "mentioned": [
+                "ank",
                 "bla",
-                "russia",
-                "ank"
+                "russia"
             ],
             "start": {
                 "ITALY": [
@@ -1437,8 +1437,8 @@
     "RUSSIA-TURKEY": {
         "F1901M": {
             "mentioned": [
-                "arm",
-                "ank"
+                "ank",
+                "arm"
             ],
             "start": {
                 "RUSSIA": [
@@ -1507,8 +1507,8 @@
         "F1902M": {
             "mentioned": [
                 "bul",
-                "austria",
-                "rum"
+                "rum",
+                "austria"
             ],
             "start": {
                 "RUSSIA": [
@@ -1600,8 +1600,8 @@
         },
         "S1904M": {
             "mentioned": [
-                "bla",
-                "ank"
+                "ank",
+                "bla"
             ],
             "start": {
                 "RUSSIA": [

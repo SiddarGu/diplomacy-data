@@ -2,9 +2,9 @@
     "AUSTRIA-RUSSIA": {
         "S1901M": {
             "mentioned": [
-                "ukr",
                 "gal",
-                "war"
+                "war",
+                "ukr"
             ],
             "start": {
                 "RUSSIA": [
@@ -33,9 +33,9 @@
         },
         "F1901M": {
             "mentioned": [
+                "ukr",
                 "bla",
                 "sev",
-                "ukr",
                 "rum"
             ],
             "start": {
@@ -98,12 +98,12 @@
         },
         "F1902M": {
             "mentioned": [
-                "nwy",
-                "bla",
-                "sev",
                 "bul",
-                "ser",
                 "turkey",
+                "sev",
+                "ser",
+                "bla",
+                "nwy",
                 "swe"
             ],
             "start": {
@@ -330,9 +330,9 @@
         },
         "F1903M": {
             "mentioned": [
-                "mun",
                 "bur",
-                "sil"
+                "sil",
+                "mun"
             ],
             "start": {
                 "FRANCE": [
@@ -478,9 +478,9 @@
         },
         "S1902M": {
             "mentioned": [
-                "stp",
+                "mos",
                 "fin",
-                "mos"
+                "stp"
             ],
             "start": {
                 "GERMANY": [
@@ -527,8 +527,8 @@
         },
         "F1902M": {
             "mentioned": [
-                "nwy",
-                "swe"
+                "swe",
+                "nwy"
             ],
             "start": {
                 "GERMANY": [
@@ -576,13 +576,13 @@
         },
         "F1903M": {
             "mentioned": [
-                "sil",
-                "edi",
                 "austria",
+                "rum",
+                "sil",
                 "stp",
                 "bot",
-                "rum",
-                "swe"
+                "swe",
+                "edi"
             ],
             "start": {
                 "GERMANY": [
@@ -637,8 +637,8 @@
     "ITALY-RUSSIA": {
         "F1903M": {
             "mentioned": [
-                "austria",
-                "rum"
+                "rum",
+                "austria"
             ],
             "start": {
                 "ITALY": [
@@ -709,9 +709,9 @@
         "F1901M": {
             "mentioned": [
                 "bla",
+                "ank",
                 "sev",
-                "rum",
-                "ank"
+                "rum"
             ],
             "start": {
                 "RUSSIA": [
@@ -797,10 +797,10 @@
         },
         "F1902M": {
             "mentioned": [
-                "bla",
-                "england",
                 "bul",
+                "england",
                 "rum",
+                "bla",
                 "swe"
             ],
             "start": {

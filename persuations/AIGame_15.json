@@ -78,8 +78,8 @@
         },
         "S1902M": {
             "mentioned": [
-                "germany",
-                "bel"
+                "bel",
+                "germany"
             ],
             "start": {
                 "FRANCE": [
@@ -126,8 +126,8 @@
         },
         "S1904M": {
             "mentioned": [
-                "germany",
-                "bel"
+                "bel",
+                "germany"
             ],
             "start": {
                 "FRANCE": [
@@ -221,8 +221,8 @@
         },
         "S1903M": {
             "mentioned": [
-                "eng",
-                "swe"
+                "swe",
+                "eng"
             ],
             "start": {
                 "ENGLAND": [
@@ -339,11 +339,11 @@
         },
         "S1902M": {
             "mentioned": [
-                "den",
                 "england",
-                "bel",
+                "den",
                 "bur",
-                "ruh"
+                "ruh",
+                "bel"
             ],
             "start": {
                 "FRANCE": [
@@ -413,15 +413,15 @@
         "F1903M": {
             "mentioned": [
                 "pic",
-                "bre",
-                "eng",
                 "den",
-                "par",
+                "nth",
+                "bur",
                 "lon",
+                "par",
+                "bre",
                 "mun",
                 "bel",
-                "nth",
-                "bur"
+                "eng"
             ],
             "start": {
                 "FRANCE": [
@@ -463,14 +463,14 @@
         },
         "S1904M": {
             "mentioned": [
-                "pic",
-                "ber",
-                "gas",
                 "england",
-                "lon",
-                "bel",
+                "pic",
+                "gas",
                 "nth",
-                "bur"
+                "ber",
+                "bur",
+                "lon",
+                "bel"
             ],
             "start": {
                 "FRANCE": [
@@ -522,12 +522,12 @@
         },
         "F1904M": {
             "mentioned": [
-                "ber",
-                "edi",
-                "lon",
-                "mun",
                 "nth",
-                "ruh"
+                "ber",
+                "lon",
+                "ruh",
+                "mun",
+                "edi"
             ],
             "start": {
                 "FRANCE": [
@@ -572,10 +572,10 @@
         },
         "S1905M": {
             "mentioned": [
-                "mun",
                 "bel",
-                "lvp",
-                "bur"
+                "bur",
+                "mun",
+                "lvp"
             ],
             "start": {
                 "FRANCE": [
@@ -646,8 +646,8 @@
         },
         "S1906M": {
             "mentioned": [
-                "russia",
-                "ber"
+                "ber",
+                "russia"
             ],
             "start": {
                 "FRANCE": [
@@ -687,9 +687,9 @@
         },
         "S1907M": {
             "mentioned": [
-                "lon",
-                "hel",
                 "nth",
+                "hel",
+                "lon",
                 "den"
             ],
             "start": {
@@ -730,9 +730,9 @@
             "mentioned": [
                 "ven",
                 "italy",
-                "mun",
+                "pie",
                 "boh",
-                "pie"
+                "mun"
             ],
             "start": {
                 "FRANCE": [
@@ -865,8 +865,8 @@
         },
         "F1903M": {
             "mentioned": [
-                "germany",
-                "england"
+                "england",
+                "germany"
             ],
             "start": {
                 "FRANCE": [
@@ -1044,8 +1044,8 @@
         },
         "S1907M": {
             "mentioned": [
-                "lyo",
-                "tus"
+                "tus",
+                "lyo"
             ],
             "start": {
                 "FRANCE": [
@@ -1074,8 +1074,8 @@
         },
         "F1907M": {
             "mentioned": [
-                "ven",
                 "aeg",
+                "ven",
                 "gre"
             ],
             "start": {
@@ -1213,10 +1213,10 @@
         },
         "F1903M": {
             "mentioned": [
-                "bal",
-                "boh",
+                "swe",
                 "sil",
-                "swe"
+                "boh",
+                "bal"
             ],
             "start": {
                 "GERMANY": [
@@ -1296,8 +1296,8 @@
     "GERMANY-TURKEY": {
         "F1903M": {
             "mentioned": [
-                "mun",
-                "den"
+                "den",
+                "mun"
             ],
             "start": {
                 "GERMANY": [

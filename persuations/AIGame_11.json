@@ -2,8 +2,8 @@
     "AUSTRIA-ENGLAND": {
         "S1904M": {
             "mentioned": [
-                "germany",
-                "russia"
+                "russia",
+                "germany"
             ],
             "start": {
                 "AUSTRIA": [
@@ -160,10 +160,10 @@
         },
         "S1905M": {
             "mentioned": [
+                "nap",
                 "germany",
                 "ion",
-                "mun",
-                "nap"
+                "mun"
             ],
             "start": {
                 "AUSTRIA": [
@@ -232,8 +232,8 @@
         "S1906M": {
             "mentioned": [
                 "ion",
-                "germany",
-                "tun"
+                "tun",
+                "germany"
             ],
             "start": {
                 "FRANCE": [
@@ -311,9 +311,9 @@
         },
         "S1907M": {
             "mentioned": [
-                "con",
+                "bul",
                 "gre",
-                "bul"
+                "con"
             ],
             "start": {
                 "FRANCE": [
@@ -581,9 +581,9 @@
     "AUSTRIA-TURKEY": {
         "F1902M": {
             "mentioned": [
-                "gre",
-                "bul",
                 "ser",
+                "bul",
+                "gre",
                 "italy"
             ],
             "start": {
@@ -733,8 +733,8 @@
         },
         "F1906M": {
             "mentioned": [
-                "russia",
-                "ser"
+                "ser",
+                "russia"
             ],
             "start": {
                 "AUSTRIA": [
@@ -793,8 +793,8 @@
         },
         "S1903M": {
             "mentioned": [
-                "eng",
-                "bel"
+                "bel",
+                "eng"
             ],
             "start": {
                 "ENGLAND": [
@@ -871,10 +871,10 @@
         },
         "S1904M": {
             "mentioned": [
-                "russia",
-                "eng",
                 "bur",
-                "nwg"
+                "russia",
+                "nwg",
+                "eng"
             ],
             "start": {
                 "ENGLAND": [
@@ -918,8 +918,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "nwg",
-                "nth"
+                "nth",
+                "nwg"
             ],
             "start": {
                 "ENGLAND": [
@@ -1074,8 +1074,8 @@
         "F1903M": {
             "mentioned": [
                 "bel",
-                "den",
-                "swe"
+                "swe",
+                "den"
             ],
             "start": {
                 "ENGLAND": [
@@ -1114,10 +1114,10 @@
         },
         "S1904M": {
             "mentioned": [
-                "russia",
                 "nth",
-                "nwy",
-                "swe"
+                "swe",
+                "russia",
+                "nwy"
             ],
             "start": {
                 "ENGLAND": [
@@ -1152,8 +1152,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "mun",
-                "swe"
+                "swe",
+                "mun"
             ],
             "start": {
                 "ENGLAND": [
@@ -1190,8 +1190,8 @@
         },
         "S1905M": {
             "mentioned": [
-                "russia",
-                "swe"
+                "swe",
+                "russia"
             ],
             "start": {
                 "ENGLAND": [
@@ -1222,8 +1222,8 @@
         },
         "F1905M": {
             "mentioned": [
-                "russia",
-                "swe"
+                "swe",
+                "russia"
             ],
             "start": {
                 "GERMANY": [
@@ -1290,8 +1290,8 @@
     "ENGLAND-ITALY": {
         "F1902M": {
             "mentioned": [
-                "eas",
-                "austria"
+                "austria",
+                "eas"
             ],
             "start": {
                 "ITALY": [
@@ -1367,8 +1367,8 @@
     "FRANCE-GERMANY": {
         "F1901M": {
             "mentioned": [
-                "england",
                 "bel",
+                "england",
                 "ruh"
             ],
             "start": {
@@ -1407,8 +1407,8 @@
         },
         "F1902M": {
             "mentioned": [
-                "bre",
-                "mao"
+                "mao",
+                "bre"
             ],
             "start": {
                 "FRANCE": [
@@ -1432,10 +1432,10 @@
         },
         "S1903M": {
             "mentioned": [
-                "bre",
                 "pic",
-                "gas",
                 "england",
+                "gas",
+                "bre",
                 "bel"
             ],
             "start": {
@@ -1470,11 +1470,11 @@
         },
         "F1903M": {
             "mentioned": [
-                "pic",
-                "spa",
                 "england",
-                "bel",
-                "ruh"
+                "pic",
+                "ruh",
+                "spa",
+                "bel"
             ],
             "start": {
                 "FRANCE": [
@@ -1515,8 +1515,8 @@
             "mentioned": [
                 "england",
                 "pic",
-                "bur",
-                "nwy"
+                "nwy",
+                "bur"
             ],
             "start": {
                 "FRANCE": [
@@ -1551,8 +1551,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "mun",
-                "kie"
+                "kie",
+                "mun"
             ],
             "start": {
                 "FRANCE": [
@@ -1576,9 +1576,9 @@
         },
         "S1905M": {
             "mentioned": [
-                "mun",
+                "kie",
                 "bur",
-                "kie"
+                "mun"
             ],
             "start": {
                 "FRANCE": [
@@ -1608,9 +1608,9 @@
         },
         "F1905M": {
             "mentioned": [
-                "ruh",
                 "bel",
-                "kie"
+                "kie",
+                "ruh"
             ],
             "start": {
                 "FRANCE": [
@@ -1644,11 +1644,11 @@
         },
         "S1906M": {
             "mentioned": [
-                "hol",
                 "austria",
                 "nth",
+                "ruh",
                 "kie",
-                "ruh"
+                "hol"
             ],
             "start": {
                 "FRANCE": [
@@ -1720,13 +1720,13 @@
         },
         "S1907M": {
             "mentioned": [
-                "eng",
-                "den",
-                "hol",
                 "england",
+                "den",
                 "hel",
+                "kie",
                 "mun",
-                "kie"
+                "hol",
+                "eng"
             ],
             "start": {
                 "FRANCE": [
@@ -1772,8 +1772,8 @@
     "FRANCE-ITALY": {
         "S1904M": {
             "mentioned": [
-                "lyo",
-                "tys"
+                "tys",
+                "lyo"
             ],
             "start": {
                 "FRANCE": [
@@ -1801,8 +1801,8 @@
         "F1904M": {
             "mentioned": [
                 "gre",
-                "austria",
-                "tun"
+                "tun",
+                "austria"
             ],
             "start": {
                 "FRANCE": [
@@ -2285,12 +2285,12 @@
         },
         "F1902M": {
             "mentioned": [
-                "gre",
-                "tun",
-                "austria",
-                "eas",
                 "aeg",
-                "ser"
+                "austria",
+                "ser",
+                "eas",
+                "tun",
+                "gre"
             ],
             "start": {
                 "ITALY": [
@@ -2328,8 +2328,8 @@
         },
         "F1904M": {
             "mentioned": [
-                "ven",
                 "adr",
+                "ven",
                 "austria"
             ],
             "start": {

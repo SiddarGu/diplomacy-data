@@ -40,7 +40,15 @@ performance_mapping = {
     "ShotAway": 4,
     "eddie": 3,
     "totonchyms": 4,
-    'cicero': 0
+    'cicero': 0,
+    'sloth': 5,
+    'Klaus Mikaelson ': 5,
+    'gauty7': 2,
+    'Sploack': 5,
+    'Dan Wang': 3,
+    'david.s.graff@icloud.com': 5,
+    'Connorknight94': 0,
+    'wardiecj': 5,
 }
 
 performance_mapping_reverse = {
