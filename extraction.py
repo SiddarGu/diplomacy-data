@@ -5,7 +5,7 @@ from sklearn.metrics import f1_score, precision_score, recall_score
 import numpy as np
 import matplotlib.pyplot as plt
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 game_dir = "./human_games/"
 POWERS = ["AUSTRIA", "ENGLAND", "FRANCE", "GERMANY", "ITALY", "RUSSIA", "TURKEY"]
