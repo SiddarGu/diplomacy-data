@@ -21,6 +21,29 @@ power_mapping = {
     "turkey": "tur",
 }
 
+
+#### cicero endgame SCs
+avg_cicero_scs = {
+    "AUSTRIA": 7.928571428571429,
+    "ENGLAND": 3.789473684210526,
+    "FRANCE": 7.7,
+    "GERMANY": 6.3076923076923075,
+    "ITALY": 4.125,
+    "RUSSIA": 5.533333333333333,
+    "TURKEY": 6.916666666666667,
+}
+
+#### human endgame SCs
+avg_human_scs = {
+    "AUSTRIA": 1.0,
+    "ENGLAND": 2.4,
+    "FRANCE": 6.714285714285714,
+    "GERMANY": 4.7272727272727275,
+    "ITALY": 3.875,
+    "RUSSIA": 3.3333333333333335,
+    "TURKEY": 1.0833333333333333,
+}
+
 performance_mapping = {
     "jashper": 4,
     "JHenrichs": 3,
@@ -40,22 +63,158 @@ performance_mapping = {
     "ShotAway": 4,
     "eddie": 3,
     "totonchyms": 4,
-    'cicero': 0,
-    'sloth': 5,
-    'Klaus Mikaelson ': 5,
-    'gauty7': 2,
-    'Sploack': 5,
-    'Dan Wang': 3,
-    'david.s.graff@icloud.com': 5,
-    'Connorknight94': 0,
-    'wardiecj': 5,
+    "cicero": 0,
+    "sloth": 5,
+    "Klaus Mikaelson ": 5,
+    "gauty7": 2,
+    "Sploack": 5,
+    "Dan Wang": 3,
+    "david.s.graff@icloud.com": 5,
+    "Connorknight94": 0,
+    "wardiecj": 5,
 }
 
-performance_mapping_reverse = {
-    0: ['aguoman', 'pbansal674@gmail.com'],
-    3: ['JHenrichs', 'parip', 'eddie'],
-    4: ['jashper', 'abhishekh.singhal@gmail.com', 'CMRawles', 'harvey_birdman', 'Sheringford', 'ShotAway', 'totonchyms'],
-    5: ['NewEnglandFireSquad', 'Conq', 'Mikalis Kamaritis', 'slothDC', 'sloth.dc@gmail.com', 'pyxxy']
+human_dict = {
+    "AIGame_0": ["FRANCE", "GERMANY"],
+    "AIGame_1": ["FRANCE", "RUSSIA", "TURKEY"],
+    "AIGame_2": ["FRANCE", "RUSSIA", "TURKEY"],
+    "AIGame_3": ["FRANCE", "RUSSIA", "TURKEY"],
+    "AIGame_4": ["FRANCE", "RUSSIA", "TURKEY"],
+    "AIGame_5": ["ENGLAND", "FRANCE", "TURKEY"],
+    "AIGame_6": ["RUSSIA", "TURKEY"],
+    "AIGame_7": ["AUSTRIA", "FRANCE", "GERMANY"],
+    "AIGame_8": ["FRANCE", "GERMANY"],
+    "AIGame_9": ["FRANCE", "GERMANY", "ITALY", "TURKEY"],
+    "AIGame_10": ["AUSTRIA", "GERMANY", "ITALY"],
+    "AIGame_11": ["AUSTRIA", "FRANCE", "GERMANY", "ITALY"],
+    "AIGame_12": ["AUSTRIA", "FRANCE", "GERMANY", "ITALY"],
+    "AIGame_13": ["FRANCE", "GERMANY", "TURKEY"],
+    "AIGame_14": ["RUSSIA", "TURKEY"],
+    "AIGame_15": ["FRANCE", "GERMANY"],
+    "AIGame_16": ["AUSTRIA", "TURKEY"],
+    "AIGame_17": ["AUSTRIA", "FRANCE", "GERMANY", "ITALY"],
+    "AIGame_18": ["AUSTRIA", "GERMANY"],
+    "AIGame_19": ["AUSTRIA", "ITALY", "TURKEY"],
+    "AIGame_20": ["ENGLAND", "RUSSIA", "TURKEY"],
+    "AIGame_21": ["ENGLAND", "ITALY"],
+    "AIGame_22": ["AUSTRIA", "ENGLAND", "RUSSIA"],
+    "AIGame_23": ["AUSTRIA", "ENGLAND", "ITALY", "RUSSIA"],
+}
+
+first_time_dict = {
+    "AIGame_0": ["GERMANY", "FRANCE"],
+    "AIGame_1": ["RUSSIA", "FRANCE"],
+    "AIGame_2": ["RUSSIA", "FRANCE"],
+    "AIGame_3": ["RUSSIA", "TURKEY", "FRANCE"],
+    "AIGame_4": ["RUSSIA", "TURKEY"],
+    "AIGame_5": ["FRANCE", "TURKEY"],
+    "AIGame_6": ["RUSSIA"],
+    "AIGame_7": [],
+    "AIGame_8": [],
+    "AIGame_9": ["GERMANY"],
+    "AIGame_10": [],
+    "AIGame_11": ["GERMANY", "FRANCE"],
+    "AIGame_12": ["FRANCE"],
+    "AIGame_13": [],
+    "AIGame_14": [],
+    "AIGame_15": [],
+    "AIGame_16": ["TURKEY", "AUSTRIA"],
+    "AIGame_17": ["FRANCE", "GERMANY"],
+    "AIGame_18": [],
+    "AIGame_19": ["TURKEY"],
+    "AIGame_20": ["ENGLAND", "RUSSIA", "TURKEY"],
+    "AIGame_21": ["ENGLAND"],
+    "AIGame_22": ["RUSSIA"],
+    "AIGame_23": ["ITALY"],
+}
+
+experienced_dict = {
+    "AIGame_0": [],
+    "AIGame_1": ["TURKEY"],
+    "AIGame_2": ["TURKEY"],
+    "AIGame_3": [],
+    "AIGame_4": ["FRANCE"],
+    "AIGame_5": ["ENGLAND"],
+    "AIGame_6": ["TURKEY"],
+    "AIGame_7": ["AUSTRIA", "FRANCE", "GERMANY"],
+    "AIGame_8": ["FRANCE", "GERMANY"],
+    "AIGame_9": ["ITALY", "TURKEY", "FRANCE"],
+    "AIGame_10": ["ITALY", "AUSTRIA", "GERMANY"],
+    "AIGame_11": ["ITALY", "AUSTRIA"],
+    "AIGame_12": ["ITALY", "AUSTRIA", "GERMANY"],
+    "AIGame_13": ["TURKEY", "FRANCE", "GERMANY"],
+    "AIGame_14": ["TURKEY", "RUSSIA"],
+    "AIGame_15": ["FRANCE", "GERMANY"],
+    "AIGame_16": [],
+    "AIGame_17": ["ITALY", "AUSTRIA"],
+    "AIGame_18": ["AUSTRIA", "GERMANY"],
+    "AIGame_19": ["ITALY", "AUSTRIA"],
+    "AIGame_20": [],
+    "AIGame_21": ["ITALY"],
+    "AIGame_22": ["AUSTRIA", "ENGLAND"],
+    "AIGame_23": ["AUSTRIA", "RUSSIA", "ENGLAND"],
+}
+
+repeated_players = {
+    "totonchym": {
+        "AIGame_0": "FRANCE",
+        "AIGame_2": "TURKEY",
+        "AIGame_7": "FRANCE",
+        "AIGame_11": "AUSTRIA",
+        "AIGame_12": "ITALY",
+        "AIGame_13": "GERMANY",
+        "AIGame_14": "RUSSIA",
+        "AIGame_15": "GERMANY",
+        "AIGame_19": "ITALY",
+    },
+    "eddie": {
+        "AIGame_0": "GERMANY",
+        "AIGame_1": "TURKEY",
+        "AIGame_5": "ENGLAND",
+        "AIGame_9": "ITALY",
+        "AIGame_12": "AUSTRIA",
+    },
+    "rawles": {
+        "AIGame_1": "FRANCE",
+        "AIGame_4": "FRANCE",
+        "AIGame_6": "TURKEY",
+        "AIGame_7": "AUSTRIA",
+        "AIGame_8": "GERMANY",
+        "AIGame_9": "TURKEY",
+        "AIGame_10": "ITALY",
+        "AIGame_12": "GERMANY",
+    },
+    "ben": {"AIGame_2": "RUSSIA", "AIGame_10": "AUSTRIA"},
+    "aguoman": {"AIGame_3": "RUSSIA", "AIGame_13": "FRANCE", "AIGame_23": "ENGLAND"},
+    "kirk": {
+        "AIGame_4": "RUSSIA",
+        "AIGame_14": "TURKEY",
+        "AIGame_15": "FRANCE",
+        "AIGame_19": "AUSTRIA",
+    },
+    "marko": {
+        "AIGame_5": "FRANCE",
+        "AIGame_9": "FRANCE",
+        "AIGame_10": "GERMANY",
+        "AIGame_11": "ITALY",
+    },
+    "sloth": {
+        "AIGame_6": "RUSSIA",
+        "AIGame_7": "GERMANY",
+        "AIGame_8": "FRANCE",
+        "AIGame_13": "TURKEY",
+    },
+    "aashutosh": {"AIGame_16": "TURKEY", "AIGame_17": "AUSTRIA"},
+    "singhal": {"AIGame_16": "AUSTRIA", "AIGame_17": "ITALY", "AIGame_18": "GERMANY"},
+    "parul": {"AIGame_17": "GERMANY", "AIGame_18": "AUSTRIA"},
+    "antonio": {
+        "AIGame_20": "TURKEY",
+        "AIGame_21": "ITALY",
+        "AIGame_22": "ENGLAND",
+        "AIGame_23": "RUSSIA",
+    },
+    "kunal": {"AIGame_21": "ENGLAND", "AIGame_22": "AUSTRIA"},
+    "zander": {"AIGame_22": "RUSSIA", "AIGame_23": "AUSTRIA"},
 }
 
 
@@ -563,10 +722,6 @@ def combine_msgs_orders(convos, orders, humans):
 
                 cache = {}
 
-                if phase == "S1904M" and convo == "AUSTRIA-ITALY":
-                    pass
-                    #print(sorted(power_msg_logs[power].items()))
-
                 for time_sent, msg_order in sorted(power_msg_logs[power].items()):
                     if isinstance(msg_order, str):
                         cache[time_sent] = power_msg_logs[power].pop(time_sent)
@@ -1003,11 +1158,14 @@ def lies(output_file, message_history, annotated_messages, humans):
     human_outgoing = 0
     human_incoming = 0
     human_incoming_and_outgoing = 0
+    human_cicero = 0
+    cicero_cicero = 0    
 
     for phase, msgs in message_history.items():
         for msg in msgs:
-            if msg['sender'] == 'omniscient_type' or msg['recipient'] == 'GLOBAL':
+            if msg["sender"] == "omniscient_type" or msg["recipient"] == "GLOBAL":
                 continue
+
             total_msgs += 1
             if msg["sender"] in humans:
                 human_outgoing += 1
@@ -1015,6 +1173,11 @@ def lies(output_file, message_history, annotated_messages, humans):
                 human_incoming += 1
             if msg["sender"] in humans and msg["recipient"] in humans:
                 human_incoming_and_outgoing += 1
+            elif msg["sender"] not in humans and msg["recipient"] not in humans:
+                cicero_cicero += 1
+            else:
+                human_cicero += 1
+
             if msg["truth"] == "Lie":
                 actual_lies.append(msg)
                 actual_lies_count += 1
@@ -1028,18 +1191,28 @@ def lies(output_file, message_history, annotated_messages, humans):
 
                     if msg["truth"] == "Lie":
                         perceived_and_actual += 1
-                        pass
-                        #print(f'perceived and actual: {msg["message"]}')
 
     with open(output_path, "w") as f:
         json.dump(
             {"perceived_lies": perceived_lies, "actual_lies": actual_lies}, f, indent=4
         )
 
-    return perceived_lies_from_human, perceived_lies_from_cicero, actual_lies_count, total_msgs, perceived_and_actual, human_outgoing, human_incoming, human_incoming_and_outgoing
+    return (
+        perceived_lies_from_human,
+        perceived_lies_from_cicero,
+        actual_lies_count,
+        total_msgs,
+        perceived_and_actual,
+        human_outgoing,
+        human_incoming,
+        human_incoming_and_outgoing,
+        human_cicero,
+        cicero_cicero,
+    )
 
-def expect_to_do(output_file, log_history, order_history, humans):
-    output_path = f'cicero_preds/{output_file}.json'
+
+def expect_to_do(output_file, log_history, order_history, humans, ciceros):
+    output_path = f"cicero_preds/{output_file}.json"
     output = {}
     expect_regex = r"I expect ([A-Z]+) to do: \((.*)\)"
     for phase, logs in log_history.items():
@@ -1058,7 +1231,7 @@ def expect_to_do(output_file, log_history, order_history, humans):
                 sender = log["sender"]
                 time_sent = log["time_sent"]
                 recipient = m.group(1)
-                if sender not in output[phase]['expected']:
+                if sender not in output[phase]["expected"]:
                     output[phase]["expected"][sender] = {}
                 orders = m.group(2).split(",")
                 orders = list(map(lambda x: x.strip().replace("'", ""), orders))
@@ -1095,24 +1268,22 @@ def expect_to_do(output_file, log_history, order_history, humans):
                     for order in expected_orders:
                         if order in actual_orders:
                             human_correct += 1
-                else:
+                if expected_power in ciceros:
                     cicero_total += len(expected_orders)
                     for order in expected_orders:
                         if order in actual_orders:
                             cicero_correct += 1
 
-    print(f"human: {human_correct / human_total * 100}")
-    print(f"cicero: {cicero_correct / cicero_total * 100}")
     return human_correct, human_total, cicero_correct, cicero_total
-            
+
 
 def simplify_orders(orders):
-    add_order_regex = r'^([A-Z]+)\Wadded:\W([A-Z]\W[A-Z]{3})(.*)$'
-    remove_order_regex = r'^([A-Z]+)\Wremoved:\W([A-Z]\W[A-Z]{3})(.*)'
-    remove_all_orders_regex = r'^([A-Z]+)\Wremoved\Wits\Worders:$'
+    add_order_regex = r"^([A-Z]+)\Wadded:\W([A-Z]\W[A-Z]{3})(.*)$"
+    remove_order_regex = r"^([A-Z]+)\Wremoved:\W([A-Z]\W[A-Z]{3})(.*)"
+    remove_all_orders_regex = r"^([A-Z]+)\Wremoved\Wits\Worders:$"
     final_orders = {}
 
-    for _ , order_str in orders.items():
+    for _, order_str in orders.items():
         if re.match(remove_all_orders_regex, order_str):
             power = re.match(remove_all_orders_regex, order_str).group(1)
             final_orders[power] = {}
@@ -1141,12 +1312,13 @@ def simplify_orders(orders):
 
     return result
 
+
 def human_intent_start_phase(output_file, data):
     output_path = f"human_intents/{output_file}.json"
 
     order_logs = all_order_logs(data)
     message_history = all_msgs(data)
-    power_regex = r'^([A-Z]+)\W'
+    power_regex = r"^([A-Z]+)\W"
 
     initial_orders = {}
     first_msg_timestamps = {}
@@ -1164,7 +1336,7 @@ def human_intent_start_phase(output_file, data):
             sender = msg["sender"]
             if sender not in first_msg_timestamp_this_phase:
                 first_msg_timestamp_this_phase[sender] = msg["time_sent"]
-            elif msg['time_sent'] < first_msg_timestamp_this_phase[sender]:
+            elif msg["time_sent"] < first_msg_timestamp_this_phase[sender]:
                 first_msg_timestamp_this_phase[sender] = msg["time_sent"]
 
         first_msg_timestamps[phase] = first_msg_timestamp_this_phase
@@ -1174,7 +1346,9 @@ def human_intent_start_phase(output_file, data):
                 continue
             power = re.match(power_regex, log).group(1)
 
-            if power not in first_msg_timestamp_this_phase or int(timestamp) <= int(first_msg_timestamp_this_phase[power]):
+            if power not in first_msg_timestamp_this_phase or int(timestamp) <= int(
+                first_msg_timestamp_this_phase[power]
+            ):
                 initial_order_log_this_phase[timestamp] = log
 
             initial_orders[phase] = initial_order_log_this_phase
@@ -1201,12 +1375,10 @@ def main():
     with open("mapping_province.json", "r") as f:
         mapping = json.load(f)
 
-    scs = {}
+    human_scs = {}
     cicero_scs = {}
-    is_bot_f1 = []
     precisions = []
     recalls = []
-    human_powers = {}
 
     ht = 0
     hc = 0
@@ -1221,29 +1393,45 @@ def main():
     total_human_outgoing = 0
     total_human_incoming = 0
     total_human_incoming_and_outgoing = 0
+    total_human_cicero = 0
+    total_cicero_cicero = 0
+
+    total_is_bot_f1 = {}
 
     for game in games:
         with open(game, "r") as f:
             data = json.load(f)
 
-        print(data["game_id"])
-        if data["game_id"] == "beta_de_2":
-            continue
+        game_id = data["game_id"]
+        print(game_id)
 
         humans = human_players(data)
+        first_timers = first_time_dict[game_id]
+        experienced = experienced_dict[game_id]
+        repeated = []
+
+        for player, player_games in repeated_players.items():
+            for id, powers in player_games.items():
+                if game_id == id:
+                    repeated.append(powers)
+
         ciceros = bot_players(data)
-        if len(humans) + len(ciceros) != 7:
-            print(data['game_id'])
-            print('missing players')
-            print(humans)
         is_bots = data["is_bot"]
+        is_bot_f1 = {}
 
-        for human in humans:
-            if human not in human_powers:
-                human_powers[human] = 0
-            human_powers[human] += 1
 
-        perceived_lies_from_human, perceived_lies_from_cicero, actual_lies_count, total_msgs, perceived_and_actual, human_outgoing, human_incoming, human_incoming_and_outgoing = lies(data["game_id"], all_msgs(data), all_annotations(data), humans)
+        (
+            perceived_lies_from_human,
+            perceived_lies_from_cicero,
+            actual_lies_count,
+            total_msgs,
+            perceived_and_actual,
+            human_outgoing,
+            human_incoming,
+            human_incoming_and_outgoing,
+            human_cicero,
+            cicero_cicero,
+        ) = lies(game_id, all_msgs(data), all_annotations(data), humans)
         total_perceived_from_human += perceived_lies_from_human
         total_perceived_from_cicero += perceived_lies_from_cicero
         total_actual += actual_lies_count
@@ -1252,15 +1440,19 @@ def main():
         total_human_outgoing += human_outgoing
         total_human_incoming += human_incoming
         total_human_incoming_and_outgoing += human_incoming_and_outgoing
+        total_human_cicero += human_cicero
+        total_cicero_cicero += cicero_cicero
 
-        human_intent_start_phase(data["game_id"], data)
-        human_correct, human_total, cicero_correct, cicero_total = expect_to_do(data["game_id"], all_logs(data), all_orders(data), humans)
+        human_intent_start_phase(game_id, data)
+        human_correct, human_total, cicero_correct, cicero_total = expect_to_do(
+            game_id, all_logs(data), all_orders(data), repeated, ciceros
+        )
         ht += human_total
         hc += human_correct
         ct += cicero_total
         cc += cicero_correct
 
-        for power, predictions in is_bots.items():
+        """ for power, predictions in is_bots.items():
             player = get_player_name(data, power)
 
             # f1 accracy for identifying bots
@@ -1270,22 +1462,90 @@ def main():
             score = f1_score(y_true, y_pred, average="binary")
             is_bot_f1.append(score)
             precisions.append(precision_score(y_true, y_pred, average="binary"))
-            recalls.append(recall_score(y_true, y_pred, average="binary"))
-            print(f"{player}: {score}")
+            recalls.append(recall_score(y_true, y_pred, average="binary")) """
+        
+        
+        for phase, is_bot_history in data['is_bot_history'].items():
+            phase_f1 = {}
+            if phase[-1] != "M":
+                continue
+            for power, is_bot_info in sorted(is_bot_history.items()):
+                y_true = []
+                y_pred = []
+                for target, label in sorted(is_bot_info.items()):
+                    if target == power:
+                        continue
+                    if target in ciceros:
+                        y_true.append(True)
+                    else:
+                        y_true.append(False)
+                    y_pred.append(label)
+                score = f1_score(y_true, y_pred, pos_label=True)
+                phase_f1[power] = score
+            is_bot_f1[phase] = phase_f1
 
-        for p in humans:
-            # print(f"{p}: {get_player_name(data, p)}")
+        current_phase = data["phase"].split()
+        phase_abbr = current_phase[0][:1] + current_phase[1] + current_phase[2][:1]
 
-            if p not in scs:
-                scs[p] = []
+        if data["phase"][0] == "S" and data["phase"].endswith("MOVEMENT"):
+            last_phase_f1 = {}
+            for power, is_bot_info in data['is_bot'].items():
+                y_true = []
+                y_pred = []
 
-            scs[p].append(len(data["powers"][p]["centers"]))
+                for target, label in is_bot_info.items():
+                    if target == power:
+                        continue
+                    if target in ciceros:
+                        y_true.append(True)
+                    else:
+                        y_true.append(False)
+                    y_pred.append(label)
+                
+                score = f1_score(y_true, y_pred, pos_label=True)
+                last_phase_f1[power] = score
+            is_bot_f1[phase_abbr] = last_phase_f1
 
-        for p in ciceros:
-            if p not in cicero_scs:
-                cicero_scs[p] = []
+        total_is_bot_f1[game_id] = is_bot_f1
 
-            cicero_scs[p].append(len(data["powers"][p]["centers"]))
+
+        # SC data
+        current_human_scs = {}
+        current_cicero_scs = {}
+
+        for phase, state in data["state_history"].items():
+            phase_human_scs = {}
+            phase_cicero_scs = {}
+            if phase[0] != "S" or phase[-1] != "M":
+                continue
+
+            for power, sc in state["centers"].items():
+                if power in humans:
+                    phase_human_scs[power] = len(sc)
+                if power in ciceros:
+                    phase_cicero_scs[power] = len(sc)
+
+            current_human_scs[phase] = phase_human_scs
+            current_cicero_scs[phase] = phase_cicero_scs
+
+        if data["phase"][0] == "S" and data["phase"].endswith("MOVEMENT"):
+            current_phase = data["phase"].split()
+            phase_abbr = current_phase[0][:1] + current_phase[1] + current_phase[2][:1]
+
+            endgame_human_scs = {}
+            endgame_cicero_scs = {}
+            for power, info in data["powers"].items():
+                scs = info["centers"]
+                if power in humans:
+                    endgame_human_scs[power] = len(scs)
+                if power in ciceros:
+                    endgame_cicero_scs[power] = len(scs)
+
+            current_human_scs[phase_abbr] = endgame_human_scs
+            current_cicero_scs[phase_abbr] = endgame_cicero_scs
+
+        human_scs[game_id] = current_human_scs
+        cicero_scs[game_id] = current_cicero_scs
 
         msgs = all_msgs(data)
         sorted_msgs = msgs_by_time_sent(msgs)
@@ -1311,7 +1571,7 @@ def main():
 
         prettified = prettier(copy.deepcopy(filtered_again))
 
-        with open(f"persuations/{data['game_id']}.json", "w") as f:
+        with open(f"persuations/{game_id}.json", "w") as f:
             json.dump(
                 prettified,
                 f,
@@ -1319,21 +1579,13 @@ def main():
             )
         f.close()
 
-        print("\n")
+    # print("cicero order predictions expect_to_do")
+    # print(f"human: {hc / ht * 100}")
+    # print(f"cicero: {cc / ct * 100}")
 
-    # sort hunan powers by value
-    sorted_human_powers = {k: v for k, v in sorted(human_powers.items(), key=lambda item: item[1])}
-    print(sorted_human_powers)
-    
-    print(f"human: {hc / ht * 100}")
-    print(f"cicero: {cc / ct * 100}")
-    # calculate supply centers for each power
-    avg_scs = {k: (sum(v) / len(v)) for k, v in scs.items()}
-    sorted_avg_scs = {k: v for k, v in sorted(avg_scs.items(), key=lambda item: item[0])}
-    print(sorted_avg_scs)
-    avg_cicero_scs = {k: (sum(v) / len(v)) for k, v in cicero_scs.items()}
-    sorted_avg_cicero_scs = {k: v for k, v in sorted(avg_cicero_scs.items(), key=lambda item: item[0])}
-    print('avg: ', sorted_avg_cicero_scs)
+    # print(human_scs)
+    # print(cicero_scs)
+
     elo = {}
     perf_elo = {}
 
@@ -1343,7 +1595,7 @@ def main():
 
         for p in humans:
             username = get_player_name(data, p)
-            if username == 'human':
+            if username == "human":
                 continue
             perf = performance_mapping[username]
 
@@ -1354,54 +1606,36 @@ def main():
             if perf not in perf_elo:
                 perf_elo[perf] = 0
 
-            diff = len(data["powers"][p]["centers"]) - avg_scs[p]
+            diff = len(data["powers"][p]["centers"]) - avg_human_scs[p]
 
             elo[username] += diff
             if perf == 0:
                 continue
             perf_elo[perf] += diff
 
-    print({k:v for k, v in sorted(elo.items(), key=lambda item: item[1])})
-    print({k:v for k, v in sorted(perf_elo.items(), key=lambda item: item[1])})
-    print(f"perceived from human: {total_perceived_from_human}")
-    print(f"perceived from cicero: {total_perceived_from_cicero}")
-    print(f"actual: {total_actual}")
-    print(f"total: {total_count}")
+    #print({k: v for k, v in sorted(elo.items(), key=lambda item: item[1])})
+    #print({k: v for k, v in sorted(perf_elo.items(), key=lambda item: item[1])})
+            
+    # print(f"perceived from human: {total_perceived_from_human}")
+    # print(f"perceived from cicero: {total_perceived_from_cicero}")
+    #print(f"actual: {total_actual}")
+    # print(f"total: {total_count}")
+    #print(f"total human human: {total_human_incoming}")
+    # print(f"total human human: {total_human_incoming_and_outgoing}")
+    # print(f"total human cicero: {total_human_cicero}")
+    # print(f"total cicero cicero: {total_cicero_cicero}")
+
     print(f"perceived and actual: {total_perceived_and_actual}")
-    print(f'perceived: {(total_perceived_from_human + total_perceived_from_cicero) / total_human_incoming * 100}')
-    print(f'actual: {total_actual / total_human_outgoing * 100}')
-    print(f'perceived and actual: {total_perceived_and_actual / total_human_incoming_and_outgoing * 100}')
-    print(f'is_bot_f1: {sum(is_bot_f1) / len(is_bot_f1)}')
-    print(f'precision: {sum(precisions) / len(precisions)}')
-    print(f'recall: {sum(recalls) / len(recalls)}')
-
-    """with open(game_dir + "AIGame_0.json", "r") as f:
-        data = json.load(f)
-
-    msgs = all_msgs(data)
-    sorted_msgs = msgs_by_time_sent(msgs)
-    convos = message_channels(sorted_msgs, human_players(data))
-
-    msg_orders = combine_msgs_orders(
-        convos, all_order_logs(data), human_players(data)
-    )
-
-    cicero_start_of_phase_logs = start_phase_logs(data)
-
-    with_cicero_start_phase_logs = add_start_phase_logs_to_msg_orders(
-        msg_orders, cicero_start_of_phase_logs, bot_players(data)
-    )
-
-    end_phase_added = add_end_phase_orders_to_msg_orders(
-        with_cicero_start_phase_logs, all_orders(data)
-    )
-
-    filtered = filter_persuations(end_phase_added)
-
-    filtered_again = filter_location(mapping, filtered, get_state_history(data))
-
-    #llm(filtered_again)
-    """
+    # print(
+    #    f"perceived: {(total_perceived_from_human + total_perceived_from_cicero) / total_human_incoming * 100}"
+    # )
+    # print(f"actual: {total_actual / total_human_outgoing * 100}")
+    # print(
+    #    f"perceived and actual: {total_perceived_and_actual / total_human_incoming_and_outgoing * 100}"
+    # )
+    #print(f"is_bot_f1: {total_is_bot_f1}")
+    # print(f"precision: {sum(precisions) / len(precisions)}")
+    # print(f"recall: {sum(recalls) / len(recalls)}")
 
 
 if __name__ == "__main__":
